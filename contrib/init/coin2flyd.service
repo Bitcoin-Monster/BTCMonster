@@ -1,0 +1,22 @@
+[Unit]
+Description=Coin2Fly's distributed currency daemon
+After=network.target
+
+[Service]
+User=bitcoinmonstercore
+Group=bitcoinmonstercore
+
+Type=forking
+PIDFile=/var/lib/bitcoinmonsterd/bitcoinmonsterd.pid
+ExecStart=/usr/bin/bitcoinmonsterd -daemon -pid=/var/lib/bitcoinmonsterd/bitcoinmonsterd.pid \
+-conf=/etc/bitcoinmonstercore/bitcoinmonster.conf -datadir=/var/lib/bitcoinmonsterd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
