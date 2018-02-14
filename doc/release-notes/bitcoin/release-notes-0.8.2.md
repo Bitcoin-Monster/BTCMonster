@@ -116,7 +116,7 @@ Gregory Maxwell
 Jeff Garzik
 Jonas Schnelli
 Larry Gilbert
-Luke Coin2Flyjr
+Luke Bitcoin Monsterjr
 Matt Corallo
 Michael Ford
 Mike Hearn

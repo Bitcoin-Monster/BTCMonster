@@ -78,13 +78,13 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Coin2Fly addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your Coin2Fly addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your Bitcoin Monster addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your Bitcoin Monster addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your Coin2Fly addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>These are your Coin2Fly addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
+        <source>These are your Bitcoin Monster addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>These are your Bitcoin Monster addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -235,8 +235,8 @@
     </message>
     <message>
         <location line="+57"/>
-        <source>Coin2Fly Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoinmonsters from being stolen by malware infecting your computer.</source>
-        <translation>Coin2Fly Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoinmonsters from being stolen by malware infecting your computer.</translation>
+        <source>Bitcoin Monster Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoinmonsters from being stolen by malware infecting your computer.</source>
+        <translation>Bitcoin Monster Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoinmonsters from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -309,8 +309,8 @@
     <message>
         <location filename="../bitcoingui.cpp" line="+127"/>
         <location line="+919"/>
-        <source>Coin2Fly Core</source>
-        <translation>Coin2Fly Core</translation>
+        <source>Bitcoin Monster Core</source>
+        <translation>Bitcoin Monster Core</translation>
     </message>
     <message>
         <location line="-910"/>
@@ -339,8 +339,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Send coins to a Coin2Fly address</source>
-        <translation>Send coins to a Coin2Fly address</translation>
+        <source>Send coins to a Bitcoin Monster address</source>
+        <translation>Send coins to a Bitcoin Monster address</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -384,13 +384,13 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;About Coin2Fly Core</source>
-        <translation>&amp;About Coin2Fly Core</translation>
+        <source>&amp;About Bitcoin Monster Core</source>
+        <translation>&amp;About Bitcoin Monster Core</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Coin2Fly Core</source>
-        <translation>Show information about Coin2Fly Core</translation>
+        <source>Show information about Bitcoin Monster Core</source>
+        <translation>Show information about Bitcoin Monster Core</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -469,8 +469,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Sign messages with your Coin2Fly addresses to prove you own them</source>
-        <translation>Sign messages with your Coin2Fly addresses to prove you own them</translation>
+        <source>Sign messages with your Bitcoin Monster addresses to prove you own them</source>
+        <translation>Sign messages with your Bitcoin Monster addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -479,8 +479,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Verify messages to ensure they were signed with specified Coin2Fly addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Coin2Fly addresses</translation>
+        <source>Verify messages to ensure they were signed with specified Bitcoin Monster addresses</source>
+        <translation>Verify messages to ensure they were signed with specified Bitcoin Monster addresses</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -584,8 +584,8 @@
     </message>
     <message>
         <location line="+267"/>
-        <source>Coin2Fly Core client</source>
-        <translation>Coin2Fly Core client</translation>
+        <source>Bitcoin Monster Core client</source>
+        <translation>Bitcoin Monster Core client</translation>
     </message>
     <message>
         <location line="+334"/>
@@ -619,8 +619,8 @@
     </message>
     <message numerus="yes">
         <location line="+347"/>
-        <source>%n active connection(s) to Coin2Fly network</source>
-        <translation><numerusform>%n active connection to Coin2Fly network</numerusform><numerusform>%n active connections to Coin2Fly network</numerusform></translation>
+        <source>%n active connection(s) to Bitcoin Monster network</source>
+        <translation><numerusform>%n active connection to Bitcoin Monster network</numerusform><numerusform>%n active connections to Bitcoin Monster network</numerusform></translation>
     </message>
     <message>
         <location line="+15"/>
@@ -654,8 +654,8 @@
     </message>
     <message>
         <location line="-567"/>
-        <source>Modify configuration options for Coin2Fly Core</source>
-        <translation>Modify configuration options for Coin2Fly Core</translation>
+        <source>Modify configuration options for Bitcoin Monster Core</source>
+        <translation>Modify configuration options for Bitcoin Monster Core</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -674,8 +674,8 @@
     </message>
     <message>
         <location line="+20"/>
-        <source>Show the Coin2Fly Core help message to get a list with possible Coin2Fly Core command-line options</source>
-        <translation>Show the Coin2Fly Core help message to get a list with possible Coin2Fly Core command-line options</translation>
+        <source>Show the Bitcoin Monster Core help message to get a list with possible Bitcoin Monster Core command-line options</source>
+        <translation>Show the Bitcoin Monster Core help message to get a list with possible Bitcoin Monster Core command-line options</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1206,18 +1206,18 @@
     </message>
     <message>
         <location line="-29"/>
-        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Coin2Fly&apos;s configuration screen.</source>
-        <translation>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Coin2Fly&apos;s configuration screen.</translation>
+        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Bitcoin Monster&apos;s configuration screen.</source>
+        <translation>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Bitcoin Monster&apos;s configuration screen.</translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Coin2Fly&apos;s configuration screen.</source>
-        <translation>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Coin2Fly&apos;s configuration screen.</translation>
+        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Bitcoin Monster&apos;s configuration screen.</source>
+        <translation>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Bitcoin Monster&apos;s configuration screen.</translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Coin2Fly&apos;s configuration screen.</source>
-        <translation>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Coin2Fly&apos;s configuration screen.</translation>
+        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Bitcoin Monster&apos;s configuration screen.</source>
+        <translation>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Bitcoin Monster&apos;s configuration screen.</translation>
     </message>
 </context>
 <context>
@@ -1269,8 +1269,8 @@
     </message>
     <message>
         <location line="+71"/>
-        <source>The entered address &quot;%1&quot; is not a valid Coin2Fly address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid Coin2Fly address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Bitcoin Monster address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid Bitcoin Monster address.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1320,8 +1320,8 @@
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+37"/>
-        <source>Coin2Fly Core</source>
-        <translation>Coin2Fly Core</translation>
+        <source>Bitcoin Monster Core</source>
+        <translation>Bitcoin Monster Core</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1336,8 +1336,8 @@
     </message>
     <message>
         <location line="+5"/>
-        <source>About Coin2Fly Core</source>
-        <translation>About Coin2Fly Core</translation>
+        <source>About Bitcoin Monster Core</source>
+        <translation>About Bitcoin Monster Core</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1381,8 +1381,8 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Coin2Fly in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 MON, 0.1 MON, 1 MON and 10 MON -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;masternodes.&quot; These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href=&quot;https://bitcoinmonster.com&quot;&gt;https://bitcoinmonster.com&lt;/a&gt;         </source>
-        <translation>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Coin2Fly in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 MON, 0.1 MON, 1 MON and 10 MON -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;masternodes.&quot; These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href=&quot;https://bitcoinmonster.com&quot;&gt;https://bitcoinmonster.com&lt;/a&gt;         </translation>
+        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Bitcoin Monster in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 MON, 0.1 MON, 1 MON and 10 MON -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;masternodes.&quot; These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href=&quot;https://bitcoinmonster.com&quot;&gt;https://bitcoinmonster.com&lt;/a&gt;         </source>
+        <translation>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Bitcoin Monster in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 MON, 0.1 MON, 1 MON and 10 MON -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;masternodes.&quot; These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href=&quot;https://bitcoinmonster.com&quot;&gt;https://bitcoinmonster.com&lt;/a&gt;         </translation>
     </message>
     <message>
         <location line="-50"/>
@@ -1409,18 +1409,18 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Coin2Fly Core.</source>
-        <translation>Welcome to Coin2Fly Core.</translation>
+        <source>Welcome to Bitcoin Monster Core.</source>
+        <translation>Welcome to Bitcoin Monster Core.</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Coin2Fly Core will store its data.</source>
-        <translation>As this is the first time the program is launched, you can choose where Coin2Fly Core will store its data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Bitcoin Monster Core will store its data.</source>
+        <translation>As this is the first time the program is launched, you can choose where Bitcoin Monster Core will store its data.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Coin2Fly Core will download and store a copy of the Coin2Fly block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Coin2Fly Core will download and store a copy of the Coin2Fly block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <source>Bitcoin Monster Core will download and store a copy of the Bitcoin Monster block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Bitcoin Monster Core will download and store a copy of the Bitcoin Monster block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1434,8 +1434,8 @@
     </message>
     <message>
         <location filename="../intro.cpp" line="+88"/>
-        <source>Coin2Fly Core</source>
-        <translation>Coin2Fly Core</translation>
+        <source>Bitcoin Monster Core</source>
+        <translation>Bitcoin Monster Core</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1675,8 +1675,8 @@
     </message>
     <message>
         <location line="+155"/>
-        <source>Amount of Coin2Fly to keep anonymized</source>
-        <translation>Amount of Coin2Fly to keep anonymized</translation>
+        <source>Amount of Bitcoin Monster to keep anonymized</source>
+        <translation>Amount of Bitcoin Monster to keep anonymized</translation>
     </message>
     <message>
         <location line="-119"/>
@@ -1685,13 +1685,13 @@
     </message>
     <message>
         <location line="-104"/>
-        <source>Automatically start Coin2Fly Core after logging in to the system.</source>
-        <translation>Automatically start Coin2Fly Core after logging in to the system.</translation>
+        <source>Automatically start Bitcoin Monster Core after logging in to the system.</source>
+        <translation>Automatically start Bitcoin Monster Core after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Coin2Fly Core on system login</source>
-        <translation>&amp;Start Coin2Fly Core on system login</translation>
+        <source>&amp;Start Bitcoin Monster Core on system login</source>
+        <translation>&amp;Start Bitcoin Monster Core on system login</translation>
     </message>
     <message>
         <location line="+123"/>
@@ -1750,8 +1750,8 @@
     </message>
     <message>
         <location line="+60"/>
-        <source>Automatically open the Coin2Fly Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Coin2Fly Core client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Bitcoin Monster Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Bitcoin Monster Core client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1765,8 +1765,8 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Coin2Fly network through a SOCKS5 proxy.</source>
-        <translation>Connect to the Coin2Fly network through a SOCKS5 proxy.</translation>
+        <source>Connect to the Bitcoin Monster network through a SOCKS5 proxy.</source>
+        <translation>Connect to the Bitcoin Monster network through a SOCKS5 proxy.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1780,8 +1780,8 @@
     </message>
     <message>
         <location line="+45"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Coin2Fly Core.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting Coin2Fly Core.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Monster Core.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting Bitcoin Monster Core.</translation>
     </message>
     <message>
         <location line="+99"/>
@@ -1877,8 +1877,8 @@
     </message>
     <message>
         <location line="+25"/>
-        <source>Connect to the Coin2Fly network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Connect to the Coin2Fly network through a separate SOCKS5 proxy for Tor hidden services.</translation>
+        <source>Connect to the Bitcoin Monster network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Connect to the Bitcoin Monster network through a separate SOCKS5 proxy for Tor hidden services.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2020,8 +2020,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <location line="+50"/>
         <location line="+355"/>
         <location line="+258"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Coin2Fly network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Coin2Fly network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin Monster network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin Monster network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-364"/>
@@ -2414,8 +2414,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <location line="+8"/>
-        <source>URI cannot be parsed! This can be caused by an invalid Coin2Fly address or malformed URI parameters.</source>
-        <translation>URI cannot be parsed! This can be caused by an invalid Coin2Fly address or malformed URI parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin Monster address or malformed URI parameters.</source>
+        <translation>URI cannot be parsed! This can be caused by an invalid Bitcoin Monster address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2521,8 +2521,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+119"/>
-        <source>Enter a Coin2Fly address (e.g. %1)</source>
-        <translation>Enter a Coin2Fly address (e.g. %1)</translation>
+        <source>Enter a Bitcoin Monster address (e.g. %1)</source>
+        <translation>Enter a Bitcoin Monster address (e.g. %1)</translation>
     </message>
     <message>
         <location line="+857"/>
@@ -2722,8 +2722,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <location line="+48"/>
-        <source>Open the Coin2Fly Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the Coin2Fly Core debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the Bitcoin Monster Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the Bitcoin Monster Core debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -2990,8 +2990,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <location line="+148"/>
-        <source>Welcome to the Coin2Fly Core RPC console.</source>
-        <translation>Welcome to the Coin2Fly Core RPC console.</translation>
+        <source>Welcome to the Bitcoin Monster Core RPC console.</source>
+        <translation>Welcome to the Bitcoin Monster Core RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3080,8 +3080,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Coin2Fly network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Coin2Fly network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin Monster network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin Monster network.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3096,8 +3096,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <location line="-14"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Coin2Fly network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Coin2Fly network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Bitcoin Monster network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Bitcoin Monster network.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3675,8 +3675,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <location line="+229"/>
-        <source>Warning: Invalid Coin2Fly address</source>
-        <translation>Warning: Invalid Coin2Fly address</translation>
+        <source>Warning: Invalid Bitcoin Monster address</source>
+        <translation>Warning: Invalid Bitcoin Monster address</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -3703,8 +3703,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The Coin2Fly address to send the payment to</source>
-        <translation>The Coin2Fly address to send the payment to</translation>
+        <source>The Bitcoin Monster address to send the payment to</source>
+        <translation>The Bitcoin Monster address to send the payment to</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3752,8 +3752,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <location line="-1046"/>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Coin2Fly than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Coin2Fly than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Bitcoin Monster than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Bitcoin Monster than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3767,8 +3767,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the bitcoinmonster: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Coin2Fly network.</source>
-        <translation>A message that was attached to the bitcoinmonster: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Coin2Fly network.</translation>
+        <source>A message that was attached to the bitcoinmonster: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin Monster network.</source>
+        <translation>A message that was attached to the bitcoinmonster: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin Monster network.</translation>
     </message>
     <message>
         <location line="+433"/>
@@ -3802,8 +3802,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+119"/>
-        <source>Coin2Fly Core is shutting down...</source>
-        <translation>Coin2Fly Core is shutting down...</translation>
+        <source>Bitcoin Monster Core is shutting down...</source>
+        <translation>Bitcoin Monster Core is shutting down...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3825,13 +3825,13 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>You can sign messages/agreements with your addresses to prove you can receive Coin2Fly sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>You can sign messages/agreements with your addresses to prove you can receive Coin2Fly sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive Bitcoin Monster sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>You can sign messages/agreements with your addresses to prove you can receive Bitcoin Monster sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The Coin2Fly address to sign the message with</source>
-        <translation>The Coin2Fly address to sign the message with</translation>
+        <source>The Bitcoin Monster address to sign the message with</source>
+        <translation>The Bitcoin Monster address to sign the message with</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3872,8 +3872,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <location line="+17"/>
-        <source>Sign the message to prove you own this Coin2Fly address</source>
-        <translation>Sign the message to prove you own this Coin2Fly address</translation>
+        <source>Sign the message to prove you own this Bitcoin Monster address</source>
+        <translation>Sign the message to prove you own this Bitcoin Monster address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3903,13 +3903,13 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The Coin2Fly address the message was signed with</source>
-        <translation>The Coin2Fly address the message was signed with</translation>
+        <source>The Bitcoin Monster address the message was signed with</source>
+        <translation>The Bitcoin Monster address the message was signed with</translation>
     </message>
     <message>
         <location line="+33"/>
-        <source>Verify the message to ensure it was signed with the specified Coin2Fly address</source>
-        <translation>Verify the message to ensure it was signed with the specified Coin2Fly address</translation>
+        <source>Verify the message to ensure it was signed with the specified Bitcoin Monster address</source>
+        <translation>Verify the message to ensure it was signed with the specified Bitcoin Monster address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3997,8 +3997,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+45"/>
-        <source>Coin2Fly Core</source>
-        <translation>Coin2Fly Core</translation>
+        <source>Bitcoin Monster Core</source>
+        <translation>Bitcoin Monster Core</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4012,8 +4012,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>The Coin2Fly Core developers</source>
-        <translation>The Coin2Fly Core developers</translation>
+        <source>The Bitcoin Monster Core developers</source>
+        <translation>The Bitcoin Monster Core developers</translation>
     </message>
     <message>
         <location filename="../networkstyle.cpp" line="+21"/>
@@ -4731,8 +4731,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Cannot obtain a lock on data directory %s. Coin2Fly Core is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. Coin2Fly Core is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. Bitcoin Monster Core is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. Bitcoin Monster Core is probably already running.</translation>
     </message>
     <message>
         <location line="+32"/>
@@ -4781,8 +4781,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Unable to bind to %s on this computer. Coin2Fly Core is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. Coin2Fly Core is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. Bitcoin Monster Core is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. Bitcoin Monster Core is probably already running.</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -5131,8 +5131,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2014-%i The Coin2Fly Core Developers</source>
-        <translation>Copyright (C) 2014-%i The Coin2Fly Core Developers</translation>
+        <source>Copyright (C) 2014-%i The Bitcoin Monster Core Developers</source>
+        <translation>Copyright (C) 2014-%i The Bitcoin Monster Core Developers</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -5146,8 +5146,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Coin2Fly Core</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of Coin2Fly Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Monster Core</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of Bitcoin Monster Core</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -5201,8 +5201,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. Coin2Fly Core is shutting down.</source>
-        <translation>Initialization sanity check failed. Coin2Fly Core is shutting down.</translation>
+        <source>Initialization sanity check failed. Bitcoin Monster Core is shutting down.</source>
+        <translation>Initialization sanity check failed. Bitcoin Monster Core is shutting down.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5491,8 +5491,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Wallet needed to be rewritten: restart Coin2Fly Core to complete</source>
-        <translation>Wallet needed to be rewritten: restart Coin2Fly Core to complete</translation>
+        <source>Wallet needed to be rewritten: restart Bitcoin Monster Core to complete</source>
+        <translation>Wallet needed to be rewritten: restart Bitcoin Monster Core to complete</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -5556,8 +5556,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <location line="-328"/>
-        <source>Disable all Coin2Fly specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
-        <translation>Disable all Coin2Fly specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</translation>
+        <source>Disable all Bitcoin Monster specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
+        <translation>Disable all Bitcoin Monster specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5656,8 +5656,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong Coin2Fly Core will not work properly.</source>
-        <translation>Please check that your computer&apos;s date and time are correct! If your clock is wrong Coin2Fly Core will not work properly.</translation>
+        <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin Monster Core will not work properly.</source>
+        <translation>Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin Monster Core will not work properly.</translation>
     </message>
     <message>
         <location line="+3"/>

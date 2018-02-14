@@ -68,9 +68,9 @@ can then be controlled by group membership.
 3b) Mac OS X
 
 Binary:              `/usr/local/bin/bitcoinmonsterd`
-Configuration file:  `~/Library/Application Support/Coin2FlyCore/bitcoinmonster.conf`
-Data directory:      `~/Library/Application Support/Coin2FlyCore`
-Lock file:           `~/Library/Application Support/Coin2FlyCore/.lock`
+Configuration file:  `~/Library/Application Support/Bitcoin MonsterCore/bitcoinmonster.conf`
+Data directory:      `~/Library/Application Support/Bitcoin MonsterCore`
+Lock file:           `~/Library/Application Support/Bitcoin MonsterCore/.lock`
 
 4. Installing Service Configuration
 -----------------------------------

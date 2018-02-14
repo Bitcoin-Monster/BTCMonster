@@ -1,9 +1,9 @@
 Masternode config
 =======================
 
-Coin2Fly Core allows controlling multiple remote masternodes from a single wallet. The wallet needs to have a valid collateral output of 1000 coins for each masternode and uses a configuration file named `masternode.conf` which can be found in the following data directory (depending on your operating system):
- * Windows: %APPDATA%\Coin2FlyCore\
- * Mac OS: ~/Library/Application Support/Coin2FlyCore/
+Bitcoin Monster Core allows controlling multiple remote masternodes from a single wallet. The wallet needs to have a valid collateral output of 1000 coins for each masternode and uses a configuration file named `masternode.conf` which can be found in the following data directory (depending on your operating system):
+ * Windows: %APPDATA%\Bitcoin MonsterCore\
+ * Mac OS: ~/Library/Application Support/Bitcoin MonsterCore/
  * Unix/Linux: ~/.bitcoinmonstercore/
 
 `masternode.conf` is a space separated text file. Each line consists of an alias, IP address followed by port, masternode private key, collateral output transaction id and collateral output index.

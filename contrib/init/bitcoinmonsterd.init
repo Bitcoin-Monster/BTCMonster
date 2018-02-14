@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#  bitcoinmonsterd The Coin2Fly Core server.
+#  bitcoinmonsterd The Bitcoin Monster Core server.
 #
 #
 # chkconfig: 345 80 20

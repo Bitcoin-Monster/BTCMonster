@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Coin2Fly
-Comment=Coin2Fly P2P Cryptocurrency
+Name=Bitcoin Monster
+Comment=Bitcoin Monster P2P Cryptocurrency
 Exec=bitcoinmonster-qt %u
 Terminal=false
 Type=Application

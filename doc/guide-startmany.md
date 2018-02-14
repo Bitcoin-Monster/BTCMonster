@@ -135,7 +135,7 @@ You can confirm that remote server is on the correct block by issuing
 
 ```bitcoinmonster-cli getinfo```
 
-and comparing with the official explorer at https://explorer.bitcoinmonster.org/chain/Coin2Fly
+and comparing with the official explorer at https://explorer.bitcoinmonster.org/chain/Bitcoin Monster
 
 ### Local
 

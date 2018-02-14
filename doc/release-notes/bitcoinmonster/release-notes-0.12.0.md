@@ -2,7 +2,7 @@
 ====================
 
 
-Coin2Fly Core version 0.12.0 is now available from:
+Bitcoin Monster Core version 0.12.0 is now available from:
 
   https://bitcoinmonster.com/downloads
 
@@ -16,7 +16,7 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over /Applications/Coin2Fly-Qt (on Mac) or
+installer (on Windows) or just copy over /Applications/Bitcoin Monster-Qt (on Mac) or
 bitcoinmonsterd/bitcoinmonster-qt (on Linux).
 
 **This new version uses transaction indexing by default, you will need to reindex 
@@ -28,7 +28,7 @@ Downgrade warning
 
 Because release 0.12.0 and later makes use of headers-first synchronization and
 parallel block download (see further), the block files and databases are not
-backwards-compatible with pre-0.12 versions of Coin2Fly Core or other software:
+backwards-compatible with pre-0.12 versions of Bitcoin Monster Core or other software:
 
 * Blocks will be stored on disk out of order (in the order they are
 received, really), which makes it incompatible with some tools or

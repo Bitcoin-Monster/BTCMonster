@@ -123,7 +123,7 @@ public:
 };
 
 /**
- * Coin2Fly RPC command dispatcher.
+ * Bitcoin Monster RPC command dispatcher.
  */
 class CRPCTable
 {

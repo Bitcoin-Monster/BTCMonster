@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2018 The Coin2Fly Core developers
+// Copyright (c) 2017-2018 The Bitcoin Monster Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -73,10 +73,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case MON: return QString("Coin2Fly");
-            case mMON: return QString("Milli-Coin2Fly (1 / 1" THIN_SP_UTF8 "000)");
-            case uMON: return QString("Micro-Coin2Fly (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-Coin2Fly (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case MON: return QString("Bitcoin Monster");
+            case mMON: return QString("Milli-Bitcoin Monster (1 / 1" THIN_SP_UTF8 "000)");
+            case uMON: return QString("Micro-Bitcoin Monster (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-Bitcoin Monster (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -84,10 +84,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case MON: return QString("TestCoin2Flys");
-            case mMON: return QString("Milli-TestCoin2Fly (1 / 1" THIN_SP_UTF8 "000)");
-            case uMON: return QString("Micro-TestCoin2Fly (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-TestCoin2Fly (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case MON: return QString("TestBitcoin Monsters");
+            case mMON: return QString("Milli-TestBitcoin Monster (1 / 1" THIN_SP_UTF8 "000)");
+            case uMON: return QString("Micro-TestBitcoin Monster (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-TestBitcoin Monster (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }

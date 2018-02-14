@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Coin2Fly"
-            VALUE "FileDescription",    "bitcoinmonster-cli (JSON-RPC client for Coin2Fly Core)"
+            VALUE "CompanyName",        "Bitcoin Monster"
+            VALUE "FileDescription",    "bitcoinmonster-cli (JSON-RPC client for Bitcoin Monster Core)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "bitcoinmonster-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR

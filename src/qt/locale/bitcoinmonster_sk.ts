@@ -62,12 +62,12 @@
         <translation>Adresa prijatia</translation>
     </message>
     <message>
-        <source>These are your Coin2Fly addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú Vaše Coin2Fly adresy pre posielanie platieb. Pred poslaním mincí vždy overte sumu a doručovaciu adresu.</translation>
+        <source>These are your Bitcoin Monster addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú Vaše Bitcoin Monster adresy pre posielanie platieb. Pred poslaním mincí vždy overte sumu a doručovaciu adresu.</translation>
     </message>
     <message>
-        <source>These are your Coin2Fly addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú Vaše Coin2Fly adresy pre posielanie platieb. Pre každú transakciu sa doporučuje použiť novú doručovaciu adresu.</translation>
+        <source>These are your Bitcoin Monster addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú Vaše Bitcoin Monster adresy pre posielanie platieb. Pre každú transakciu sa doporučuje použiť novú doručovaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -234,8 +234,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Coin2Fly Core</source>
-        <translation>Coin2Fly Core</translation>
+        <source>Bitcoin Monster Core</source>
+        <translation>Bitcoin Monster Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -258,8 +258,8 @@
         <translation>&amp;Odoslať</translation>
     </message>
     <message>
-        <source>Send coins to a Coin2Fly address</source>
-        <translation>Poslať mince na Coin2Fly adresu</translation>
+        <source>Send coins to a Bitcoin Monster address</source>
+        <translation>Poslať mince na Bitcoin Monster adresu</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -267,7 +267,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoinmonster: URIs)</source>
-        <translation>Vyžiadať platby (vygeneruje QR kódy a Coin2Fly: URI)</translation>
+        <translation>Vyžiadať platby (vygeneruje QR kódy a Bitcoin Monster: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -294,12 +294,12 @@
         <translation>Ukončiť program</translation>
     </message>
     <message>
-        <source>&amp;About Coin2Fly Core</source>
-        <translation>&amp;O Coin2Fly Core</translation>
+        <source>&amp;About Bitcoin Monster Core</source>
+        <translation>&amp;O Bitcoin Monster Core</translation>
     </message>
     <message>
-        <source>Show information about Coin2Fly Core</source>
-        <translation>Zobraziť informácie o Coin2Fly Core</translation>
+        <source>Show information about Bitcoin Monster Core</source>
+        <translation>Zobraziť informácie o Bitcoin Monster Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -362,16 +362,16 @@
         <translation>Podpísať &amp;správu...</translation>
     </message>
     <message>
-        <source>Sign messages with your Coin2Fly addresses to prove you own them</source>
-        <translation>Podpísať správy s Vašimi Coin2Fly adresami ako dôkaz že ich vlastníte</translation>
+        <source>Sign messages with your Bitcoin Monster addresses to prove you own them</source>
+        <translation>Podpísať správy s Vašimi Bitcoin Monster adresami ako dôkaz že ich vlastníte</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>Overiť správu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Coin2Fly addresses</source>
-        <translation>Overiť správy pre uistenie, že boli podpísané zadanými Coin2Fly adresami</translation>
+        <source>Verify messages to ensure they were signed with specified Bitcoin Monster addresses</source>
+        <translation>Overiť správy pre uistenie, že boli podpísané zadanými Bitcoin Monster adresami</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -454,8 +454,8 @@
         <translation>Možnosti príkazového riadku</translation>
     </message>
     <message>
-        <source>Coin2Fly Core client</source>
-        <translation>Coin2Fly Core klient</translation>
+        <source>Bitcoin Monster Core client</source>
+        <translation>Bitcoin Monster Core klient</translation>
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
@@ -482,8 +482,8 @@
         <translation>Lišta záložiek</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Coin2Fly network</source>
-        <translation><numerusform>%n aktívne spojenie so sieťou Coin2Fly</numerusform><numerusform>%n aktívne spojenia so sieťou Coin2Fly</numerusform><numerusform>%n aktívnych spojení so sieťou Coin2Fly</numerusform></translation>
+        <source>%n active connection(s) to Bitcoin Monster network</source>
+        <translation><numerusform>%n aktívne spojenie so sieťou Bitcoin Monster</numerusform><numerusform>%n aktívne spojenia so sieťou Bitcoin Monster</numerusform><numerusform>%n aktívnych spojení so sieťou Bitcoin Monster</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -510,8 +510,8 @@
         <translation><numerusform>%n hodina</numerusform><numerusform>%n hodiny</numerusform><numerusform>%n hodín</numerusform></translation>
     </message>
     <message>
-        <source>Modify configuration options for Coin2Fly Core</source>
-        <translation>Upraviť možnosti konfigurácie Coin2Fly Core</translation>
+        <source>Modify configuration options for Bitcoin Monster Core</source>
+        <translation>Upraviť možnosti konfigurácie Bitcoin Monster Core</translation>
     </message>
     <message>
         <source>Open Wallet &amp;Configuration File</source>
@@ -933,16 +933,16 @@
         <translation>Nastavenie PrivateSend</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Coin2Fly's configuration screen.</source>
-        <translation>Darksend bol úspešne nastavený na základnú hodnotu (%1 a 2 kolá). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Coin2Fly.</translation>
+        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Bitcoin Monster's configuration screen.</source>
+        <translation>Darksend bol úspešne nastavený na základnú hodnotu (%1 a 2 kolá). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Bitcoin Monster.</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Coin2Fly's configuration screen.</source>
-        <translation>PrivateSend bol úspešne nastavený na základnú hodnotu (%1 a 8 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Coin2Fly.</translation>
+        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Bitcoin Monster's configuration screen.</source>
+        <translation>PrivateSend bol úspešne nastavený na základnú hodnotu (%1 a 8 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Bitcoin Monster.</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Coin2Fly's configuration screen.</source>
-        <translation>PrivateSend bol úspešne nastavený na maximálnu hodnotu (%1 a 16 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Coin2Fly.</translation>
+        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Bitcoin Monster's configuration screen.</source>
+        <translation>PrivateSend bol úspešne nastavený na maximálnu hodnotu (%1 a 16 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Bitcoin Monster.</translation>
     </message>
 </context>
 <context>
@@ -984,8 +984,8 @@
         <translation>Upraviť odosielaciu adresu</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Coin2Fly address.</source>
-        <translation>Zadaná adresa "%1" nie je platná Coin2Fly adresa.</translation>
+        <source>The entered address "%1" is not a valid Bitcoin Monster address.</source>
+        <translation>Zadaná adresa "%1" nie je platná Bitcoin Monster adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1026,8 +1026,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Coin2Fly Core</source>
-        <translation>Coin2Fly Core</translation>
+        <source>Bitcoin Monster Core</source>
+        <translation>Bitcoin Monster Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1038,8 +1038,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Coin2Fly Core</source>
-        <translation>O Coin2Fly Core</translation>
+        <source>About Bitcoin Monster Core</source>
+        <translation>O Bitcoin Monster Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1077,16 +1077,16 @@
         <translation>Vitajte</translation>
     </message>
     <message>
-        <source>Welcome to Coin2Fly Core.</source>
-        <translation>Vitajte v Coin2Fly Core.</translation>
+        <source>Welcome to Bitcoin Monster Core.</source>
+        <translation>Vitajte v Bitcoin Monster Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Coin2Fly Core will store its data.</source>
-        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude Coin2Fly Core ukladať svoje dáta.</translation>
+        <source>As this is the first time the program is launched, you can choose where Bitcoin Monster Core will store its data.</source>
+        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude Bitcoin Monster Core ukladať svoje dáta.</translation>
     </message>
     <message>
-        <source>Coin2Fly Core will download and store a copy of the Coin2Fly block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Coin2Fly Core stiahne a uloží kópiu reťazca blokov Coin2Fly. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
+        <source>Bitcoin Monster Core will download and store a copy of the Bitcoin Monster block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Bitcoin Monster Core stiahne a uloží kópiu reťazca blokov Bitcoin Monster. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1097,8 +1097,8 @@
         <translation>Použiť vlastný dátový adresár:</translation>
     </message>
     <message>
-        <source>Coin2Fly Core</source>
-        <translation>Coin2Fly Core</translation>
+        <source>Bitcoin Monster Core</source>
+        <translation>Bitcoin Monster Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1222,20 +1222,20 @@
         <translation>(0 = auto, &lt;0 = nechať toľko jadier voľných)</translation>
     </message>
     <message>
-        <source>Amount of Coin2Fly to keep anonymized</source>
-        <translation>Suma Coin2Fly ktorú držať anonymne </translation>
+        <source>Amount of Bitcoin Monster to keep anonymized</source>
+        <translation>Suma Bitcoin Monster ktorú držať anonymne </translation>
     </message>
     <message>
         <source>W&amp;allet</source>
         <translation>Peňaženka</translation>
     </message>
     <message>
-        <source>Automatically start Coin2Fly Core after logging in to the system.</source>
-        <translation>Automaticky spustiť Coin2Fly Core po prihlásení do systému.</translation>
+        <source>Automatically start Bitcoin Monster Core after logging in to the system.</source>
+        <translation>Automaticky spustiť Bitcoin Monster Core po prihlásení do systému.</translation>
     </message>
     <message>
-        <source>&amp;Start Coin2Fly Core on system login</source>
-        <translation>&amp;Spusť Coin2Fly po prihlásení do systému</translation>
+        <source>&amp;Start Bitcoin Monster Core on system login</source>
+        <translation>&amp;Spusť Bitcoin Monster po prihlásení do systému</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</source>
@@ -1258,8 +1258,8 @@
         <translation>Povoliť prichádzajúce spojenia</translation>
     </message>
     <message>
-        <source>Connect to the Coin2Fly network through a SOCKS5 proxy.</source>
-        <translation>Pripojiť sa do siete Coin2Fly cez proxy SOCKS5.</translation>
+        <source>Connect to the Bitcoin Monster network through a SOCKS5 proxy.</source>
+        <translation>Pripojiť sa do siete Bitcoin Monster cez proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1423,8 +1423,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Coin2Fly network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky zosynchronizuje so sieťou Coin2Fly akonáhle nadviaže spojenie, avšak tento proces ešte nebol dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin Monster network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky zosynchronizuje so sieťou Bitcoin Monster akonáhle nadviaže spojenie, avšak tento proces ešte nebol dokončený.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1654,7 +1654,7 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <source>Cannot start bitcoinmonster: click-to-pay handler</source>
-        <translation>Coin2Fly sa nedá spustiť: click-to-pay handler</translation>
+        <translation>Bitcoin Monster sa nedá spustiť: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1673,8 +1673,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Neplatná adresa platby %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Coin2Fly address or malformed URI parameters.</source>
-        <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou Coin2Fly adresou, alebo nesprávnym tvarom URI parametrov.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin Monster address or malformed URI parameters.</source>
+        <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou Bitcoin Monster adresou, alebo nesprávnym tvarom URI parametrov.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1747,8 +1747,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Suma</translation>
     </message>
     <message>
-        <source>Enter a Coin2Fly address (e.g. %1)</source>
-        <translation>Zadajte Coin2Fly adresu (e.g. %1)</translation>
+        <source>Enter a Bitcoin Monster address (e.g. %1)</source>
+        <translation>Zadajte Bitcoin Monster adresu (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2096,8 +2096,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Znovu použiť jestvujúcu prijímaciu adresu (neodporúča sa)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Coin2Fly network.</source>
-        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. Poznámka: Správa nebude poslaná spolu s platbou cez sieť Coin2Fly.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin Monster network.</source>
+        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. Poznámka: Správa nebude poslaná spolu s platbou cez sieť Bitcoin Monster.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2108,8 +2108,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Voliteľný popis ktorý sa pridá k tejto novej prijímajúcej adrese.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Coin2Fly network.</source>
-        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. &lt;br&gt;Poznámka: Správa nebude poslaná spolu s platbou cez sieť Coin2Fly.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Bitcoin Monster network.</source>
+        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. &lt;br&gt;Poznámka: Správa nebude poslaná spolu s platbou cez sieť Bitcoin Monster.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2366,7 +2366,7 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for bitcoinmonster transactions than the network can process.</source>
-        <translation>Platenie minimálneho poplatku je v poriadku pokiaľ je objem transakcií menší ako je miesto v bloku. &lt;br /&gt;Buďte opatrný pretože to môže skončiť s nikdy nepotvrdenými transakciami, akonáhle je dopyt po Coin2Fly transakciách väčší ako dokáže sieť Coin2Fly spracovať.</translation>
+        <translation>Platenie minimálneho poplatku je v poriadku pokiaľ je objem transakcií menší ako je miesto v bloku. &lt;br /&gt;Buďte opatrný pretože to môže skončiť s nikdy nepotvrdenými transakciami, akonáhle je dopyt po Bitcoin Monster transakciách väčší ako dokáže sieť Bitcoin Monster spracovať.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2541,8 +2541,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Transakcia bola zamietnutá! Toto sa môže stať ak niektoré coins vo vašej peňaženke už boli minuté, ako keď použijete kópiu wallet.dat a coins boli minuté z kópie ale neoznačené ako minuté tu.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Coin2Fly address</source>
-        <translation>Upozornenie: Neplatná Coin2Fly adresa</translation>
+        <source>Warning: Invalid Bitcoin Monster address</source>
+        <translation>Upozornenie: Neplatná Bitcoin Monster adresa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2564,8 +2564,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Zapla&amp;tiť:</translation>
     </message>
     <message>
-        <source>The Coin2Fly address to send the payment to</source>
-        <translation>Coin2Fly adresa pre poslanie platby</translation>
+        <source>The Bitcoin Monster address to send the payment to</source>
+        <translation>Bitcoin Monster adresa pre poslanie platby</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2604,8 +2604,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Správa:</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoinmonster: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Coin2Fly network.</source>
-        <translation>Správa ktorá bola pripojená ku bitcoinmonster: URI ktorá sa uchová spolu s transakciou pre Vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť Coin2Fly.</translation>
+        <source>A message that was attached to the bitcoinmonster: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin Monster network.</source>
+        <translation>Správa ktorá bola pripojená ku bitcoinmonster: URI ktorá sa uchová spolu s transakciou pre Vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť Bitcoin Monster.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2623,8 +2623,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Coin2Fly Core is shutting down...</source>
-        <translation>Coin2Fly core sa vypína...</translation>
+        <source>Bitcoin Monster Core is shutting down...</source>
+        <translation>Bitcoin Monster core sa vypína...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2642,8 +2642,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>&amp;Podpísať Správu</translation>
     </message>
     <message>
-        <source>The Coin2Fly address to sign the message with</source>
-        <translation>Coin2Fly adresa na podpísanie správy</translation>
+        <source>The Bitcoin Monster address to sign the message with</source>
+        <translation>Bitcoin Monster adresa na podpísanie správy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2674,8 +2674,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Kopírovať práve zvolenú adresu do systémového klipbordu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Coin2Fly address</source>
-        <translation>Podpísať spravu aby ste dokázali, že vlastníte túto Coin2Fly adresu</translation>
+        <source>Sign the message to prove you own this Bitcoin Monster address</source>
+        <translation>Podpísať spravu aby ste dokázali, že vlastníte túto Bitcoin Monster adresu</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2694,12 +2694,12 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Overiť správu...</translation>
     </message>
     <message>
-        <source>The Coin2Fly address the message was signed with</source>
-        <translation>Adresa Coin2Fly s ktorou bola podpísaná správa</translation>
+        <source>The Bitcoin Monster address the message was signed with</source>
+        <translation>Adresa Bitcoin Monster s ktorou bola podpísaná správa</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Coin2Fly address</source>
-        <translation>Overiť správu pre uistenie, že bola podpísaná zadanou Coin2Fly adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Bitcoin Monster address</source>
+        <translation>Overiť správu pre uistenie, že bola podpísaná zadanou Bitcoin Monster adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2765,8 +2765,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Coin2Fly Core</source>
-        <translation>Coin2Fly Core</translation>
+        <source>Bitcoin Monster Core</source>
+        <translation>Bitcoin Monster Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2777,8 +2777,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Vývojári Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Coin2Fly Core developers</source>
-        <translation>Vývojári Coin2Fly Core</translation>
+        <source>The Bitcoin Monster Core developers</source>
+        <translation>Vývojári Bitcoin Monster Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3331,8 +3331,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Spojiť s danou adresou a vždy na nej počúvať. Použite zápis [host]:port pre IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Coin2Fly Core is probably already running.</source>
-        <translation>Nedá sa zamknúť dátový adresár %s. Coin2Fly Core už pravdepodobne beží.</translation>
+        <source>Cannot obtain a lock on data directory %s. Bitcoin Monster Core is probably already running.</source>
+        <translation>Nedá sa zamknúť dátový adresár %s. Bitcoin Monster Core už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3371,8 +3371,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Toto je predbežná testovacia zostava - používate na vlastné riziko - nepoužívajte na ťaženie alebo obchodné aplikácie</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Coin2Fly Core is probably already running.</source>
-        <translation>Nedá sa viazať ku %s na tomto počítači. Coin2Fly Core už pravdepodobne beží.</translation>
+        <source>Unable to bind to %s on this computer. Bitcoin Monster Core is probably already running.</source>
+        <translation>Nedá sa viazať ku %s na tomto počítači. Bitcoin Monster Core už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3631,8 +3631,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Autorské práva (C) 2009-%i Vývojári Bitcoin Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Coin2Fly Core Developers</source>
-        <translation>Autorské práva (C) 2014-%i Vývojári jadra Coin2Fly</translation>
+        <source>Copyright (C) 2014-%i The Bitcoin Monster Core Developers</source>
+        <translation>Autorské práva (C) 2014-%i Vývojári jadra Bitcoin Monster</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
@@ -3643,8 +3643,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Chyba pripojenia k Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Coin2Fly Core</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Coin2Fly Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Monster Core</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Bitcoin Monster Core</translation>
     </message>
     <message>
         <source>Found enough users, signing ( waiting %s )</source>
@@ -3687,8 +3687,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Informácie</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Coin2Fly Core is shutting down.</source>
-        <translation>Inicializácia kontroly zdravia zlyhala. Coin2Fly Core sa vypína.</translation>
+        <source>Initialization sanity check failed. Bitcoin Monster Core is shutting down.</source>
+        <translation>Inicializácia kontroly zdravia zlyhala. Bitcoin Monster Core sa vypína.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -3895,8 +3895,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Väčšia hodnota ako dovoľuje fronta PrivateSend.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Coin2Fly Core to complete</source>
-        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte Coin2Fly Core</translation>
+        <source>Wallet needed to be rewritten: restart Bitcoin Monster Core to complete</source>
+        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte Bitcoin Monster Core</translation>
     </message>
     <message>
         <source>Will retry...</source>
@@ -3947,8 +3947,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>V pamäti udržiavať najviac &lt;n&gt; nepotvrdených transakcií (predvolené: %u)</translation>
     </message>
     <message>
-        <source>Disable all Coin2Fly specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
-        <translation>Vypnúť všetky funkcie špecifické pre Coin2Fly (Masternodes, PrivateSend, InstantSend, Vláda) (0-1, predvolené: %u)</translation>
+        <source>Disable all Bitcoin Monster specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
+        <translation>Vypnúť všetky funkcie špecifické pre Bitcoin Monster (Masternodes, PrivateSend, InstantSend, Vláda) (0-1, predvolené: %u)</translation>
     </message>
     <message>
         <source>Enable InstantSend, show confirmations for locked transactions (0-1, default: %u)</source>
@@ -3983,8 +3983,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Celkové maximum poplatkov (v %s) pre použitie jednej transakcie peňaženky. Príliš malá hodnota môže prerušiť veľké transakcie (predvolené: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Coin2Fly Core will not work properly.</source>
-        <translation>Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, Coin2Fly Core nebude pracovať správne.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Monster Core will not work properly.</source>
+        <translation>Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, Bitcoin Monster Core nebude pracovať správne.</translation>
     </message>
     <message>
         <source>PrivateSend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>

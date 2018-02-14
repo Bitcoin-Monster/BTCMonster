@@ -15,7 +15,7 @@ Check out the source code in the following directory hierarchy.
 	git clone https://github.com/devrandom/gitian-builder.git
         git clone https://github.com/bitcoinmonster/bitcoinmonstercore.git
 
-###Coin2Fly Core maintainers/release engineers, update (commit) version in sources
+###Bitcoin Monster Core maintainers/release engineers, update (commit) version in sources
 
 	pushd ./bitcoinmonster
 	contrib/verifysfbinaries/verify.sh
@@ -86,7 +86,7 @@ NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from 
 ```
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-###Build and sign Coin2Fly Core for Linux, Windows, and OS X:
+###Build and sign Bitcoin Monster Core for Linux, Windows, and OS X:
 
 	./bin/gbuild --commit bitcoinmonster=v${VERSION} ../bitcoinmonster/contrib/gitian-descriptors/gitian-linux.yml
 	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../bitcoinmonster/contrib/gitian-descriptors/gitian-linux.yml
@@ -188,13 +188,13 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
 - Announce the release:
 
-  - Release on Coin2Fly forum: https://www.bitcoinmonster.org/forum/topic/official-announcements.54/
+  - Release on Bitcoin Monster forum: https://www.bitcoinmonster.org/forum/topic/official-announcements.54/
 
-  - Coin2Fly-development mailing list
+  - Bitcoin Monster-development mailing list
 
   - Update title of #bitcoinmonstercoin on Freenode IRC
 
-  - Optionally reddit /r/Coin2Flypay, ... but this will usually sort out itself
+  - Optionally reddit /r/Bitcoin Monsterpay, ... but this will usually sort out itself
 
 - Notify flare so that he can start building [the PPAs](https://launchpad.net/~bitcoinmonster.org/+archive/ubuntu/bitcoinmonster)
 

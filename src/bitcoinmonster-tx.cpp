@@ -52,7 +52,7 @@ static int AppInitRawTx(int argc, char* argv[])
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("-h") || mapArgs.count("-help"))
     {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Coin2Fly Core bitcoinmonster-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Bitcoin Monster Core bitcoinmonster-tx utility version") + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
               "  bitcoinmonster-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded bitcoinmonster transaction") + "\n" +
               "  bitcoinmonster-tx [options] -create [commands]   " + _("Create hex-encoded bitcoinmonster transaction") + "\n" +

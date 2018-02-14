@@ -6,7 +6,7 @@ SetCompressor /SOLID lzma
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION @CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@
-!define COMPANY "Coin2Fly Core project"
+!define COMPANY "Bitcoin Monster Core project"
 !define URL https://www.bitcoinmonster.org/
 
 # MUI Symbol Definitions
@@ -50,16 +50,16 @@ Var StartMenuGroup
 # Installer attributes
 OutFile @abs_top_srcdir@/bitcoinmonstercore-${VERSION}-win@WINDOWS_BITS@-setup.exe
 !if "@WINDOWS_BITS@" == "64"
-InstallDir $PROGRAMFILES64\Coin2FlyCore
+InstallDir $PROGRAMFILES64\Bitcoin MonsterCore
 !else
-InstallDir $PROGRAMFILES\Coin2FlyCore
+InstallDir $PROGRAMFILES\Bitcoin MonsterCore
 !endif
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
 VIProductVersion ${VERSION}.@CLIENT_VERSION_BUILD@
-VIAddVersionKey ProductName "Coin2Fly Core"
+VIAddVersionKey ProductName "Bitcoin Monster Core"
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
@@ -107,7 +107,7 @@ Section -post SEC0001
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
     WriteRegStr HKCR "bitcoinmonstercore" "URL Protocol" ""
-    WriteRegStr HKCR "bitcoinmonstercore" "" "URL:Coin2Fly"
+    WriteRegStr HKCR "bitcoinmonstercore" "" "URL:Bitcoin Monster"
     WriteRegStr HKCR "bitcoinmonstercore\DefaultIcon" "" $INSTDIR\bitcoinmonster-qt.exe
     WriteRegStr HKCR "bitcoinmonstercore\shell\open\command" "" '"$INSTDIR\bitcoinmonster-qt.exe" "%1"'
 SectionEnd
@@ -139,7 +139,7 @@ Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk"
-    Delete /REBOOTOK "$SMSTARTUP\Coin2Fly.lnk"
+    Delete /REBOOTOK "$SMSTARTUP\Bitcoin Monster.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log

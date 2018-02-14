@@ -34,17 +34,17 @@ Instructions: Homebrew
 
     brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl pkg-config protobuf libevent
 
-NOTE: Building with Qt4 is still supported, however, could result in a broken UI. As such, building with Qt5 is recommended. Qt5 5.7 requires C++11 which Coin2Fly Core doesn't fully support yet, Qt5 5.6.2 has some other issues, so make sure to install Qt version < 5.6.2 (5.6.1-1 is recommended).
+NOTE: Building with Qt4 is still supported, however, could result in a broken UI. As such, building with Qt5 is recommended. Qt5 5.7 requires C++11 which Bitcoin Monster Core doesn't fully support yet, Qt5 5.6.2 has some other issues, so make sure to install Qt version < 5.6.2 (5.6.1-1 is recommended).
     brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/e6d954bab88e89c5582498157077756900865070/Formula/qt5.rb
 
-### Building Coin2Fly Core
+### Building Bitcoin Monster Core
 
 1. Clone the GitHub tree to get the source code and go into the directory.
 
         git clone https://github.com/bitcoinmonster/bitcoinmonstercore.git
         cd bitcoinmonster
 
-2.  Build Coin2Fly Core:
+2.  Build Bitcoin Monster Core:
     This will configure and build the headless bitcoinmonster binaries as well as the gui (if Qt is found).
     You can disable the gui build by passing `--without-gui` to configure.
 
@@ -81,9 +81,9 @@ Creating a release build
 ------------------------
 You can ignore this section if you are building `bitcoinmonsterd` for your own use.
 
-bitcoinmonsterd/bitcoinmonster-cli binaries are not included in the Coin2Fly-Qt.app bundle.
+bitcoinmonsterd/bitcoinmonster-cli binaries are not included in the Bitcoin Monster-Qt.app bundle.
 
-If you are building `bitcoinmonsterd` or `Coin2Fly Core` for others, your build machine should be set up
+If you are building `bitcoinmonsterd` or `Bitcoin Monster Core` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
@@ -92,7 +92,7 @@ All dependencies should be compiled with these flags:
  -arch x86_64
  -isysroot $(xcode-select --print-path)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
 
-Once dependencies are compiled, see [doc/release-process.md](release-process.md) for how the Coin2Fly Core
+Once dependencies are compiled, see [doc/release-process.md](release-process.md) for how the Bitcoin Monster Core
 bundle is packaged and signed to create the .dmg disk image that is distributed.
 
 Running
@@ -104,14 +104,14 @@ directory. We have to first create the RPC configuration file, though.
 Run `./bitcoinmonsterd` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=bitcoinmonsterrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Coin2FlyCore/bitcoinmonster.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/Coin2FlyCore/bitcoinmonster.conf"
+    echo -e "rpcuser=bitcoinmonsterrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Bitcoin MonsterCore/bitcoinmonster.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/Bitcoin MonsterCore/bitcoinmonster.conf"
 
 The next time you run it, it will start downloading the blockchain, but it won't
 output anything while it's doing this. This process may take several hours;
 you can monitor its process by looking at the debug.log file, like this:
 
-    tail -f $HOME/Library/Application\ Support/Coin2FlyCore/debug.log
+    tail -f $HOME/Library/Application\ Support/Bitcoin MonsterCore/debug.log
 
 Other commands:
 -------

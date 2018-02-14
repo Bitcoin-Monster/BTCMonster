@@ -18,14 +18,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Coin2Fly"
-            VALUE "FileDescription",    "Coin2Fly Core (GUI node for Coin2Fly)"
+            VALUE "CompanyName",        "Bitcoin Monster"
+            VALUE "FileDescription",    "Bitcoin Monster Core (GUI node for Bitcoin Monster)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "bitcoinmonster-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "bitcoinmonster-qt.exe"
-            VALUE "ProductName",        "Coin2Fly Core"
+            VALUE "ProductName",        "Bitcoin Monster Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

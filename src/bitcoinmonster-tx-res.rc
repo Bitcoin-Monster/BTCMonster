@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Coin2Fly"
-            VALUE "FileDescription",    "bitcoinmonster-tx (CLI Coin2Fly transaction editor utility)"
+            VALUE "CompanyName",        "Bitcoin Monster"
+            VALUE "FileDescription",    "bitcoinmonster-tx (CLI Bitcoin Monster transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "bitcoinmonster-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR

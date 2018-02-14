@@ -1,5 +1,5 @@
 [Unit]
-Description=Coin2Fly's distributed currency daemon
+Description=Bitcoin Monster's distributed currency daemon
 After=network.target
 
 [Service]

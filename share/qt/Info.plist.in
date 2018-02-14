@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Coin2Fly Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Bitcoin Monster Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Coin2Fly-Qt</string>
+  <string>Bitcoin Monster-Qt</string>
   
   <key>CFBundleName</key>
-  <string>Coin2Fly-Qt</string>
+  <string>Bitcoin Monster-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>org.bitcoinmonster.Coin2Fly-Qt</string>
+  <string>org.bitcoinmonster.Bitcoin Monster-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,7 +46,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.bitcoinmonster.Coin2FlyPayment</string>
+      <string>org.bitcoinmonster.Bitcoin MonsterPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>bitcoinmonster</string>
@@ -60,7 +60,7 @@
       <key>UTTypeIdentifier</key>
       <string>org.bitcoinmonster.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Coin2Fly payment request</string>
+      <string>Bitcoin Monster payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>

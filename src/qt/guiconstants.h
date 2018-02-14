@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2018 The Coin2Fly Core developers
+// Copyright (c) 2017-2018 The Bitcoin Monster Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -13,7 +13,7 @@ static const int MODEL_UPDATE_DELAY = 250;
 /* AskPassphraseDialog -- Maximum passphrase length */
 static const int MAX_PASSPHRASE_SIZE = 1024;
 
-/* Coin2FlyGUI -- Size of icons in status bar */
+/* Bitcoin MonsterGUI -- Size of icons in status bar */
 static const int STATUSBAR_ICONSIZE = 16;
 
 static const bool DEFAULT_SPLASHSCREEN = true;
@@ -48,9 +48,9 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 36
 
-#define QAPP_ORG_NAME "Coin2Fly"
+#define QAPP_ORG_NAME "Bitcoin Monster"
 #define QAPP_ORG_DOMAIN "bitcoinmonster.com"
-#define QAPP_APP_NAME_DEFAULT "Coin2Fly-Qt"
-#define QAPP_APP_NAME_TESTNET "Coin2Fly-Qt-testnet"
+#define QAPP_APP_NAME_DEFAULT "Bitcoin Monster-Qt"
+#define QAPP_APP_NAME_TESTNET "Bitcoin Monster-Qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

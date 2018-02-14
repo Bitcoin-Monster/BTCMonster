@@ -146,7 +146,7 @@ Gavin Andresen
 Giel van Schijndel
 Gregory Maxwell
 Jeff Garzik
-Luke Coin2Flyjr
+Luke Bitcoin Monsterjr
 Matt Corallo
 Michael Ford
 Michael Hendricks

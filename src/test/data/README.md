@@ -1,7 +1,7 @@
 Description
 ------------
 
-This directory contains data-driven tests for various aspects of Coin2Fly.
+This directory contains data-driven tests for various aspects of Bitcoin Monster.
 
 License
 --------

@@ -7,7 +7,7 @@
 #  spendfrom.py  # Lists available funds
 #  spendfrom.py --from=ADDRESS --to=ADDRESS --amount=11.00
 #
-# Assumes it will talk to a bitcoinmonsterd or Coin2Fly-Qt running
+# Assumes it will talk to a bitcoinmonsterd or Bitcoin Monster-Qt running
 # on localhost.
 #
 # Depends on jsonrpc
@@ -33,11 +33,11 @@ def check_json_precision():
         raise RuntimeError("JSON encode/decode loses precision")
 
 def determine_db_dir():
-    """Return the default location of the Coin2Fly Core data directory"""
+    """Return the default location of the Bitcoin Monster Core data directory"""
     if platform.system() == "Darwin":
-        return os.path.expanduser("~/Library/Application Support/Coin2FlyCore/")
+        return os.path.expanduser("~/Library/Application Support/Bitcoin MonsterCore/")
     elif platform.system() == "Windows":
-        return os.path.join(os.environ['APPDATA'], "Coin2FlyCore")
+        return os.path.join(os.environ['APPDATA'], "Bitcoin MonsterCore")
     return os.path.expanduser("~/.bitcoinmonstercore")
 
 def read_bitcoin_config(dbdir):
@@ -63,7 +63,7 @@ def read_bitcoin_config(dbdir):
     return dict(config_parser.items("all"))
 
 def connect_JSON(config):
-    """Connect to a Coin2Fly Core JSON-RPC server"""
+    """Connect to a Bitcoin Monster Core JSON-RPC server"""
     testnet = config.get('testnet', '0')
     testnet = (int(testnet) > 0)  # 0/1 in config file, convert to True/False
     if not 'rpcport' in config:

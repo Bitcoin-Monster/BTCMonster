@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin Core developers
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2018 The Coin2Fly Core developers
+// Copyright (c) 2017-2018 The Bitcoin Monster Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -84,8 +84,8 @@ public:
         consensus.BIP34Height = -1; // FIX
         consensus.BIP34Hash = uint256S("0x0"); // FIX
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
-        consensus.nPowTargetTimespan = 60 * 60; // Coin2Fly: 1 hour, 24 blocks
-        consensus.nPowTargetSpacing = 2.5 * 60; // Coin2Fly: 150 seconds
+        consensus.nPowTargetTimespan = 60 * 60; // Bitcoin Monster: 1 hour, 24 blocks
+        consensus.nPowTargetSpacing = 2.5 * 60; // Bitcoin Monster: 150 seconds
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 1916; // 95% of 2016
@@ -125,17 +125,17 @@ public:
         vSeeds.push_back(CDNSSeedData("bitcoinmonster.com", "seed5.bitcoinmonster.com"));
         vSeeds.push_back(CDNSSeedData("bitcoinmonster.com", "seed6.bitcoinmonster.com"));
 
-        // Coin2Fly addresses start with 'C'
+        // Bitcoin Monster addresses start with 'C'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,28);
-        // Coin2Fly script addresses start with '9'
+        // Bitcoin Monster script addresses start with '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,21);
-        // Coin2Fly private keys start with 'J' (?)
+        // Bitcoin Monster private keys start with 'J' (?)
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,43);
-        // Coin2Fly BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
+        // Bitcoin Monster BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
-        // Coin2Fly BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
+        // Bitcoin Monster BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
-        // Coin2Fly BIP44 coin type is '5'
+        // Bitcoin Monster BIP44 coin type is '5'
         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x80)(0x00)(0x00)(0x05).convert_to_container<std::vector<unsigned char> >();
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
@@ -191,8 +191,8 @@ public:
         consensus.BIP34Height = -1; // FIX
         consensus.BIP34Hash = uint256S("0x0"); // FIX
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
-        consensus.nPowTargetTimespan = 60 * 60; // Coin2Fly: 1 hour, 24 blocks
-        consensus.nPowTargetSpacing = 2.5 * 60; // Coin2Fly: 150 seconds
+        consensus.nPowTargetTimespan = 60 * 60; // Bitcoin Monster: 1 hour, 24 blocks
+        consensus.nPowTargetSpacing = 2.5 * 60; // Bitcoin Monster: 150 seconds
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 1512; // 75% for testchains
@@ -229,17 +229,17 @@ public:
         vSeeds.push_back(CDNSSeedData("bitcoinmonster.com", "test-seed5.bitcoinmonster.com"));
         vSeeds.push_back(CDNSSeedData("bitcoinmonster.com", "test-seed6.bitcoinmonster.com"));
 
-        // Testnet Coin2Fly addresses start with 'T'
+        // Testnet Bitcoin Monster addresses start with 'T'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,65);
-        // Testnet Coin2Fly script addresses start with '7'
+        // Testnet Bitcoin Monster script addresses start with '7'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,15);
         // Testnet private keys start with 'W' (Bitcoin defaults) (?)
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,73);
-        // Testnet Coin2Fly BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
+        // Testnet Bitcoin Monster BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        // Testnet Coin2Fly BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
+        // Testnet Bitcoin Monster BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
-        // Testnet Coin2Fly BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet Bitcoin Monster BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
@@ -296,8 +296,8 @@ public:
         consensus.BIP34Height = -1; // BIP34 has not necessarily activated on regtest
         consensus.BIP34Hash = uint256();
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
-        consensus.nPowTargetTimespan = 60 * 60; // Coin2Fly: 1 hour, 24 blocks
-        consensus.nPowTargetSpacing = 2.5 * 60; // Coin2Fly: 150 seconds
+        consensus.nPowTargetTimespan = 60 * 60; // Bitcoin Monster: 1 hour, 24 blocks
+        consensus.nPowTargetSpacing = 2.5 * 60; // Bitcoin Monster: 150 seconds
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = true;
         consensus.nRuleChangeActivationThreshold = 108; // 75% for testchains
@@ -340,17 +340,17 @@ public:
             0,
             0
         };
-        // Regtest Coin2Fly addresses start with 'T'
+        // Regtest Bitcoin Monster addresses start with 'T'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,65);
-        // Regtest Coin2Fly script addresses start with '7'
+        // Regtest Bitcoin Monster script addresses start with '7'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,15);
         // Regtest private keys start with 'W' (Bitcoin defaults) (?)
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,73);
-        // Regtest Coin2Fly BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
+        // Regtest Bitcoin Monster BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        // Regtest Coin2Fly BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
+        // Regtest Bitcoin Monster BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
-        // Regtest Coin2Fly BIP44 coin type is '1' (All coin's testnet default)
+        // Regtest Bitcoin Monster BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
    }
 };

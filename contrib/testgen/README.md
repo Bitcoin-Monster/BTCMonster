@@ -1,6 +1,6 @@
 ### TestGen ###
 
-Utilities to generate test vectors for the data-driven Coin2Fly tests.
+Utilities to generate test vectors for the data-driven Bitcoin Monster tests.
 
 Usage: 
 

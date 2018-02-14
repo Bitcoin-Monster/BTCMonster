@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Coin2Fly Core developers
+// Copyright (c) 2014-2017 The Bitcoin Monster Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -41,7 +41,7 @@
 #define DBG( x ) 
 #endif
 
-//Coin2Fly only features
+//Bitcoin Monster only features
 
 extern bool fMasterNode;
 extern bool fLiteMode;

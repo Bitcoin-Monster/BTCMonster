@@ -42,7 +42,7 @@ QT_TRANSLATE_NOOP("bitcoinmonster-core", ""
 "notation for IPv6. This option can be specified multiple times (default: "
 "bind to all interfaces)"),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", ""
-"Cannot obtain a lock on data directory %s. Coin2Fly Core is probably already "
+"Cannot obtain a lock on data directory %s. Bitcoin Monster Core is probably already "
 "running."),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", ""
 "Create new files with system default permissions, instead of umask 077 (only "
@@ -51,7 +51,7 @@ QT_TRANSLATE_NOOP("bitcoinmonster-core", ""
 "Delete all wallet transactions and only recover those parts of the "
 "blockchain through -rescan on startup"),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", ""
-"Disable all Coin2Fly specific functionality (Masternodes, PrivateSend, "
+"Disable all Bitcoin Monster specific functionality (Masternodes, PrivateSend, "
 "InstantSend, Governance) (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", ""
 "Discover own IP addresses (default: 1 when listening and no -externalip or -"
@@ -149,7 +149,7 @@ QT_TRANSLATE_NOOP("bitcoinmonster-core", ""
 "Output debugging information (default: %u, supplying <category> is optional)"),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", ""
 "Please check that your computer's date and time are correct! If your clock "
-"is wrong Coin2Fly Core will not work properly."),
+"is wrong Bitcoin Monster Core will not work properly."),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", ""
 "PrivateSend uses exact denominated amounts to send funds, you might simply "
 "need to anonymize some more coins."),
@@ -212,7 +212,7 @@ QT_TRANSLATE_NOOP("bitcoinmonster-core", ""
 "Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = "
 "no limit (default: %d)"),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", ""
-"Unable to bind to %s on this computer. Coin2Fly Core is probably already running."),
+"Unable to bind to %s on this computer. Bitcoin Monster Core is probably already running."),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", ""
 "Unable to locate enough PrivateSend denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", ""
@@ -314,7 +314,7 @@ QT_TRANSLATE_NOOP("bitcoinmonster-core", "Connect to a node to retrieve peer add
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Connection options:"),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Copyright (C) 2014-%i The Dash Core Developers"),
-QT_TRANSLATE_NOOP("bitcoinmonster-core", "Copyright (C) 2017-%i The Coin2Fly Core Developers"),
+QT_TRANSLATE_NOOP("bitcoinmonster-core", "Copyright (C) 2017-%i The Bitcoin Monster Core Developers"),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Corrupted block database detected"),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Could not parse masternode.conf"),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Debugging/Testing options:"),
@@ -337,7 +337,7 @@ QT_TRANSLATE_NOOP("bitcoinmonster-core", "Error initializing wallet database env
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Error loading block database"),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Error loading wallet.dat"),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("bitcoinmonster-core", "Error loading wallet.dat: Wallet requires newer version of Coin2Fly Core"),
+QT_TRANSLATE_NOOP("bitcoinmonster-core", "Error loading wallet.dat: Wallet requires newer version of Bitcoin Monster Core"),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Error opening block database"),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Error reading from database, shutting down."),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Error"),
@@ -360,7 +360,7 @@ QT_TRANSLATE_NOOP("bitcoinmonster-core", "Incompatible mode."),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Incompatible version."),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Information"),
-QT_TRANSLATE_NOOP("bitcoinmonster-core", "Initialization sanity check failed. Coin2Fly Core is shutting down."),
+QT_TRANSLATE_NOOP("bitcoinmonster-core", "Initialization sanity check failed. Bitcoin Monster Core is shutting down."),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Input is not valid."),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "InstantSend options:"),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Insufficient funds."),
@@ -509,7 +509,7 @@ QT_TRANSLATE_NOOP("bitcoinmonster-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Very low number of keys left: %d"),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Wallet %s resides outside data directory %s"),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Wallet is locked."),
-QT_TRANSLATE_NOOP("bitcoinmonster-core", "Wallet needed to be rewritten: restart Coin2Fly Core to complete"),
+QT_TRANSLATE_NOOP("bitcoinmonster-core", "Wallet needed to be rewritten: restart Bitcoin Monster Core to complete"),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Wallet options:"),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Wallet window title"),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Warning"),

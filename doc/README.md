@@ -1,11 +1,11 @@
-Coin2Fly Core 0.12.1.4
+Bitcoin Monster Core 0.12.1.4
 =====================
 
-This is the official reference wallet for Coin2Fly digital currency and comprises the backbone of the Coin2Fly peer-to-peer network. You can [download Coin2Fly Core](https://www.bitcoinmonster.org/downloads/) or [build it yourself](#building) using the guides below.
+This is the official reference wallet for Bitcoin Monster digital currency and comprises the backbone of the Bitcoin Monster peer-to-peer network. You can [download Bitcoin Monster Core](https://www.bitcoinmonster.org/downloads/) or [build it yourself](#building) using the guides below.
 
 Running
 ---------------------
-The following are some helpful notes on how to run Coin2Fly on your native platform.
+The following are some helpful notes on how to run Bitcoin Monster on your native platform.
 
 ### Unix
 
@@ -20,11 +20,11 @@ Unpack the files into a directory, and then run bitcoinmonster-qt.exe.
 
 ### OS X
 
-Drag Coin2Fly-Qt to your applications folder, and then run Coin2Fly-Qt.
+Drag Bitcoin Monster-Qt to your applications folder, and then run Bitcoin Monster-Qt.
 
 Building
 ---------------------
-The following are developer notes on how to build Coin2Fly Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Bitcoin Monster Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OS X Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -34,7 +34,7 @@ The following are developer notes on how to build Coin2Fly Core on your native p
 
 Development
 ---------------------
-The Coin2Fly Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Bitcoin Monster Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -50,7 +50,7 @@ The Coin2Fly Core repo's [root README](/README.md) contains relevant information
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [Coin2FlyTalk](https://bitcoinmonstertalk.org/) forums, in the Development & Technical Discussion board.
+* Discuss on the [Bitcoin MonsterTalk](https://bitcoinmonstertalk.org/) forums, in the Development & Technical Discussion board.
 * Discuss on [#bitcoinmonstercoin](http://webchat.freenode.net/?channels=bitcoinmonstercoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=bitcoinmonstercoin).
 
 ### Miscellaneous

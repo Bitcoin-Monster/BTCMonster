@@ -29,7 +29,7 @@ class QUrl;
 class QWidget;
 QT_END_NAMESPACE
 
-/** Utility functions used by the Coin2Fly Qt UI.
+/** Utility functions used by the Bitcoin Monster Qt UI.
  */
 namespace GUIUtil
 {

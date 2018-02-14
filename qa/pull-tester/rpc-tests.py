@@ -149,7 +149,7 @@ testScriptsExt = [
     'p2p-acceptblock.py', # NOTE: needs bitcoinmonster_hash to pass
     'mempool_packages.py',
     'maxuploadtarget.py',
-    # 'replace-by-fee.py', # RBF is disabled in Coin2Fly Core
+    # 'replace-by-fee.py', # RBF is disabled in Bitcoin Monster Core
 ]
 
 def runtests():

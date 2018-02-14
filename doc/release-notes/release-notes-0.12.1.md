@@ -186,7 +186,7 @@ Thanks to everyone who directly contributed to this release:
 - Alex Morcos
 - BtcDrak
 - Jonas Schnelli
-- Luke Coin2Flyjr
+- Luke Bitcoin Monsterjr
 - MarcoFalke
 - Mark Friedenbach
 - NicolasDorier

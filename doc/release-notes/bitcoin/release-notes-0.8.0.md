@@ -117,7 +117,7 @@ Forrest Voight
 Gavin Andresen
 Gregory Maxwell
 Jeff Garzik
-Luke Coin2Flyjr
+Luke Bitcoin Monsterjr
 Matt Corallo
 Mike Cassano
 Mike Hearn

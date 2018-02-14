@@ -2,7 +2,7 @@
 
 # Helpful little script that spits out a comma-separated list of
 # language codes for Qt icons that should be included
-# in binary Coin2Fly Core distributions
+# in binary Bitcoin Monster Core distributions
 
 import glob
 import os

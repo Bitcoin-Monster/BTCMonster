@@ -62,12 +62,12 @@
         <translation>Adres odbiorczy</translation>
     </message>
     <message>
-        <source>These are your Coin2Fly addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To są twoje adresy Coin2Fly na które wysyłasz płatności. Zawsze upewnij się, że kwota i adres są prawidłowe zanim wyślesz monety.</translation>
+        <source>These are your Bitcoin Monster addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To są twoje adresy Bitcoin Monster na które wysyłasz płatności. Zawsze upewnij się, że kwota i adres są prawidłowe zanim wyślesz monety.</translation>
     </message>
     <message>
-        <source>These are your Coin2Fly addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To są twoje adresy do otrzymywania Coin2Flyów. Zaleca się aby stworzyć nowy adres dla każdej transakcji</translation>
+        <source>These are your Bitcoin Monster addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To są twoje adresy do otrzymywania Bitcoin Monsterów. Zaleca się aby stworzyć nowy adres dla każdej transakcji</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,8 +188,8 @@
         <translation>Portfel zaszyfrowany</translation>
     </message>
     <message>
-        <source>Coin2Fly will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoinmonsters from being stolen by malware infecting your computer.</source>
-        <translation>Coin2Fly zostanie teraz zamknięty aby zakończyć proces szyfrowania. Pamiętaj, że zaszyfrowanie portfela nie gwarantuje pełnej ochrony przed kradzieżą twoich monet przez złośliwe oprogramowanie.</translation>
+        <source>Bitcoin Monster will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoinmonsters from being stolen by malware infecting your computer.</source>
+        <translation>Bitcoin Monster zostanie teraz zamknięty aby zakończyć proces szyfrowania. Pamiętaj, że zaszyfrowanie portfela nie gwarantuje pełnej ochrony przed kradzieżą twoich monet przez złośliwe oprogramowanie.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Coin2Fly Core</source>
-        <translation>Coin2Fly Core</translation>
+        <source>Bitcoin Monster Core</source>
+        <translation>Bitcoin Monster Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,8 +255,8 @@
         <translation>Wyślij</translation>
     </message>
     <message>
-        <source>Send coins to a Coin2Fly address</source>
-        <translation>Wyślij monety na adres Coin2Fly</translation>
+        <source>Send coins to a Bitcoin Monster address</source>
+        <translation>Wyślij monety na adres Bitcoin Monster</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -283,12 +283,12 @@
         <translation>Zamknij program</translation>
     </message>
     <message>
-        <source>&amp;About Coin2Fly Core</source>
-        <translation>&amp;O Coin2Fly Core</translation>
+        <source>&amp;About Bitcoin Monster Core</source>
+        <translation>&amp;O Bitcoin Monster Core</translation>
     </message>
     <message>
-        <source>Show information about Coin2Fly Core</source>
-        <translation>Pokaż informacje o Coin2Fly Core</translation>
+        <source>Show information about Bitcoin Monster Core</source>
+        <translation>Pokaż informacje o Bitcoin Monster Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Opcje...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Coin2Fly</source>
-        <translation>Zmień opcje konfiguracji dla Coin2Fly</translation>
+        <source>Modify configuration options for Bitcoin Monster</source>
+        <translation>Zmień opcje konfiguracji dla Bitcoin Monster</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>Podpisz wiado&amp;mość...</translation>
     </message>
     <message>
-        <source>Sign messages with your Coin2Fly addresses to prove you own them</source>
-        <translation>Podpisz wiadomości swoim adresem Coin2Fly aby udowodnić, że jesteś ich właścicielem. </translation>
+        <source>Sign messages with your Bitcoin Monster addresses to prove you own them</source>
+        <translation>Podpisz wiadomości swoim adresem Bitcoin Monster aby udowodnić, że jesteś ich właścicielem. </translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Zweryfikuj wiadomość...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Coin2Fly addresses</source>
-        <translation>Zweryfikuj wiadomości aby upewnić się, że zostały one podpisane wybranym adresem Coin2Fly</translation>
+        <source>Verify messages to ensure they were signed with specified Bitcoin Monster addresses</source>
+        <translation>Zweryfikuj wiadomości aby upewnić się, że zostały one podpisane wybranym adresem Bitcoin Monster</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -451,8 +451,8 @@
         <translation>&amp;Opcje konsoli</translation>
     </message>
     <message>
-        <source>Coin2Fly Core client</source>
-        <translation>Klient Coin2Fly Core</translation>
+        <source>Bitcoin Monster Core client</source>
+        <translation>Klient Bitcoin Monster Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Synchronizuję dodatkowe dane: %p%</translation>
     </message>
     <message>
-        <source>Show the Coin2Fly Core help message to get a list with possible Coin2Fly command-line options</source>
-        <translation>Pokaż wiadomość pomocy Coin2Fly Core aby otrzymać listę z dostępnymi opcjami linii komend.</translation>
+        <source>Show the Bitcoin Monster Core help message to get a list with possible Bitcoin Monster command-line options</source>
+        <translation>Pokaż wiadomość pomocy Bitcoin Monster Core aby otrzymać listę z dostępnymi opcjami linii komend.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -487,8 +487,8 @@
         <translation>Pasek zakładek</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Coin2Fly network</source>
-        <translation><numerusform>%n aktywne połączenie do sieci Coin2Fly</numerusform><numerusform>%n aktywne połączenia do sieci Coin2Fly</numerusform><numerusform>%n aktywne połączenia do sieci Coin2Fly</numerusform></translation>
+        <source>%n active connection(s) to Bitcoin Monster network</source>
+        <translation><numerusform>%n aktywne połączenie do sieci Bitcoin Monster</numerusform><numerusform>%n aktywne połączenia do sieci Bitcoin Monster</numerusform><numerusform>%n aktywne połączenia do sieci Bitcoin Monster</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -896,16 +896,16 @@ Adres: %4
         <translation>Konfiguracja Darksend</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Coin2Fly's configuration screen.</source>
-        <translation>Darksend został pomyślnie ustawiony na poziom podstawowy (%1 oraz 2 rundy). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją Coin2Fly.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Bitcoin Monster's configuration screen.</source>
+        <translation>Darksend został pomyślnie ustawiony na poziom podstawowy (%1 oraz 2 rundy). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją Bitcoin Monster.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Coin2Fly's configuration screen.</source>
-        <translation>Darksend został pomyślnie ustawiony na poziom wysoki (%1 oraz 8 rund). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją Coin2Fly.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Bitcoin Monster's configuration screen.</source>
+        <translation>Darksend został pomyślnie ustawiony na poziom wysoki (%1 oraz 8 rund). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją Bitcoin Monster.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Coin2Fly's configuration screen.</source>
-        <translation>Darksend został pomyślnie ustawiony na poziom maksymalny (%1 oraz 16 rund). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją Coin2Fly.</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Bitcoin Monster's configuration screen.</source>
+        <translation>Darksend został pomyślnie ustawiony na poziom maksymalny (%1 oraz 16 rund). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją Bitcoin Monster.</translation>
     </message>
 </context>
 <context>
@@ -947,8 +947,8 @@ Adres: %4
         <translation>Zmień adres wysyłania</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Coin2Fly address.</source>
-        <translation>Wprowadzony adres "%1" nie jest właściwym adresem Coin2Fly.</translation>
+        <source>The entered address "%1" is not a valid Bitcoin Monster address.</source>
+        <translation>Wprowadzony adres "%1" nie jest właściwym adresem Bitcoin Monster.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -989,8 +989,8 @@ Adres: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Coin2Fly Core</source>
-        <translation>Coin2Fly Core</translation>
+        <source>Bitcoin Monster Core</source>
+        <translation>Bitcoin Monster Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Adres: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Coin2Fly Core</source>
-        <translation>Informacje o Coin2Fly Core</translation>
+        <source>About Bitcoin Monster Core</source>
+        <translation>Informacje o Bitcoin Monster Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1048,16 +1048,16 @@ Adres: %4
         <translation>Witaj</translation>
     </message>
     <message>
-        <source>Welcome to Coin2Fly Core.</source>
-        <translation>Witaj w Coin2Fly Core</translation>
+        <source>Welcome to Bitcoin Monster Core.</source>
+        <translation>Witaj w Bitcoin Monster Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Coin2Fly Core will store its data.</source>
-        <translation>Ponieważ uruchomiłeś ten program po raz pierwszy, możesz wybrać gdzie Coin2Fly Core będzie przechowywał dane.</translation>
+        <source>As this is the first time the program is launched, you can choose where Bitcoin Monster Core will store its data.</source>
+        <translation>Ponieważ uruchomiłeś ten program po raz pierwszy, możesz wybrać gdzie Bitcoin Monster Core będzie przechowywał dane.</translation>
     </message>
     <message>
-        <source>Coin2Fly Core will download and store a copy of the Coin2Fly block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Coin2Fly Core ściągnie i przechowa  kopię blockchain na twoim dysku. Co najmniej %1GB danych zostanie zapisanych w tym katalogu, a wraz z upływem czasu blockchain będzie stopniowo wymagał coraz więcej miejsca. Twój portfel również zostanie zapisany w tym katalogu.</translation>
+        <source>Bitcoin Monster Core will download and store a copy of the Bitcoin Monster block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Bitcoin Monster Core ściągnie i przechowa  kopię blockchain na twoim dysku. Co najmniej %1GB danych zostanie zapisanych w tym katalogu, a wraz z upływem czasu blockchain będzie stopniowo wymagał coraz więcej miejsca. Twój portfel również zostanie zapisany w tym katalogu.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1068,8 +1068,8 @@ Adres: %4
         <translation>Użyj wybranego folderu dla danych</translation>
     </message>
     <message>
-        <source>Coin2Fly Core</source>
-        <translation>Coin2Fly Core</translation>
+        <source>Bitcoin Monster Core</source>
+        <translation>Bitcoin Monster Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1122,12 +1122,12 @@ Adres: %4
         <translation>Główne</translation>
     </message>
     <message>
-        <source>Automatically start Coin2Fly after logging in to the system.</source>
-        <translation>Automatycznie uruchom Coin2Fly po zalogowaniu się do systemu.</translation>
+        <source>Automatically start Bitcoin Monster after logging in to the system.</source>
+        <translation>Automatycznie uruchom Bitcoin Monster po zalogowaniu się do systemu.</translation>
     </message>
     <message>
-        <source>&amp;Start Coin2Fly on system login</source>
-        <translation>&amp;Uruchom Coin2Fly po zalogowaniu się do systemu</translation>
+        <source>&amp;Start Bitcoin Monster on system login</source>
+        <translation>&amp;Uruchom Bitcoin Monster po zalogowaniu się do systemu</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1154,8 +1154,8 @@ Adres: %4
         <translation>Ta kwota działa jako próg po którego przekroczeniu Darksend zostaje wyłączony.</translation>
     </message>
     <message>
-        <source>Amount of Coin2Fly to keep anonymized</source>
-        <translation>Ilość Coin2Flyów, które mają pozostać anonimowe.</translation>
+        <source>Amount of Bitcoin Monster to keep anonymized</source>
+        <translation>Ilość Bitcoin Monsterów, które mają pozostać anonimowe.</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1174,8 +1174,8 @@ Adres: %4
         <translation>Zezwól na przychdzące połączenia</translation>
     </message>
     <message>
-        <source>Connect to the Coin2Fly network through a SOCKS5 proxy.</source>
-        <translation>Połącz się z siecią Coin2Fly przez proxy SOCKS5.</translation>
+        <source>Connect to the Bitcoin Monster network through a SOCKS5 proxy.</source>
+        <translation>Połącz się z siecią Bitcoin Monster przez proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1206,7 +1206,7 @@ Adres: %4
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>Automatically open the Coin2Fly client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Bitcoin Monster client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automatycznie uruchamiaj port klienta Darkcoina na ruterze. To działa tylko jeśli twój ruter wspiera  i ma włączone UPnP.</translation>
     </message>
     <message>
@@ -1258,13 +1258,13 @@ Adres: %4
         <translation>Język &amp;Użytkownika:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Coin2Fly.</source>
-        <translation>Tutaj można ustawić język interfejsu użytkownika. To ustawienie zostanie zapisane po ponownym uruchomieniu Coin2Fly.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Monster.</source>
+        <translation>Tutaj można ustawić język interfejsu użytkownika. To ustawienie zostanie zapisane po ponownym uruchomieniu Bitcoin Monster.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
 https://www.transifex.com/projects/p/bitcoinmonster/</source>
-        <translation>Coin2Fly Core nie został przetłumaczony na twój język? Tłumaczenie jest niepełne lub niepoprawne? Możesz pomóc nam tłumaczyć tutaj:
+        <translation>Bitcoin Monster Core nie został przetłumaczony na twój język? Tłumaczenie jest niepełne lub niepoprawne? Możesz pomóc nam tłumaczyć tutaj:
 https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
@@ -1347,8 +1347,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Formularz</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Coin2Fly network after a connection is established, but this process has not completed yet.</source>
-        <translation>Wyświetlona informacja może być przedawniona. Twój portfel automatycznie zsynchronizuje sie z siecią Coin2Fly jak tylko zostanie ustanowione połączenie, jednakże proces ten jeszcze się nie zakończył.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin Monster network after a connection is established, but this process has not completed yet.</source>
+        <translation>Wyświetlona informacja może być przedawniona. Twój portfel automatycznie zsynchronizuje sie z siecią Bitcoin Monster jak tylko zostanie ustanowione połączenie, jednakże proces ten jeszcze się nie zakończył.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1588,8 +1588,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Nieprawidłowy adres płatności %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Coin2Fly address or malformed URI parameters.</source>
-        <translation>URI nie może zostać przeanalizowany! Mogło to być spowodowane przez niewłaściwy adres Coin2Fly lub niewłaściwe parametry URI</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin Monster address or malformed URI parameters.</source>
+        <translation>URI nie może zostać przeanalizowany! Mogło to być spowodowane przez niewłaściwy adres Bitcoin Monster lub niewłaściwe parametry URI</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1674,8 +1674,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Ilość</translation>
     </message>
     <message>
-        <source>Enter a Coin2Fly address (e.g. %1)</source>
-        <translation>Wpisz adres Coin2Fly (np. %1)</translation>
+        <source>Enter a Bitcoin Monster address (e.g. %1)</source>
+        <translation>Wpisz adres Bitcoin Monster (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1764,7 +1764,7 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Liczba połączeń</translation>
     </message>
     <message>
-        <source>Open the Coin2Fly debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Bitcoin Monster debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Otwiera plik z zapisami debugowania Darkcoina z obecnego katalogu. Może to potrfać kilka sekund w zależności od rozmiaru pliku.</translation>
     </message>
     <message>
@@ -1972,7 +1972,7 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Wyjście:</translation>
     </message>
     <message>
-        <source>Welcome to the Coin2Fly RPC console.</source>
+        <source>Welcome to the Bitcoin Monster RPC console.</source>
         <translation>Witaj w konsoli RPC Darkcoina</translation>
     </message>
     <message>
@@ -2035,8 +2035,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Użyj istniejący adres odbiorczy (nie zalecane)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Coin2Fly network.</source>
-        <translation>Opcjonalna wiadomość do żądania płatności. Wiadomość wyświetli się po otwarciu żądania. Pamiętaj: Wiadomość nie zostanie wysłana razem z płatnością poprzez sieć Coin2Fly.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin Monster network.</source>
+        <translation>Opcjonalna wiadomość do żądania płatności. Wiadomość wyświetli się po otwarciu żądania. Pamiętaj: Wiadomość nie zostanie wysłana razem z płatnością poprzez sieć Bitcoin Monster.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2047,8 +2047,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Opcjonalna etykieta do skojarzenia z nowym adresem odbiorczym.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Coin2Fly network.</source>
-        <translation>Opcjonalna wiadomość do żądania płatności. Wiadomość wyświetli się po otwarciu żądania.&lt;br&gt; Pamiętaj: Wiadomość nie zostanie wysłana razem z płatnością poprzez sieć Coin2Fly.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Bitcoin Monster network.</source>
+        <translation>Opcjonalna wiadomość do żądania płatności. Wiadomość wyświetli się po otwarciu żądania.&lt;br&gt; Pamiętaj: Wiadomość nie zostanie wysłana razem z płatnością poprzez sieć Bitcoin Monster.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2496,8 +2496,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Uiść minimalną opłatę %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Coin2Fly address</source>
-        <translation>Ostrzeżenie: adres Coin2Fly jest nieprawidlowy </translation>
+        <source>Warning: Invalid Bitcoin Monster address</source>
+        <translation>Ostrzeżenie: adres Bitcoin Monster jest nieprawidlowy </translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2519,8 +2519,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Zapłać &amp;dla:</translation>
     </message>
     <message>
-        <source>The Coin2Fly address to send the payment to</source>
-        <translation>Adres Coin2Fly na który wysłać fundusze</translation>
+        <source>The Bitcoin Monster address to send the payment to</source>
+        <translation>Adres Bitcoin Monster na który wysłać fundusze</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2559,7 +2559,7 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Wiadomość:</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoinmonster: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Coin2Fly network.</source>
+        <source>A message that was attached to the bitcoinmonster: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin Monster network.</source>
         <translation>Wiadomość, która została dołączona do bitcoinmonster: Link, który zostanie zapisany wraz z transakcją do wglądu w przyszłości. Zauważ. że sama wiadomość nie zostanie wysłana przez sieć Darkcoina.</translation>
     </message>
     <message>
@@ -2586,8 +2586,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Coin2Fly Core is shutting down...</source>
-        <translation>Trwa zamykanie Coin2Fly Core</translation>
+        <source>Bitcoin Monster Core is shutting down...</source>
+        <translation>Trwa zamykanie Bitcoin Monster Core</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2609,8 +2609,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Możesz podpisywać wiadomości swoimi adresami aby udowodnić, że jesteś ich właścicielem. Uważaj, aby nie podpisywać niczego co wzbudza Twoje podejrzenia, ponieważ ktoś może stosować phishing próbując nakłonić Cię do ich podpisania. Akceptuj i podpisuj tylko w pełni zrozumiałe komunikaty i wiadomości.</translation>
     </message>
     <message>
-        <source>The Coin2Fly address to sign the message with</source>
-        <translation>Adres Coin2Fly do podpisu wiadomości</translation>
+        <source>The Bitcoin Monster address to sign the message with</source>
+        <translation>Adres Bitcoin Monster do podpisu wiadomości</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2641,8 +2641,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Kopiuje aktualny podpis do schowka systemowego</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Coin2Fly address</source>
-        <translation>Podpisz wiadomość aby udowodnić, że jesteś właścicielem adresu Coin2Fly.</translation>
+        <source>Sign the message to prove you own this Bitcoin Monster address</source>
+        <translation>Podpisz wiadomość aby udowodnić, że jesteś właścicielem adresu Bitcoin Monster.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2665,12 +2665,12 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Wpisz adres podpisujący, podaj wiadomość (upewnij się, że dokładnie skopiujesz wszystkie zakończenia linii, spacje, tabulacje itp.) oraz podpis poniżej by sprawdzić wiadomość. Uważaj by nie dodać więcej do podpisu niż do samej podpisywanej wiadomości by uniknąć ataku man-in-the-middle (człowiek pośrodku)</translation>
     </message>
     <message>
-        <source>The Coin2Fly address the message was signed with</source>
-        <translation>Adres Coin2Fly którym wiadomość została podpisana</translation>
+        <source>The Bitcoin Monster address the message was signed with</source>
+        <translation>Adres Bitcoin Monster którym wiadomość została podpisana</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Coin2Fly address</source>
-        <translation>Zweryfikuj wiadomość aby upewnić się, że została zapisana przez konkretny adres Coin2Fly</translation>
+        <source>Verify the message to ensure it was signed with the specified Bitcoin Monster address</source>
+        <translation>Zweryfikuj wiadomość aby upewnić się, że została zapisana przez konkretny adres Bitcoin Monster</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2736,8 +2736,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Coin2Fly Core</source>
-        <translation>Coin2Fly Core</translation>
+        <source>Bitcoin Monster Core</source>
+        <translation>Bitcoin Monster Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2748,8 +2748,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Deweloperzy Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Coin2Fly Core developers</source>
-        <translation>Deweloperzy Coin2Fly Core</translation>
+        <source>The Bitcoin Monster Core developers</source>
+        <translation>Deweloperzy Bitcoin Monster Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3326,8 +3326,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Związany z danym adresem oraz zawsze prowadzący na nim nasłuch.  Użyj [host]:oznaczenie dla IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Coin2Fly Core is probably already running.</source>
-        <translation>Nie można zablokować katalogu danych %s. Prawdopodobnie Coin2Fly jest już uruchomiony. </translation>
+        <source>Cannot obtain a lock on data directory %s. Bitcoin Monster Core is probably already running.</source>
+        <translation>Nie można zablokować katalogu danych %s. Prawdopodobnie Bitcoin Monster jest już uruchomiony. </translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3382,8 +3382,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Ta wersja nie jest jeszcze gotowa na oficjalne wydanie - używaj jej na własne ryzyko - nie używaj tej wersji do kopania monet lub do świadczenia usług komercyjnych.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Coin2Fly Core is probably already running.</source>
-        <translation>Niezdolny do związania z %s na tym komputerze. Prawdopodobnie Coin2Fly jest już uruchomiony. </translation>
+        <source>Unable to bind to %s on this computer. Bitcoin Monster Core is probably already running.</source>
+        <translation>Niezdolny do związania z %s na tym komputerze. Prawdopodobnie Bitcoin Monster jest już uruchomiony. </translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
@@ -3614,8 +3614,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Usuń wszystkie transakcje portfela i odzyskaj tylko te części blockchainu - zeskanuj powonie na starcie.</translation>
     </message>
     <message>
-        <source>Disable all Coin2Fly specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Wyłącz wszystkie dodatkowe funckje Coin2Fly (Masternody, Darksend, InstanX, Budżetowanie) (0-1, domyślnie: %u)</translation>
+        <source>Disable all Bitcoin Monster specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Wyłącz wszystkie dodatkowe funckje Bitcoin Monster (Masternody, Darksend, InstanX, Budżetowanie) (0-1, domyślnie: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3719,7 +3719,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Coin2Fly Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Bitcoin Monster Alert" admin@foo.com
 </source>
         <translation>Aby używać bitcoinmonsterd, lub opcje -server w kliencie bitcoinmonster-qt, musisz ustawić hasło rpc w pliku konfiguracji:
 %s
@@ -3729,7 +3729,7 @@ rpcpassword=%s
 (Nie musisz pamiętać tego hasła)
 Twoje hasło NIE MOŻE być takie samo jak twój login.
 Jeśli plik ten nie istnieje, stwórz go z uprawnieniami do odczytu tylko przez właściciela.
-Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać ci znać w razie wystąpienia jekiegoś problemu, na przykład: alertnotify=echo %%s I -s "Coin2Fly Alert" admin@foo.com
+Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać ci znać w razie wystąpienia jekiegoś problemu, na przykład: alertnotify=echo %%s I -s "Bitcoin Monster Alert" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3745,8 +3745,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Uwaga: -maxtxfee jest bardzo wysoka! Tak duże opłaty mogą być uiszczone przy wysłaniu jednej transakcji.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Coin2Fly Core will not work properly.</source>
-        <translation>Uwaga: Proszę sprawdzić czy data i czas na twoim komputerze są poprawne! Jeśli twój zegar nie pokazuje prawidłowej godziny to Coin2Fly może nie działać poprawidłowo.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Monster Core will not work properly.</source>
+        <translation>Uwaga: Proszę sprawdzić czy data i czas na twoim komputerze są poprawne! Jeśli twój zegar nie pokazuje prawidłowej godziny to Bitcoin Monster może nie działać poprawidłowo.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3799,8 +3799,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Prawo autorskie (c) 2009-%i deweloperzy Bitcoin</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Coin2Fly Core Developers</source>
-        <translation>Prawa autorskie (C) 2014-%i deweloperzy Coin2Fly</translation>
+        <source>Copyright (C) 2014-%i The Bitcoin Monster Core Developers</source>
+        <translation>Prawa autorskie (C) 2014-%i deweloperzy Bitcoin Monster</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3831,8 +3831,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Błąd w połączeniu z Masternodem.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Coin2Fly Core</source>
-        <translation>Błą wczytywania wallet.dat: Portfel wymaga nowszej wersji Coin2Fly</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Monster Core</source>
+        <translation>Błą wczytywania wallet.dat: Portfel wymaga nowszej wersji Bitcoin Monster</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3903,8 +3903,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Informacja</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Coin2Fly Core is shutting down.</source>
-        <translation>Inicjalizacja kontroli poprawności nie powiodła się. Trwa zamykanie Coin2Fly Core</translation>
+        <source>Initialization sanity check failed. Bitcoin Monster Core is shutting down.</source>
+        <translation>Inicjalizacja kontroli poprawności nie powiodła się. Trwa zamykanie Bitcoin Monster Core</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4155,8 +4155,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Użyj UPnP aby zmapować port nasłuchu (domyślnie: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Coin2Fly Core to complete</source>
-        <translation>Portfel potrzebuje być przepisany: uruchom ponownie Coin2Fly Core aby zakończyć.</translation>
+        <source>Wallet needed to be rewritten: restart Bitcoin Monster Core to complete</source>
+        <translation>Portfel potrzebuje być przepisany: uruchom ponownie Bitcoin Monster Core aby zakończyć.</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>

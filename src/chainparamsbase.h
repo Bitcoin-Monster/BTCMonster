@@ -10,7 +10,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between bitcoinmonster-cli and bitcoinmonsterd)
- * of a given instance of the Coin2Fly system.
+ * of a given instance of the Bitcoin Monster system.
  */
 class CBaseChainParams
 {

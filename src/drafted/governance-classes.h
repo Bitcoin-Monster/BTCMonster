@@ -1,5 +1,5 @@
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2018 The Coin2Fly Core developers
+// Copyright (c) 2017-2018 The Bitcoin Monster Core developers
 
 /*
  * FIELDS AND CLASSIFICATION
@@ -46,7 +46,7 @@
  * =========================
  *
  *   // network
- *   CCoin2FlyNetwork lvl, network-type, network-status, network-error, milestone-status*
+ *   CBitcoin MonsterNetwork lvl, network-type, network-status, network-error, milestone-status*
  *   CCategory lvl, category-type, status, status-error
  *   CNetworkGlobalVariable lvl, global-type, status, status-error
  *   // base: actor
@@ -130,7 +130,7 @@ public:
 };
 
 // // root node
-class CCoin2FlyNetwork : public CGovernanceObject
+class CBitcoin MonsterNetwork : public CGovernanceObject
 {
 private:
     std::string strName;
@@ -138,7 +138,7 @@ private:
 
 
 public:
-    CCoin2FlyNetwork(UniValue objIn)
+    CBitcoin MonsterNetwork(UniValue objIn)
     {
         strName = objIn["name"].get_str();
         strURL = objIn["name"].get_str();
@@ -174,9 +174,9 @@ public:
 
 };
 
-// // can be under: Coin2FlyNetwork
+// // can be under: Bitcoin MonsterNetwork
 // //   -- signature requirements : Key1(User)
-// class CCoin2FlyNetworkVariable : public CGovernanceObject
+// class CBitcoin MonsterNetworkVariable : public CGovernanceObject
 // {
 // private:
 
@@ -279,7 +279,7 @@ public:
 //     // isRootCategory()
 //     // {
 //     //     // root categories won't have categories as parents
-//     //     return (IsType() == Coin2FlyNetwork);
+//     //     return (IsType() == Bitcoin MonsterNetwork);
 //     // }
 
 //     // isSubcategoryOf(std::string strParentName)

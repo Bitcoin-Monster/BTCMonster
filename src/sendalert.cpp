@@ -60,7 +60,7 @@ void ThreadSendAlert()
     alert.strStatusBar  = "URGENT: Upgrade required: see https://www.bitcoinmonster.com";
 
     // Set specific client version/versions here. If setSubVer is empty, no filtering on subver is done:
-    // alert.setSubVer.insert(std::string("/Coin2Fly Core:0.12.0.58/"));
+    // alert.setSubVer.insert(std::string("/Bitcoin Monster Core:0.12.0.58/"));
 
     // Sign
     if(!alert.Sign())

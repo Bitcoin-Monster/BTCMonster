@@ -32,10 +32,10 @@ Package: bitcoinmonsterd
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
- Coin2Fly is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. Coin2Fly uses peer-to-peer
+ Bitcoin Monster is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Bitcoin Monster uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Coin2Fly Core
+ and issuing money are carried out collectively by the network. Bitcoin Monster Core
  is the name of the open source software which enables the use of this currency.
  .
  This package provides the daemon, bitcoinmonsterd, and the CLI tool
@@ -45,22 +45,22 @@ Package: bitcoinmonster-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
- Coin2Fly is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. Coin2Fly uses peer-to-peer
+ Bitcoin Monster is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Bitcoin Monster uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Coin2Fly Core
+ and issuing money are carried out collectively by the network. Bitcoin Monster Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides Coin2Fly-Qt, a GUI for Coin2Fly based on Qt.
+ This package provides Bitcoin Monster-Qt, a GUI for Bitcoin Monster based on Qt.
 
 Package: bitcoinmonster-tx
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer digital currency - standalone transaction tool
- Coin2Fly is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. Coin2Fly uses peer-to-peer
+ Bitcoin Monster is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Bitcoin Monster uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Coin2Fly Core
+ and issuing money are carried out collectively by the network. Bitcoin Monster Core
  is the name of the open source software which enables the use of this currency.
  .
  This package provides bitcoinmonster-tx, a command-line transaction creation
