@@ -113,7 +113,7 @@ QT_TRANSLATE_NOOP("bitcoinmonster-core", ""
 "confirmation on average within n blocks (default: %u)"),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", ""
 "InstantSend doesn't support sending values that high yet. Transactions are "
-"currently limited to %1 CTF."),
+"currently limited to %1 MON."),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", ""
 "InstantSend requires inputs with at least %d confirmations, you might need "
 "to wait a few minutes and try again."),
@@ -217,10 +217,10 @@ QT_TRANSLATE_NOOP("bitcoinmonster-core", ""
 "Unable to locate enough PrivateSend denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", ""
 "Unable to locate enough PrivateSend non-denominated funds for this "
-"transaction that are not equal 1000 CTF."),
+"transaction that are not equal 1000 MON."),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", ""
 "Unable to locate enough funds for this transaction that are not equal 1000 "
-"CTF."),
+"MON."),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", ""
 "Unsupported argument -socks found. Setting SOCKS version isn't possible "
 "anymore, only SOCKS5 proxies are supported."),
@@ -378,7 +378,7 @@ QT_TRANSLATE_NOOP("bitcoinmonster-core", "Invalid port detected in masternode.co
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Invalid script detected."),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "KeePassHttp id for the established association"),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "KeePassHttp key for AES encrypted communication with KeePass"),
-QT_TRANSLATE_NOOP("bitcoinmonster-core", "Keep N CTF anonymized (default: %u)"),
+QT_TRANSLATE_NOOP("bitcoinmonster-core", "Keep N MON anonymized (default: %u)"),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Keep at most <n> unconnectable transactions in memory (default: %u)"),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Keep the transaction memory pool below <n> megabytes (default: %u)"),
 QT_TRANSLATE_NOOP("bitcoinmonster-core", "Last PrivateSend was too recent."),

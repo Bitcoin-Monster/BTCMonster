@@ -49,7 +49,7 @@
 	// 			-> USER1 (only users are allowed here in this scope)
 	// 			-> USER2
 	// 		-> GROUP2 (EVO)
-	// 			-> VALUEOVERRIDE (STORE=CTFDRIVE)
+	// 			-> VALUEOVERRIDE (STORE=MONDRIVE)
 	// 			-> USER1
 
 	// 	-> COMPANIES

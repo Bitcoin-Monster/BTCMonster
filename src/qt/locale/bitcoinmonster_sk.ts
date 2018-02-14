@@ -172,8 +172,8 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CTF&lt;/b&gt;!</source>
-        <translation>Upozornenie: Ak zašifrujete vašu peňaženku a stratíte prístupové heslo, potom &lt;b&gt;prídete o všetky svoje CTF-y&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MON&lt;/b&gt;!</source>
+        <translation>Upozornenie: Ak zašifrujete vašu peňaženku a stratíte prístupové heslo, potom &lt;b&gt;prídete o všetky svoje MON-y&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -901,28 +901,28 @@
         <translation>Prosím vyberte úroveň súkromia.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 CTF</source>
-        <translation>Použiť 2 rozdielne masternode pre fixovanie prostriedkov až do 1000 CTF</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 MON</source>
+        <translation>Použiť 2 rozdielne masternode pre fixovanie prostriedkov až do 1000 MON</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 CTF</source>
-        <translation>Použiť 8 rozdielnych masternode pre fixovanie prostriedkov až do 1000 CTF</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 MON</source>
+        <translation>Použiť 8 rozdielnych masternode pre fixovanie prostriedkov až do 1000 MON</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Použiť 16 rozdielnych masternode</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 CTF to anonymize 1000 CTF</source>
-        <translation>Táto možnosť je najrýchlejšia a bude stáť približne 0.025 CTF pre anonimizáciu 1000 CTF</translation>
+        <source>This option is the quickest and will cost about ~0.025 MON to anonymize 1000 MON</source>
+        <translation>Táto možnosť je najrýchlejšia a bude stáť približne 0.025 MON pre anonimizáciu 1000 MON</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 CTF to anonymize 1000 CTF</source>
-        <translation>Táto možnosť je stredne rýchla bude stáť približne 0.05 CTF pre anonimizáciu 1000 CTF</translation>
+        <source>This option is moderately fast and will cost about 0.05 MON to anonymize 1000 MON</source>
+        <translation>Táto možnosť je stredne rýchla bude stáť približne 0.05 MON pre anonimizáciu 1000 MON</translation>
     </message>
     <message>
-        <source>0.1 CTF per 1000 CTF you anonymize.</source>
-        <translation>0.1 CTF za 1000 CTF ktoré spravíte anonymnými.</translation>
+        <source>0.1 MON per 1000 MON you anonymize.</source>
+        <translation>0.1 MON za 1000 MON ktoré spravíte anonymnými.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1523,8 +1523,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Čiastka a kolá:</translation>
     </message>
     <message>
-        <source>0 CTF / 0 Rounds</source>
-        <translation>0 CTF / 0 Kôl</translation>
+        <source>0 MON / 0 Rounds</source>
+        <translation>0 MON / 0 Kôl</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -3281,8 +3281,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Poslať Mince</translation>
     </message>
     <message>
-        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 CTF.</source>
-        <translation>InstantSend zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 CTF.</translation>
+        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 MON.</source>
+        <translation>InstantSend zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 MON.</translation>
     </message>
     </context>
 <context>
@@ -3587,8 +3587,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Tento produkt obsahuje softvér vyvinutý projektom OpenSSL pre použitie sady nástrojov OpenSSL &lt;https://www.openssl.org/&gt; a kryptografického softvéru napísaného Eric Young a UPnP softvér napísaný Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 CTF.</source>
-        <translation>Nenašiel sa dostatok prostriedkov pre túto transakciu, ktorú nie sú rovné 1000 CTF.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 MON.</source>
+        <translation>Nenašiel sa dostatok prostriedkov pre túto transakciu, ktorú nie sú rovné 1000 MON.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3939,8 +3939,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Kľúč KeePassHttp pre šifrovanú AES komunikáciu s KeePass</translation>
     </message>
     <message>
-        <source>Keep N CTF anonymized (default: %u)</source>
-        <translation>Udržiavať N CTF anonymizovaných (predvolené: %u)</translation>
+        <source>Keep N MON anonymized (default: %u)</source>
+        <translation>Udržiavať N MON anonymizovaných (predvolené: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
@@ -3971,8 +3971,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Poplatky (v %s/kB) menšie ako toto, sú považované za nulový transakčný poplatok (predvolené: %s)</translation>
     </message>
     <message>
-        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 CTF.</source>
-        <translation>InstantSend zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 CTF.</translation>
+        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 MON.</source>
+        <translation>InstantSend zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 MON.</translation>
     </message>
     <message>
         <source>InstantSend requires inputs with at least %d confirmations, you might need to wait a few minutes and try again.</source>
@@ -3999,8 +3999,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Nedá sa nájsť dostatok denominácií PrivateSend pre túto transakciu. </translation>
     </message>
     <message>
-        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 CTF.</source>
-        <translation>Nedá sa nájsť dostatok ne-denominovaných PrivateSend zdrojov pre túto transakciu, ktoré nie sú rovné 1000 CTF.</translation>
+        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 MON.</source>
+        <translation>Nedá sa nájsť dostatok ne-denominovaných PrivateSend zdrojov pre túto transakciu, ktoré nie sú rovné 1000 MON.</translation>
     </message>
     <message>
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>

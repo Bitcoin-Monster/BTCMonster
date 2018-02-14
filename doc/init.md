@@ -104,7 +104,7 @@ use old versions of Upstart and do not supply the start-stop-daemon utility.
 Copy bitcoinmonsterd.init to /etc/init.d/bitcoinmonsterd. Test by running `service bitcoinmonsterd start`.
 
 Using this script, you can adjust the path and flags to the bitcoinmonsterd program by
-setting the CTFD and FLAGS environment variables in the file
+setting the MOND and FLAGS environment variables in the file
 /etc/sysconfig/bitcoinmonsterd. You can also use the DAEMONOPTS environment variable here.
 
 4e) Mac OS X

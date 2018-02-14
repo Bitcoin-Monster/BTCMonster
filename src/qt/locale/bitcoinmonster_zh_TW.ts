@@ -172,7 +172,7 @@
         <translation>確認錢包加密</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CTF&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MON&lt;/b&gt;!</source>
         <translation>警告: 如果把錢包加密後又忘記密碼，你就會從此&lt;b&gt;失去其中所有的達世幣了&lt;/b&gt;！</translation>
     </message>
     <message>
@@ -913,11 +913,11 @@
         <translation>請選擇穩私級別。</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 CTF</source>
+        <source>Use 2 separate masternodes to mix funds up to 1000 MON</source>
         <translation>使用2個獨立的主節點來混合最高達1000達世幣的資金</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 CTF</source>
+        <source>Use 8 separate masternodes to mix funds up to 1000 MON</source>
         <translation>使用8個獨立的主節點來混合最高達1000達世幣的資金</translation>
     </message>
     <message>
@@ -925,15 +925,15 @@
         <translation>使用16個獨立的主節點</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 CTF to anonymize 1000 CTF</source>
+        <source>This option is the quickest and will cost about ~0.025 MON to anonymize 1000 MON</source>
         <translation>這個是最快的選項，將耗費約~0.025達世幣作為匿名處理1000達世幣的費用</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 CTF to anonymize 1000 CTF</source>
+        <source>This option is moderately fast and will cost about 0.05 MON to anonymize 1000 MON</source>
         <translation>這個是一般的選項，將耗費約0.05達世幣作為匿名處理1000達世幣的費用</translation>
     </message>
     <message>
-        <source>0.1 CTF per 1000 CTF you anonymize.</source>
+        <source>0.1 MON per 1000 MON you anonymize.</source>
         <translation>每1000達世幣耗費0.1達世幣作為匿名處理費用</translation>
     </message>
     <message>
@@ -1623,7 +1623,7 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>金額和循環次數:</translation>
     </message>
     <message>
-        <source>0 CTF / 0 Rounds</source>
+        <source>0 MON / 0 Rounds</source>
         <translation>0 達世幣 / 0 循環次數</translation>
     </message>
     <message>
@@ -3428,8 +3428,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>付款</translation>
     </message>
     <message>
-        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 CTF.</source>
-        <translation>即時到帳系統暫時並不支援這麼高的交易金額。目前的金額僅限於%1 CTF。</translation>
+        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 MON.</source>
+        <translation>即時到帳系統暫時並不支援這麼高的交易金額。目前的金額僅限於%1 MON。</translation>
     </message>
     </context>
 <context>
@@ -3734,8 +3734,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>此產品也包含了由 OpenSSL Project 所開發的 OpenSSL Toolkit 軟體 &lt;https://www.openssl.org/&gt;, 和由 Eric Young 撰寫的加解密軟體，以及由 Thomas Bernard 所撰寫的 UPnP 軟體。</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 CTF.</source>
-        <translation>在本次交易中，無法找到不等於 1000 CTF 的足夠資金用。</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 MON.</source>
+        <translation>在本次交易中，無法找到不等於 1000 MON 的足夠資金用。</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4074,7 +4074,7 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>KeePassHttp  的密鑰，用作與KeePass 的AES加密通信</translation>
     </message>
     <message>
-        <source>Keep N CTF anonymized (default: %u)</source>
+        <source>Keep N MON anonymized (default: %u)</source>
         <translation>保留 N 個已經匿名處理的達世幣 (預設值: %u)</translation>
     </message>
     <message>
@@ -4102,8 +4102,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>當建立交易時，如果每千位元組(%s/Kb)的手續費比這個值低，就視為沒付手續費 (預設值: %s)</translation>
     </message>
     <message>
-        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 CTF.</source>
-        <translation>即時到帳系統暫時並不支援這麼高的交易金額。目前的金額僅限於%1 CTF。</translation>
+        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 MON.</source>
+        <translation>即時到帳系統暫時並不支援這麼高的交易金額。目前的金額僅限於%1 MON。</translation>
     </message>
     <message>
         <source>InstantSend requires inputs with at least %d confirmations, you might need to wait a few minutes and try again.</source>

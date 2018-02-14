@@ -176,8 +176,8 @@
         <translation>Potwierdź szyfrowanie portfela</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CTF&lt;/b&gt;!</source>
-        <translation>Ostrzeżenie: Jeśli zaszyfrujesz swój portfel i zgubisz swoje hasło, &lt;b&gt;STRACISZ WSZYSTKIE MONETY CTF&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MON&lt;/b&gt;!</source>
+        <translation>Ostrzeżenie: Jeśli zaszyfrujesz swój portfel i zgubisz swoje hasło, &lt;b&gt;STRACISZ WSZYSTKIE MONETY MON&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -864,28 +864,28 @@ Adres: %4
         <translation>Proszę wybrać poziom bezpieczeństwa.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 CTF</source>
-        <translation>Użyj 2 oddzielnych masternodów aby wymieszać środki max. do 1000 CTF</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 MON</source>
+        <translation>Użyj 2 oddzielnych masternodów aby wymieszać środki max. do 1000 MON</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 CTF</source>
-        <translation>Użyj 8 oddzielnych masternodów aby wymieszać środki max. do 1000 CTF</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 MON</source>
+        <translation>Użyj 8 oddzielnych masternodów aby wymieszać środki max. do 1000 MON</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Użyj 16 oddzielnych masternodów</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 CTF to anonymize 1000 CTF</source>
-        <translation>Ta opcja jest najszybsza i kosztuje około 0.025 CTF za zanonimizowanie 1000 CTF</translation>
+        <source>This option is the quickest and will cost about ~0.025 MON to anonymize 1000 MON</source>
+        <translation>Ta opcja jest najszybsza i kosztuje około 0.025 MON za zanonimizowanie 1000 MON</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 CTF to anonymize 1000 CTF</source>
-        <translation>Ta opcja jest w miarę szybka i kosztuje około 0.05 CTF za zanonimizowanie 1000 CTF</translation>
+        <source>This option is moderately fast and will cost about 0.05 MON to anonymize 1000 MON</source>
+        <translation>Ta opcja jest w miarę szybka i kosztuje około 0.05 MON za zanonimizowanie 1000 MON</translation>
     </message>
     <message>
-        <source>0.1 CTF per 1000 CTF you anonymize.</source>
-        <translation>0.1 CTF za każde 1000 CTF które zanonimizujesz.</translation>
+        <source>0.1 MON per 1000 MON you anonymize.</source>
+        <translation>0.1 MON za każde 1000 MON które zanonimizujesz.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1431,8 +1431,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Ilość oraz Rundy:</translation>
     </message>
     <message>
-        <source>0 CTF / 0 Rounds</source>
-        <translation>0 CTF / 0 Rund</translation>
+        <source>0 MON / 0 Rounds</source>
+        <translation>0 MON / 0 Rund</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -3276,8 +3276,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Wyślij płatność</translation>
     </message>
     <message>
-        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 CTF.</source>
-        <translation>InstantX jescze nie może przesłać tak wysokich kwot. Obecnie transakcje są ograniczone tylko do %1 CTF:</translation>
+        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 MON.</source>
+        <translation>InstantX jescze nie może przesłać tak wysokich kwot. Obecnie transakcje są ograniczone tylko do %1 MON:</translation>
     </message>
 </context>
 <context>
@@ -3390,8 +3390,8 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Nie znaleziono wystarczających denominowanych środków Darksend do wykonania tej transakcji.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 CTF.</source>
-        <translation>Nie znaleziono wystarczającej ilości nie zdenominowanych środków Darksend dla tej transakcji, które nie równają się 1000 CTF</translation>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 MON.</source>
+        <translation>Nie znaleziono wystarczającej ilości nie zdenominowanych środków Darksend dla tej transakcji, które nie równają się 1000 MON</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3634,12 +3634,12 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Błąd: niewspierany argument, znaleziono -socks. Ustawienie wersji SOCKS nie jest już możliwa, wspierane są tylkobramki  proxy SOCKS5.</translation>
     </message>
     <message>
-        <source>Fees (in CTF/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Opłaty (CTF/Kb) za retransmisje mniejsze niż ta, uważane są za równoznaczne z brakiem opłat (domyślnie: %s)</translation>
+        <source>Fees (in MON/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Opłaty (MON/Kb) za retransmisje mniejsze niż ta, uważane są za równoznaczne z brakiem opłat (domyślnie: %s)</translation>
     </message>
     <message>
-        <source>Fees (in CTF/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Opłaty (CTF/Kb) mniejsze niż ta, są uważane są za równoznaczne z brakiem opłat za stworzenie transakcji (domyślnie: %s)</translation>
+        <source>Fees (in MON/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Opłaty (MON/Kb) mniejsze niż ta, są uważane są za równoznaczne z brakiem opłat za stworzenie transakcji (domyślnie: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -3733,8 +3733,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
 </translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 CTF.</source>
-        <translation>Niemożliwe jest zlokalizowanie wystarczającej ilości środków dla tej transakcji, które nie są równe 1000 CTF.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 MON.</source>
+        <translation>Niemożliwe jest zlokalizowanie wystarczającej ilości środków dla tej transakcji, które nie są równe 1000 MON.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3847,8 +3847,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Błąd: Znaleziono niewspierany argument -tor, użyj -onion.</translation>
     </message>
     <message>
-        <source>Fee (in CTF/kB) to add to transactions you send (default: %s)</source>
-        <translation>Opłata (CTF/kB) do dodania do transakcji, którą chcesz wysłać (domyślnie: %s)</translation>
+        <source>Fee (in MON/kB) to add to transactions you send (default: %s)</source>
+        <translation>Opłata (MON/kB) do dodania do transakcji, którą chcesz wysłać (domyślnie: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4215,7 +4215,7 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Klucz KeePassHttp dla zaszyfrowanego metodą AES połączenia z KeePass</translation>
     </message>
     <message>
-        <source>Keep N CTF anonymized (default: %u)</source>
+        <source>Keep N MON anonymized (default: %u)</source>
         <translation>Utrzymuj N zanonimizowanych bitcoinmonster (domyślnie: %u)</translation>
     </message>
     <message>

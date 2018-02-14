@@ -20,9 +20,9 @@ BitcoinUnits::BitcoinUnits(QObject *parent):
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(CTF);
-    unitlist.append(mCTF);
-    unitlist.append(uCTF);
+    unitlist.append(MON);
+    unitlist.append(mMON);
+    unitlist.append(uMON);
     unitlist.append(duffs);
     return unitlist;
 }
@@ -31,9 +31,9 @@ bool BitcoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case CTF:
-    case mCTF:
-    case uCTF:
+    case MON:
+    case mMON:
+    case uMON:
     case duffs:
         return true;
     default:
@@ -47,9 +47,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case CTF: return QString("CTF");
-            case mCTF: return QString("mCTF");
-            case uCTF: return QString::fromUtf8("μCTF");
+            case MON: return QString("MON");
+            case mMON: return QString("mMON");
+            case uMON: return QString::fromUtf8("μMON");
             case duffs: return QString("duffs");
             default: return QString("???");
         }
@@ -58,9 +58,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case CTF: return QString("tCTF");
-            case mCTF: return QString("mtCTF");
-            case uCTF: return QString::fromUtf8("μtCTF");
+            case MON: return QString("tMON");
+            case mMON: return QString("mtMON");
+            case uMON: return QString::fromUtf8("μtMON");
             case duffs: return QString("tduffs");
             default: return QString("???");
         }
@@ -73,9 +73,9 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case CTF: return QString("Coin2Fly");
-            case mCTF: return QString("Milli-Coin2Fly (1 / 1" THIN_SP_UTF8 "000)");
-            case uCTF: return QString("Micro-Coin2Fly (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case MON: return QString("Coin2Fly");
+            case mMON: return QString("Milli-Coin2Fly (1 / 1" THIN_SP_UTF8 "000)");
+            case uMON: return QString("Micro-Coin2Fly (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             case duffs: return QString("Ten Nano-Coin2Fly (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
@@ -84,9 +84,9 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case CTF: return QString("TestCoin2Flys");
-            case mCTF: return QString("Milli-TestCoin2Fly (1 / 1" THIN_SP_UTF8 "000)");
-            case uCTF: return QString("Micro-TestCoin2Fly (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case MON: return QString("TestCoin2Flys");
+            case mMON: return QString("Milli-TestCoin2Fly (1 / 1" THIN_SP_UTF8 "000)");
+            case uMON: return QString("Micro-TestCoin2Fly (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             case duffs: return QString("Ten Nano-TestCoin2Fly (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
@@ -97,9 +97,9 @@ qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case CTF:  return 100000000;
-    case mCTF: return 100000;
-    case uCTF: return 100;
+    case MON:  return 100000000;
+    case mMON: return 100000;
+    case uMON: return 100;
     case duffs: return 1;
     default:   return 100000000;
     }
@@ -109,9 +109,9 @@ int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case CTF: return 8;
-    case mCTF: return 5;
-    case uCTF: return 2;
+    case MON: return 8;
+    case mMON: return 5;
+    case uMON: return 2;
     case duffs: return 0;
     default: return 0;
     }

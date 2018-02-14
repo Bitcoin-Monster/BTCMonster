@@ -62,10 +62,10 @@ for arg in sys.argv[1:]:
 
 #Set env vars
 buildDir = BUILDDIR
-if "CTFD" not in os.environ:
-    os.environ["CTFD"] = buildDir + '/src/bitcoinmonsterd' + EXEEXT
-if "CTFCLI" not in os.environ:
-    os.environ["CTFCLI"] = buildDir + '/src/bitcoinmonster-cli' + EXEEXT
+if "MOND" not in os.environ:
+    os.environ["MOND"] = buildDir + '/src/bitcoinmonsterd' + EXEEXT
+if "MONCLI" not in os.environ:
+    os.environ["MONCLI"] = buildDir + '/src/bitcoinmonster-cli' + EXEEXT
 
 if EXEEXT == ".exe" and "-win" not in opts:
     # https://github.com/bitcoin/bitcoin/commit/d52802551752140cf41f0d9a225a43e84404d3e9

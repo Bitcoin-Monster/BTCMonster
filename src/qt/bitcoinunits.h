@@ -58,9 +58,9 @@ public:
      */
     enum Unit
     {
-        CTF,
-        mCTF,
-        uCTF,
+        MON,
+        mMON,
+        uMON,
         duffs
     };
 

@@ -1,4 +1,4 @@
-TOR SUPPORT IN CTF CORE
+TOR SUPPORT IN MON CORE
 =======================
 
 It is possible to run Coin2Fly Core as a Tor hidden service, and connect to such services.
