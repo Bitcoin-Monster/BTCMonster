@@ -1,0 +1,11 @@
+[Protocol]
+exec=bitcoinmonster-qt '%u'
+protocol=bitcoinmonster
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

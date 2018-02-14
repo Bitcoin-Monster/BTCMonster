@@ -1,0 +1,67 @@
+#!/bin/bash
+#
+#  bitcoinmonsterd The Bitcoin Monster Core server.
+#
+#
+# chkconfig: 345 80 20
+# description: bitcoinmonsterd
+# processname: bitcoinmonsterd
+#
+
+# Source function library.
+. /etc/init.d/functions
+
+# you can override defaults in /etc/sysconfig/bitcoinmonsterd, see below
+if [ -f /etc/sysconfig/bitcoinmonsterd ]; then
+        . /etc/sysconfig/bitcoinmonsterd
+fi
+
+RETVAL=0
+
+prog=bitcoinmonsterd
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/bitcoinmonsterd
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/bitcoinmonsterd}
+
+# bitcoinmonsterd defaults to /usr/bin/bitcoinmonsterd, override with BITCOIND_BIN
+bitcoinmonsterd=${BITCOIND_BIN-/usr/bin/bitcoinmonsterd}
+
+# bitcoinmonsterd opts default to -disablewallet, override with BITCOIND_OPTS
+bitcoinmonsterd_opts=${BITCOIND_OPTS--disablewallet}
+
+start() {
+    echo -n $"Starting $prog: "
+    daemon $DAEMONOPTS $bitcoinmonsterd $bitcoinmonsterd_opts
+    RETVAL=$?
+    echo
+    [ $RETVAL -eq 0 ] && touch $lockfile
+    return $RETVAL
+}
+
+stop() {
+    echo -n $"Stopping $prog: "
+    killproc $prog
+    RETVAL=$?
+    echo
+    [ $RETVAL -eq 0 ] && rm -f $lockfile
+    return $RETVAL
+}
+
+case "$1" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    status)
+        status $prog
+        ;;
+    restart)
+        stop
+        start
+        ;;
+    *)
+        echo "Usage: service $prog {start|stop|status|restart}"
+        exit 1
+        ;;
+esac
