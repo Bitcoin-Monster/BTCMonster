@@ -125,12 +125,12 @@ public:
         vSeeds.push_back(CDNSSeedData("bitcoinmonster.com", "seed5.bitcoinmonster.com"));
         vSeeds.push_back(CDNSSeedData("bitcoinmonster.com", "seed6.bitcoinmonster.com"));
 
-        // Bitcoin Monster addresses start with 'C'
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,28);
+        // Bitcoin Monster addresses start with 'M'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,50);
         // Bitcoin Monster script addresses start with '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,21);
-        // Bitcoin Monster private keys start with 'J' (?)
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,43);
+        // Bitcoin Monster private keys start with 'E' (?)
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,33);
         // Bitcoin Monster BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         // Bitcoin Monster BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
