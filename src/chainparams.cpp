@@ -118,12 +118,12 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x000009f562f067c612425b64d5a62af8bad8fd0e86241489d2f84241739c1c6a"));
         assert(genesis.hashMerkleRoot == uint256S("0x23bbbf537dfd0029567d597939d29be61f5d03c6bd9b26a6b16aa4b69758185b"));
 
-        vSeeds.push_back(CDNSSeedData("bitcoinmonster.org", "seed1.bitcoinmonster.org"));
-        vSeeds.push_back(CDNSSeedData("bitcoinmonster.org", "seed2.bitcoinmonster.org"));
-        vSeeds.push_back(CDNSSeedData("bitcoinmonster.org", "seed3.bitcoinmonster.org"));
-        vSeeds.push_back(CDNSSeedData("bitcoinmonster.org", "seed4.bitcoinmonster.org"));
-        vSeeds.push_back(CDNSSeedData("bitcoinmonster.org", "seed5.bitcoinmonster.org"));
-        vSeeds.push_back(CDNSSeedData("bitcoinmonster.org", "seed6.bitcoinmonster.org"));
+        vSeeds.push_back(CDNSSeedData("bitcoinmonster.org", "78.47.154.34"));
+        vSeeds.push_back(CDNSSeedData("bitcoinmonster.org", "78.47.154.38"));
+        // vSeeds.push_back(CDNSSeedData("bitcoinmonster.org", "seed3.bitcoinmonster.org"));
+        // vSeeds.push_back(CDNSSeedData("bitcoinmonster.org", "seed4.bitcoinmonster.org"));
+        // vSeeds.push_back(CDNSSeedData("bitcoinmonster.org", "seed5.bitcoinmonster.org"));
+        // vSeeds.push_back(CDNSSeedData("bitcoinmonster.org", "seed6.bitcoinmonster.org"));
 
         // Bitcoin Monster addresses start with 'M'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,50);
