@@ -1,0 +1,886 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		D7BA7D76DAB5DD13389D6332 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			generatedFileNames = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			name = "Qt Qmake";
+			neededFileNames = (
+				);
+			shellPath = "/bin/sh";
+			shellScript = "make\ -C\ /Users/akshay/Documents/BTCMonster/contrib\ -f\ \'bitcoinmonster-qt.xcodeproj/qt_makeqmake.mak\'";
+		};
+		F65F3216FA074F81D0F52FF1 = {
+			isa = PBXFileReference;
+			name = "qrc_bitcoinmonster.cpp";
+			path = "qrc_bitcoinmonster.cpp";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		DD8719BC37B3594C5D2D5B0A = {
+			fileRef = "F65F3216FA074F81D0F52FF1";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3A12ED0B699142E9F4A36AF0 = {
+			isa = PBXFileReference;
+			name = "ui_addressbookpage.h";
+			path = "ui_addressbookpage.h";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		E681F0AB4585F6D4C9CE1E84 = {
+			isa = PBXFileReference;
+			name = "ui_askpassphrasedialog.h";
+			path = "ui_askpassphrasedialog.h";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		02EDD0B1CC707C0B92734E33 = {
+			isa = PBXFileReference;
+			name = "ui_coincontroldialog.h";
+			path = "ui_coincontroldialog.h";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		781E0CBD2A91B7B7F4E5B59B = {
+			isa = PBXFileReference;
+			name = "ui_darksendconfig.h";
+			path = "ui_darksendconfig.h";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		89FB30590A15DC56388C0774 = {
+			isa = PBXFileReference;
+			name = "ui_debugwindow.h";
+			path = "ui_debugwindow.h";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		49CB754C3BDD38ABD371B670 = {
+			isa = PBXFileReference;
+			name = "ui_editaddressdialog.h";
+			path = "ui_editaddressdialog.h";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		99A61E99EBC3A34C2B68495E = {
+			isa = PBXFileReference;
+			name = "ui_helpmessagedialog.h";
+			path = "ui_helpmessagedialog.h";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		1F6185AFD62C715BCCC2B257 = {
+			isa = PBXFileReference;
+			name = "ui_intro.h";
+			path = "ui_intro.h";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		8586A73C226534A6290D1B78 = {
+			isa = PBXFileReference;
+			name = "ui_openuridialog.h";
+			path = "ui_openuridialog.h";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		CE144445508FFA173DA78D38 = {
+			isa = PBXFileReference;
+			name = "ui_optionsdialog.h";
+			path = "ui_optionsdialog.h";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		D2B8D61D740F1AC9531154E1 = {
+			isa = PBXFileReference;
+			name = "ui_overviewpage.h";
+			path = "ui_overviewpage.h";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		3D1F5D8556EF74EE2FDE0EB0 = {
+			isa = PBXFileReference;
+			name = "ui_receivecoinsdialog.h";
+			path = "ui_receivecoinsdialog.h";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		1565154452254FFEC060D3EC = {
+			isa = PBXFileReference;
+			name = "ui_receiverequestdialog.h";
+			path = "ui_receiverequestdialog.h";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		A7E666B80C53F8C08B1FF3E1 = {
+			isa = PBXFileReference;
+			name = "ui_sendcoinsdialog.h";
+			path = "ui_sendcoinsdialog.h";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		245F005930F3C0582A20A733 = {
+			isa = PBXFileReference;
+			name = "ui_sendcoinsentry.h";
+			path = "ui_sendcoinsentry.h";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		C64D504EDF7ED0C93F671402 = {
+			isa = PBXFileReference;
+			name = "ui_signverifymessagedialog.h";
+			path = "ui_signverifymessagedialog.h";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		A916E124D4CD71F62D1CC57B = {
+			isa = PBXFileReference;
+			name = "ui_transactiondescdialog.h";
+			path = "ui_transactiondescdialog.h";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		46A46FEEA4CAFE7E5EF81415 = {
+			isa = PBXFileReference;
+			name = "bitcoinmonster-qt.pro";
+			path = "bitcoinmonster-qt.pro";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		1B6C029CD55FF29FB0F2A4E6 = {
+			isa = PBXFileReference;
+			name = "bitcoinmonster.qrc";
+			path = "../src/qt/bitcoinmonster.qrc";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		3EEF88D17579C9C6B4C3A339 = {
+			fileRef = "1B6C029CD55FF29FB0F2A4E6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4931BA50EAC7A4D41253E7A0 = {
+			isa = PBXFileReference;
+			name = "addressbookpage.ui";
+			path = "../src/qt/forms/addressbookpage.ui";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		142107D0EABBC473972B4491 = {
+			fileRef = "4931BA50EAC7A4D41253E7A0";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		19289B973ECA618F267CA666 = {
+			isa = PBXFileReference;
+			name = "askpassphrasedialog.ui";
+			path = "../src/qt/forms/askpassphrasedialog.ui";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		7499565A4214F91CA2923E10 = {
+			fileRef = "19289B973ECA618F267CA666";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		404A32F9EF98A602779241C5 = {
+			isa = PBXFileReference;
+			name = "coincontroldialog.ui";
+			path = "../src/qt/forms/coincontroldialog.ui";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		BAE737D97BBBC846B91A01DC = {
+			fileRef = "404A32F9EF98A602779241C5";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		8D80C8CF671B37CE07FBA535 = {
+			isa = PBXFileReference;
+			name = "darksendconfig.ui";
+			path = "../src/qt/forms/darksendconfig.ui";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		DD081B92A5E767A88D6FCA02 = {
+			fileRef = "8D80C8CF671B37CE07FBA535";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		73C375B437DC2AA5B5857F69 = {
+			isa = PBXFileReference;
+			name = "debugwindow.ui";
+			path = "../src/qt/forms/debugwindow.ui";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		2D19D5B9C58F7F397A683BA5 = {
+			fileRef = "73C375B437DC2AA5B5857F69";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F7F2B7C8A22EE0FA742F1C97 = {
+			isa = PBXFileReference;
+			name = "editaddressdialog.ui";
+			path = "../src/qt/forms/editaddressdialog.ui";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		695B912BBCFDB2BE84C2EE44 = {
+			fileRef = "F7F2B7C8A22EE0FA742F1C97";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4BE3B3DF629E488FEFC8A82A = {
+			isa = PBXFileReference;
+			name = "helpmessagedialog.ui";
+			path = "../src/qt/forms/helpmessagedialog.ui";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		63E14D8E0664C477BF317C93 = {
+			fileRef = "4BE3B3DF629E488FEFC8A82A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F640F7638326C051C1A37308 = {
+			isa = PBXFileReference;
+			name = "intro.ui";
+			path = "../src/qt/forms/intro.ui";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		D8F8CB79E9E1E92208F06E73 = {
+			fileRef = "F640F7638326C051C1A37308";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		059E176C16C11E65DCD7BFA8 = {
+			isa = PBXFileReference;
+			name = "openuridialog.ui";
+			path = "../src/qt/forms/openuridialog.ui";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		CC2FD70DC2478B09F2E66F8E = {
+			fileRef = "059E176C16C11E65DCD7BFA8";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		2FFA898BF8D90A29808888E7 = {
+			isa = PBXFileReference;
+			name = "optionsdialog.ui";
+			path = "../src/qt/forms/optionsdialog.ui";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		0252F839F2326C7ADC039736 = {
+			fileRef = "2FFA898BF8D90A29808888E7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		9157B914DE6ABCDAB7D8885C = {
+			isa = PBXFileReference;
+			name = "overviewpage.ui";
+			path = "../src/qt/forms/overviewpage.ui";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		2D3EC0814C91F841BE817C72 = {
+			fileRef = "9157B914DE6ABCDAB7D8885C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		90F441FEFC55A3A99D3DCB41 = {
+			isa = PBXFileReference;
+			name = "receivecoinsdialog.ui";
+			path = "../src/qt/forms/receivecoinsdialog.ui";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		93C25796D341138EC9400032 = {
+			fileRef = "90F441FEFC55A3A99D3DCB41";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F66BFD2F3BD6A15DC5F5F1C6 = {
+			isa = PBXFileReference;
+			name = "receiverequestdialog.ui";
+			path = "../src/qt/forms/receiverequestdialog.ui";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		FB505E720F9AC684F3654412 = {
+			fileRef = "F66BFD2F3BD6A15DC5F5F1C6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C142143543929979545D26F4 = {
+			isa = PBXFileReference;
+			name = "sendcoinsdialog.ui";
+			path = "../src/qt/forms/sendcoinsdialog.ui";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		D3E9C0E539CF727D351F5C11 = {
+			fileRef = "C142143543929979545D26F4";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7C488123777812120008C7AC = {
+			isa = PBXFileReference;
+			name = "sendcoinsentry.ui";
+			path = "../src/qt/forms/sendcoinsentry.ui";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		6AFEBACE053E3877A9840901 = {
+			fileRef = "7C488123777812120008C7AC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4BE771DF41DCCF2A723528ED = {
+			isa = PBXFileReference;
+			name = "signverifymessagedialog.ui";
+			path = "../src/qt/forms/signverifymessagedialog.ui";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		D339F2AA8D1B29C8B806488F = {
+			fileRef = "4BE771DF41DCCF2A723528ED";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		DDBE1AA87386BC7ADAD17F8F = {
+			isa = PBXFileReference;
+			name = "transactiondescdialog.ui";
+			path = "../src/qt/forms/transactiondescdialog.ui";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		D15268472447B0BDD5D3C665 = {
+			fileRef = "DDBE1AA87386BC7ADAD17F8F";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		64A825BB1933BF027E198B1D = {
+			isa = PBXGroup;
+			children = (
+				"0C493CB498152EAEA759F811");
+			name = "..";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		0C493CB498152EAEA759F811 = {
+			isa = PBXGroup;
+			children = (
+				"1BEB3329CC0C956415E19CFA");
+			name = "src";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		1BEB3329CC0C956415E19CFA = {
+			isa = PBXGroup;
+			children = (
+				"1B6C029CD55FF29FB0F2A4E6");
+			name = "qt";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		441F9800608A2503C95F2C7C = {
+			isa = PBXGroup;
+			children = (
+				"6649264F5DAF4A3816ED4670");
+			name = "..";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		6649264F5DAF4A3816ED4670 = {
+			isa = PBXGroup;
+			children = (
+				"D5AB5084062EEC3EAB85E1F2");
+			name = "src";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		D5AB5084062EEC3EAB85E1F2 = {
+			isa = PBXGroup;
+			children = (
+				"FA6DA54A0EBCCB053FEEA580");
+			name = "qt";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		FA6DA54A0EBCCB053FEEA580 = {
+			isa = PBXGroup;
+			children = (
+				"4931BA50EAC7A4D41253E7A0",
+				"19289B973ECA618F267CA666",
+				"404A32F9EF98A602779241C5",
+				"8D80C8CF671B37CE07FBA535",
+				"73C375B437DC2AA5B5857F69",
+				"F7F2B7C8A22EE0FA742F1C97",
+				"4BE3B3DF629E488FEFC8A82A",
+				"F640F7638326C051C1A37308",
+				"059E176C16C11E65DCD7BFA8",
+				"2FFA898BF8D90A29808888E7",
+				"9157B914DE6ABCDAB7D8885C",
+				"90F441FEFC55A3A99D3DCB41",
+				"F66BFD2F3BD6A15DC5F5F1C6",
+				"C142143543929979545D26F4",
+				"7C488123777812120008C7AC",
+				"4BE771DF41DCCF2A723528ED",
+				"DDBE1AA87386BC7ADAD17F8F");
+			name = "forms";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		52C235EBF1C9B07808119459 = {
+			isa = PBXGroup;
+			children = (
+				"64A825BB1933BF027E198B1D");
+			name = "Sources [RCC]";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		EEC299C65D5017EB9DD513B0 = {
+			isa = PBXGroup;
+			children = (
+				"441F9800608A2503C95F2C7C");
+			name = "Sources [UIC]";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		7CABE3C80E79AD2B307756D2 = {
+			isa = PBXGroup;
+			children = (
+				"46A46FEEA4CAFE7E5EF81415");
+			name = "Sources [qmake]";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		46E892BBB6BB6952967E0561 = {
+			isa = PBXGroup;
+			children = (
+				"F65F3216FA074F81D0F52FF1",
+				"3A12ED0B699142E9F4A36AF0",
+				"E681F0AB4585F6D4C9CE1E84",
+				"02EDD0B1CC707C0B92734E33",
+				"781E0CBD2A91B7B7F4E5B59B",
+				"89FB30590A15DC56388C0774",
+				"49CB754C3BDD38ABD371B670",
+				"99A61E99EBC3A34C2B68495E",
+				"1F6185AFD62C715BCCC2B257",
+				"8586A73C226534A6290D1B78",
+				"CE144445508FFA173DA78D38",
+				"D2B8D61D740F1AC9531154E1",
+				"3D1F5D8556EF74EE2FDE0EB0",
+				"1565154452254FFEC060D3EC",
+				"A7E666B80C53F8C08B1FF3E1",
+				"245F005930F3C0582A20A733",
+				"C64D504EDF7ED0C93F671402",
+				"A916E124D4CD71F62D1CC57B");
+			name = "Temporary Sources";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		A0A52A2ADF7A1E2A99738674 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			generatedFileNames = (
+				"DD8719BC37B3594C5D2D5B0A");
+			isa = PBXShellScriptBuildPhase;
+			name = "Qt Preprocessors";
+			neededFileNames = (
+				"DD8719BC37B3594C5D2D5B0A");
+			shellPath = "/bin/sh";
+			shellScript = "make\ -C\ /Users/akshay/Documents/BTCMonster/contrib\ -f\ \'bitcoinmonster-qt.xcodeproj/qt_preprocess.mak\'";
+		};
+		C29B8785722055ED95EF7B57 = {
+			buildActionMask = 2147483647;
+			files = (
+				"DD8719BC37B3594C5D2D5B0A");
+			isa = PBXSourcesBuildPhase;
+			name = "Build Sources";
+		};
+		9B36DA7E32F0304E780E7972 = {
+			isa = PBXFileReference;
+			name = "QtGui.framework";
+			path = "/Library/Frameworks/QtGui.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		501667F26B3C1FF6767A7C12 = {
+			fileRef = "9B36DA7E32F0304E780E7972";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7BC2E65A5E699A5E5D834CA2 = {
+			isa = PBXFileReference;
+			name = "QtCore.framework";
+			path = "/Library/Frameworks/QtCore.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		069D05B0128AE5DC7EE31738 = {
+			fileRef = "7BC2E65A5E699A5E5D834CA2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ED1E82605DD74B483AF3C982 = {
+			children = (
+				"9B36DA7E32F0304E780E7972",
+				"7BC2E65A5E699A5E5D834CA2");
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			path = "";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		2A1043669E6E5A7426EA502A = {
+			buildActionMask = 2147483647;
+			files = (
+				"501667F26B3C1FF6767A7C12",
+				"069D05B0128AE5DC7EE31738");
+			isa = PBXFrameworksBuildPhase;
+			name = "Frameworks & Libraries";
+		};
+		3787F99312C85FF0073FD7BA = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			name = "Bundle Resources";
+		};
+		05596AB53D8D521C69802C27 = {
+			children = (
+				"46E892BBB6BB6952967E0561",
+				"7CABE3C80E79AD2B307756D2",
+				"52C235EBF1C9B07808119459",
+				"EEC299C65D5017EB9DD513B0",
+				"ED1E82605DD74B483AF3C982");
+			isa = PBXGroup;
+			name = "bitcoinmonster-qt";
+			path = "";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		07E7554DF3CA449DCD5A1CC3 = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.application";
+			path = "bitcoinmonster-qt.app";
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		068F80C7519D0528FB08E821 = {
+			children = (
+				"07E7554DF3CA449DCD5A1CC3");
+			isa = PBXGroup;
+			name = "Products";
+			refType = 4;
+		};
+		AF50CB4370EF3CD1615F25E4 = {
+			buildPhases = (
+				"D7BA7D76DAB5DD13389D6332",
+				"A0A52A2ADF7A1E2A99738674",
+				"C29B8785722055ED95EF7B57",
+				"2A1043669E6E5A7426EA502A",
+				"3787F99312C85FF0073FD7BA");
+			buildSettings = {
+				CC = "/usr/bin/gcc";
+				CPLUSPLUS = "/usr/bin/g++";
+				LEXFLAGS = "";
+				YACCFLAGS = "-d";
+				OTHER_REZFLAGS = "";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				PREBINDING = NO;
+				INFOPLIST_FILE = "Info.plist";
+				BUILD_ROOT = "/Users/akshay/Documents/BTCMonster/contrib";
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-L/Library/Frameworks",
+						"-F/Library/Frameworks");
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.4";
+				PRODUCT_NAME = "bitcoinmonster-qt";
+			};
+			conditionalBuildSettings = {
+			};
+			dependencies = (
+				);
+			productReference = "07E7554DF3CA449DCD5A1CC3";
+			shouldUseHeadermap = 1;
+			buildConfigurationList = 17B3380A4D6A7D415E7F2E1E;
+			isa = PBXNativeTarget;
+			productType = "com.apple.product-type.application";
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist SYSTEM \"file://localhost/System/Library/DTDs/PropertyList.dtd\">
+<plist version=\"0.9\">
+<dict>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+ 	<key>CFBundleGetInfoString</key>
+	<string>Created by Qt/QMake</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleExecutable</key>
+	<string>bitcoinmonster-qt</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.bitcoinmonster-qt</string>
+	<key>NOTE</key>
+	<string>This file was generated by Qt/QMake.</string>
+</dict>
+</plist>
+";
+			name = "bitcoinmonster-qt";
+			productName = "bitcoinmonster-qt";
+			startupPath = "<<ProjectDirectory>>";
+		};
+		4B72B24813252891014BCF61 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "bitcoinmonster-qt";
+				HEADER_SEARCH_PATHS = (
+					"/Library/Frameworks/QtCore.framework/Versions/4/Headers",
+					"/usr/include/QtCore",
+					"/Library/Frameworks/QtGui.framework/Versions/4/Headers",
+					"/usr/include/QtGui",
+					"/usr/include",
+					".",
+					".",
+					"/usr/local/include",
+					"/System/Library/Frameworks/CarbonCore.framework/Headers",
+					"/usr/local/Qt4.8/mkspecs/macx-xcode");
+				LIBRARY_SEARCH_PATHS = (
+					"/Library/Frameworks");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Library/Frameworks",
+					"/Library/Frameworks");
+				INFOPLIST_FILE = "Info.plist";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-L/Library/Frameworks",
+						"-F/Library/Frameworks");
+				ARCHS = "x86_64";
+			};
+			name = "Debug";
+		};
+		BEC09A62E69C3553534FF35E = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "bitcoinmonster-qt";
+				PRODUCT_NAME = "bitcoinmonster-qt";
+			};
+			name = "Debug";
+		};
+		2C641C3335766025DD51B7BD = {
+			buildRules = (
+				);
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "bitcoinmonster-qt";
+			};
+			isa = "PBXBuildStyle";
+			name = "Debug";
+		};
+		D70590BEB531B51029F711BB = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "bitcoinmonster-qt";
+				HEADER_SEARCH_PATHS = (
+					"/Library/Frameworks/QtCore.framework/Versions/4/Headers",
+					"/usr/include/QtCore",
+					"/Library/Frameworks/QtGui.framework/Versions/4/Headers",
+					"/usr/include/QtGui",
+					"/usr/include",
+					".",
+					".",
+					"/usr/local/include",
+					"/System/Library/Frameworks/CarbonCore.framework/Headers",
+					"/usr/local/Qt4.8/mkspecs/macx-xcode");
+				LIBRARY_SEARCH_PATHS = (
+					"/Library/Frameworks");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Library/Frameworks",
+					"/Library/Frameworks");
+				INFOPLIST_FILE = "Info.plist";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-L/Library/Frameworks",
+						"-F/Library/Frameworks");
+				ARCHS = "x86_64";
+			};
+			name = "Release";
+		};
+		8C7174830A1E4DCBA0332EC1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "bitcoinmonster-qt";
+				PRODUCT_NAME = "bitcoinmonster-qt";
+			};
+			name = "Release";
+		};
+		26DE8D2AEA4B3714B41E931F = {
+			buildRules = (
+				);
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "bitcoinmonster-qt";
+			};
+			isa = "PBXBuildStyle";
+			name = "Release";
+		};
+		CC82A9286117DFED018F418F = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"4B72B24813252891014BCF61",
+				"D70590BEB531B51029F711BB");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationIsName = "Debug";
+		};
+		17B3380A4D6A7D415E7F2E1E = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"BEC09A62E69C3553534FF35E",
+				"8C7174830A1E4DCBA0332EC1");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationIsName = "Debug";
+		};
+		91B15E841AA80083484172DE = {
+			buildStyles = (
+				"2C641C3335766025DD51B7BD",
+				"26DE8D2AEA4B3714B41E931F");
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = "05596AB53D8D521C69802C27";
+			buildConfigurationList = "CC82A9286117DFED018F418F";
+			projectDirPath = "";
+			targets = (
+				"AF50CB4370EF3CD1615F25E4");
+		};
+	};
+	rootObject = "91B15E841AA80083484172DE";
+}
