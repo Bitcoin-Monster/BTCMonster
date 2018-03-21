@@ -4,15 +4,15 @@
 
 	* means the category has an associated class
 	
-	CBanqNetwork: MON NETWORK (ROOT)
+	CBitcoinMonsterNetwork: MON NETWORK (ROOT)
 	has:
 		vector<CNetworkVariable> vecNetworkVariables;
-		vector<CBanqProject> vecProjects;
+		vector<CBitcoinMonsterProject> vecProjects;
 		vector<CGovernanceObject> vecProposals;
 		vector<CBudgetContract> vecContracts;
 		vector<CBudgetUsers> vecUsers;
 
-	CBanqProject:
+	CBitcoinMonsterProject:
 	has:
 		name
 		employees

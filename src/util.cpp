@@ -515,13 +515,13 @@ void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\BanqCore
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\BanqCore
-    // Mac: ~/Library/Application Support/BanqCore
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\BitcoinMonsterCore
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\BitcoinMonsterCore
+    // Mac: ~/Library/Application Support/BitcoinMonsterCore
     // Unix: ~/.bitcoinmonstercore
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "BanqCore";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "BitcoinMonsterCore";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -531,7 +531,7 @@ boost::filesystem::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/BanqCore";
+    return pathRet / "Library/Application Support/BitcoinMonsterCore";
 #else
     // Unix
     return pathRet / ".bitcoinmonstercore";

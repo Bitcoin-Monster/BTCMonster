@@ -84,10 +84,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case MON: return QString("TestBanqs");
-            case mMON: return QString("Milli-TestBanq (1 / 1" THIN_SP_UTF8 "000)");
-            case uMON: return QString("Micro-TestBanq (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-TestBanq (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case MON: return QString("TestBitcoinMonsters");
+            case mMON: return QString("Milli-TestBitcoinMonster (1 / 1" THIN_SP_UTF8 "000)");
+            case uMON: return QString("Micro-TestBitcoinMonster (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-TestBitcoinMonster (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }

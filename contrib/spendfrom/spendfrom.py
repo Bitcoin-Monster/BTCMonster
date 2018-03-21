@@ -35,9 +35,9 @@ def check_json_precision():
 def determine_db_dir():
     """Return the default location of the BitcoinMonster Core data directory"""
     if platform.system() == "Darwin":
-        return os.path.expanduser("~/Library/Application Support/BanqCore/")
+        return os.path.expanduser("~/Library/Application Support/BitcoinMonsterCore/")
     elif platform.system() == "Windows":
-        return os.path.join(os.environ['APPDATA'], "BanqCore")
+        return os.path.join(os.environ['APPDATA'], "BitcoinMonsterCore")
     return os.path.expanduser("~/.bitcoinmonstercore")
 
 def read_bitcoin_config(dbdir):

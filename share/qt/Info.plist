@@ -46,7 +46,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.bitcoinmonster.BanqPayment</string>
+      <string>org.bitcoinmonster.BitcoinMonsterPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>bitcoinmonster</string>

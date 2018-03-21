@@ -46,7 +46,7 @@
  * =========================
  *
  *   // network
- *   CBanqNetwork lvl, network-type, network-status, network-error, milestone-status*
+ *   CBitcoinMonsterNetwork lvl, network-type, network-status, network-error, milestone-status*
  *   CCategory lvl, category-type, status, status-error
  *   CNetworkGlobalVariable lvl, global-type, status, status-error
  *   // base: actor
@@ -131,7 +131,7 @@ public:
 };
 
 // // root node
-class CBanqNetwork : public CGovernanceObject
+class CBitcoinMonsterNetwork : public CGovernanceObject
 {
 private:
     std::string strName;
@@ -139,7 +139,7 @@ private:
 
 
 public:
-    CBanqNetwork(UniValue objIn)
+    CBitcoinMonsterNetwork(UniValue objIn)
     {
         strName = objIn["name"].get_str();
         strURL = objIn["name"].get_str();
@@ -175,9 +175,9 @@ public:
 
 };
 
-// // can be under: BanqNetwork
+// // can be under: BitcoinMonsterNetwork
 // //   -- signature requirements : Key1(User)
-// class CBanqNetworkVariable : public CGovernanceObject
+// class CBitcoinMonsterNetworkVariable : public CGovernanceObject
 // {
 // private:
 
@@ -280,7 +280,7 @@ public:
 //     // isRootCategory()
 //     // {
 //     //     // root categories won't have categories as parents
-//     //     return (IsType() == BanqNetwork);
+//     //     return (IsType() == BitcoinMonsterNetwork);
 //     // }
 
 //     // isSubcategoryOf(std::string strParentName)

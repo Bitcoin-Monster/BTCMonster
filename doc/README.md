@@ -23,7 +23,7 @@ Unpack the files into a directory, and then run bitcoinmonster-qt.exe.
 Drag BitcoinMonster-Qt to your applications folder, and then run BitcoinMonster-Qt.
 
 * Ask for help on [#bitcoinmonstercoin](http://webchat.freenode.net?channels=bitcoinmonstercoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=bitcoinmonstercoin).
-* Ask for help on the [BanqTalk](https://bitcoinmonstertalk.org/) forums.
+* Ask for help on the [BitcoinMonsterTalk](https://bitcoinmonstertalk.org/) forums.
 
 Building
 ---------------------
@@ -53,7 +53,7 @@ The BitcoinMonster Core repo's [root README](/README.md) contains relevant infor
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [BanqTalk](https://bitcoinmonstertalk.org/) forums, in the Development & Technical Discussion board.
+* Discuss on the [BitcoinMonsterTalk](https://bitcoinmonstertalk.org/) forums, in the Development & Technical Discussion board.
 * Discuss on [#bitcoinmonstercoin](http://webchat.freenode.net/?channels=bitcoinmonstercoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=bitcoinmonstercoin).
 
 ### Miscellaneous

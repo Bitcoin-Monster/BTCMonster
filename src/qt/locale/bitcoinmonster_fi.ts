@@ -189,7 +189,7 @@
     </message>
     <message>
         <source>BitcoinMonster Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoinmonsters from being stolen by malware infecting your computer.</source>
-        <translation>BitcoinMonster Core sulkeutuu nyt salauksen viimeistelyä varten. Muista että salaus pelkästään ei voi estää Banqiesi varastamista jos koneesi saastuu haittaohjelmilla tai viruksilla.</translation>
+        <translation>BitcoinMonster Core sulkeutuu nyt salauksen viimeistelyä varten. Muista että salaus pelkästään ei voi estää BitcoinMonsteriesi varastamista jos koneesi saastuu haittaohjelmilla tai viruksilla.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -1870,7 +1870,7 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <source>Cannot start bitcoinmonster: click-to-pay handler</source>
-        <translation>Ei voi käynnistää Banqia: click-to-pay handler</translation>
+        <translation>Ei voi käynnistää BitcoinMonsteria: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -3634,7 +3634,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Lähetä Banqeja</translation>
+        <translation>Lähetä BitcoinMonstereja</translation>
     </message>
     <message>
         <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 MON.</source>

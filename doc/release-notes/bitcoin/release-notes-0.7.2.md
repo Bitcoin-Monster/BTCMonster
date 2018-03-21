@@ -61,7 +61,7 @@ dansmith
 Gavin Andresen
 Gregory Maxwell
 Jeff Garzik
-Luke Banqjr
+Luke BitcoinMonsterjr
 Philip Kaufmann
 Pieter Wuille
 Wladimir J. van der Laan

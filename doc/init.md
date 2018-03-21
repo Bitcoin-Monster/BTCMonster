@@ -68,9 +68,9 @@ can then be controlled by group membership.
 3b) Mac OS X
 
 Binary:              `/usr/local/bin/bitcoinmonsterd`  
-Configuration file:  `~/Library/Application Support/BanqCore/bitcoinmonster.conf`  
-Data directory:      `~/Library/Application Support/BanqCore`
-Lock file:           `~/Library/Application Support/BanqCore/.lock`
+Configuration file:  `~/Library/Application Support/BitcoinMonsterCore/bitcoinmonster.conf`  
+Data directory:      `~/Library/Application Support/BitcoinMonsterCore`
+Lock file:           `~/Library/Application Support/BitcoinMonsterCore/.lock`
 
 4. Installing Service Configuration
 -----------------------------------
