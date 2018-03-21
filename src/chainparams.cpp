@@ -43,9 +43,9 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
 
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "start bitcoinmonster 13/03/2017 11/00";
-    const CScript genesisOutputScript = CScript() << ParseHex("042fe924b01aceef2977bd37ed244662949416abc485de6523eb3a3e00ecac8ff63e0a61fa6a028f4dd36a5e07d5a802c6bb57d325e896173748b017d65bc3c410") << OP_CHECKSIG;
-    return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
+  const char* pszTimestamp = "start banq 13/03/2017 11/00";
+   const CScript genesisOutputScript = CScript() << ParseHex("042fe924b01aceef2977bd37ed244662949416abc485de6523eb3a3e00ecac8ff63e0a61fa6a028f4dd36a5e07d5a802c6bb57d325e896173748b017d65bc3c410") << OP_CHECKSIG;
+   return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
 
 /**
@@ -113,7 +113,7 @@ public:
         nMaxTipAge = 6 * 60 * 60; // ~144 blocks behind -> 2 x fork detection time, was 24 * 60 * 60 in bitcoin
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1520939400, 1140590, 0x1e0ffff0, 1, 50 * COIN);
+           genesis = CreateGenesisBlock(1520939400, 1140590, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("00000927435496954fcf6314b8d7ba4a0ec4a2cf37964bfa734fb6348359ed92"));
         assert(genesis.hashMerkleRoot == uint256S("b2ef79664ca828750673eddc91f7643ad42a986f8a20172a211d4c7a81c9520c"));
