@@ -1741,6 +1741,7 @@ NOTE:   unlike bitcoin we are using PREVIOUS block height here,
 */
 CAmount GetBlockSubsidy(int nPrevBits, int nPrevHeight, const Consensus::Params& consensusParams, bool fSuperblockPartOnly)
 {
+  CAmount nSubsidy;
   //Premine code
     if (nPrevHeight == 1) {
         return 714850 * COIN;
@@ -1749,7 +1750,7 @@ CAmount GetBlockSubsidy(int nPrevBits, int nPrevHeight, const Consensus::Params&
         return 714850 * COIN;
     }
     else{
-      CAmount nSubsidy = 10 * COIN;
+     nSubsidy = 10 * COIN;
 
       // yearly decline of production by ~8.333% per year until reached max coin ~31M.
       for (int i = consensusParams.nSubsidyHalvingInterval; i <= nPrevHeight; i += consensusParams.nSubsidyHalvingInterval) {
