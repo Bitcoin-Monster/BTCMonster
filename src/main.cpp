@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2018 The Bitcoin Monster Core developers
+// Copyright (c) 2017-2018 The Banq Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -58,7 +58,7 @@
 using namespace std;
 
 #if defined(NDEBUG)
-# error "Bitcoin Monster Core cannot be compiled without assertions."
+# error "Banq Core cannot be compiled without assertions."
 #endif
 
 /**
@@ -1741,25 +1741,23 @@ NOTE:   unlike bitcoin we are using PREVIOUS block height here,
 */
 CAmount GetBlockSubsidy(int nPrevBits, int nPrevHeight, const Consensus::Params& consensusParams, bool fSuperblockPartOnly)
 {
-    if (nPrevHeight == 1) {
-        return 1510900 * COIN;
+    if (nPrevHeight == 0) {
+        return 500000 * COIN;
     }
-    else{
-       CAmount nSubsidy = 20 * COIN;
 
-      // yearly decline of production by ~8.5% per year until reached max coin ~33.5M.
-      for (int i = consensusParams.nSubsidyHalvingInterval; i <= nPrevHeight; i += consensusParams.nSubsidyHalvingInterval) {
-          nSubsidy -= nSubsidy * 0.085;
-      }
+    CAmount nSubsidy = 10 * COIN;
 
-      return fSuperblockPartOnly ? 0 : nSubsidy;}
+    // yearly decline of production by ~8.333% per year until reached max coin ~31M.
+    for (int i = consensusParams.nSubsidyHalvingInterval; i <= nPrevHeight; i += consensusParams.nSubsidyHalvingInterval) {
+        nSubsidy -= nSubsidy/7;
+    }
 
-
+    return fSuperblockPartOnly ? 0 : nSubsidy;
 }
 
 CAmount GetMasternodePayment(int nHeight, CAmount blockValue)
 {
-    return blockValue/2;
+    return blockValue * 0.7;
 }
 
 bool IsInitialBlockDownload()
@@ -2364,7 +2362,7 @@ bool FindUndoPos(CValidationState &state, int nFile, CDiskBlockPos &pos, unsigne
 static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck() {
-    RenameThread("bitcoinmonster-scriptch");
+    RenameThread("banq-scriptch");
     scriptcheckqueue.Thread();
 }
 
@@ -2736,7 +2734,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     int64_t nTime3 = GetTimeMicros(); nTimeConnect += nTime3 - nTime2;
     LogPrint("bench", "      - Connect %u transactions: %.2fms (%.3fms/tx, %.3fms/txin) [%.2fs]\n", (unsigned)block.vtx.size(), 0.001 * (nTime3 - nTime2), 0.001 * (nTime3 - nTime2) / block.vtx.size(), nInputs <= 1 ? 0 : 0.001 * (nTime3 - nTime2) / (nInputs-1), nTimeConnect * 0.000001);
 
-    // COIN2FLY : MODIFIED TO CHECK MASTERNODE PAYMENTS AND SUPERBLOCKS
+    // BANQ : MODIFIED TO CHECK MASTERNODE PAYMENTS AND SUPERBLOCKS
 
     // It's possible that we simply don't have enough data and this could fail
     // (i.e. block itself could be a correct one and we need to store it),
@@ -2747,15 +2745,15 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     CAmount blockReward = nFees + GetBlockSubsidy(pindex->pprev->nBits, pindex->pprev->nHeight, chainparams.GetConsensus());
     std::string strError = "";
     if (!IsBlockValueValid(block, pindex->nHeight, blockReward, strError)) {
-        return state.DoS(0, error("ConnectBlock(MON): %s", strError), REJECT_INVALID, "bad-cb-amount");
+        return state.DoS(0, error("ConnectBlock(BANQ): %s", strError), REJECT_INVALID, "bad-cb-amount");
     }
 
     if (!IsBlockPayeeValid(block.vtx[0], pindex->nHeight, blockReward)) {
         mapRejectedBlocks.insert(make_pair(block.GetHash(), GetTime()));
-        return state.DoS(0, error("ConnectBlock(MON): couldn't find masternode or superblock payments"),
+        return state.DoS(0, error("ConnectBlock(BANQ): couldn't find masternode or superblock payments"),
                                 REJECT_INVALID, "bad-cb-payee");
     }
-    // END COIN2FLY
+    // END BANQ
 
     if (!control.Wait())
         return state.DoS(100, false);
@@ -3693,7 +3691,7 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
                              REJECT_INVALID, "bad-cb-multiple");
 
 
-    // COIN2FLY : CHECK TRANSACTIONS FOR INSTANTSEND
+    // BANQ : CHECK TRANSACTIONS FOR INSTANTSEND
 
     if(sporkManager.IsSporkActive(SPORK_3_INSTANTSEND_BLOCK_FILTERING)) {
         // We should never accept block which conflicts with completed transaction lock,
@@ -3713,17 +3711,17 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
                     instantsend.Relay(hashLocked);
                     LOCK(cs_main);
                     mapRejectedBlocks.insert(make_pair(block.GetHash(), GetTime()));
-                    return state.DoS(0, error("CheckBlock(MON): transaction %s conflicts with transaction lock %s",
+                    return state.DoS(0, error("CheckBlock(BANQ): transaction %s conflicts with transaction lock %s",
                                                 tx.GetHash().ToString(), hashLocked.ToString()),
                                      REJECT_INVALID, "conflict-tx-lock");
                 }
             }
         }
     } else {
-        LogPrintf("CheckBlock(MON): spork is off, skipping transaction locking checks\n");
+        LogPrintf("CheckBlock(BANQ): spork is off, skipping transaction locking checks\n");
     }
 
-    // END COIN2FLY
+    // END BANQ
 
     // Check transactions
     BOOST_FOREACH(const CTransaction& tx, block.vtx)
@@ -4449,7 +4447,7 @@ bool LoadBlockIndex()
     return true;
 }
 
-bool InitBlockIndex(const CChainParams& chainparams)
+bool InitBlockIndex(const CChainParams& chainparams) 
 {
     LOCK(cs_main);
 
@@ -4893,12 +4891,12 @@ bool static AlreadyHave(const CInv& inv) EXCLUSIVE_LOCKS_REQUIRED(cs_main)
     case MSG_BLOCK:
         return mapBlockIndex.count(inv.hash);
 
-    /*
-        Bitcoin Monster Related Inventory Messages
+    /* 
+        Banq Related Inventory Messages
 
         --
 
-        We shouldn't update the sync times for each of the messages when we already have it.
+        We shouldn't update the sync times for each of the messages when we already have it. 
         We're going to be asking many nodes upfront for the full inventory list, so we'll get duplicates of these.
         We want to only update the time on new hits, so that we can time out appropriately if needed.
     */

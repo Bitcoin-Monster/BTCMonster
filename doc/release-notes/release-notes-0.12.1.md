@@ -1,4 +1,4 @@
-Bitcoin Core version 0.12.1.4 is now available from:
+Bitcoin Core version 0.12.1 is now available from:
 
   <https://bitcoin.org/bin/bitcoin-core-0.12.1/>
 
@@ -186,7 +186,7 @@ Thanks to everyone who directly contributed to this release:
 - Alex Morcos
 - BtcDrak
 - Jonas Schnelli
-- Luke Bitcoin Monsterjr
+- Luke Banqjr
 - MarcoFalke
 - Mark Friedenbach
 - NicolasDorier

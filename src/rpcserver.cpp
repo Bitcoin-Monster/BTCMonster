@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2018 The Bitcoin Monster Core developers
+// Copyright (c) 2017-2018 The Banq Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -244,11 +244,11 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop Bitcoin Monster Core server.");
+            "\nStop Banq Core server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "Bitcoin Monster Core server stopping";
+    return "Banq Core server stopping";
 }
 
 /**
@@ -343,19 +343,19 @@ static const CRPCCommand vRPCCommands[] =
     { "hidden",             "resendwallettransactions", &resendwallettransactions, true},
 #endif
 
-    /* Bitcoin Monster features */
-    { "bitcoinmonster",               "masternode",             &masternode,             true  },
-    { "bitcoinmonster",               "masternodelist",         &masternodelist,         true  },
-    { "bitcoinmonster",               "masternodebroadcast",    &masternodebroadcast,    true  },
-    { "bitcoinmonster",               "gobject",                &gobject,                true  },
-    { "bitcoinmonster",               "getgovernanceinfo",      &getgovernanceinfo,      true  },
-    { "bitcoinmonster",               "getsuperblockbudget",    &getsuperblockbudget,    true  },
-    { "bitcoinmonster",               "voteraw",                &voteraw,                true  },
-    { "bitcoinmonster",               "mnsync",                 &mnsync,                 true  },
-    { "bitcoinmonster",               "spork",                  &spork,                  true  },
-    { "bitcoinmonster",               "getpoolinfo",            &getpoolinfo,            true  },
+    /* Banq features */
+    { "banq",               "masternode",             &masternode,             true  },
+    { "banq",               "masternodelist",         &masternodelist,         true  },
+    { "banq",               "masternodebroadcast",    &masternodebroadcast,    true  },
+    { "banq",               "gobject",                &gobject,                true  },
+    { "banq",               "getgovernanceinfo",      &getgovernanceinfo,      true  },
+    { "banq",               "getsuperblockbudget",    &getsuperblockbudget,    true  },
+    { "banq",               "voteraw",                &voteraw,                true  },
+    { "banq",               "mnsync",                 &mnsync,                 true  },
+    { "banq",               "spork",                  &spork,                  true  },
+    { "banq",               "getpoolinfo",            &getpoolinfo,            true  },
 #ifdef ENABLE_WALLET
-    { "bitcoinmonster",               "privatesend",            &privatesend,            false },
+    { "banq",               "privatesend",            &privatesend,            false },
 
     /* Wallet */
     { "wallet",             "keepass",                &keepass,                true },
@@ -578,13 +578,13 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(const std::string& methodname, const std::string& args)
 {
-    return "> bitcoinmonster-cli " + methodname + " " + args + "\n";
+    return "> banq-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(const std::string& methodname, const std::string& args)
 {
     return "> curl --user myusername --data-binary '{\"jsonrpc\": \"1.0\", \"id\":\"curltest\", "
-        "\"method\": \"" + methodname + "\", \"params\": [" + args + "] }' -H 'content-type: text/plain;' http://127.0.0.1:12228/\n";
+        "\"method\": \"" + methodname + "\", \"params\": [" + args + "] }' -H 'content-type: text/plain;' http://127.0.0.1:9998/\n";
 }
 
 void RPCRegisterTimerInterface(RPCTimerInterface *iface)

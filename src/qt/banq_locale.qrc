@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/banq_bg.qm</file>
+        <file alias="de">locale/banq_de.qm</file>
+        <file alias="en">locale/banq_en.qm</file>
+        <file alias="es">locale/banq_es.qm</file>
+        <file alias="fi">locale/banq_fi.qm</file>
+        <file alias="fr">locale/banq_fr.qm</file>
+        <file alias="it">locale/banq_it.qm</file>
+        <file alias="ja">locale/banq_ja.qm</file>
+        <file alias="pl">locale/banq_pl.qm</file>
+        <file alias="pt">locale/banq_pt.qm</file>
+        <file alias="ru">locale/banq_ru.qm</file>
+        <file alias="sk">locale/banq_sk.qm</file>
+        <file alias="sv">locale/banq_sv.qm</file>
+        <file alias="vi">locale/banq_vi.qm</file>
+        <file alias="zh_CN">locale/banq_zh_CN.qm</file>
+        <file alias="zh_TW">locale/banq_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -55,15 +55,15 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += bitcoinmonsterd
+  bin_PROGRAMS += banqd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += bitcoinmonster-cli bitcoinmonster-tx
+  bin_PROGRAMS += banq-cli banq-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
-# bitcoinmonster core #
+# banq core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addressindex.h \
@@ -191,7 +191,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between bitcoinmonsterd and bitcoinmonster-qt
+# server: shared between banqd and banq-qt
 libbitcoin_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_server_a_SOURCES = \
@@ -249,7 +249,7 @@ libbitcoin_zmq_a_SOURCES = \
 endif
 
 
-# wallet: shared between bitcoinmonsterd and bitcoinmonster-qt, but only linked
+# wallet: shared between banqd and banq-qt, but only linked
 # when wallet enabled
 libbitcoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
@@ -320,7 +320,7 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/sha512.cpp \
   crypto/sha512.h
 
-# common: shared between bitcoinmonsterd, and bitcoinmonster-qt and non-server tools
+# common: shared between banqd, and banq-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
@@ -377,7 +377,7 @@ if GLIBC_BACK_COMPAT
 libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 endif
 
-# cli: shared between bitcoinmonster-cli and bitcoinmonster-qt
+# cli: shared between banq-cli and banq-qt
 libbitcoin_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_cli_a_SOURCES = \
@@ -388,16 +388,16 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-bitcoinmonsterd_SOURCES = bitcoinmonsterd.cpp
-bitcoinmonsterd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-bitcoinmonsterd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-bitcoinmonsterd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+banqd_SOURCES = banqd.cpp
+banqd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+banqd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+banqd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-bitcoinmonsterd_SOURCES += bitcoinmonsterd-res.rc
+banqd_SOURCES += banqd-res.rc
 endif
 
-bitcoinmonsterd_LDADD = \
+banqd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -408,50 +408,50 @@ bitcoinmonsterd_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-bitcoinmonsterd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+banqd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-bitcoinmonsterd_LDADD += libbitcoin_wallet.a
+banqd_LDADD += libbitcoin_wallet.a
 endif
 
-bitcoinmonsterd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+banqd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
 
-# bitcoinmonster-cli binary #
-bitcoinmonster_cli_SOURCES = bitcoinmonster-cli.cpp
-bitcoinmonster_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-bitcoinmonster_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-bitcoinmonster_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# banq-cli binary #
+banq_cli_SOURCES = banq-cli.cpp
+banq_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+banq_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+banq_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-bitcoinmonster_cli_SOURCES += bitcoinmonster-cli-res.rc
+banq_cli_SOURCES += banq-cli-res.rc
 endif
 
-bitcoinmonster_cli_LDADD = \
+banq_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL)
-bitcoinmonster_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+banq_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
-# bitcoinmonster-tx binary #
-bitcoinmonster_tx_SOURCES = bitcoinmonster-tx.cpp
-bitcoinmonster_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-bitcoinmonster_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-bitcoinmonster_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# banq-tx binary #
+banq_tx_SOURCES = banq-tx.cpp
+banq_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+banq_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+banq_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-bitcoinmonster_tx_SOURCES += bitcoinmonster-tx-res.rc
+banq_tx_SOURCES += banq-tx-res.rc
 endif
 
-bitcoinmonster_tx_LDADD = \
+banq_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-bitcoinmonster_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+banq_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #

@@ -1,19 +1,19 @@
 #!/usr/bin/make -f
 # -*- mode: makefile; coding: utf-8 -*-
 
-#DEB_MAKE_CHECK_TARGET = test_bitcoinmonster
-#build/bitcoinmonsterd::
-#	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_bitcoinmonster)
+#DEB_MAKE_CHECK_TARGET = test_banq
+#build/banqd::
+#	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_banq)
 
-DEB_INSTALL_EXAMPLES_bitcoinmonsterd += debian/examples/*
-DEB_INSTALL_MANPAGES_bitcoinmonsterd += debian/manpages/*
+DEB_INSTALL_EXAMPLES_banqd += debian/examples/*
+DEB_INSTALL_MANPAGES_banqd += debian/manpages/*
 
 %:
 	dh --with bash-completion $@
 
 override_dh_auto_clean:
 	if [ -f Makefile ]; then $(MAKE) distclean; fi
-	rm -rf Makefile.in aclocal.m4 configure src/Makefile.in src/bitcoinmonster-config.h.in src/build-aux src/qt/Makefile.in src/qt/test/Makefile.in src/test/Makefile.in
+	rm -rf Makefile.in aclocal.m4 configure src/Makefile.in src/banq-config.h.in src/build-aux src/qt/Makefile.in src/qt/test/Makefile.in src/test/Makefile.in
 
 # Yea, autogen should be run on the source archive, but I like doing git archive
 override_dh_auto_configure:

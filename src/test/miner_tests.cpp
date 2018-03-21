@@ -17,7 +17,7 @@
 #include "util.h"
 #include "utilstrencodings.h"
 
-#include "test/test_bitcoinmonster.h"
+#include "test/test_banq.h"
 
 #include <boost/test/unit_test.hpp>
 

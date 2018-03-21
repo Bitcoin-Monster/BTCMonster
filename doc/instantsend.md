@@ -11,9 +11,9 @@ When a "Transaction Lock" occurs the hash of the related transaction is broadcas
 * `zmqpubrawtxlock`: publishes the raw transaction when locked via InstantSend
 * `zmqpubhashtxlock`: publishes the transaction hash when locked via InstantSend
 
-This mechanism has been integrated into Bitcore-Node-Bitcoin Monster which allows for notification to be broadcast through Insight API in one of two ways:
-* WebSocket: [https://github.com/bitcoinmonster/insight-api-bitcoinmonster#web-socket-api](https://github.com/bitcoinmonster/insight-api-bitcoinmonster#web-socket-api)
-* API: [https://github.com/bitcoinmonster/insight-api-bitcoinmonster#instantsend-transactions](https://github.com/bitcoinmonster/insight-api-bitcoinmonster#instantsend-transactions)
+This mechanism has been integrated into Bitcore-Node-Banq which allows for notification to be broadcast through Insight API in one of two ways:
+* WebSocket: [https://github.com/banqcoin/insight-api-banq#web-socket-api](https://github.com/banqcoin/insight-api-banq#web-socket-api) 
+* API: [https://github.com/banqcoin/insight-api-banq#instantsend-transactions](https://github.com/banqcoin/insight-api-banq#instantsend-transactions) 
 
 ####Command line option
 
@@ -27,13 +27,13 @@ When a wallet InstantSend transaction is successfully locked a shell command pro
 
 Details pertaining to an observed "Transaction Lock" can also be retrieved through RPC, it’s important however to understand the underlying mechanism.
 
-By default, the Bitcoin Monster Core daemon will launch using the following constant:
+By default, the Banq Core daemon will launch using the following constant:
 
 ```
 static const int DEFAULT_INSTANTSEND_DEPTH = 5;
 ```
 
-This value can be overridden by passing the following argument to the Bitcoin Monster Core daemon:
+This value can be overridden by passing the following argument to the Banq Core daemon:
 
 ```
 -instantsenddepth=<n>

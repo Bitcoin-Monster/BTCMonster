@@ -1,6 +1,0 @@
-usr/local/bin/bitcoinmonster-qt usr/bin
-share/pixmaps/bitcoinmonster32.xpm usr/share/pixmaps
-share/pixmaps/bitcoinmonster16.xpm usr/share/pixmaps
-share/pixmaps/bitcoinmonster128.png usr/share/pixmaps
-debian/bitcoinmonster-qt.desktop usr/share/applications
-debian/bitcoinmonster-qt.protocol usr/share/kde4/services/

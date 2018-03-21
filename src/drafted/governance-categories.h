@@ -4,22 +4,22 @@
 
 	* means the category has an associated class
 	
-	CBitcoin MonsterNetwork: COIN2FLY NETWORK (ROOT)
+	CBanqNetwork: BANQ NETWORK (ROOT)
 	has:
 		vector<CNetworkVariable> vecNetworkVariables;
-		vector<CBitcoin MonsterProject> vecProjects;
+		vector<CBanqProject> vecProjects;
 		vector<CGovernanceObject> vecProposals;
 		vector<CBudgetContract> vecContracts;
 		vector<CBudgetUsers> vecUsers;
 
-	CBitcoin MonsterProject:
+	CBanqProject:
 	has:
 		name
 		employees
 
 */
 
-	// COIN2FLY NETWORK (ROOT)
+	// BANQ NETWORK (ROOT)
 	// 	-> NETWORK VARIABLE
 	// 		-> switch, setting
 	// 	-> CATEGORIES
@@ -49,7 +49,7 @@
 	// 			-> USER1 (only users are allowed here in this scope)
 	// 			-> USER2
 	// 		-> GROUP2 (EVO)
-	// 			-> VALUEOVERRIDE (STORE=MONDRIVE)
+	// 			-> VALUEOVERRIDE (STORE=BANQDRIVE)
 	// 			-> USER1
 
 	// 	-> COMPANIES

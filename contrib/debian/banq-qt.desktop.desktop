@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Banq
+Comment=Banq P2P Cryptocurrency
+Exec=banq-qt %u
+Terminal=false
+Type=Application
+Icon=banq128
+MimeType=x-scheme-handler/banq;
+Categories=Office;Finance;
+Name[en_US]=banq-qt.desktop

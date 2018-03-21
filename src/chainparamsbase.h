@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between bitcoinmonster-cli and bitcoinmonsterd)
- * of a given instance of the Bitcoin Monster system.
+ * CBaseChainParams defines the base parameters (shared between banq-cli and banqd)
+ * of a given instance of the Banq system.
  */
 class CBaseChainParams
 {

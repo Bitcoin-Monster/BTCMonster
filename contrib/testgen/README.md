@@ -1,6 +1,6 @@
 ### TestGen ###
 
-Utilities to generate test vectors for the data-driven Bitcoin Monster tests.
+Utilities to generate test vectors for the data-driven Banq tests.
 
 Usage: 
 

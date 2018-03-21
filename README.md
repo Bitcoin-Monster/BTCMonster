@@ -1,27 +1,29 @@
-Bitcoin Monster Core staging tree 0.12.1.4
+Banq Core staging tree 0.12.1
 ===============================
 
-https://www.bitcoinmonster.com
+
+http://www.banq.online
 
 
-What is Bitcoin Monster?
+What is Banq?
 ----------------
 
-Bitcoin Monster (MON) is an innovative cryptocurrency. A form of digital currency secured by cryptography and issued through a decentralized and advanced mining market. Based on Dash, it's an enhanced and further developed version, featuring the masternode technology with 50% Reward, near-instant and secure payments as well as anonymous transactions. Bitcoin Monster has great potential for rapid growth and expansion. Based on a total Proof of Work and Masternode system, it is accesible to everyone, it ensures a fair and stable return of investment for the Graphics Processing Units (GPUs) miners and the Masternode holders.
+BANQ is innovative decentralized global payment system based on blockchain technology and secured by Masternode system. People will be able to store, spend, exchange and later borrow practically any Cryptocurrency in the same way as any other currency, but in a quicker, cheaper and more secure way than it is possible now in any traditional bank. BANQ is a future of Financial system with limitless opportunities.
+
 
 
 License
 -------
 
-Bitcoin Monster Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Banq Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
 -------------------
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/bitcoinmonster/bitcoinmonstercore/tags) are created to indicate new official,
-stable release versions of Bitcoin Monster Core.
+[Tags](https://github.com/banq-platform/banq/tags) are created to indicate new official,
+stable release versions of Banq Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 

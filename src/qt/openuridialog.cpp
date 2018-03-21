@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2013 The Bitcoin Core developers
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2018 The Bitcoin Monster Core developers
+// Copyright (c) 2017-2018 The Banq Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -18,7 +18,7 @@ OpenURIDialog::OpenURIDialog(QWidget *parent) :
 {
     ui->setupUi(this);
 #if QT_VERSION >= 0x040700
-    ui->uriEdit->setPlaceholderText("bitcoinmonster:");
+    ui->uriEdit->setPlaceholderText("banq:");
 #endif
 }
 
@@ -50,5 +50,5 @@ void OpenURIDialog::on_selectFileButton_clicked()
     if(filename.isEmpty())
         return;
     QUrl fileUri = QUrl::fromLocalFile(filename);
-    ui->uriEdit->setText("bitcoinmonster:?r=" + QUrl::toPercentEncoding(fileUri.toString()));
+    ui->uriEdit->setText("banq:?r=" + QUrl::toPercentEncoding(fileUri.toString()));
 }

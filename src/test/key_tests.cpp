@@ -9,7 +9,7 @@
 #include "uint256.h"
 #include "util.h"
 #include "utilstrencodings.h"
-#include "test/test_bitcoinmonster.h"
+#include "test/test_banq.h"
 
 #include <string>
 #include <vector>

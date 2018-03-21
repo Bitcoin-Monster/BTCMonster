@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin Core developers
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2018 The Bitcoin Monster Core developers
+// Copyright (c) 2017-2018 The Banq Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -43,8 +43,8 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
 
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "The WSJ 01/30/2018 Stocks Extend Drop With Sharp Selloff";
-    const CScript genesisOutputScript = CScript() << ParseHex("042466b8baa990269fb2833f37d84762d15df135a1b91bd1f2c7d49bc41d41b0b9c0fabe100dcd907d7555cb71bbaface142919ac8629b8492b27cedb357bcbc99") << OP_CHECKSIG;
+    const char* pszTimestamp = "start banq 13/03/2017 11/00";
+    const CScript genesisOutputScript = CScript() << ParseHex("042fe924b01aceef2977bd37ed244662949416abc485de6523eb3a3e00ecac8ff63e0a61fa6a028f4dd36a5e07d5a802c6bb57d325e896173748b017d65bc3c410") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
 
@@ -64,8 +64,8 @@ class CMainParams : public CChainParams {
 public:
     CMainParams() {
         strNetworkID = "main";
-        consensus.nSubsidyHalvingInterval = 210240; // one year
-        consensus.nMasternodePaymentsStartBlock = 150;
+        consensus.nSubsidyHalvingInterval = 262800; // one year
+        consensus.nMasternodePaymentsStartBlock = 1; // not true, but it's ok as long as it's less then nMasternodePaymentsIncreaseBlock
         consensus.nMasternodePaymentsIncreaseBlock = 158000; // not used
         consensus.nMasternodePaymentsIncreasePeriod = 576*30; // not used
         consensus.nInstantSendKeepLock = 24;
@@ -81,11 +81,11 @@ public:
         consensus.nMajorityEnforceBlockUpgrade = 750;
         consensus.nMajorityRejectBlockOutdated = 950;
         consensus.nMajorityWindow = 1000;
-        consensus.BIP34Height = -1; // FIX
-        consensus.BIP34Hash = uint256S("0x0"); // FIX
+        consensus.BIP34Height = 227931; // FIX
+        consensus.BIP34Hash = uint256S("0x000000000000024b89b42a942fe0d9fea3bb44ab7bd1b19115dd6a759c0808b8"); // FIX
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
-        consensus.nPowTargetTimespan = 60 * 60; // Bitcoin Monster: 1 hour, 24 blocks
-        consensus.nPowTargetSpacing = 2.5 * 60; // Bitcoin Monster: 150 seconds
+        consensus.nPowTargetTimespan = 60 * 60; // Banq: 1 hour, 20 blocks
+        consensus.nPowTargetSpacing = 3 * 60; // Banq: 180 seconds
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 1916; // 95% of 2016
@@ -104,61 +104,59 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
-        pchMessageStart[0] = 0x23;
-        pchMessageStart[1] = 0x42;
-        pchMessageStart[2] = 0x3a;
-        pchMessageStart[3] = 0x78;
-        vAlertPubKey = ParseHex("043eb7f5e77910fdbbd19c0cb834e421a485402d25fc287941e56c1643909c510b8cacb33cd689b1a68c086cfdc536663f6a121bb43c5d9f4fd9a93fb090fc6d63");
-        nDefaultPort = 12225;
+        pchMessageStart[0] = 0x1a;
+        pchMessageStart[1] = 0xb2;
+        pchMessageStart[2] = 0xc3;
+        pchMessageStart[3] = 0xd4;
+        vAlertPubKey = ParseHex("047555dd6f4137f0ebe725535eca0ef48d8b1c4d94c5b150e0f491277aac0a0f3d7ea14b6a0b96545814cc74850ce738af0262b84b8f42fbb63782cd5fd5200325");
+        nDefaultPort = 4568;
         nMaxTipAge = 6 * 60 * 60; // ~144 blocks behind -> 2 x fork detection time, was 24 * 60 * 60 in bitcoin
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1517338800, 2339401, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1520939400, 1140590, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x000009f562f067c612425b64d5a62af8bad8fd0e86241489d2f84241739c1c6a"));
-        assert(genesis.hashMerkleRoot == uint256S("0x23bbbf537dfd0029567d597939d29be61f5d03c6bd9b26a6b16aa4b69758185b"));
+        assert(consensus.hashGenesisBlock == uint256S("00000927435496954fcf6314b8d7ba4a0ec4a2cf37964bfa734fb6348359ed92"));
+        assert(genesis.hashMerkleRoot == uint256S("b2ef79664ca828750673eddc91f7643ad42a986f8a20172a211d4c7a81c9520c"));
 
-        vSeeds.push_back(CDNSSeedData("bitcoinmonster.org", "78.47.154.34"));
-        vSeeds.push_back(CDNSSeedData("bitcoinmonster.org", "78.47.154.38"));
-        // vSeeds.push_back(CDNSSeedData("bitcoinmonster.org", "seed3.bitcoinmonster.org"));
-        // vSeeds.push_back(CDNSSeedData("bitcoinmonster.org", "seed4.bitcoinmonster.org"));
-        // vSeeds.push_back(CDNSSeedData("bitcoinmonster.org", "seed5.bitcoinmonster.org"));
-        // vSeeds.push_back(CDNSSeedData("bitcoinmonster.org", "seed6.bitcoinmonster.org"));
+        vSeeds.push_back(CDNSSeedData("banq.online", "seed1.banq.online"));
+        vSeeds.push_back(CDNSSeedData("banq.online", "seed2.banq.online"));
+        vSeeds.push_back(CDNSSeedData("banq.online", "seed3.banq.online"));
+        vFixedSeeds.clear();
+        vSeeds.clear();
 
-        // Bitcoin Monster addresses start with 'M'
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,50);
-        // Bitcoin Monster script addresses start with '9'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,21);
-        // Bitcoin Monster private keys start with 'E' (?)
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,33);
-        // Bitcoin Monster BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
+        // Banq addresses start with 'B'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,25);
+        // Banq script addresses start with '5'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,10);
+        // Banq private keys start with '5' or 'G' (?)
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,198);
+        // Banq BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
-        // Bitcoin Monster BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
+        // Banq BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
-        // Bitcoin Monster BIP44 coin type is '5'
+        // Banq BIP44 coin type is '5'
         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x80)(0x00)(0x00)(0x05).convert_to_container<std::vector<unsigned char> >();
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
 
-        fMiningRequiresPeers = false;
+        fMiningRequiresPeers = true;
         fDefaultConsistencyChecks = false;
-        fRequireStandard = false;
-        fMineBlocksOnDemand = true;
+        fRequireStandard = true;
+        fMineBlocksOnDemand = false;
         fTestnetToBeDeprecatedFieldRPC = false;
 
         nPoolMaxTransactions = 3;
         nFulfilledRequestExpireTime = 60*60; // fulfilled requests expire in 1 hour
-        strSporkPubKey = "04da4571fe92825fcc8037224831e2c503a46085e20a44839ec600a776ea5f4fdf21b6f2ad4b8f94f54eb778287482859f5d56e14f0ecc2565e53fbab9ecebafd7";
-        strMasternodePaymentsPubKey = "04da4571fe92825fcc8037224831e2c503a46085e20a44839ec600a776ea5f4fdf21b6f2ad4b8f94f54eb778287482859f5d56e14f0ecc2565e53fbab9ecebafd7";
+        strSporkPubKey = "043ce0aa1487ec7e10e121ad1261ce317c4eb583d36271b39730ea5d17c5e712214a93624d72771681f78bdc4b9e93b21532a4a9e533a17dda6a07701f5f75e830";
+        strMasternodePaymentsPubKey = "043ce0aa1487ec7e10e121ad1261ce317c4eb583d36271b39730ea5d17c5e712214a93624d72771681f78bdc4b9e93b21532a4a9e533a17dda6a07701f5f75e830";
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-                (   0, uint256S("0x000009f562f067c612425b64d5a62af8bad8fd0e86241489d2f84241739c1c6a"))
-                (5000, uint256S("0x00000000016eac994190296f239b9b99856836166d617ef6b08bc3f318e253ed")),
-                1518257765, // * UNIX timestamp of last checkpoint block
-                5000,   // * total number of transactions between genesis and last checkpoint
-                            //   (the tx=... number in the SetBestChain debug.log lines)
-                560        // * estimated number of transactions per day after checkpoint
+            (   0, uint256S("00000927435496954fcf6314b8d7ba4a0ec4a2cf37964bfa734fb6348359ed92")),
+            1520939400, // * UNIX timestamp of last checkpoint block
+            0,   // * total number of transactions between genesis and last checkpoint
+                        //   (the tx=... number in the SetBestChain debug.log lines)
+            500        // * estimated number of transactions per day after checkpoint
         };
     }
 };
@@ -171,8 +169,8 @@ class CTestNetParams : public CChainParams {
 public:
     CTestNetParams() {
         strNetworkID = "test";
-        consensus.nSubsidyHalvingInterval = 210240;
-        consensus.nMasternodePaymentsStartBlock = 150;
+        consensus.nSubsidyHalvingInterval = 262800;
+        consensus.nMasternodePaymentsStartBlock = 300; // not true, but it's ok as long as it's less then nMasternodePaymentsIncreaseBlock
         consensus.nMasternodePaymentsIncreaseBlock = 158000;
         consensus.nMasternodePaymentsIncreasePeriod = 576*30;
         consensus.nInstantSendKeepLock = 6;
@@ -188,11 +186,11 @@ public:
         consensus.nMajorityEnforceBlockUpgrade = 51;
         consensus.nMajorityRejectBlockOutdated = 75;
         consensus.nMajorityWindow = 100;
-        consensus.BIP34Height = -1; // FIX
-        consensus.BIP34Hash = uint256S("0x0"); // FIX
+        consensus.BIP34Height = 21111; // FIX
+        consensus.BIP34Hash = uint256S("0x0000000023b3a96d3484e5abb3755c413e7d41500f8e2a5c3f0dd01299cd8ef8"); // FIX
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
-        consensus.nPowTargetTimespan = 60 * 60; // Bitcoin Monster: 1 hour, 24 blocks
-        consensus.nPowTargetSpacing = 2.5 * 60; // Bitcoin Monster: 150 seconds
+        consensus.nPowTargetTimespan = 60 * 60; // Banq: 1 hour, 24 blocks
+        consensus.nPowTargetSpacing = 2.5 * 60; // Banq: 150 seconds
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 1512; // 75% for testchains
@@ -206,40 +204,34 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nStartTime = 1502280000; // Aug 9th, 2017
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nTimeout = 1533816000; // Aug 9th, 2018
 
-        pchMessageStart[0] = 0x99;
-        pchMessageStart[1] = 0x68;
-        pchMessageStart[2] = 0x8c;
-        pchMessageStart[3] = 0x20;
-        vAlertPubKey = ParseHex("042466b8baa990269fb2833f37d84762d15df135a1b91bd1f2c7d49bc41d41b0b9c0fabe100dcd907d7555cb71bbaface142919ac8629b8492b27cedb357bcbc99");
-        nDefaultPort = 12226;
+        pchMessageStart[0] = 0xd1;
+        pchMessageStart[1] = 0x2b;
+        pchMessageStart[2] = 0xb3;
+        pchMessageStart[3] = 0x7a;
+        vAlertPubKey = ParseHex("041ab54da8c74c5965ce2c46a998538e2ddf675a3f692ca6fa3ea93723e40e6d47938fb07b2c6e7b407ffe23e19d60ed6802d248cd790a87c83c8b6f6407b91f6c");
+        nDefaultPort = 3568;
         nMaxTipAge = 0x7fffffff; // allow mining on top of old blocks for testnet
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1517338801, 1508028, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1520939401, 365437, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000b1b8f7c12c93b9b9d685e5139ad070613ab7da22088bfe18ef94aacc68d"));
-        assert(genesis.hashMerkleRoot == uint256S("0x23bbbf537dfd0029567d597939d29be61f5d03c6bd9b26a6b16aa4b69758185b"));
+        assert(consensus.hashGenesisBlock == uint256S("000001a7b736e85f80b5e947c2a950b7cd1dfc780331a872d6c515e1ccaf96f0"));
+        assert(genesis.hashMerkleRoot == uint256S("b2ef79664ca828750673eddc91f7643ad42a986f8a20172a211d4c7a81c9520c"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("bitcoinmonster.org", "test-seed1.bitcoinmonster.org"));
-        vSeeds.push_back(CDNSSeedData("bitcoinmonster.org", "test-seed2.bitcoinmonster.org"));
-        vSeeds.push_back(CDNSSeedData("bitcoinmonster.org", "test-seed3.bitcoinmonster.org"));
-        vSeeds.push_back(CDNSSeedData("bitcoinmonster.org", "test-seed4.bitcoinmonster.org"));
-        vSeeds.push_back(CDNSSeedData("bitcoinmonster.org", "test-seed5.bitcoinmonster.org"));
-        vSeeds.push_back(CDNSSeedData("bitcoinmonster.org", "test-seed6.bitcoinmonster.org"));
 
-        // Testnet Bitcoin Monster addresses start with 'T'
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,65);
-        // Testnet Bitcoin Monster script addresses start with '7'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,15);
-        // Testnet private keys start with 'W' (Bitcoin defaults) (?)
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,73);
-        // Testnet Bitcoin Monster BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
+        // Testnet Banq addresses start with 'n'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,112);
+        // Testnet Banq script addresses start with '9'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,20);
+        // Testnet private keys start with '9' or 'c' (Bitcoin defaults) (?)
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,240);
+        // Testnet Banq BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        // Testnet Bitcoin Monster BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
+        // Testnet Banq BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
-        // Testnet Bitcoin Monster BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet Banq BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
@@ -252,14 +244,14 @@ public:
 
         nPoolMaxTransactions = 3;
         nFulfilledRequestExpireTime = 5*60; // fulfilled requests expire in 5 minutes
-        strSporkPubKey = "04fb8502ffa6dca94e9f95d7d2598e399f26fa4b7785cb90858a166be415b0b2de0fd59d50c6c8870489036a319ec0a00310e7195caeae895ff0d7850864e68a42";
-        strMasternodePaymentsPubKey = "04fb8502ffa6dca94e9f95d7d2598e399f26fa4b7785cb90858a166be415b0b2de0fd59d50c6c8870489036a319ec0a00310e7195caeae895ff0d7850864e68a42";
+        strSporkPubKey = "043101c755faa127f493c762be760bf3874fadc305b550855300199a6763814b855db6c31296d51c6670708c7ad9e06d1db0540e821f3df5ca3608375b3855223a";
+        strMasternodePaymentsPubKey = "043101c755faa127f493c762be760bf3874fadc305b550855300199a6763814b855db6c31296d51c6670708c7ad9e06d1db0540e821f3df5ca3608375b3855223a";
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            ( 0, uint256S("0x00000b1b8f7c12c93b9b9d685e5139ad070613ab7da22088bfe18ef94aacc68d")),
+            ( 0, uint256S("000001a7b736e85f80b5e947c2a950b7cd1dfc780331a872d6c515e1ccaf96f0")),
 
-            1517338801, // * UNIX timestamp of last checkpoint block
+            1520939401, // * UNIX timestamp of last checkpoint block
             0,     // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
             500         // * estimated number of transactions per day after checkpoint
@@ -296,8 +288,8 @@ public:
         consensus.BIP34Height = -1; // BIP34 has not necessarily activated on regtest
         consensus.BIP34Hash = uint256();
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
-        consensus.nPowTargetTimespan = 60 * 60; // Bitcoin Monster: 1 hour, 24 blocks
-        consensus.nPowTargetSpacing = 2.5 * 60; // Bitcoin Monster: 150 seconds
+        consensus.nPowTargetTimespan = 60 * 60; // Banq: 1 hour, 24 blocks
+        consensus.nPowTargetSpacing = 2.5 * 60; // Banq: 150 seconds
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = true;
         consensus.nRuleChangeActivationThreshold = 108; // 75% for testchains
@@ -309,18 +301,18 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nStartTime = 0;
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nTimeout = 999999999999ULL;
 
-        pchMessageStart[0] = 0x0a;
-        pchMessageStart[1] = 0xcd;
-        pchMessageStart[2] = 0x42;
-        pchMessageStart[3] = 0x44;
+        pchMessageStart[0] = 0xa1;
+        pchMessageStart[1] = 0xb3;
+        pchMessageStart[2] = 0xd5;
+        pchMessageStart[3] = 0x7b;
         nMaxTipAge = 6 * 60 * 60; // ~144 blocks behind -> 2 x fork detection time, was 24 * 60 * 60 in bitcoin
-        nDefaultPort = 12227;
+        nDefaultPort = 2468;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1517338802, 771716, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1520939402, 0, 0x207fffff, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x0000084a7c1da222b6b2a067e7375cbadb3c690bbc4aea791edcde8f891ee0f2"));
-        assert(genesis.hashMerkleRoot == uint256S("0x23bbbf537dfd0029567d597939d29be61f5d03c6bd9b26a6b16aa4b69758185b"));
+        assert(consensus.hashGenesisBlock == uint256S("02a8bf9ab2dc7331b21ba66d819be983aeb47bc8333bd0a1aa7258bf5871fe25"));
+        assert(genesis.hashMerkleRoot == uint256S("b2ef79664ca828750673eddc91f7643ad42a986f8a20172a211d4c7a81c9520c"));
 
         vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();  //! Regtest mode doesn't have any DNS seeds.
@@ -335,22 +327,22 @@ public:
 
         checkpointData = (CCheckpointData){
             boost::assign::map_list_of
-            ( 0, uint256S("0x0000084a7c1da222b6b2a067e7375cbadb3c690bbc4aea791edcde8f891ee0f2")),
+            ( 0, uint256S("02a8bf9ab2dc7331b21ba66d819be983aeb47bc8333bd0a1aa7258bf5871fe25")),
             0,
             0,
             0
         };
-        // Regtest Bitcoin Monster addresses start with 'T'
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,65);
-        // Regtest Bitcoin Monster script addresses start with '7'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,15);
-        // Regtest private keys start with 'W' (Bitcoin defaults) (?)
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,73);
-        // Regtest Bitcoin Monster BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
+        // Regtest Banq addresses start with 'n'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,112);
+        // Regtest Banq script addresses start with '9'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,20);
+        // Regtest private keys start with '9' or 'c' (Bitcoin defaults) (?)
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,240);
+        // Regtest Banq BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        // Regtest Bitcoin Monster BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
+        // Regtest Banq BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
-        // Regtest Bitcoin Monster BIP44 coin type is '1' (All coin's testnet default)
+        // Regtest Banq BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
    }
 };

@@ -1,0 +1,6 @@
+usr/local/bin/banq-qt usr/bin
+share/pixmaps/banq32.xpm usr/share/pixmaps
+share/pixmaps/banq16.xpm usr/share/pixmaps
+share/pixmaps/banq128.png usr/share/pixmaps
+debian/banq-qt.desktop usr/share/applications
+debian/banq-qt.protocol usr/share/kde4/services/

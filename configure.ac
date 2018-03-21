@@ -5,18 +5,18 @@ define(_CLIENT_VERSION_MINOR, 12)
 define(_CLIENT_VERSION_REVISION, 1)
 define(_CLIENT_VERSION_BUILD, 3)
 define(_CLIENT_VERSION_IS_RELEASE, true)
-define(_COPYRIGHT_YEAR, 2018)
-AC_INIT([Bitcoin Monster Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/bitcoinmonster/bitcoinmonstercore/issues],[bitcoinmonstercore])
+define(_COPYRIGHT_YEAR, 2017)
+AC_INIT([Banq Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/banqcoin/banq/issues],[banqcore])
 AC_CONFIG_SRCDIR([src/main.cpp])
-AC_CONFIG_HEADERS([src/config/bitcoinmonster-config.h])
+AC_CONFIG_HEADERS([src/config/banq-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([build-aux/m4])
 
 AC_CANONICAL_HOST
 
-AH_TOP([#ifndef COIN2FLY_CONFIG_H])
-AH_TOP([#define COIN2FLY_CONFIG_H])
-AH_BOTTOM([#endif //COIN2FLY_CONFIG_H])
+AH_TOP([#ifndef BANQ_CONFIG_H])
+AH_TOP([#define BANQ_CONFIG_H])
+AH_BOTTOM([#endif //BANQ_CONFIG_H])
 
 dnl faketime breaks configure and is only needed for make. Disable it here.
 unset FAKETIME
@@ -191,7 +191,7 @@ CPPFLAGS="$CPPFLAGS -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS"
 
 AC_ARG_WITH([utils],
   [AS_HELP_STRING([--with-utils],
-  [build bitcoinmonster-cli bitcoinmonster-tx (default=yes)])],
+  [build banq-cli banq-tx (default=yes)])],
   [build_bitcoin_utils=$withval],
   [build_bitcoin_utils=yes])
 
@@ -203,7 +203,7 @@ AC_ARG_WITH([libs],
 
 AC_ARG_WITH([daemon],
   [AS_HELP_STRING([--with-daemon],
-  [build bitcoinmonsterd daemon (default=yes)])],
+  [build banqd daemon (default=yes)])],
   [build_bitcoind=$withval],
   [build_bitcoind=yes])
 
@@ -392,7 +392,7 @@ AC_C_BIGENDIAN
 dnl Check for pthread compile/link requirements
 AX_PTHREAD
 
-# The following macro will add the necessary defines to bitcoinmonster-config.h, but
+# The following macro will add the necessary defines to banq-config.h, but
 # they also need to be passed down to any subprojects. Pull the results out of
 # the cache and add them to CPPFLAGS.
 AC_SYS_LARGEFILE
@@ -777,11 +777,11 @@ LIBS="$LIBS_TEMP"
 
 BITCOIN_QT_PATH_PROGS([PROTOC], [protoc],$protoc_bin_path)
 
-AC_MSG_CHECKING([whether to build bitcoinmonsterd])
+AC_MSG_CHECKING([whether to build banqd])
 AM_CONDITIONAL([BUILD_BITCOIND], [test x$build_bitcoind = xyes])
 AC_MSG_RESULT($build_bitcoind)
 
-AC_MSG_CHECKING([whether to build utils (bitcoinmonster-cli bitcoinmonster-tx)])
+AC_MSG_CHECKING([whether to build utils (banq-cli banq-tx)])
 AM_CONDITIONAL([BUILD_BITCOIN_UTILS], [test x$build_bitcoin_utils = xyes])
 AC_MSG_RESULT($build_bitcoin_utils)
 
@@ -882,7 +882,7 @@ if test x$bitcoin_enable_qt != xno; then
     AC_MSG_WARN("xgettext is required to update qt translations")
   fi
 
-  AC_MSG_CHECKING([whether to build test_bitcoinmonster-qt])
+  AC_MSG_CHECKING([whether to build test_banq-qt])
   if test x$use_gui_tests$bitcoin_enable_qt_test = xyesyes; then
     AC_MSG_RESULT([yes])
     BUILD_TEST_QT="yes"
@@ -893,7 +893,7 @@ fi
 
 AM_CONDITIONAL([ENABLE_ZMQ], [test "x$use_zmq" = "xyes"])
 
-AC_MSG_CHECKING([whether to build test_bitcoinmonster])
+AC_MSG_CHECKING([whether to build test_banq])
 if test x$use_tests = xyes; then
   AC_MSG_RESULT([yes])
   BUILD_TEST="yes"

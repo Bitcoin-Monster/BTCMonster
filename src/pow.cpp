@@ -81,7 +81,7 @@ unsigned int static KimotoGravityWell(const CBlockIndex* pindexLast, const Conse
 }
 
 unsigned int static DarkGravityWave(const CBlockIndex* pindexLast, const Consensus::Params& params) {
-
+    /* current difficulty formula, banq - DarkGravity v3, written by Evan Duffield - evan@banq.org */
     const CBlockIndex *BlockLastSolved = pindexLast;
     const CBlockIndex *BlockReading = pindexLast;
     int64_t nActualTimespan = 0;
@@ -142,11 +142,11 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
 
     // mainnet/regtest share a configuration
     if (Params().NetworkIDString() == CBaseChainParams::MAIN || Params().NetworkIDString() == CBaseChainParams::REGTEST) {
-        if (pindexLast->nHeight + 1 >= 700) retarget = DIFF_DGW;
+        if (pindexLast->nHeight + 1 >= 1) retarget = DIFF_DGW;
         else retarget = DIFF_BTC;
     // testnet -- we want a lot of coins in existance early on
     } else {
-        if (pindexLast->nHeight + 1 >= 650) retarget = DIFF_DGW;
+        if (pindexLast->nHeight + 1 >= 1) retarget = DIFF_DGW;
         else retarget = DIFF_BTC;
     }
 

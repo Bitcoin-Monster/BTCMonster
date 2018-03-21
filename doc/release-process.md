@@ -1,7 +1,7 @@
 Release Process
 ====================
 
-* Update translations, see [translation_process.md](https://github.com/bitcoinmonster/bitcoinmonstercore/blob/master/doc/translation_process.md#syncing-with-transifex)
+* Update translations, see [translation_process.md](https://github.com/banqcoin/banq/blob/master/doc/translation_process.md#syncing-with-transifex)
 * Update hardcoded [seeds](/contrib/seeds)
 
 * * *
@@ -10,14 +10,14 @@ Release Process
 Check out the source code in the following directory hierarchy.
 
 	cd /path/to/your/toplevel/build
-        git clone https://github.com/bitcoinmonster/gitian.sigs.git
-        git clone https://github.com/bitcoinmonster/bitcoinmonstercore-detached-sigs.git
+	git clone https://github.com/banqcoin/gitian.sigs.git
+	git clone https://github.com/banqcoin/banq-detached-sigs.git
 	git clone https://github.com/devrandom/gitian-builder.git
-        git clone https://github.com/bitcoinmonster/bitcoinmonstercore.git
+	git clone https://github.com/banqcoin/banq.git
 
-###Bitcoin Monster Core maintainers/release engineers, update (commit) version in sources
+###Banq Core maintainers/release engineers, update (commit) version in sources
 
-	pushd ./bitcoinmonster
+	pushd ./banq
 	contrib/verifysfbinaries/verify.sh
 	configure.ac
 	doc/README*
@@ -40,7 +40,7 @@ Check out the source code in the following directory hierarchy.
 
  Setup Gitian descriptors:
 
-	pushd ./bitcoinmonster
+	pushd ./banq
 	export SIGNER=(your Gitian key, ie bluematt, sipa, etc)
 	export VERSION=(new version, e.g. 0.8.0)
 	git fetch
@@ -76,52 +76,52 @@ Check out the source code in the following directory hierarchy.
 
 By default, Gitian will fetch source files as needed. To cache them ahead of time:
 
-	make -C ../bitcoinmonster/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../banq/depends download SOURCES_PATH=`pwd`/cache/common
 
 Only missing files will be fetched, so this is safe to re-run for each build.
 
 NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from local URLs. For example:
 ```
-./bin/gbuild --url bitcoinmonster=/path/to/bitcoinmonster,signature=/path/to/sigs {rest of arguments}
+./bin/gbuild --url banq=/path/to/banq,signature=/path/to/sigs {rest of arguments}
 ```
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-###Build and sign Bitcoin Monster Core for Linux, Windows, and OS X:
+###Build and sign Banq Core for Linux, Windows, and OS X:
 
-	./bin/gbuild --commit bitcoinmonster=v${VERSION} ../bitcoinmonster/contrib/gitian-descriptors/gitian-linux.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../bitcoinmonster/contrib/gitian-descriptors/gitian-linux.yml
-	mv build/out/bitcoinmonster-*.tar.gz build/out/src/bitcoinmonster-*.tar.gz ../
+	./bin/gbuild --commit banq=v${VERSION} ../banq/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../banq/contrib/gitian-descriptors/gitian-linux.yml
+	mv build/out/banq-*.tar.gz build/out/src/banq-*.tar.gz ../
 
-	./bin/gbuild --commit bitcoinmonster=v${VERSION} ../bitcoinmonster/contrib/gitian-descriptors/gitian-win.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../bitcoinmonster/contrib/gitian-descriptors/gitian-win.yml
-	mv build/out/bitcoinmonster-*-win-unsigned.tar.gz inputs/bitcoinmonster-win-unsigned.tar.gz
-	mv build/out/bitcoinmonster-*.zip build/out/bitcoinmonster-*.exe ../
+	./bin/gbuild --commit banq=v${VERSION} ../banq/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../banq/contrib/gitian-descriptors/gitian-win.yml
+	mv build/out/banq-*-win-unsigned.tar.gz inputs/banq-win-unsigned.tar.gz
+	mv build/out/banq-*.zip build/out/banq-*.exe ../
 
-	./bin/gbuild --commit bitcoinmonster=v${VERSION} ../bitcoinmonster/contrib/gitian-descriptors/gitian-osx.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../bitcoinmonster/contrib/gitian-descriptors/gitian-osx.yml
-	mv build/out/bitcoinmonster-*-osx-unsigned.tar.gz inputs/bitcoinmonster-osx-unsigned.tar.gz
-	mv build/out/bitcoinmonster-*.tar.gz build/out/bitcoinmonster-*.dmg ../
+	./bin/gbuild --commit banq=v${VERSION} ../banq/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../banq/contrib/gitian-descriptors/gitian-osx.yml
+	mv build/out/banq-*-osx-unsigned.tar.gz inputs/banq-osx-unsigned.tar.gz
+	mv build/out/banq-*.tar.gz build/out/banq-*.dmg ../
 	popd
 
   Build output expected:
 
-  1. source tarball (bitcoinmonster-${VERSION}.tar.gz)
-  2. linux 32-bit and 64-bit dist tarballs (bitcoinmonster-${VERSION}-linux[32|64].tar.gz)
-  3. windows 32-bit and 64-bit unsigned installers and dist zips (bitcoinmonster-${VERSION}-win[32|64]-setup-unsigned.exe, bitcoinmonster-${VERSION}-win[32|64].zip)
-  4. OS X unsigned installer and dist tarball (bitcoinmonster-${VERSION}-osx-unsigned.dmg, bitcoinmonster-${VERSION}-osx64.tar.gz)
+  1. source tarball (banq-${VERSION}.tar.gz)
+  2. linux 32-bit and 64-bit dist tarballs (banq-${VERSION}-linux[32|64].tar.gz)
+  3. windows 32-bit and 64-bit unsigned installers and dist zips (banq-${VERSION}-win[32|64]-setup-unsigned.exe, banq-${VERSION}-win[32|64].zip)
+  4. OS X unsigned installer and dist tarball (banq-${VERSION}-osx-unsigned.dmg, banq-${VERSION}-osx64.tar.gz)
   5. Gitian signatures (in gitian.sigs/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/
 
 ###Verify other gitian builders signatures to your own. (Optional)
 
   Add other gitian builders keys to your gpg keyring
 
-	gpg --import ../bitcoinmonster/contrib/gitian-downloader/*.pgp
+	gpg --import ../banq/contrib/gitian-downloader/*.pgp
 
   Verify the signatures
 
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../bitcoinmonster/contrib/gitian-descriptors/gitian-linux.yml
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../bitcoinmonster/contrib/gitian-descriptors/gitian-win.yml
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../bitcoinmonster/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../banq/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../banq/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../banq/contrib/gitian-descriptors/gitian-osx.yml
 
 	popd
 
@@ -139,25 +139,25 @@ Commit your signature to gitian.sigs:
 
   Wait for Windows/OS X detached signatures:
 	Once the Windows/OS X builds each have 3 matching signatures, they will be signed with their respective release keys.
-        Detached signatures will then be committed to the [bitcoinmonster-detached-sigs](https://github.com/bitcoinmonster/bitcoinmonstercore-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+	Detached signatures will then be committed to the [banq-detached-sigs](https://github.com/banqcoin/banq-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
   Create (and optionally verify) the signed OS X binary:
 
 	pushd ./gitian-builder
-	./bin/gbuild -i --commit signature=v${VERSION} ../bitcoinmonster/contrib/gitian-descriptors/gitian-osx-signer.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../bitcoinmonster/contrib/gitian-descriptors/gitian-osx-signer.yml
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../bitcoinmonster/contrib/gitian-descriptors/gitian-osx-signer.yml
-	mv build/out/bitcoinmonster-osx-signed.dmg ../bitcoinmonster-${VERSION}-osx.dmg
+	./bin/gbuild -i --commit signature=v${VERSION} ../banq/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../banq/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../banq/contrib/gitian-descriptors/gitian-osx-signer.yml
+	mv build/out/banq-osx-signed.dmg ../banq-${VERSION}-osx.dmg
 	popd
 
   Create (and optionally verify) the signed Windows binaries:
 
 	pushd ./gitian-builder
-	./bin/gbuild -i --commit signature=v${VERSION} ../bitcoinmonster/contrib/gitian-descriptors/gitian-win-signer.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../bitcoinmonster/contrib/gitian-descriptors/gitian-win-signer.yml
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../bitcoinmonster/contrib/gitian-descriptors/gitian-win-signer.yml
-	mv build/out/bitcoinmonster-*win64-setup.exe ../bitcoinmonster-${VERSION}-win64-setup.exe
-	mv build/out/bitcoinmonster-*win32-setup.exe ../bitcoinmonster-${VERSION}-win32-setup.exe
+	./bin/gbuild -i --commit signature=v${VERSION} ../banq/contrib/gitian-descriptors/gitian-win-signer.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../banq/contrib/gitian-descriptors/gitian-win-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../banq/contrib/gitian-descriptors/gitian-win-signer.yml
+	mv build/out/banq-*win64-setup.exe ../banq-${VERSION}-win64-setup.exe
+	mv build/out/banq-*win32-setup.exe ../banq-${VERSION}-win32-setup.exe
 	popd
 
 Commit your signature for the signed OS X/Windows binaries:
@@ -182,21 +182,21 @@ rm SHA256SUMS
 (the digest algorithm is forced to sha256 to avoid confusion of the `Hash:` header that GPG adds with the SHA256 used for the files)
 Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spurious/nonsensical entry.
 
-- Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the bitcoinmonster.org server
+- Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the banq.org server
 
-- Update bitcoinmonster.org
+- Update banq.org
 
 - Announce the release:
 
-  - Release on Bitcoin Monster forum: https://www.bitcoinmonster.org/forum/topic/official-announcements.54/
+  - Release on Banq forum: https://www.banq.org/forum/topic/official-announcements.54/
 
-  - Bitcoin Monster-development mailing list
+  - Banq-development mailing list
 
-  - Update title of #bitcoinmonstercoin on Freenode IRC
+  - Update title of #banqcoin on Freenode IRC
 
-  - Optionally reddit /r/Bitcoin Monsterpay, ... but this will usually sort out itself
+  - Optionally reddit /r/Banqpay, ... but this will usually sort out itself
 
-- Notify flare so that he can start building [the PPAs](https://launchpad.net/~bitcoinmonster.org/+archive/ubuntu/bitcoinmonster)
+- Notify flare so that he can start building [the PPAs](https://launchpad.net/~banq.org/+archive/ubuntu/banq)
 
 - Add release notes for the new version to the directory `doc/release-notes` in git master
 

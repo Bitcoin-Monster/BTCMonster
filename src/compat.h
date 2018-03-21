@@ -7,7 +7,7 @@
 #define BITCOIN_COMPAT_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/bitcoinmonster-config.h"
+#include "config/banq-config.h"
 #endif
 
 #ifdef WIN32

@@ -1,5 +1,5 @@
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2018 The Bitcoin Monster Core developers
+// Copyright (c) 2017-2018 The Banq Core developers
 
 /*
  * FIELDS AND CLASSIFICATION
@@ -46,7 +46,7 @@
  * =========================
  *
  *   // network
- *   CBitcoin MonsterNetwork lvl, network-type, network-status, network-error, milestone-status*
+ *   CBanqNetwork lvl, network-type, network-status, network-error, milestone-status*
  *   CCategory lvl, category-type, status, status-error
  *   CNetworkGlobalVariable lvl, global-type, status, status-error
  *   // base: actor
@@ -80,7 +80,7 @@
  *  TREE STRUCTURE
  *  ===========================================
  * 
- *  COIN2FLY NETWORK (ROOT)
+ *  BANQ NETWORK (ROOT)
  *      -> NETWORK GLOBOLS
  *          -> SWITCHES, SETTINGS
  *      -> CATEGORIES
@@ -118,6 +118,7 @@ private:
     int nLevel;
     std::string strCategory;
 
+    // Current OBJECT STATUS (see http://govman.banq.org/index.php/Documentation_:_Status_Field)
     int nStatusID;
     std::string strStatusMessage;
 
@@ -130,7 +131,7 @@ public:
 };
 
 // // root node
-class CBitcoin MonsterNetwork : public CGovernanceObject
+class CBanqNetwork : public CGovernanceObject
 {
 private:
     std::string strName;
@@ -138,7 +139,7 @@ private:
 
 
 public:
-    CBitcoin MonsterNetwork(UniValue objIn)
+    CBanqNetwork(UniValue objIn)
     {
         strName = objIn["name"].get_str();
         strURL = objIn["name"].get_str();
@@ -174,9 +175,9 @@ public:
 
 };
 
-// // can be under: Bitcoin MonsterNetwork
+// // can be under: BanqNetwork
 // //   -- signature requirements : Key1(User)
-// class CBitcoin MonsterNetworkVariable : public CGovernanceObject
+// class CBanqNetworkVariable : public CGovernanceObject
 // {
 // private:
 
@@ -279,7 +280,7 @@ public:
 //     // isRootCategory()
 //     // {
 //     //     // root categories won't have categories as parents
-//     //     return (IsType() == Bitcoin MonsterNetwork);
+//     //     return (IsType() == BanqNetwork);
 //     // }
 
 //     // isSubcategoryOf(std::string strParentName)

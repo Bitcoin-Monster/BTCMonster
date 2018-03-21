@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2015 The Bitcoin Core developers
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2018 The Bitcoin Monster Core developers
+// Copyright (c) 2017-2018 The Banq Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -103,7 +103,7 @@ UniValue getpeerinfo(const UniValue& params, bool fHelp)
             "    \"minping\": n,              (numeric) minimum observed ping time\n"
             "    \"pingwait\": n,             (numeric) ping wait\n"
             "    \"version\": v,              (numeric) The peer version, such as 7001\n"
-            "    \"subver\": \"/Bitcoin Monster Core:x.x.x/\",  (string) The string version\n"
+            "    \"subver\": \"/Banq Core:x.x.x/\",  (string) The string version\n"
             "    \"inbound\": true|false,     (boolean) Inbound (true) or Outbound (false)\n"
             "    \"startingheight\": n,       (numeric) The starting height (block) of the peer\n"
             "    \"banscore\": n,             (numeric) The ban score\n"
@@ -188,8 +188,8 @@ UniValue addnode(const UniValue& params, bool fHelp)
             "1. \"node\"     (string, required) The node (see getpeerinfo for nodes)\n"
             "2. \"command\"  (string, required) 'add' to add a node to the list, 'remove' to remove a node from the list, 'onetry' to try a connection to the node once\n"
             "\nExamples:\n"
-            + HelpExampleCli("addnode", "\"192.168.0.6:12225\" \"onetry\"")
-            + HelpExampleRpc("addnode", "\"192.168.0.6:12225\", \"onetry\"")
+            + HelpExampleCli("addnode", "\"192.168.0.6:9999\" \"onetry\"")
+            + HelpExampleRpc("addnode", "\"192.168.0.6:9999\", \"onetry\"")
         );
 
     string strNode = params[0].get_str();
@@ -232,8 +232,8 @@ UniValue disconnectnode(const UniValue& params, bool fHelp)
             "\nArguments:\n"
             "1. \"node\"     (string, required) The node (see getpeerinfo for nodes)\n"
             "\nExamples:\n"
-            + HelpExampleCli("disconnectnode", "\"192.168.0.6:12226\"")
-            + HelpExampleRpc("disconnectnode", "\"192.168.0.6:12229\"")
+            + HelpExampleCli("disconnectnode", "\"192.168.0.6:8333\"")
+            + HelpExampleRpc("disconnectnode", "\"192.168.0.6:8333\"")
         );
 
     CNode* pNode = FindNode(params[0].get_str());
@@ -264,7 +264,7 @@ UniValue getaddednodeinfo(const UniValue& params, bool fHelp)
             "    \"connected\" : true|false,          (boolean) If connected\n"
             "    \"addresses\" : [\n"
             "       {\n"
-            "         \"address\" : \"192.168.0.201:12225\",  (string) The bitcoinmonster server host and port\n"
+            "         \"address\" : \"192.168.0.201:9999\",  (string) The banq server host and port\n"
             "         \"connected\" : \"outbound\"           (string) connection, inbound or outbound\n"
             "       }\n"
             "       ,...\n"
@@ -434,7 +434,7 @@ UniValue getnetworkinfo(const UniValue& params, bool fHelp)
             "\nResult:\n"
             "{\n"
             "  \"version\": xxxxx,                      (numeric) the server version\n"
-            "  \"subversion\": \"/Bitcoin Monster Core:x.x.x/\",     (string) the server subversion string\n"
+            "  \"subversion\": \"/Banq Core:x.x.x/\",     (string) the server subversion string\n"
             "  \"protocolversion\": xxxxx,              (numeric) the protocol version\n"
             "  \"localservices\": \"xxxxxxxxxxxxxxxx\", (string) the services we offer to the network\n"
             "  \"timeoffset\": xxxxx,                   (numeric) the time offset\n"
