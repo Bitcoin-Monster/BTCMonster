@@ -59,8 +59,8 @@ public:
     enum Unit
     {
         MON,
-        mBANQ,
-        uBANQ,
+        mMON,
+        uMON,
         duffs
     };
 

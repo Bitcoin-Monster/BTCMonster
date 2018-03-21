@@ -188,7 +188,7 @@
         <translation>Въведете старата парола и нова парола за портфейла.</translation>
     </message>
     <message>
-        <source>BitcoinMonster Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your banqs from being stolen by malware infecting your computer.</source>
+        <source>BitcoinMonster Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoinmonsters from being stolen by malware infecting your computer.</source>
         <translation>BitcoinMonster Core ще се затвори за да завърши процеса на криптиране. Запомнете, това криптира вашият портфейл, но не може да защити вашите BitcoinMonster от вируси заразили  компютъра Ви.</translation>
     </message>
     <message>

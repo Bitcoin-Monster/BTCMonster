@@ -86,7 +86,7 @@ bool AppInit(int argc, char* argv[])
         else
         {
             strUsage += "\n" + _("Usage:") + "\n" +
-                  "  banqd [options]                     " + _("Start BitcoinMonster Core Daemon") + "\n";
+                  "  bitcoinmonsterd [options]                     " + _("Start BitcoinMonster Core Daemon") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
@@ -132,7 +132,7 @@ bool AppInit(int argc, char* argv[])
 
         if (fCommandLine)
         {
-            fprintf(stderr, "Error: There is no RPC client functionality in banqd anymore. Use the bitcoinmonster-cli utility instead.\n");
+            fprintf(stderr, "Error: There is no RPC client functionality in bitcoinmonsterd anymore. Use the bitcoinmonster-cli utility instead.\n");
             exit(EXIT_FAILURE);
         }
 #ifndef WIN32
@@ -190,7 +190,7 @@ int main(int argc, char* argv[])
 {
     SetupEnvironment();
 
-    // Connect banqd signal handlers
+    // Connect bitcoinmonsterd signal handlers
     noui_connect();
 
     return (AppInit(argc, argv) ? EXIT_SUCCESS : EXIT_FAILURE);

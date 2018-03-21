@@ -235,8 +235,8 @@
     </message>
     <message>
         <location line="+57"/>
-        <source>BitcoinMonster Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your banqs from being stolen by malware infecting your computer.</source>
-        <translation>BitcoinMonster Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your banqs from being stolen by malware infecting your computer.</translation>
+        <source>BitcoinMonster Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoinmonsters from being stolen by malware infecting your computer.</source>
+        <translation>BitcoinMonster Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoinmonsters from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -4725,7 +4725,7 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
 <context>
     <name>bitcoinmonster-core</name>
     <message>
-        <location filename="../banqstrings.cpp" line="+34"/>
+        <location filename="../bitcoinmonsterstrings.cpp" line="+34"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Bind to given address and always listen on it. Use [host]:port notation for IPv6</translation>
     </message>

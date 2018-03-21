@@ -22,8 +22,8 @@ Unpack the files into a directory, and then run bitcoinmonster-qt.exe.
 
 Drag BitcoinMonster-Qt to your applications folder, and then run BitcoinMonster-Qt.
 
-* Ask for help on [#banqcoin](http://webchat.freenode.net?channels=banqcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=banqcoin).
-* Ask for help on the [BanqTalk](https://banqtalk.org/) forums.
+* Ask for help on [#bitcoinmonstercoin](http://webchat.freenode.net?channels=bitcoinmonstercoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=bitcoinmonstercoin).
+* Ask for help on the [BanqTalk](https://bitcoinmonstertalk.org/) forums.
 
 Building
 ---------------------
@@ -53,8 +53,8 @@ The BitcoinMonster Core repo's [root README](/README.md) contains relevant infor
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [BanqTalk](https://banqtalk.org/) forums, in the Development & Technical Discussion board.
-* Discuss on [#banqcoin](http://webchat.freenode.net/?channels=banqcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=banqcoin).
+* Discuss on the [BanqTalk](https://bitcoinmonstertalk.org/) forums, in the Development & Technical Discussion board.
+* Discuss on [#bitcoinmonstercoin](http://webchat.freenode.net/?channels=bitcoinmonstercoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=bitcoinmonstercoin).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

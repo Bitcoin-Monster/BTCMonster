@@ -31,9 +31,9 @@ Possible options:
 
 ```
   -h, --help            show this help message and exit
-  --nocleanup           Leave banqds and test.* datadir on exit or error
-  --noshutdown          Don't stop banqds after the test execution
-  --srcdir=SRCDIR       Source directory containing banqd/bitcoinmonster-cli
+  --nocleanup           Leave bitcoinmonsterds and test.* datadir on exit or error
+  --noshutdown          Don't stop bitcoinmonsterds after the test execution
+  --srcdir=SRCDIR       Source directory containing bitcoinmonsterd/bitcoinmonster-cli
                         (default: ../../src)
   --tmpdir=TMPDIR       Root directory for datadirs
   --tracerpc            Print out all RPC calls as they are made
@@ -58,7 +58,7 @@ to recover with:
 
 ```bash
 rm -rf cache
-killall banqd
+killall bitcoinmonsterd
 ```
 
 Writing tests

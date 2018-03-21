@@ -3,13 +3,13 @@ Description=BitcoinMonster's distributed currency daemon
 After=network.target
 
 [Service]
-User=banqcore
-Group=banqcore
+User=bitcoinmonstercore
+Group=bitcoinmonstercore
 
 Type=forking
-PIDFile=/var/lib/banqd/banqd.pid
-ExecStart=/usr/bin/banqd -daemon -pid=/var/lib/banqd/banqd.pid \
--conf=/etc/banqcore/bitcoinmonster.conf -datadir=/var/lib/banqd -disablewallet
+PIDFile=/var/lib/bitcoinmonsterd/bitcoinmonsterd.pid
+ExecStart=/usr/bin/bitcoinmonsterd -daemon -pid=/var/lib/bitcoinmonsterd/bitcoinmonsterd.pid \
+-conf=/etc/bitcoinmonstercore/bitcoinmonster.conf -datadir=/var/lib/bitcoinmonsterd -disablewallet
 
 Restart=always
 PrivateTmp=true

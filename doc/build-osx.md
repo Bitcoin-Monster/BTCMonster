@@ -1,6 +1,6 @@
 Mac OS X Build Instructions and Notes
 ====================================
-This guide will show you how to build banqd (headless client) for OSX.
+This guide will show you how to build bitcoinmonsterd (headless client) for OSX.
 
 Notes
 -----
@@ -41,7 +41,7 @@ NOTE: Building with Qt4 is still supported, however, could result in a broken UI
 
 1. Clone the GitHub tree to get the source code and go into the directory.
 
-        git clone https://github.com/banqcoin/bitcoinmonster.git
+        git clone https://github.com/bitcoinmonstercoin/bitcoinmonster.git
         cd bitcoinmonster
 
 2.  Build BitcoinMonster Core:
@@ -56,7 +56,7 @@ NOTE: Building with Qt4 is still supported, however, could result in a broken UI
 
         make check
 
-4.  (Optional) You can also install banqd to your path:
+4.  (Optional) You can also install bitcoinmonsterd to your path:
 
         make install
 
@@ -78,11 +78,11 @@ Download Qt Creator from https://www.qt.io/download/. Download the "community ed
 
 Creating a release build
 ------------------------
-You can ignore this section if you are building `banqd` for your own use.
+You can ignore this section if you are building `bitcoinmonsterd` for your own use.
 
-banqd/bitcoinmonster-cli binaries are not included in the BitcoinMonster-Qt.app bundle.
+bitcoinmonsterd/bitcoinmonster-cli binaries are not included in the BitcoinMonster-Qt.app bundle.
 
-If you are building `banqd` or `BitcoinMonster Core` for others, your build machine should be set up
+If you are building `bitcoinmonsterd` or `BitcoinMonster Core` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
@@ -97,13 +97,13 @@ bundle is packaged and signed to create the .dmg disk image that is distributed.
 Running
 -------
 
-It's now available at `./banqd`, provided that you are still in the `src`
+It's now available at `./bitcoinmonsterd`, provided that you are still in the `src`
 directory. We have to first create the RPC configuration file, though.
 
-Run `./banqd` to get the filename where it should be put, or just try these
+Run `./bitcoinmonsterd` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=banqrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/BanqCore/bitcoinmonster.conf"
+    echo -e "rpcuser=bitcoinmonsterrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/BanqCore/bitcoinmonster.conf"
     chmod 600 "/Users/${USER}/Library/Application Support/BanqCore/bitcoinmonster.conf"
 
 The next time you run it, it will start downloading the blockchain, but it won't
@@ -115,6 +115,6 @@ you can monitor its process by looking at the debug.log file, like this:
 Other commands:
 -------
 
-    ./banqd -daemon # to start the bitcoinmonster daemon.
+    ./bitcoinmonsterd -daemon # to start the bitcoinmonster daemon.
     ./bitcoinmonster-cli --help  # for a list of command-line options.
     ./bitcoinmonster-cli help    # When the daemon is running, to get a list of RPC commands

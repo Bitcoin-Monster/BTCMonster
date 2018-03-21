@@ -109,7 +109,7 @@ public:
         pchMessageStart[2] = 0xc3;
         pchMessageStart[3] = 0xd4;
         vAlertPubKey = ParseHex("047555dd6f4137f0ebe725535eca0ef48d8b1c4d94c5b150e0f491277aac0a0f3d7ea14b6a0b96545814cc74850ce738af0262b84b8f42fbb63782cd5fd5200325");
-        nDefaultPort = 4568;
+        nDefaultPort = 5677;
         nMaxTipAge = 6 * 60 * 60; // ~144 blocks behind -> 2 x fork detection time, was 24 * 60 * 60 in bitcoin
         nPruneAfterHeight = 100000;
 
@@ -118,14 +118,14 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("00000927435496954fcf6314b8d7ba4a0ec4a2cf37964bfa734fb6348359ed92"));
         assert(genesis.hashMerkleRoot == uint256S("b2ef79664ca828750673eddc91f7643ad42a986f8a20172a211d4c7a81c9520c"));
 
-        vSeeds.push_back(CDNSSeedData("bitcoinmonster.online", "seed1.bitcoinmonster.online"));
-        vSeeds.push_back(CDNSSeedData("bitcoinmonster.online", "seed2.bitcoinmonster.online"));
-        vSeeds.push_back(CDNSSeedData("bitcoinmonster.online", "seed3.bitcoinmonster.online"));
+        vSeeds.push_back(CDNSSeedData("bitcoinmonster.online", "78.47.177.106"));
+        vSeeds.push_back(CDNSSeedData("bitcoinmonster.online", "78.47.154.34"));
+        vSeeds.push_back(CDNSSeedData("bitcoinmonster.online", "78.47.154.38"));
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        // BitcoinMonster addresses start with 'B'
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,25);
+        // BitcoinMonster addresses start with 'M'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,50);
         // BitcoinMonster script addresses start with '5'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,10);
         // BitcoinMonster private keys start with '5' or 'G' (?)
@@ -142,7 +142,7 @@ public:
         fMiningRequiresPeers = true;
         fDefaultConsistencyChecks = false;
         fRequireStandard = true;
-        fMineBlocksOnDemand = false;
+        fMineBlocksOnDemand = true;
         fTestnetToBeDeprecatedFieldRPC = false;
 
         nPoolMaxTransactions = 3;

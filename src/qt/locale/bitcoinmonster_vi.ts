@@ -188,7 +188,7 @@
         <translation>Hãy nhập vào mật khẩu cũ và mật khẩu mới cho ví của bạn.</translation>
     </message>
     <message>
-        <source>BitcoinMonster Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your banqs from being stolen by malware infecting your computer.</source>
+        <source>BitcoinMonster Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoinmonsters from being stolen by malware infecting your computer.</source>
         <translation>BitcoinMonster Core sẽ được đóng lại để hoàn thành quá trình mã hoá. Hãy nhớ rằng mã hoá ví của bạn không thể hoàn toàn bảo vệ bitcoinmonster của bạn khỏi bị ăn cắp bởi việc máy tính của bạn nhiễm mã độc.</translation>
     </message>
     <message>

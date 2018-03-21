@@ -9,7 +9,7 @@ import operator
 import os
 import sys
 
-OUT_CPP="qt/banqstrings.cpp"
+OUT_CPP="qt/bitcoinmonsterstrings.cpp"
 EMPTY=['""']
 
 def parse_po(text):
@@ -69,7 +69,7 @@ f.write("""
 #define UNUSED
 #endif
 """)
-f.write('static const char UNUSED *banq_strings[] = {\n')
+f.write('static const char UNUSED *bitcoinmonster_strings[] = {\n')
 messages.sort(key=operator.itemgetter(0))
 for (msgid, msgstr) in messages:
     if msgid != EMPTY:

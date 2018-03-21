@@ -12,11 +12,11 @@ See the [Transifex BitcoinMonster project](https://www.transifex.com/projects/p/
 
 ### Writing code with translations
 We use automated scripts to help extract translations in both Qt, and non-Qt source files. It is rarely necessary to manually edit the files in `src/qt/locale/`. The translation source files must adhere to the following format:
-`banq_xx_YY.ts or banq_xx.ts`
+`bitcoinmonster_xx_YY.ts or bitcoinmonster_xx.ts`
 
-`src/qt/locale/banq_en.ts` is treated in a special way. It is used as the source for all other translations. Whenever a string in the source code is changed, this file must be updated to reflect those changes. A custom script is used to extract strings from the non-Qt parts. This script makes use of `gettext`, so make sure that utility is installed (ie, `apt-get install gettext` on Ubuntu/Debian). Once this has been updated, `lupdate` (included in the Qt SDK) is used to update `banq_en.ts`.
+`src/qt/locale/bitcoinmonster_en.ts` is treated in a special way. It is used as the source for all other translations. Whenever a string in the source code is changed, this file must be updated to reflect those changes. A custom script is used to extract strings from the non-Qt parts. This script makes use of `gettext`, so make sure that utility is installed (ie, `apt-get install gettext` on Ubuntu/Debian). Once this has been updated, `lupdate` (included in the Qt SDK) is used to update `bitcoinmonster_en.ts`.
 
-To automatically regenerate the `banq_en.ts` file, run the following commands:
+To automatically regenerate the `bitcoinmonster_en.ts` file, run the following commands:
 ```sh
 cd src/
 make translate
@@ -36,7 +36,7 @@ When an updated source file is merged into the Github repo, Transifex will autom
 
 To create the pull-request, use the following commands:
 ```
-git add src/qt/banqstrings.cpp src/qt/locale/banq_en.ts
+git add src/qt/bitcoinmonsterstrings.cpp src/qt/locale/bitcoinmonster_en.ts
 git commit
 ```
 
@@ -75,10 +75,10 @@ The Transifex BitcoinMonster project config file is included as part of the repo
 To assist in updating translations, we have created a script to help.
 
 1. `python contrib/devtools/update-translations.py`
-2. Update `src/qt/banq_locale.qrc` manually or via
-   `ls src/qt/locale/*ts|xargs -n1 basename|sed 's/\(banq_\(.*\)\).ts/<file alias="\2">locale\/\1.qm<\/file>/'`
+2. Update `src/qt/bitcoinmonster_locale.qrc` manually or via
+   `ls src/qt/locale/*ts|xargs -n1 basename|sed 's/\(bitcoinmonster_\(.*\)\).ts/<file alias="\2">locale\/\1.qm<\/file>/'`
 3. Update `src/Makefile.qt.include` manually or via
-   `ls src/qt/locale/*ts|xargs -n1 basename|sed 's/\(banq_\(.*\)\).ts/  qt\/locale\/\1.ts \\/'`
+   `ls src/qt/locale/*ts|xargs -n1 basename|sed 's/\(bitcoinmonster_\(.*\)\).ts/  qt\/locale\/\1.ts \\/'`
 4. `git add` new translations from `src/qt/locale/`
 
 **Do not directly download translations** one by one from the Transifex website, as we do a few post-processing steps before committing the translations.
@@ -86,7 +86,7 @@ To assist in updating translations, we have created a script to help.
 ### Handling Plurals (in source files)
 When new plurals are added to the source file, it's important to do the following steps:
 
-1. Open `banq_en.ts` in Qt Linguist (included in the Qt SDK)
+1. Open `bitcoinmonster_en.ts` in Qt Linguist (included in the Qt SDK)
 2. Search for `%n`, which will take you to the parts in the translation that use plurals
 3. Look for empty `English Translation (Singular)` and `English Translation (Plural)` fields
 4. Add the appropriate strings for the singular and plural form of the base string
@@ -99,7 +99,7 @@ To create a new language template, you will need to edit the languages manifest 
 
 ```xml
 <qresource prefix="/translations">
-    <file alias="en">locale/banq_en.qm</file>
+    <file alias="en">locale/bitcoinmonster_en.qm</file>
     ...
 </qresource>
 ```
@@ -107,4 +107,4 @@ To create a new language template, you will need to edit the languages manifest 
 **Note:** that the language translation file **must end in `.qm`** (the compiled extension), and not `.ts`.
 
 ### Questions and general assistance
-Check official forum at [https://banqtalk.org/forums/bitcoinmonster-worldwide-collaboration.88/](https://banqtalk.org/forums/bitcoinmonster-worldwide-collaboration.88/).
+Check official forum at [https://bitcoinmonstertalk.org/forums/bitcoinmonster-worldwide-collaboration.88/](https://bitcoinmonstertalk.org/forums/bitcoinmonster-worldwide-collaboration.88/).

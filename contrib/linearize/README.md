@@ -1,9 +1,9 @@
 # Linearize
 Construct a linear, no-fork, best version of the blockchain.
 
-## Step 0: Install banq_hash
+## Step 0: Install bitcoinmonster_hash
 
-https://github.com/banqcoin/banq_hash
+https://github.com/bitcoinmonstercoin/bitcoinmonster_hash
 
 ## Step 1: Download hash list
 

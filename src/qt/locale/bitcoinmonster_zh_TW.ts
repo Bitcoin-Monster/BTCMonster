@@ -188,7 +188,7 @@
         <translation>輸入舊密碼和新密碼到錢包。</translation>
     </message>
     <message>
-        <source>BitcoinMonster Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your banqs from being stolen by malware infecting your computer.</source>
+        <source>BitcoinMonster Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoinmonsters from being stolen by malware infecting your computer.</source>
         <translation>達世幣核心現在要關閉，以便完成加密程序。請注意，加密錢包不能完全防止入侵你的電腦的惡意程式偷取達世幣。</translation>
     </message>
     <message>

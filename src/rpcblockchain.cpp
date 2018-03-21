@@ -612,7 +612,7 @@ UniValue gettxout(const UniValue& params, bool fHelp)
             "     \"reqSigs\" : n,          (numeric) Number of required signatures\n"
             "     \"type\" : \"pubkeyhash\", (string) The type, eg pubkeyhash\n"
             "     \"addresses\" : [          (array of string) array of bitcoinmonster addresses\n"
-            "        \"banqaddress\"     (string) bitcoinmonster address\n"
+            "        \"bitcoinmonsteraddress\"     (string) bitcoinmonster address\n"
             "        ,...\n"
             "     ]\n"
             "  },\n"

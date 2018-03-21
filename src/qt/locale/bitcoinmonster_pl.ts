@@ -188,7 +188,7 @@
         <translation>Portfel zaszyfrowany</translation>
     </message>
     <message>
-        <source>BitcoinMonster will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your banqs from being stolen by malware infecting your computer.</source>
+        <source>BitcoinMonster will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoinmonsters from being stolen by malware infecting your computer.</source>
         <translation>BitcoinMonster zostanie teraz zamknięty aby zakończyć proces szyfrowania. Pamiętaj, że zaszyfrowanie portfela nie gwarantuje pełnej ochrony przed kradzieżą twoich monet przez złośliwe oprogramowanie.</translation>
     </message>
     <message>
@@ -3710,10 +3710,10 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Produkt ten zawiera oprogramowanie stworzone przez OpenSSL Project do użytku w OpenSSL Toolkit &lt;https://www.openssl.org/&gt;, oprogramowanie krptograficzne napisane przez Eric Young oraz oprogramowanie UPnP napisane przez Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use banqd, or the -server option to bitcoinmonster-qt, you must set an rpcpassword in the configuration file:
+        <source>To use bitcoinmonsterd, or the -server option to bitcoinmonster-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=banqrpc
+rpcuser=bitcoinmonsterrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3721,10 +3721,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "BitcoinMonster Alert" admin@foo.com
 </source>
-        <translation>Aby używać banqd, lub opcje -server w kliencie bitcoinmonster-qt, musisz ustawić hasło rpc w pliku konfiguracji:
+        <translation>Aby używać bitcoinmonsterd, lub opcje -server w kliencie bitcoinmonster-qt, musisz ustawić hasło rpc w pliku konfiguracji:
 %s
 Zalecane jest abyś użył te o to losowo stworzone hasło
-rpcuser=banqrpc
+rpcuser=bitcoinmonsterrpc
 rpcpassword=%s
 (Nie musisz pamiętać tego hasła)
 Twoje hasło NIE MOŻE być takie samo jak twój login.

@@ -4,11 +4,11 @@
 
 BitcoinMonster Core version 0.12.0 is now available from:
 
-  https://banqcoin.io/downloads
+  https://bitcoinmonstercoin.io/downloads
 
 Please report bugs using the issue tracker at github:
 
-  https://github.com/banqcoin/bitcoinmonster/issues
+  https://github.com/bitcoinmonstercoin/bitcoinmonster/issues
 
 
 How to Upgrade
@@ -17,7 +17,7 @@ How to Upgrade
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
 installer (on Windows) or just copy over /Applications/BitcoinMonster-Qt (on Mac) or
-banqd/bitcoinmonster-qt (on Linux).
+bitcoinmonsterd/bitcoinmonster-qt (on Linux).
 
 **This new version uses transaction indexing by default, you will need to reindex 
 the blockchain. To do so, start the client with --reindex.**

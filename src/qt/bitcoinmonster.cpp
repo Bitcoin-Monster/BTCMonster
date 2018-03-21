@@ -569,7 +569,7 @@ int main(int argc, char *argv[])
 #endif
 
     Q_INIT_RESOURCE(bitcoinmonster);
-    Q_INIT_RESOURCE(banq_locale);
+    Q_INIT_RESOURCE(bitcoinmonster_locale);
 
     BitcoinApplication app(argc, argv);
 #if QT_VERSION > 0x050100

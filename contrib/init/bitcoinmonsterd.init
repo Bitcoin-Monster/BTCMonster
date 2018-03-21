@@ -1,36 +1,36 @@
 #!/bin/bash
 #
-#  banqd The BitcoinMonster Core server.
+#  bitcoinmonsterd The BitcoinMonster Core server.
 #
 #
 # chkconfig: 345 80 20
-# description: banqd
-# processname: banqd
+# description: bitcoinmonsterd
+# processname: bitcoinmonsterd
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/banqd, see below
-if [ -f /etc/sysconfig/banqd ]; then
-        . /etc/sysconfig/banqd
+# you can override defaults in /etc/sysconfig/bitcoinmonsterd, see below
+if [ -f /etc/sysconfig/bitcoinmonsterd ]; then
+        . /etc/sysconfig/bitcoinmonsterd
 fi
 
 RETVAL=0
 
-prog=banqd
-# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/banqd
-lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/banqd}
+prog=bitcoinmonsterd
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/bitcoinmonsterd
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/bitcoinmonsterd}
 
-# banqd defaults to /usr/bin/banqd, override with BITCOIND_BIN
-banqd=${BITCOIND_BIN-/usr/bin/banqd}
+# bitcoinmonsterd defaults to /usr/bin/bitcoinmonsterd, override with BITCOIND_BIN
+bitcoinmonsterd=${BITCOIND_BIN-/usr/bin/bitcoinmonsterd}
 
-# banqd opts default to -disablewallet, override with BITCOIND_OPTS
-banqd_opts=${BITCOIND_OPTS--disablewallet}
+# bitcoinmonsterd opts default to -disablewallet, override with BITCOIND_OPTS
+bitcoinmonsterd_opts=${BITCOIND_OPTS--disablewallet}
 
 start() {
     echo -n $"Starting $prog: "
-    daemon $DAEMONOPTS $banqd $banqd_opts
+    daemon $DAEMONOPTS $bitcoinmonsterd $bitcoinmonsterd_opts
     RETVAL=$?
     echo
     [ $RETVAL -eq 0 ] && touch $lockfile

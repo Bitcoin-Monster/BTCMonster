@@ -1,11 +1,11 @@
 Sample configuration files for:
 
-SystemD: banqd.service
-Upstart: banqd.conf
-OpenRC:  banqd.openrc
-         banqd.openrcconf
-CentOS:  banqd.init
-OS X:    org.bitcoinmonster.banqd.plist
+SystemD: bitcoinmonsterd.service
+Upstart: bitcoinmonsterd.conf
+OpenRC:  bitcoinmonsterd.openrc
+         bitcoinmonsterd.openrcconf
+CentOS:  bitcoinmonsterd.init
+OS X:    org.bitcoinmonster.bitcoinmonsterd.plist
 
 have been made available to assist packagers in creating node packages here.
 

@@ -63,7 +63,7 @@
     </message>
     <message>
         <source>These are your BitcoinMonster addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son sus direcciones BitcoinMonster para enviar pagos. Compruebe siempre la cantidad y la dirección receptora antes de enviar banqs.</translation>
+        <translation>Estas son sus direcciones BitcoinMonster para enviar pagos. Compruebe siempre la cantidad y la dirección receptora antes de enviar bitcoinmonsters.</translation>
     </message>
     <message>
         <source>These are your BitcoinMonster addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
@@ -188,8 +188,8 @@
         <translation>Monedero cifrado</translation>
     </message>
     <message>
-        <source>BitcoinMonster will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your banqs from being stolen by malware infecting your computer.</source>
-        <translation>BitcoinMonster se cerrará ahora para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus banqs del robo por un malware que infecte su sistema.</translation>
+        <source>BitcoinMonster will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoinmonsters from being stolen by malware infecting your computer.</source>
+        <translation>BitcoinMonster se cerrará ahora para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus bitcoinmonsters del robo por un malware que infecte su sistema.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -1277,7 +1277,7 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Elegir la subdivisión predeterminada para mostrar las cuantías en la interfaz y cuando se envían banqs.</translation>
+        <translation>Elegir la subdivisión predeterminada para mostrar las cuantías en la interfaz y cuando se envían bitcoinmonsters.</translation>
     </message>
     <message>
         <source>Decimal digits</source>
@@ -2445,7 +2445,7 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Confirmar el envío de banqs</translation>
+        <translation>Confirmar el envío de bitcoinmonsters</translation>
     </message>
     <message>
         <source>A fee %1 times higher than %2 per kB is considered an insanely high fee.</source>
@@ -2485,11 +2485,11 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>¡La transacción fue rechazada! Esto puede suceder si alguno de los banqs de su monedero ya se habían gastado, por ejemplo si usó una copia de wallet.dat y los bitcoinmonster se gastaron en dicha copia pero no se aparecen como gastados aqui.</translation>
+        <translation>¡La transacción fue rechazada! Esto puede suceder si alguno de los bitcoinmonsters de su monedero ya se habían gastado, por ejemplo si usó una copia de wallet.dat y los bitcoinmonster se gastaron en dicha copia pero no se aparecen como gastados aqui.</translation>
     </message>
     <message>
         <source>Error: The wallet was unlocked only to anonymize coins.</source>
-        <translation>Error: El monedero se desbloqueó solo para anonimizar banqs.</translation>
+        <translation>Error: El monedero se desbloqueó solo para anonimizar bitcoinmonsters.</translation>
     </message>
     <message>
         <source>Pay only the minimum fee of %1</source>
@@ -2919,7 +2919,7 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Los banqs generados deben madurar %1 bloques antes de que puedan gastarse. Cuando generó este bloque, se transmitió a la red para que se añadiera a la cadena de bloques. Si no consigue entrar en la cadena, su estado cambiará a "no aceptado" y ya no se podrá gastar. Esto puede ocurrir ocasionalmente si otro nodo genera un bloque a pocos segundos del suyo.</translation>
+        <translation>Los bitcoinmonsters generados deben madurar %1 bloques antes de que puedan gastarse. Cuando generó este bloque, se transmitió a la red para que se añadiera a la cadena de bloques. Si no consigue entrar en la cadena, su estado cambiará a "no aceptado" y ya no se podrá gastar. Esto puede ocurrir ocasionalmente si otro nodo genera un bloque a pocos segundos del suyo.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -3331,7 +3331,7 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Darksend utiliza cuantías denominadas exactas para enviar fondos, simplemente necesita anonimizar algunos banqs más. </translation>
+        <translation>Darksend utiliza cuantías denominadas exactas para enviar fondos, simplemente necesita anonimizar algunos bitcoinmonsters más. </translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
@@ -3711,10 +3711,10 @@ https://www.transifex.com/projects/p/bitcoinmonster/</translation>
         <translation>Este producto incluye software desarrollado por el Proyecto OpenSSL para su uso en el Toolkit OpenSSL &lt;https://www.openssl.org/&gt; y software criptográfico escrito por Eric Young y software UPnP escrito por Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use banqd, or the -server option to bitcoinmonster-qt, you must set an rpcpassword in the configuration file:
+        <source>To use bitcoinmonsterd, or the -server option to bitcoinmonster-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=banqrpc
+rpcuser=bitcoinmonsterrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3722,10 +3722,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "BitcoinMonster Alert" admin@foo.com
 </source>
-        <translation>Para usar banqd, o la opción -server de bitcoinmonster-qt, debe establecer rpcpassword en el archivo de configuración:
+        <translation>Para usar bitcoinmonsterd, o la opción -server de bitcoinmonster-qt, debe establecer rpcpassword en el archivo de configuración:
 %s
 Es recomendable que use la contraseña aleatoria siguiente:
-rpcuser=banqrpc
+rpcuser=bitcoinmonsterrpc
 rpcpassword=%s
 (no necesita recordar esta contraseña)
 El nombre de usuario y la contraseña NO DEBEN ser iguales.

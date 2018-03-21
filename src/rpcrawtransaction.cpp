@@ -190,7 +190,7 @@ UniValue getrawtransaction(const UniValue& params, bool fHelp)
             "         \"reqSigs\" : n,            (numeric) The required sigs\n"
             "         \"type\" : \"pubkeyhash\",  (string) The type, eg 'pubkeyhash'\n"
             "         \"addresses\" : [           (json array of string)\n"
-            "           \"banqaddress\"        (string) bitcoinmonster address\n"
+            "           \"bitcoinmonsteraddress\"        (string) bitcoinmonster address\n"
             "           ,...\n"
             "         ]\n"
             "       }\n"

@@ -4,7 +4,7 @@
 
 #define BOOST_TEST_MODULE BitcoinMonster Test Suite
 
-#include "test_banq.h"
+#include "test_bitcoinmonster.h"
 
 #include "chainparams.h"
 #include "consensus/consensus.h"
@@ -56,7 +56,7 @@ TestingSetup::TestingSetup(const std::string& chainName) : BasicTestingSetup(cha
         bitdb.MakeMock();
 #endif
         ClearDatadirCache();
-        pathTemp = GetTempPath() / strprintf("test_banq_%lu_%i", (unsigned long)GetTime(), (int)(GetRand(100000)));
+        pathTemp = GetTempPath() / strprintf("test_bitcoinmonster_%lu_%i", (unsigned long)GetTime(), (int)(GetRand(100000)));
         boost::filesystem::create_directories(pathTemp);
         mapArgs["-datadir"] = pathTemp.string();
         pblocktree = new CBlockTreeDB(1 << 20, true);

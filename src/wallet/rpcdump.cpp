@@ -81,10 +81,10 @@ UniValue importprivkey(const UniValue& params, bool fHelp)
     
     if (fHelp || params.size() < 1 || params.size() > 3)
         throw runtime_error(
-            "importprivkey \"banqprivkey\" ( \"label\" rescan )\n"
+            "importprivkey \"bitcoinmonsterprivkey\" ( \"label\" rescan )\n"
             "\nAdds a private key (as returned by dumpprivkey) to your wallet.\n"
             "\nArguments:\n"
-            "1. \"banqprivkey\"   (string, required) The private key (see dumpprivkey)\n"
+            "1. \"bitcoinmonsterprivkey\"   (string, required) The private key (see dumpprivkey)\n"
             "2. \"label\"            (string, optional, default=\"\") An optional label\n"
             "3. rescan               (boolean, optional, default=true) Rescan the wallet for transactions\n"
             "\nNote: This call can take minutes to complete if rescan is true.\n"
@@ -551,11 +551,11 @@ UniValue dumpprivkey(const UniValue& params, bool fHelp)
     
     if (fHelp || params.size() != 1)
         throw runtime_error(
-            "dumpprivkey \"banqaddress\"\n"
-            "\nReveals the private key corresponding to 'banqaddress'.\n"
+            "dumpprivkey \"bitcoinmonsteraddress\"\n"
+            "\nReveals the private key corresponding to 'bitcoinmonsteraddress'.\n"
             "Then the importprivkey can be used with this output\n"
             "\nArguments:\n"
-            "1. \"banqaddress\"   (string, required) The bitcoinmonster address for the private key\n"
+            "1. \"bitcoinmonsteraddress\"   (string, required) The bitcoinmonster address for the private key\n"
             "\nResult:\n"
             "\"key\"                (string) The private key\n"
             "\nExamples:\n"

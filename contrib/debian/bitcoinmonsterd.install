@@ -1,2 +1,2 @@
-usr/local/bin/banqd usr/bin
+usr/local/bin/bitcoinmonsterd usr/bin
 usr/local/bin/bitcoinmonster-cli usr/bin

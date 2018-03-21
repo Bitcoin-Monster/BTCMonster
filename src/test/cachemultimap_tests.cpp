@@ -3,7 +3,7 @@
 
 #include "cachemultimap.h"
 
-#include "test/test_banq.h"
+#include "test/test_bitcoinmonster.h"
 
 #include <algorithm>
 #include <iostream>

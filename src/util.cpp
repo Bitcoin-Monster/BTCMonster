@@ -116,7 +116,7 @@ bool fLiteMode = false;
 int nWalletBackups = 10;
 
 const char * const BITCOIN_CONF_FILENAME = "bitcoinmonster.conf";
-const char * const BITCOIN_PID_FILENAME = "banqd.pid";
+const char * const BITCOIN_PID_FILENAME = "bitcoinmonsterd.pid";
 
 map<string, string> mapArgs;
 map<string, vector<string> > mapMultiArgs;
@@ -518,7 +518,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Windows < Vista: C:\Documents and Settings\Username\Application Data\BanqCore
     // Windows >= Vista: C:\Users\Username\AppData\Roaming\BanqCore
     // Mac: ~/Library/Application Support/BanqCore
-    // Unix: ~/.banqcore
+    // Unix: ~/.bitcoinmonstercore
 #ifdef WIN32
     // Windows
     return GetSpecialFolderPath(CSIDL_APPDATA) / "BanqCore";
@@ -534,7 +534,7 @@ boost::filesystem::path GetDefaultDataDir()
     return pathRet / "Library/Application Support/BanqCore";
 #else
     // Unix
-    return pathRet / ".banqcore";
+    return pathRet / ".bitcoinmonstercore";
 #endif
 #endif
 }

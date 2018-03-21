@@ -3,7 +3,7 @@
 
 #include "cachemap.h"
 
-#include "test/test_banq.h"
+#include "test/test_bitcoinmonster.h"
 
 #include <boost/test/unit_test.hpp>
 

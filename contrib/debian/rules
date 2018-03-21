@@ -1,12 +1,12 @@
 #!/usr/bin/make -f
 # -*- mode: makefile; coding: utf-8 -*-
 
-#DEB_MAKE_CHECK_TARGET = test_banq
-#build/banqd::
-#	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_banq)
+#DEB_MAKE_CHECK_TARGET = test_bitcoinmonster
+#build/bitcoinmonsterd::
+#	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_bitcoinmonster)
 
-DEB_INSTALL_EXAMPLES_banqd += debian/examples/*
-DEB_INSTALL_MANPAGES_banqd += debian/manpages/*
+DEB_INSTALL_EXAMPLES_bitcoinmonsterd += debian/examples/*
+DEB_INSTALL_MANPAGES_bitcoinmonsterd += debian/manpages/*
 
 %:
 	dh --with bash-completion $@

@@ -13,7 +13,7 @@
 #include "serialize.h"
 #include "util.h"
 
-#include "test/test_banq.h"
+#include "test/test_bitcoinmonster.h"
 
 #include <stdint.h>
 

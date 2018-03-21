@@ -5,7 +5,7 @@
 #ifndef GOVERNANCE_CLASSES_H
 #define GOVERNANCE_CLASSES_H
 
-//#define ENABLE_BANQ_DEBUG
+//#define ENABLE_MON_DEBUG
 
 #include "base58.h"
 #include "governance.h"

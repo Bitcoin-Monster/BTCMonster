@@ -304,7 +304,7 @@ Clone the git repositories for BitcoinMonster Core and Gitian.
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/banqcoin/bitcoinmonster
+git clone https://github.com/bitcoinmonstercoin/bitcoinmonster
 ```
 
 Setting up the Gitian image
@@ -368,7 +368,7 @@ Output from `gbuild` will look something like
     remote: Total 57959 (delta 0), reused 0 (delta 0), pack-reused 57958
     Receiving objects: 100% (57959/57959), 53.76 MiB | 484.00 KiB/s, done.
     Resolving deltas: 100% (41590/41590), done.
-    From https://github.com/banqcoin/bitcoinmonster
+    From https://github.com/bitcoinmonstercoin/bitcoinmonster
     ... (new tags, new branch etc)
     --- Building for precise amd64 ---
     Stopping target if it is up
@@ -444,7 +444,7 @@ Then when building, override the remote URLs that gbuild would otherwise pull fr
 ```bash
 
 cd /some/root/path/
-git clone https://github.com/banqcoin/bitcoinmonster-detached-sigs.git
+git clone https://github.com/bitcoinmonstercoin/bitcoinmonster-detached-sigs.git
 
 BTCPATH=/some/root/path/bitcoinmonster.git
 SIGPATH=/some/root/path/bitcoinmonster-detached-sigs.git
@@ -476,6 +476,6 @@ Uploading signatures (not yet implemented)
 ---------------------
 
 In the future it will be possible to push your signatures (both the `.assert` and `.assert.sig` files) to the
-[bitcoinmonster/gitian.sigs](https://github.com/banqcoin/gitian.sigs/) repository, or if that's not possible to create a pull
+[bitcoinmonster/gitian.sigs](https://github.com/bitcoinmonstercoin/gitian.sigs/) repository, or if that's not possible to create a pull
 request.
 There will be an official announcement when this repository is online.

@@ -48,7 +48,7 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile @abs_top_srcdir@/banqcore-${VERSION}-win@WINDOWS_BITS@-setup.exe
+OutFile @abs_top_srcdir@/bitcoinmonstercore-${VERSION}-win@WINDOWS_BITS@-setup.exe
 !if "@WINDOWS_BITS@" == "64"
 InstallDir $PROGRAMFILES64\BanqCore
 !else
@@ -77,7 +77,7 @@ Section -Main SEC0000
     File /oname=COPYING.txt @abs_top_srcdir@/COPYING
     File /oname=readme.txt @abs_top_srcdir@/doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File @abs_top_srcdir@/release/banqd.exe
+    File @abs_top_srcdir@/release/bitcoinmonsterd.exe
     File @abs_top_srcdir@/release/bitcoinmonster-cli.exe
     SetOutPath $INSTDIR\doc
     File /r @abs_top_srcdir@/doc\*.*
@@ -106,10 +106,10 @@ Section -post SEC0001
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
-    WriteRegStr HKCR "banqcore" "URL Protocol" ""
-    WriteRegStr HKCR "banqcore" "" "URL:BitcoinMonster"
-    WriteRegStr HKCR "banqcore\DefaultIcon" "" $INSTDIR\bitcoinmonster-qt.exe
-    WriteRegStr HKCR "banqcore\shell\open\command" "" '"$INSTDIR\bitcoinmonster-qt.exe" "%1"'
+    WriteRegStr HKCR "bitcoinmonstercore" "URL Protocol" ""
+    WriteRegStr HKCR "bitcoinmonstercore" "" "URL:BitcoinMonster"
+    WriteRegStr HKCR "bitcoinmonstercore\DefaultIcon" "" $INSTDIR\bitcoinmonster-qt.exe
+    WriteRegStr HKCR "bitcoinmonstercore\shell\open\command" "" '"$INSTDIR\bitcoinmonster-qt.exe" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -147,7 +147,7 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
-    DeleteRegKey HKCR "banqcore"
+    DeleteRegKey HKCR "bitcoinmonstercore"
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0

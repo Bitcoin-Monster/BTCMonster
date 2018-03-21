@@ -25,10 +25,10 @@ Build-Depends: debhelper,
  python
 Standards-Version: 3.9.2
 Homepage: https://www.bitcoinmonster.org/
-Vcs-Git: git://github.com/banqcoin/bitcoinmonster.git
-Vcs-Browser: https://github.com/banqcoin/bitcoinmonster
+Vcs-Git: git://github.com/bitcoinmonstercoin/bitcoinmonster.git
+Vcs-Browser: https://github.com/bitcoinmonstercoin/bitcoinmonster
 
-Package: banqd
+Package: bitcoinmonsterd
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
@@ -38,7 +38,7 @@ Description: peer-to-peer network based digital currency - daemon
  and issuing money are carried out collectively by the network. BitcoinMonster Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides the daemon, banqd, and the CLI tool
+ This package provides the daemon, bitcoinmonsterd, and the CLI tool
  bitcoinmonster-cli to interact with the daemon.
 
 Package: bitcoinmonster-qt

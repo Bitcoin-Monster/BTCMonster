@@ -17,13 +17,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "BitcoinMonster"
-            VALUE "FileDescription",    "banqd (BitcoinMonster node with a JSON-RPC server)"
+            VALUE "FileDescription",    "bitcoinmonsterd (BitcoinMonster node with a JSON-RPC server)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "banqd"
+            VALUE "InternalName",       "bitcoinmonsterd"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "banqd.exe"
-            VALUE "ProductName",        "banqd"
+            VALUE "OriginalFilename",   "bitcoinmonsterd.exe"
+            VALUE "ProductName",        "bitcoinmonsterd"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

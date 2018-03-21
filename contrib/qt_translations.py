@@ -16,7 +16,7 @@ d1 = sys.argv[1]
 d2 = sys.argv[2]
 
 l1 = set([ re.search(r'qt_(.*).qm', f).group(1) for f in glob.glob(os.path.join(d1, 'qt_*.qm')) ])
-l2 = set([ re.search(r'banq_(.*).qm', f).group(1) for f in glob.glob(os.path.join(d2, 'banq_*.qm')) ])
+l2 = set([ re.search(r'bitcoinmonster_(.*).qm', f).group(1) for f in glob.glob(os.path.join(d2, 'bitcoinmonster_*.qm')) ])
 
 print ",".join(sorted(l1.intersection(l2)))
 
