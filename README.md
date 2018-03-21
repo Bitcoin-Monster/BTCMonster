@@ -1,29 +1,29 @@
-Banq Core staging tree 0.12.1
+BitcoinMonster Core staging tree 0.12.1
 ===============================
 
 
-http://www.banq.online
+http://www.bitcoinmonster.online
 
 
-What is Banq?
+What is BitcoinMonster?
 ----------------
 
-BANQ is innovative decentralized global payment system based on blockchain technology and secured by Masternode system. People will be able to store, spend, exchange and later borrow practically any Cryptocurrency in the same way as any other currency, but in a quicker, cheaper and more secure way than it is possible now in any traditional bank. BANQ is a future of Financial system with limitless opportunities.
+MON is innovative decentralized global payment system based on blockchain technology and secured by Masternode system. People will be able to store, spend, exchange and later borrow practically any Cryptocurrency in the same way as any other currency, but in a quicker, cheaper and more secure way than it is possible now in any traditional bank. MON is a future of Financial system with limitless opportunities.
 
 
 
 License
 -------
 
-Banq Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+BitcoinMonster Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
 -------------------
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/banq-platform/banq/tags) are created to indicate new official,
-stable release versions of Banq Core.
+[Tags](https://github.com/bitcoinmonster-platform/bitcoinmonster/tags) are created to indicate new official,
+stable release versions of BitcoinMonster Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 

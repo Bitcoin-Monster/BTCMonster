@@ -9,7 +9,7 @@ The Amazon Machine Images I used to do the builds are available:
 
 (mac build will be done soon)
 
-If you have already downloaded version 0.3.20.1, please either add this to your banq.conf file:
+If you have already downloaded version 0.3.20.1, please either add this to your bitcoinmonster.conf file:
 
   maxsendbuffer=10000
   maxreceivebuffer=10000

@@ -4,7 +4,7 @@
 
 	* means the category has an associated class
 	
-	CBanqNetwork: BANQ NETWORK (ROOT)
+	CBanqNetwork: MON NETWORK (ROOT)
 	has:
 		vector<CNetworkVariable> vecNetworkVariables;
 		vector<CBanqProject> vecProjects;
@@ -19,7 +19,7 @@
 
 */
 
-	// BANQ NETWORK (ROOT)
+	// MON NETWORK (ROOT)
 	// 	-> NETWORK VARIABLE
 	// 		-> switch, setting
 	// 	-> CATEGORIES

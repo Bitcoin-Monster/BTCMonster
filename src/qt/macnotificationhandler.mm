@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"org.banq.Banq-Qt";
+        return @"org.bitcoinmonster.BitcoinMonster-Qt";
     } else {
         return [self __bundleIdentifier];
     }

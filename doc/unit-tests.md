@@ -12,7 +12,7 @@ To add more banqd tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
 .cpp files in the `test/` directory or add new .cpp files that
 implement new BOOST_AUTO_TEST_SUITE sections.
 
-To run the banq-qt tests manually, launch `src/qt/test/test_banq-qt`
+To run the bitcoinmonster-qt tests manually, launch `src/qt/test/test_banq-qt`
 
-To add more banq-qt tests, add them to the `src/qt/test/` directory and
+To add more bitcoinmonster-qt tests, add them to the `src/qt/test/` directory and
 the `src/qt/test/test_main.cpp` file.

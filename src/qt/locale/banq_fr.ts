@@ -62,12 +62,12 @@
         <translation>Adresses de réception</translation>
     </message>
     <message>
-        <source>These are your Banq addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Voici vos adresses Banq pour l'envoi de paiements. Vérifiez toujours le montant et l'adresse de réception avant d'envoyer de l'argent.</translation>
+        <source>These are your BitcoinMonster addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Voici vos adresses BitcoinMonster pour l'envoi de paiements. Vérifiez toujours le montant et l'adresse de réception avant d'envoyer de l'argent.</translation>
     </message>
     <message>
-        <source>These are your Banq addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ce sont vos adresses Banq pour la réception de paiements. Il est recommandé d'utiliser une nouvelle adresse de réception pour chaque transaction.</translation>
+        <source>These are your BitcoinMonster addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ce sont vos adresses BitcoinMonster pour la réception de paiements. Il est recommandé d'utiliser une nouvelle adresse de réception pour chaque transaction.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,7 +172,7 @@
         <translation>Confirmer le chiffrement du portefeuille</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BANQ&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MON&lt;/b&gt;!</source>
         <translation>Attention : si vous chiffrez votre portefeuille et perdez votre phrase de passe, vous &lt;b&gt;PERDREZ TOUS VOS BANQS&lt;/b&gt; !</translation>
     </message>
     <message>
@@ -188,8 +188,8 @@
         <translation>Saisissez l'ancienne phrase de passe et la nouvelle phrase de passe du portefeuille.</translation>
     </message>
     <message>
-        <source>Banq Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your banqs from being stolen by malware infecting your computer.</source>
-        <translation>Banq Core va maintenant se fermer pour que le chiffrage soit terminé. N'oubliez pas : chiffrer votre portefeuille n'empêcherait pas vos banqs d'être volés par un logiciel malveillant qui infecterait votre ordinateur.</translation>
+        <source>BitcoinMonster Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your banqs from being stolen by malware infecting your computer.</source>
+        <translation>BitcoinMonster Core va maintenant se fermer pour que le chiffrage soit terminé. N'oubliez pas : chiffrer votre portefeuille n'empêcherait pas vos banqs d'être volés par un logiciel malveillant qui infecterait votre ordinateur.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -242,8 +242,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Banq Core</source>
-        <translation>Banq Core</translation>
+        <source>BitcoinMonster Core</source>
+        <translation>BitcoinMonster Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -266,16 +266,16 @@
         <translation>&amp;Envoyer</translation>
     </message>
     <message>
-        <source>Send coins to a Banq address</source>
-        <translation>Envoyer de l'argent à une adresse Banq</translation>
+        <source>Send coins to a BitcoinMonster address</source>
+        <translation>Envoyer de l'argent à une adresse BitcoinMonster</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Recevoir</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and banq: URIs)</source>
-        <translation>Demande de paiements (génère des QR-codes et des URIs Banq)</translation>
+        <source>Request payments (generates QR codes and bitcoinmonster: URIs)</source>
+        <translation>Demande de paiements (génère des QR-codes et des URIs BitcoinMonster)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -302,12 +302,12 @@
         <translation>Quitter l’application</translation>
     </message>
     <message>
-        <source>&amp;About Banq Core</source>
-        <translation>À propos de Banq Core</translation>
+        <source>&amp;About BitcoinMonster Core</source>
+        <translation>À propos de BitcoinMonster Core</translation>
     </message>
     <message>
-        <source>Show information about Banq Core</source>
-        <translation>Affichez des informations à propos de  Banq Core</translation>
+        <source>Show information about BitcoinMonster Core</source>
+        <translation>Affichez des informations à propos de  BitcoinMonster Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -370,16 +370,16 @@
         <translation>&amp;Signer le message...</translation>
     </message>
     <message>
-        <source>Sign messages with your Banq addresses to prove you own them</source>
-        <translation>Signer les messages avec votre adresses Banq pour prouver que vous en êtes l'auteur</translation>
+        <source>Sign messages with your BitcoinMonster addresses to prove you own them</source>
+        <translation>Signer les messages avec votre adresses BitcoinMonster pour prouver que vous en êtes l'auteur</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Vérifier un message...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Banq addresses</source>
-        <translation>Vérifier les messages pour vous assurer qu'ils ont été signés avec les adresses Banq spécifiées</translation>
+        <source>Verify messages to ensure they were signed with specified BitcoinMonster addresses</source>
+        <translation>Vérifier les messages pour vous assurer qu'ils ont été signés avec les adresses BitcoinMonster spécifiées</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -454,16 +454,16 @@
         <translation>Ouvrir une &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a banq: URI or payment request</source>
-        <translation>Ouvrir une URI ou demande de paiement Banq</translation>
+        <source>Open a bitcoinmonster: URI or payment request</source>
+        <translation>Ouvrir une URI ou demande de paiement BitcoinMonster</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Options de ligne de &amp;commande</translation>
     </message>
     <message>
-        <source>Banq Core client</source>
-        <translation>Client Banq Core </translation>
+        <source>BitcoinMonster Core client</source>
+        <translation>Client BitcoinMonster Core </translation>
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
@@ -490,8 +490,8 @@
         <translation>Barre d'outils des onglets</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Banq network</source>
-        <translation><numerusform>%n connexion active au réseau Banq </numerusform><numerusform>%n connexions actives au réseau Banq </numerusform></translation>
+        <source>%n active connection(s) to BitcoinMonster network</source>
+        <translation><numerusform>%n connexion active au réseau BitcoinMonster </numerusform><numerusform>%n connexions actives au réseau BitcoinMonster </numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -518,8 +518,8 @@
         <translation><numerusform>%n heures</numerusform><numerusform>%n heures</numerusform></translation>
     </message>
     <message>
-        <source>Modify configuration options for Banq Core</source>
-        <translation>Modifier les options de configuration de Banq Core</translation>
+        <source>Modify configuration options for BitcoinMonster Core</source>
+        <translation>Modifier les options de configuration de BitcoinMonster Core</translation>
     </message>
     <message>
         <source>Open Wallet &amp;Configuration File</source>
@@ -534,8 +534,8 @@
         <translation>Ouvrir le fichier de configuration des masternodes</translation>
     </message>
     <message>
-        <source>Show the Banq Core help message to get a list with possible Banq Core command-line options</source>
-        <translation>Afficher l'aide Banq Core pour voir une liste des options possibles en ligne de commande</translation>
+        <source>Show the BitcoinMonster Core help message to get a list with possible BitcoinMonster Core command-line options</source>
+        <translation>Afficher l'aide BitcoinMonster Core pour voir une liste des options possibles en ligne de commande</translation>
     </message>
     <message>
         <source>&amp;PrivateSend information</source>
@@ -925,28 +925,28 @@
         <translation>Veuillez choisir un niveau de confidentialité.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 BANQ</source>
-        <translation>Utiliser 2 masternodes pour mélanger jusqu'à 1000 BANQ</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 MON</source>
+        <translation>Utiliser 2 masternodes pour mélanger jusqu'à 1000 MON</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 BANQ</source>
-        <translation>Utiliser 8 masternodes pour mélanger jusqu'à 1000 BANQ</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 MON</source>
+        <translation>Utiliser 8 masternodes pour mélanger jusqu'à 1000 MON</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Utiliser 16 masternodes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 BANQ to anonymize 1000 BANQ</source>
-        <translation>Cette option est la plus rapide et coûtera environ 0,025 BANQ pour anonymiser 1000 BANQ</translation>
+        <source>This option is the quickest and will cost about ~0.025 MON to anonymize 1000 MON</source>
+        <translation>Cette option est la plus rapide et coûtera environ 0,025 MON pour anonymiser 1000 MON</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 BANQ to anonymize 1000 BANQ</source>
-        <translation>Cette option est un peu moins rapide et coûtera environ 0,05 BANQ pour anonymiser 1000 BANQ</translation>
+        <source>This option is moderately fast and will cost about 0.05 MON to anonymize 1000 MON</source>
+        <translation>Cette option est un peu moins rapide et coûtera environ 0,05 MON pour anonymiser 1000 MON</translation>
     </message>
     <message>
-        <source>0.1 BANQ per 1000 BANQ you anonymize.</source>
-        <translation>0,1 BANQ par 1000 BANQ anonymisés.</translation>
+        <source>0.1 MON per 1000 MON you anonymize.</source>
+        <translation>0,1 MON par 1000 MON anonymisés.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -957,16 +957,16 @@
         <translation>Configuration PrivateSend</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Banq's configuration screen.</source>
-        <translation>PrivateSend a bien été réglé sur “normale” (%1 et 2 cycles). Vous pouvez modifier cela à tout moment dans la fenêtre de configuration de Banq.</translation>
+        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening BitcoinMonster's configuration screen.</source>
+        <translation>PrivateSend a bien été réglé sur “normale” (%1 et 2 cycles). Vous pouvez modifier cela à tout moment dans la fenêtre de configuration de BitcoinMonster.</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Banq's configuration screen.</source>
-        <translation>PrivateSend a bien été réglé sur “élevée” (%1 et 8 cycles). Vous pouvez modifier cela à tout moment dans la fenêtre de configuration de Banq.</translation>
+        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening BitcoinMonster's configuration screen.</source>
+        <translation>PrivateSend a bien été réglé sur “élevée” (%1 et 8 cycles). Vous pouvez modifier cela à tout moment dans la fenêtre de configuration de BitcoinMonster.</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Banq's configuration screen.</source>
-        <translation>PrivateSend a bien été réglé sur “maximale” (%1 et 16 cycles). Vous pouvez modifier cela à tout moment dans la fenêtre de configuration de Banq.</translation>
+        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening BitcoinMonster's configuration screen.</source>
+        <translation>PrivateSend a bien été réglé sur “maximale” (%1 et 16 cycles). Vous pouvez modifier cela à tout moment dans la fenêtre de configuration de BitcoinMonster.</translation>
     </message>
 </context>
 <context>
@@ -1008,8 +1008,8 @@
         <translation>Modifier l’adresse d'envoi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Banq address.</source>
-        <translation>L'adresse d'entrée « %1 » n'est pas une adresse Banq valide</translation>
+        <source>The entered address "%1" is not a valid BitcoinMonster address.</source>
+        <translation>L'adresse d'entrée « %1 » n'est pas une adresse BitcoinMonster valide</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1050,8 +1050,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Banq Core</source>
-        <translation>Banq Core</translation>
+        <source>BitcoinMonster Core</source>
+        <translation>BitcoinMonster Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1062,8 +1062,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Banq Core</source>
-        <translation>À propos de Banq Core</translation>
+        <source>About BitcoinMonster Core</source>
+        <translation>À propos de BitcoinMonster Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1098,8 +1098,8 @@
         <translation>Information PrivateSend</translation>
     </message>
     <message>
-        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Banq in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 BANQ, 0.1 BANQ, 1 BANQ and 10 BANQ -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;   </source>
-        <translation>&lt;h3&gt;Ce qu'il faut savoir sur PrivateSend&lt;/h3&gt; PrivateSend vous donne une véritable confidentialité financière en obscurcissant l'origine de vos fonds. Tous les banqs de votre portefeuille sont répartis en différentes "entrées", qu'on peut se représenter comme des pièces distinctes.&lt;br&gt; PrivateSend utilise une procédure innovante pour mélanger vos entrées avec les entrées de deux autres personnes, sans que vos fonds ne quittent jamais votre portefeuille. Vous gardez le contrôle de votre argent à tout moment.&lt;hr&gt; &lt;b&gt;La procédure PrivateSend fonctionne comme ceci :&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend commence par diviser vos entrées de transaction en coupures standard. Ces coupures sont de 0.01 BANQ, 0.1 BANQ, 1 BANQ et 10 BANQ -- un peu comme pour les billets de banque que vous utilisez tous les jours.&lt;/li&gt; &lt;li&gt;Votre portefeuille envoie alors des requêtes à des serveurs spécifiques sur le réseau, appelés "masternodes". Ces masternodes sont informés que vous souhaiteriez mélanger certaines coupures. Aucune information permettant de vous identifier n'est envoyée aux masternodes, qui ne savent donc jamais "qui" vous êtes.&lt;/li&gt; &lt;li&gt;Quand deux autres personnes envoient des requêtes similaires, indiquant qu'elles veulent mélanger les mêmes coupures, alors commence une session de mélange. Le masternode mélange les entrées et demande aux portefeuilles des trois utilisateurs de payer l'entrée, désormais transformée, à eux-mêmes. Votre portefeuille paie cette coupure directement à lui-même, mais à une adresse différente (appelée une adresse de monnaie rendue).&lt;/li&gt; &lt;li&gt;Afin d'obscurcir complètement vos fonds, votre portefeuille doit répéter cette procédure un certain nombre de fois avec chaque coupure. Une procédure terminée s'appelle un "cycle". Chaque cycle PrivateSend rend exponentiellement plus difficile de déterminer d'où viennent vos fonds.&lt;/li&gt; &lt;li&gt;Cette procédure de mélange intervient en arrière-plan, sans aucune intervention de votre part. Quand vous souhaiterez faire une transaction, vos fonds seront déjà anonymisés. Aucune autre attente ne sera nécessaire.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT :&lt;/b&gt; Votre portefeuille ne contient que 1000 de ces "adresses de monnaie rendue". À chaque opération de mélange, jusqu'à 9 de ces adresses sont utilisées. Cela signifie que ces 1000 adresses couvrent environ 100 opérations de mélange. Quand 900 d'entre elles sont utilisées, votre portefeuille doit créer de nouvelles adresses. Cependant il ne peut le faire que si vous avez activé les sauvegardes automatiques.&lt;br&gt; En conséquence, les utilisateurs qui ont désactivé les sauvegardes ont aussi PrivateSend désactivé. &lt;hr&gt;        </translation>
+        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the BitcoinMonster in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 MON, 0.1 MON, 1 MON and 10 MON -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;   </source>
+        <translation>&lt;h3&gt;Ce qu'il faut savoir sur PrivateSend&lt;/h3&gt; PrivateSend vous donne une véritable confidentialité financière en obscurcissant l'origine de vos fonds. Tous les banqs de votre portefeuille sont répartis en différentes "entrées", qu'on peut se représenter comme des pièces distinctes.&lt;br&gt; PrivateSend utilise une procédure innovante pour mélanger vos entrées avec les entrées de deux autres personnes, sans que vos fonds ne quittent jamais votre portefeuille. Vous gardez le contrôle de votre argent à tout moment.&lt;hr&gt; &lt;b&gt;La procédure PrivateSend fonctionne comme ceci :&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend commence par diviser vos entrées de transaction en coupures standard. Ces coupures sont de 0.01 MON, 0.1 MON, 1 MON et 10 MON -- un peu comme pour les billets de banque que vous utilisez tous les jours.&lt;/li&gt; &lt;li&gt;Votre portefeuille envoie alors des requêtes à des serveurs spécifiques sur le réseau, appelés "masternodes". Ces masternodes sont informés que vous souhaiteriez mélanger certaines coupures. Aucune information permettant de vous identifier n'est envoyée aux masternodes, qui ne savent donc jamais "qui" vous êtes.&lt;/li&gt; &lt;li&gt;Quand deux autres personnes envoient des requêtes similaires, indiquant qu'elles veulent mélanger les mêmes coupures, alors commence une session de mélange. Le masternode mélange les entrées et demande aux portefeuilles des trois utilisateurs de payer l'entrée, désormais transformée, à eux-mêmes. Votre portefeuille paie cette coupure directement à lui-même, mais à une adresse différente (appelée une adresse de monnaie rendue).&lt;/li&gt; &lt;li&gt;Afin d'obscurcir complètement vos fonds, votre portefeuille doit répéter cette procédure un certain nombre de fois avec chaque coupure. Une procédure terminée s'appelle un "cycle". Chaque cycle PrivateSend rend exponentiellement plus difficile de déterminer d'où viennent vos fonds.&lt;/li&gt; &lt;li&gt;Cette procédure de mélange intervient en arrière-plan, sans aucune intervention de votre part. Quand vous souhaiterez faire une transaction, vos fonds seront déjà anonymisés. Aucune autre attente ne sera nécessaire.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT :&lt;/b&gt; Votre portefeuille ne contient que 1000 de ces "adresses de monnaie rendue". À chaque opération de mélange, jusqu'à 9 de ces adresses sont utilisées. Cela signifie que ces 1000 adresses couvrent environ 100 opérations de mélange. Quand 900 d'entre elles sont utilisées, votre portefeuille doit créer de nouvelles adresses. Cependant il ne peut le faire que si vous avez activé les sauvegardes automatiques.&lt;br&gt; En conséquence, les utilisateurs qui ont désactivé les sauvegardes ont aussi PrivateSend désactivé. &lt;hr&gt;        </translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
@@ -1121,16 +1121,16 @@
         <translation>Bienvenue</translation>
     </message>
     <message>
-        <source>Welcome to Banq Core.</source>
-        <translation>Bienvenue dans Banq Core</translation>
+        <source>Welcome to BitcoinMonster Core.</source>
+        <translation>Bienvenue dans BitcoinMonster Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Banq Core will store its data.</source>
-        <translation>Comme il s'agit du premier lancement du logiciel, vous pouvez choisir l'emplacement où Banq Core sauvegardera ses données.</translation>
+        <source>As this is the first time the program is launched, you can choose where BitcoinMonster Core will store its data.</source>
+        <translation>Comme il s'agit du premier lancement du logiciel, vous pouvez choisir l'emplacement où BitcoinMonster Core sauvegardera ses données.</translation>
     </message>
     <message>
-        <source>Banq Core will download and store a copy of the Banq block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Banq Core téléchargera et sauvegardera une copie de la chaîne de blocs Banq. Au moins %1 Go de données seront sauvegardés dans ce répertoire, et cette taille augmentera avec le temps. Le portefeuille sera aussi sauvegardé dans ce répertoire.</translation>
+        <source>BitcoinMonster Core will download and store a copy of the BitcoinMonster block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>BitcoinMonster Core téléchargera et sauvegardera une copie de la chaîne de blocs BitcoinMonster. Au moins %1 Go de données seront sauvegardés dans ce répertoire, et cette taille augmentera avec le temps. Le portefeuille sera aussi sauvegardé dans ce répertoire.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1141,8 +1141,8 @@
         <translation>Utiliser un répertoire de données personnalisé :</translation>
     </message>
     <message>
-        <source>Banq Core</source>
-        <translation>Banq Core</translation>
+        <source>BitcoinMonster Core</source>
+        <translation>BitcoinMonster Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1330,20 +1330,20 @@
         <translation>(0 = auto, &lt; 0 = ne pas utiliser ce nombre de cœurs)</translation>
     </message>
     <message>
-        <source>Amount of Banq to keep anonymized</source>
-        <translation>Nombre de Banq à conserver anonymisés</translation>
+        <source>Amount of BitcoinMonster to keep anonymized</source>
+        <translation>Nombre de BitcoinMonster à conserver anonymisés</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
         <translation>&amp;Portefeuille</translation>
     </message>
     <message>
-        <source>Automatically start Banq Core after logging in to the system.</source>
-        <translation>Lancer automatiquement Banq Core après connexion à cet ordinateur.</translation>
+        <source>Automatically start BitcoinMonster Core after logging in to the system.</source>
+        <translation>Lancer automatiquement BitcoinMonster Core après connexion à cet ordinateur.</translation>
     </message>
     <message>
-        <source>&amp;Start Banq Core on system login</source>
-        <translation>&amp;Lancer Banq Core au démarrage</translation>
+        <source>&amp;Start BitcoinMonster Core on system login</source>
+        <translation>&amp;Lancer BitcoinMonster Core au démarrage</translation>
     </message>
     <message>
         <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
@@ -1390,8 +1390,8 @@
         <translation>Ce montant agit comme seuil de désactivation de PrivateSend, une fois atteint.</translation>
     </message>
     <message>
-        <source>Automatically open the Banq Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir automatiquement le port du client Banq Core sur le routeur. Cela ne fonctionne que si votre routeur supporte UPnP et est activé.</translation>
+        <source>Automatically open the BitcoinMonster Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir automatiquement le port du client BitcoinMonster Core sur le routeur. Cela ne fonctionne que si votre routeur supporte UPnP et est activé.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1402,8 +1402,8 @@
         <translation>Autoriser les connexions entrantes</translation>
     </message>
     <message>
-        <source>Connect to the Banq network through a SOCKS5 proxy.</source>
-        <translation>Se connecter au réseau Banq à travers un proxy SOCKS5.</translation>
+        <source>Connect to the BitcoinMonster network through a SOCKS5 proxy.</source>
+        <translation>Se connecter au réseau BitcoinMonster à travers un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1414,8 +1414,8 @@
         <translation>Minimiser l'application (au lieu de la quitter) quand la fenêtre est fermée. Si cette option est activée, l'application se fermera uniquement en passant par le menu Quitter.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Banq Core.</source>
-        <translation>La langue de l'interface peut être choisie ici. Ce réglage prendra effet après le redémarrage de Banq Core.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting BitcoinMonster Core.</source>
+        <translation>La langue de l'interface peut être choisie ici. Ce réglage prendra effet après le redémarrage de BitcoinMonster Core.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items.&lt;br/&gt;%s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1486,8 +1486,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Banq network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Se connecter au réseau Banq via un proxy SOCKS5 séparé pour les services cachés Tor.</translation>
+        <source>Connect to the BitcoinMonster network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Se connecter au réseau BitcoinMonster via un proxy SOCKS5 séparé pour les services cachés Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1519,9 +1519,9 @@
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/banq/</source>
+https://www.transifex.com/projects/p/bitcoinmonster/</source>
         <translation>Langage manquant ou traduction incomplète ? Participez aux traductions ici :
-https://www.transifex.com/projects/p/banq/</translation>
+https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1599,8 +1599,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Formulaire</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Banq network after a connection is established, but this process has not completed yet.</source>
-        <translation>L'information affichée peut être obsolète. Votre portefeuille se synchronise automatiquement avec le réseau Banq lorsque la connection est établie, mais ce processus n'est pas encore terminé.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BitcoinMonster network after a connection is established, but this process has not completed yet.</source>
+        <translation>L'information affichée peut être obsolète. Votre portefeuille se synchronise automatiquement avec le réseau BitcoinMonster lorsque la connection est établie, mais ce processus n'est pas encore terminé.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1699,8 +1699,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Montant et cycles :</translation>
     </message>
     <message>
-        <source>0 BANQ / 0 Rounds</source>
-        <translation>0 BANQ / 0 cycles</translation>
+        <source>0 MON / 0 Rounds</source>
+        <translation>0 MON / 0 cycles</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -1868,8 +1868,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Erreur de demande de paiement</translation>
     </message>
     <message>
-        <source>Cannot start banq: click-to-pay handler</source>
-        <translation>Impossible de démarrer le gestionnaire Banq click-to-pay</translation>
+        <source>Cannot start bitcoinmonster: click-to-pay handler</source>
+        <translation>Impossible de démarrer le gestionnaire BitcoinMonster click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1892,8 +1892,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Adresse de paiement %1 invalide</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Banq address or malformed URI parameters.</source>
-        <translation>L'URI ne peut être analysée ! Cela peut provenir d'une adresse Banq invalide, ou de paramètres d'URI mal composés.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid BitcoinMonster address or malformed URI parameters.</source>
+        <translation>L'URI ne peut être analysée ! Cela peut provenir d'une adresse BitcoinMonster invalide, ou de paramètres d'URI mal composés.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1974,8 +1974,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Montant</translation>
     </message>
     <message>
-        <source>Enter a Banq address (e.g. %1)</source>
-        <translation>Entrez une adresse Banq (e.g. %1)</translation>
+        <source>Enter a BitcoinMonster address (e.g. %1)</source>
+        <translation>Entrez une adresse BitcoinMonster (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2112,8 +2112,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Utilisation mémoire</translation>
     </message>
     <message>
-        <source>Open the Banq Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ouvre le fichier de debug Banq Core depuis le répertoire de données actuel. Cela peut prendre plusieurs secondes si le fichier de debug est volumineux.</translation>
+        <source>Open the BitcoinMonster Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ouvre le fichier de debug BitcoinMonster Core depuis le répertoire de données actuel. Cela peut prendre plusieurs secondes si le fichier de debug est volumineux.</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -2320,8 +2320,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Dé&amp;bannir le nœud</translation>
     </message>
     <message>
-        <source>Welcome to the Banq Core RPC console.</source>
-        <translation>Bienvenue sur la console RPC de Banq Core.</translation>
+        <source>Welcome to the BitcoinMonster Core RPC console.</source>
+        <translation>Bienvenue sur la console RPC de BitcoinMonster Core.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2391,8 +2391,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Ré&amp;utiliser une adresse de réception existante (non recommandé)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Banq network.</source>
-        <translation>Un message optionnel à joindre à la demande de paiement, qui sera affiché quand la demande sera ouverte. Note : ce message ne sera pas envoyé avec le paiement à travers le réseau Banq.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the BitcoinMonster network.</source>
+        <translation>Un message optionnel à joindre à la demande de paiement, qui sera affiché quand la demande sera ouverte. Note : ce message ne sera pas envoyé avec le paiement à travers le réseau BitcoinMonster.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2403,8 +2403,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Une étiquette optionnelle à associer à la nouvelle adresse de réception.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Banq network.</source>
-        <translation>Un message optionnel à joindre à la demande de paiement, qui sera affiché quand la demande sera ouverte.&lt;br&gt;Note : ce message ne sera pas envoyé avec le paiement à travers le réseau Banq.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the BitcoinMonster network.</source>
+        <translation>Un message optionnel à joindre à la demande de paiement, qui sera affiché quand la demande sera ouverte.&lt;br&gt;Note : ce message ne sera pas envoyé avec le paiement à travers le réseau BitcoinMonster.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2660,7 +2660,7 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Si les frais personnalisés sont à 1000 duffs et que la transaction fait seulement 250 octets, alors "par kilooctet" payera seulement 250 duffs de frais,&lt;br /&gt;alors que "total au moins" payera 1000 duffs. Pour les transactions de plus d'un kilooctet les deux payeront par kilooctet.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for banq transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for bitcoinmonster transactions than the network can process.</source>
         <translation>Payer les frais minimums fonctionne tant qu'il y a moins de volume de transactions que de place dans les blocs.&lt;br/&gt;Mais soyez conscients que ceci peut amener a des transactions qui ne seront jamais confirmées lorsqu'il y aura plus de demande que la capacité du réseau.</translation>
     </message>
     <message>
@@ -2860,8 +2860,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>La transaction a été rejetée ! Ceci peut arriver si certaines pièces de votre portefeuille étaient déjà dépensées, par exemple si vous avez utilisé une copie de wallet.dat et que des pièces ont été dépensées dans la copie sans être marquées comme telles ici.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Banq address</source>
-        <translation>Attention: adresse Banq invalide</translation>
+        <source>Warning: Invalid BitcoinMonster address</source>
+        <translation>Attention: adresse BitcoinMonster invalide</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2883,8 +2883,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>&amp;Payer à :</translation>
     </message>
     <message>
-        <source>The Banq address to send the payment to</source>
-        <translation>L'adresse Banq à laquelle envoyer de la monnaie</translation>
+        <source>The BitcoinMonster address to send the payment to</source>
+        <translation>L'adresse BitcoinMonster à laquelle envoyer de la monnaie</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2919,8 +2919,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>&amp;Montant :</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Banq than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Les frais vont être déduits du montant envoyé. Le destinataire recevra moins de Banq que ce que vous avez indiqué dans la case montant. S'il y a de multiples destinataires, les frais seront partagés équitablements.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of BitcoinMonster than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Les frais vont être déduits du montant envoyé. Le destinataire recevra moins de BitcoinMonster que ce que vous avez indiqué dans la case montant. S'il y a de multiples destinataires, les frais seront partagés équitablements.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2931,8 +2931,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Message :</translation>
     </message>
     <message>
-        <source>A message that was attached to the banq: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Banq network.</source>
-        <translation>Un message qui était joint au Banq : URI qui sera sauvegardée avec la transaction pour référence. Note : Ce message ne sera pas envoyé à travers le réseau Banq.</translation>
+        <source>A message that was attached to the bitcoinmonster: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the BitcoinMonster network.</source>
+        <translation>Un message qui était joint au BitcoinMonster : URI qui sera sauvegardée avec la transaction pour référence. Note : Ce message ne sera pas envoyé à travers le réseau BitcoinMonster.</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
@@ -2958,8 +2958,8 @@ https://www.transifex.com/projects/p/banq/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Banq Core is shutting down...</source>
-        <translation>Arrêt de Banq Core...</translation>
+        <source>BitcoinMonster Core is shutting down...</source>
+        <translation>Arrêt de BitcoinMonster Core...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2977,12 +2977,12 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>&amp;Signer un message</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive Banq sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Vous pouvez signer des messages/accords avec vos adresses pour prouver que vous pouvez recevoir des Banq avec. Faites attention de ne pas signer n'importe quoi de vague/aléatoire car des attaques d'hameçonnage peuvent essayer d'usurper votre identité par votre signature. Ne signez que des déclarations entièrement détaillées et avec lesquelles vous êtes d'accord.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive BitcoinMonster sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Vous pouvez signer des messages/accords avec vos adresses pour prouver que vous pouvez recevoir des BitcoinMonster avec. Faites attention de ne pas signer n'importe quoi de vague/aléatoire car des attaques d'hameçonnage peuvent essayer d'usurper votre identité par votre signature. Ne signez que des déclarations entièrement détaillées et avec lesquelles vous êtes d'accord.</translation>
     </message>
     <message>
-        <source>The Banq address to sign the message with</source>
-        <translation>L'adresse Banq avec laquelle signer le message</translation>
+        <source>The BitcoinMonster address to sign the message with</source>
+        <translation>L'adresse BitcoinMonster avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3013,8 +3013,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Banq address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse Banq</translation>
+        <source>Sign the message to prove you own this BitcoinMonster address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse BitcoinMonster</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3037,12 +3037,12 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Saisir ci-dessous l'adresse du destinataire, le message (assurez-vous d'avoir copié exactement les retours à la ligne, les espaces, tabulations etc.) et la signature pour vérifier le message. Faire attention à ne pas déduire davantage de la signature que ce qui est contenu dans le message signé lui-même pour éviter d'être trompé par une attaque d'homme au milieu. Notez que cela prouve uniquement que le destinataire peut recevoir avec l'adresse, cela ne prouve pas l'expéditeur d'aucune transaction !</translation>
     </message>
     <message>
-        <source>The Banq address the message was signed with</source>
-        <translation>L'adresse Banq avec laquelle le message a été signé</translation>
+        <source>The BitcoinMonster address the message was signed with</source>
+        <translation>L'adresse BitcoinMonster avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Banq address</source>
-        <translation>Vérifier le message pour s'assurer qu'il a été signé avec l'adresse Banq spécifiée</translation>
+        <source>Verify the message to ensure it was signed with the specified BitcoinMonster address</source>
+        <translation>Vérifier le message pour s'assurer qu'il a été signé avec l'adresse BitcoinMonster spécifiée</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3108,8 +3108,8 @@ https://www.transifex.com/projects/p/banq/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Banq Core</source>
-        <translation>Banq Core</translation>
+        <source>BitcoinMonster Core</source>
+        <translation>BitcoinMonster Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3120,8 +3120,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Les développeurs Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Banq Core developers</source>
-        <translation>Les développeurs Banq Core</translation>
+        <source>The BitcoinMonster Core developers</source>
+        <translation>Les développeurs BitcoinMonster Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3632,8 +3632,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Envoyer des pièces</translation>
     </message>
     <message>
-        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 BANQ.</source>
-        <translation>InstantSend ne supporte pas des transferts aussi élevés. Les transactions sont pour le moment limitées à %1 BANQ.</translation>
+        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 MON.</source>
+        <translation>InstantSend ne supporte pas des transferts aussi élevés. Les transactions sont pour le moment limitées à %1 MON.</translation>
     </message>
     <message>
         <source>Used way too many inputs (&gt;%1) for this InstantSend transaction, fees could be huge.</source>
@@ -3680,14 +3680,14 @@ https://www.transifex.com/projects/p/banq/</translation>
     </message>
 </context>
 <context>
-    <name>banq-core</name>
+    <name>bitcoinmonster-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Se lier à l'adresse donnée et toujours l'écouter. Utilisez la notation [host]:port pour l'IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Banq Core is probably already running.</source>
-        <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. Banq Core fonctionne probablement déjà.</translation>
+        <source>Cannot obtain a lock on data directory %s. BitcoinMonster Core is probably already running.</source>
+        <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. BitcoinMonster Core fonctionne probablement déjà.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3726,8 +3726,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Ceci est une pré-version de test - l'utiliser à vos risques et périls - ne pas l'utiliser pour miner ou pour des applications marchandes</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Banq Core is probably already running.</source>
-        <translation>Impossible de se lier à %s sur cet ordinateur. Banq Core fonctionne probablement déjà.</translation>
+        <source>Unable to bind to %s on this computer. BitcoinMonster Core is probably already running.</source>
+        <translation>Impossible de se lier à %s sur cet ordinateur. BitcoinMonster Core fonctionne probablement déjà.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3962,8 +3962,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Ce produit comprend des logiciels développés par le projet OpenSSL afin d'être utilisés dans la boîte à outils OpenSSL &lt;https://www.openssl.org/&gt;, un logiciel de chiffrement écrit par Eric Young et un logiciel UPnP développé par Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 BANQ.</source>
-        <translation>Impossible de localiser suffisamment de fonds pour cette transaction qui ne sont pas égaux à 1000 BANQ.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 MON.</source>
+        <translation>Impossible de localiser suffisamment de fonds pour cette transaction qui ne sont pas égaux à 1000 MON.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4006,8 +4006,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Banq Core Developers</source>
-        <translation>Copyright (C) 2014-%i The Banq Core Developers</translation>
+        <source>Copyright (C) 2014-%i The BitcoinMonster Core Developers</source>
+        <translation>Copyright (C) 2014-%i The BitcoinMonster Core Developers</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
@@ -4018,8 +4018,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Erreur de connexion au masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Banq Core</source>
-        <translation>Erreur au chargement de wallet.dat : le Portefeuille nécessite une nouvelle version de Banq Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of BitcoinMonster Core</source>
+        <translation>Erreur au chargement de wallet.dat : le Portefeuille nécessite une nouvelle version de BitcoinMonster Core</translation>
     </message>
     <message>
         <source>Found enough users, signing ( waiting %s )</source>
@@ -4062,8 +4062,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Informations</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Banq Core is shutting down.</source>
-        <translation>Les tests de cohérences lors de l'initialisation ont échoués. Banq Core est en cours de fermeture.</translation>
+        <source>Initialization sanity check failed. BitcoinMonster Core is shutting down.</source>
+        <translation>Les tests de cohérences lors de l'initialisation ont échoués. BitcoinMonster Core est en cours de fermeture.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4294,8 +4294,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Valeur supérieure au maximum autorisé par la zone PrivateSend.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Banq Core to complete</source>
-        <translation>Le portefeuille devait être réécrit : redémarrer Banq Core pour terminer l'opération.</translation>
+        <source>Wallet needed to be rewritten: restart BitcoinMonster Core to complete</source>
+        <translation>Le portefeuille devait être réécrit : redémarrer BitcoinMonster Core pour terminer l'opération.</translation>
     </message>
     <message>
         <source>Will retry...</source>
@@ -4338,16 +4338,16 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Clé KeePassHttp pour la communication chiffrée AES avec KeePass</translation>
     </message>
     <message>
-        <source>Keep N BANQ anonymized (default: %u)</source>
-        <translation>Maintenir N banq anonymisé en permanence (défaut: %u)</translation>
+        <source>Keep N MON anonymized (default: %u)</source>
+        <translation>Maintenir N bitcoinmonster anonymisé en permanence (défaut: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
         <translation>Garder au plus &lt;n&gt; transactions sans connexion en mémoire (par défaut : %u)</translation>
     </message>
     <message>
-        <source>Disable all Banq specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
-        <translation>Désactivez toutes les fonctionnalités liées à Banq (Masternode, PrivateSend, InstantSend, Gouvernance) (0-1, par défaut : %u)</translation>
+        <source>Disable all BitcoinMonster specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
+        <translation>Désactivez toutes les fonctionnalités liées à BitcoinMonster (Masternode, PrivateSend, InstantSend, Gouvernance) (0-1, par défaut : %u)</translation>
     </message>
     <message>
         <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
@@ -4398,8 +4398,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Si &lt;category&gt; n'est pas indiqué ou si &lt;category&gt; = 1, extraire toutes les données de débogage.</translation>
     </message>
     <message>
-        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 BANQ.</source>
-        <translation>InstantSend ne supporte pas encore des transferts aussi élevés. Les transactions sont pour le moment limitées à %1 BANQ.</translation>
+        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 MON.</source>
+        <translation>InstantSend ne supporte pas encore des transferts aussi élevés. Les transactions sont pour le moment limitées à %1 MON.</translation>
     </message>
     <message>
         <source>InstantSend requires inputs with at least %d confirmations, you might need to wait a few minutes and try again.</source>
@@ -4426,8 +4426,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Frais totaux maximum (en %s) pour une transaction portefeuille unique; si trop bas, risque d'annulation pour transactions trop volumineuses (par défaut : %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Banq Core will not work properly.</source>
-        <translation>Veuillez vérifier que la date et l'heure de votre ordinateur sont justes ! Si votre horloge n'est pas à l'heure, Banq Core ne fonctionnera pas correctement.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong BitcoinMonster Core will not work properly.</source>
+        <translation>Veuillez vérifier que la date et l'heure de votre ordinateur sont justes ! Si votre horloge n'est pas à l'heure, BitcoinMonster Core ne fonctionnera pas correctement.</translation>
     </message>
     <message>
         <source>PrivateSend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -4486,8 +4486,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Impossible de localiser suffisamment de fonds PrivateSend labellisés pour cette transaction.</translation>
     </message>
     <message>
-        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 BANQ.</source>
-        <translation>Impossible de localiser suffisamment de fonds non-labellisés PrivateSend pour cette transaction qui ne sont pas égaux à 1000 BANQ.</translation>
+        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 MON.</source>
+        <translation>Impossible de localiser suffisamment de fonds non-labellisés PrivateSend pour cette transaction qui ne sont pas égaux à 1000 MON.</translation>
     </message>
     <message>
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>

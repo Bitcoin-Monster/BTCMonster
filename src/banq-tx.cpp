@@ -52,10 +52,10 @@ static int AppInitRawTx(int argc, char* argv[])
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("-h") || mapArgs.count("-help"))
     {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Banq Core banq-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("BitcoinMonster Core bitcoinmonster-tx utility version") + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
-              "  banq-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded banq transaction") + "\n" +
-              "  banq-tx [options] -create [commands]   " + _("Create hex-encoded banq transaction") + "\n" +
+              "  bitcoinmonster-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded bitcoinmonster transaction") + "\n" +
+              "  bitcoinmonster-tx [options] -create [commands]   " + _("Create hex-encoded bitcoinmonster transaction") + "\n" +
               "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());
@@ -609,7 +609,7 @@ static int CommandLineRawTx(int argc, char* argv[])
             if (argc < 2)
                 throw runtime_error("too few parameters");
 
-            // param: hex-encoded banq transaction
+            // param: hex-encoded bitcoinmonster transaction
             string strHexTx(argv[1]);
             if (strHexTx == "-")                 // "-" implies standard input
                 strHexTx = readStdin();

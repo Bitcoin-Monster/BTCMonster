@@ -1,5 +1,5 @@
 ---
-name: "banq-dmg-signer"
+name: "bitcoinmonster-dmg-signer"
 suites:
 - "trusty"
 architectures:
@@ -8,10 +8,10 @@ packages:
 - "faketime"
 reference_datetime: "2017-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/banqcoin/banq-detached-sigs.git"
+- "url": "https://github.com/banqcoin/bitcoinmonster-detached-sigs.git"
   "dir": "signature"
 files:
-- "banq-osx-unsigned.tar.gz"
+- "bitcoinmonster-osx-unsigned.tar.gz"
 script: |
   WRAP_DIR=$HOME/wrapped
   mkdir -p ${WRAP_DIR}
@@ -28,10 +28,10 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=banq-osx-unsigned.tar.gz
-  SIGNED=banq-osx-signed.dmg
+  UNSIGNED=bitcoinmonster-osx-unsigned.tar.gz
+  SIGNED=bitcoinmonster-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   ./detached-sig-apply.sh ${UNSIGNED} signature/osx
-  ${WRAP_DIR}/genisoimage -no-cache-inodes -D -l -probe -V "Banq-Core" -no-pad -r -dir-mode 0755 -apple -o uncompressed.dmg signed-app
+  ${WRAP_DIR}/genisoimage -no-cache-inodes -D -l -probe -V "BitcoinMonster-Core" -no-pad -r -dir-mode 0755 -apple -o uncompressed.dmg signed-app
   ${WRAP_DIR}/dmg dmg uncompressed.dmg ${OUTDIR}/${SIGNED}

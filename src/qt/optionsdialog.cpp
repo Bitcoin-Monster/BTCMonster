@@ -3,7 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/banq-config.h"
+#include "config/bitcoinmonster-config.h"
 #endif
 
 #include "optionsdialog.h"
@@ -90,10 +90,10 @@ OptionsDialog::OptionsDialog(QWidget *parent, bool enableWallet) :
     }
     
     /* Theme selector */
-    ui->theme->addItem(QString("BANQ-light"), QVariant("light"));
-    ui->theme->addItem(QString("BANQ-blue"), QVariant("drkblue"));
-    ui->theme->addItem(QString("BANQ-Crownium"), QVariant("crownium"));
-    ui->theme->addItem(QString("BANQ-traditional"), QVariant("trad"));
+    ui->theme->addItem(QString("MON-light"), QVariant("light"));
+    ui->theme->addItem(QString("MON-blue"), QVariant("drkblue"));
+    ui->theme->addItem(QString("MON-Crownium"), QVariant("crownium"));
+    ui->theme->addItem(QString("MON-traditional"), QVariant("trad"));
     
     /* Language selector */
     QDir translations(":translations");

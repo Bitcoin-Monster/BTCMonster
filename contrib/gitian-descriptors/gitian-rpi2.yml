@@ -1,5 +1,5 @@
 ---
-name: "banq-raspberry-0.12"
+name: "bitcoinmonster-raspberry-0.12"
 enable_cache: true
 suites:
 - "precise"
@@ -17,8 +17,8 @@ packages:
 - "binutils-gold"
 reference_datetime: "2017-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/banqcoin/banq.git"
-  "dir": "banq"
+- "url": "https://github.com/banqcoin/bitcoinmonster.git"
+  "dir": "bitcoinmonster"
 files:
 - "raspberrypi-tools.tar.gz"
 script: |
@@ -67,7 +67,7 @@ script: |
   done
   export PATH=${WRAP_DIR}:${PATH}
 
-  cd banq
+  cd bitcoinmonster
   BASEPREFIX=`pwd`/depends
   # Build dependencies for each host
   for i in $HOSTS; do

@@ -62,12 +62,12 @@
         <translation>Adresa prijatia</translation>
     </message>
     <message>
-        <source>These are your Banq addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú Vaše Banq adresy pre posielanie platieb. Pred poslaním mincí vždy overte sumu a doručovaciu adresu.</translation>
+        <source>These are your BitcoinMonster addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú Vaše BitcoinMonster adresy pre posielanie platieb. Pred poslaním mincí vždy overte sumu a doručovaciu adresu.</translation>
     </message>
     <message>
-        <source>These are your Banq addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú Vaše Banq adresy pre posielanie platieb. Pre každú transakciu sa doporučuje použiť novú doručovaciu adresu.</translation>
+        <source>These are your BitcoinMonster addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú Vaše BitcoinMonster adresy pre posielanie platieb. Pre každú transakciu sa doporučuje použiť novú doručovaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BANQ&lt;/b&gt;!</source>
-        <translation>Upozornenie: Ak zašifrujete vašu peňaženku a stratíte prístupové heslo, potom &lt;b&gt;prídete o všetky svoje BANQ-y&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MON&lt;/b&gt;!</source>
+        <translation>Upozornenie: Ak zašifrujete vašu peňaženku a stratíte prístupové heslo, potom &lt;b&gt;prídete o všetky svoje MON-y&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -234,8 +234,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Banq Core</source>
-        <translation>Banq Core</translation>
+        <source>BitcoinMonster Core</source>
+        <translation>BitcoinMonster Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -258,16 +258,16 @@
         <translation>&amp;Odoslať</translation>
     </message>
     <message>
-        <source>Send coins to a Banq address</source>
-        <translation>Poslať mince na Banq adresu</translation>
+        <source>Send coins to a BitcoinMonster address</source>
+        <translation>Poslať mince na BitcoinMonster adresu</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Prijať</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and banq: URIs)</source>
-        <translation>Vyžiadať platby (vygeneruje QR kódy a Banq: URI)</translation>
+        <source>Request payments (generates QR codes and bitcoinmonster: URIs)</source>
+        <translation>Vyžiadať platby (vygeneruje QR kódy a BitcoinMonster: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -294,12 +294,12 @@
         <translation>Ukončiť program</translation>
     </message>
     <message>
-        <source>&amp;About Banq Core</source>
-        <translation>&amp;O Banq Core</translation>
+        <source>&amp;About BitcoinMonster Core</source>
+        <translation>&amp;O BitcoinMonster Core</translation>
     </message>
     <message>
-        <source>Show information about Banq Core</source>
-        <translation>Zobraziť informácie o Banq Core</translation>
+        <source>Show information about BitcoinMonster Core</source>
+        <translation>Zobraziť informácie o BitcoinMonster Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -362,16 +362,16 @@
         <translation>Podpísať &amp;správu...</translation>
     </message>
     <message>
-        <source>Sign messages with your Banq addresses to prove you own them</source>
-        <translation>Podpísať správy s Vašimi Banq adresami ako dôkaz že ich vlastníte</translation>
+        <source>Sign messages with your BitcoinMonster addresses to prove you own them</source>
+        <translation>Podpísať správy s Vašimi BitcoinMonster adresami ako dôkaz že ich vlastníte</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>Overiť správu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Banq addresses</source>
-        <translation>Overiť správy pre uistenie, že boli podpísané zadanými Banq adresami</translation>
+        <source>Verify messages to ensure they were signed with specified BitcoinMonster addresses</source>
+        <translation>Overiť správy pre uistenie, že boli podpísané zadanými BitcoinMonster adresami</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -446,16 +446,16 @@
         <translation>Otvoriť &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a banq: URI or payment request</source>
-        <translation>Otvoriť banq: URI alebo žiadosť o platbu </translation>
+        <source>Open a bitcoinmonster: URI or payment request</source>
+        <translation>Otvoriť bitcoinmonster: URI alebo žiadosť o platbu </translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Možnosti príkazového riadku</translation>
     </message>
     <message>
-        <source>Banq Core client</source>
-        <translation>Banq Core klient</translation>
+        <source>BitcoinMonster Core client</source>
+        <translation>BitcoinMonster Core klient</translation>
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
@@ -482,8 +482,8 @@
         <translation>Lišta záložiek</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Banq network</source>
-        <translation><numerusform>%n aktívne spojenie so sieťou Banq</numerusform><numerusform>%n aktívne spojenia so sieťou Banq</numerusform><numerusform>%n aktívnych spojení so sieťou Banq</numerusform></translation>
+        <source>%n active connection(s) to BitcoinMonster network</source>
+        <translation><numerusform>%n aktívne spojenie so sieťou BitcoinMonster</numerusform><numerusform>%n aktívne spojenia so sieťou BitcoinMonster</numerusform><numerusform>%n aktívnych spojení so sieťou BitcoinMonster</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -510,8 +510,8 @@
         <translation><numerusform>%n hodina</numerusform><numerusform>%n hodiny</numerusform><numerusform>%n hodín</numerusform></translation>
     </message>
     <message>
-        <source>Modify configuration options for Banq Core</source>
-        <translation>Upraviť možnosti konfigurácie Banq Core</translation>
+        <source>Modify configuration options for BitcoinMonster Core</source>
+        <translation>Upraviť možnosti konfigurácie BitcoinMonster Core</translation>
     </message>
     <message>
         <source>Open Wallet &amp;Configuration File</source>
@@ -901,28 +901,28 @@
         <translation>Prosím vyberte úroveň súkromia.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 BANQ</source>
-        <translation>Použiť 2 rozdielne masternode pre fixovanie prostriedkov až do 1000 BANQ</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 MON</source>
+        <translation>Použiť 2 rozdielne masternode pre fixovanie prostriedkov až do 1000 MON</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 BANQ</source>
-        <translation>Použiť 8 rozdielnych masternode pre fixovanie prostriedkov až do 1000 BANQ</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 MON</source>
+        <translation>Použiť 8 rozdielnych masternode pre fixovanie prostriedkov až do 1000 MON</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Použiť 16 rozdielnych masternode</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 BANQ to anonymize 1000 BANQ</source>
-        <translation>Táto možnosť je najrýchlejšia a bude stáť približne 0.025 BANQ pre anonimizáciu 1000 BANQ</translation>
+        <source>This option is the quickest and will cost about ~0.025 MON to anonymize 1000 MON</source>
+        <translation>Táto možnosť je najrýchlejšia a bude stáť približne 0.025 MON pre anonimizáciu 1000 MON</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 BANQ to anonymize 1000 BANQ</source>
-        <translation>Táto možnosť je stredne rýchla bude stáť približne 0.05 BANQ pre anonimizáciu 1000 BANQ</translation>
+        <source>This option is moderately fast and will cost about 0.05 MON to anonymize 1000 MON</source>
+        <translation>Táto možnosť je stredne rýchla bude stáť približne 0.05 MON pre anonimizáciu 1000 MON</translation>
     </message>
     <message>
-        <source>0.1 BANQ per 1000 BANQ you anonymize.</source>
-        <translation>0.1 BANQ za 1000 BANQ ktoré spravíte anonymnými.</translation>
+        <source>0.1 MON per 1000 MON you anonymize.</source>
+        <translation>0.1 MON za 1000 MON ktoré spravíte anonymnými.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -933,16 +933,16 @@
         <translation>Nastavenie PrivateSend</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Banq's configuration screen.</source>
-        <translation>Darksend bol úspešne nastavený na základnú hodnotu (%1 a 2 kolá). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Banq.</translation>
+        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening BitcoinMonster's configuration screen.</source>
+        <translation>Darksend bol úspešne nastavený na základnú hodnotu (%1 a 2 kolá). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky BitcoinMonster.</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Banq's configuration screen.</source>
-        <translation>PrivateSend bol úspešne nastavený na základnú hodnotu (%1 a 8 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Banq.</translation>
+        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening BitcoinMonster's configuration screen.</source>
+        <translation>PrivateSend bol úspešne nastavený na základnú hodnotu (%1 a 8 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky BitcoinMonster.</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Banq's configuration screen.</source>
-        <translation>PrivateSend bol úspešne nastavený na maximálnu hodnotu (%1 a 16 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Banq.</translation>
+        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening BitcoinMonster's configuration screen.</source>
+        <translation>PrivateSend bol úspešne nastavený na maximálnu hodnotu (%1 a 16 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky BitcoinMonster.</translation>
     </message>
 </context>
 <context>
@@ -984,8 +984,8 @@
         <translation>Upraviť odosielaciu adresu</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Banq address.</source>
-        <translation>Zadaná adresa "%1" nie je platná Banq adresa.</translation>
+        <source>The entered address "%1" is not a valid BitcoinMonster address.</source>
+        <translation>Zadaná adresa "%1" nie je platná BitcoinMonster adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1026,8 +1026,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Banq Core</source>
-        <translation>Banq Core</translation>
+        <source>BitcoinMonster Core</source>
+        <translation>BitcoinMonster Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1038,8 +1038,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Banq Core</source>
-        <translation>O Banq Core</translation>
+        <source>About BitcoinMonster Core</source>
+        <translation>O BitcoinMonster Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1077,16 +1077,16 @@
         <translation>Vitajte</translation>
     </message>
     <message>
-        <source>Welcome to Banq Core.</source>
-        <translation>Vitajte v Banq Core.</translation>
+        <source>Welcome to BitcoinMonster Core.</source>
+        <translation>Vitajte v BitcoinMonster Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Banq Core will store its data.</source>
-        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude Banq Core ukladať svoje dáta.</translation>
+        <source>As this is the first time the program is launched, you can choose where BitcoinMonster Core will store its data.</source>
+        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude BitcoinMonster Core ukladať svoje dáta.</translation>
     </message>
     <message>
-        <source>Banq Core will download and store a copy of the Banq block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Banq Core stiahne a uloží kópiu reťazca blokov Banq. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
+        <source>BitcoinMonster Core will download and store a copy of the BitcoinMonster block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>BitcoinMonster Core stiahne a uloží kópiu reťazca blokov BitcoinMonster. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1097,8 +1097,8 @@
         <translation>Použiť vlastný dátový adresár:</translation>
     </message>
     <message>
-        <source>Banq Core</source>
-        <translation>Banq Core</translation>
+        <source>BitcoinMonster Core</source>
+        <translation>BitcoinMonster Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1222,20 +1222,20 @@
         <translation>(0 = auto, &lt;0 = nechať toľko jadier voľných)</translation>
     </message>
     <message>
-        <source>Amount of Banq to keep anonymized</source>
-        <translation>Suma Banq ktorú držať anonymne </translation>
+        <source>Amount of BitcoinMonster to keep anonymized</source>
+        <translation>Suma BitcoinMonster ktorú držať anonymne </translation>
     </message>
     <message>
         <source>W&amp;allet</source>
         <translation>Peňaženka</translation>
     </message>
     <message>
-        <source>Automatically start Banq Core after logging in to the system.</source>
-        <translation>Automaticky spustiť Banq Core po prihlásení do systému.</translation>
+        <source>Automatically start BitcoinMonster Core after logging in to the system.</source>
+        <translation>Automaticky spustiť BitcoinMonster Core po prihlásení do systému.</translation>
     </message>
     <message>
-        <source>&amp;Start Banq Core on system login</source>
-        <translation>&amp;Spusť Banq po prihlásení do systému</translation>
+        <source>&amp;Start BitcoinMonster Core on system login</source>
+        <translation>&amp;Spusť BitcoinMonster po prihlásení do systému</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</source>
@@ -1258,8 +1258,8 @@
         <translation>Povoliť prichádzajúce spojenia</translation>
     </message>
     <message>
-        <source>Connect to the Banq network through a SOCKS5 proxy.</source>
-        <translation>Pripojiť sa do siete Banq cez proxy SOCKS5.</translation>
+        <source>Connect to the BitcoinMonster network through a SOCKS5 proxy.</source>
+        <translation>Pripojiť sa do siete BitcoinMonster cez proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1347,9 +1347,9 @@
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/banq/</source>
+https://www.transifex.com/projects/p/bitcoinmonster/</source>
         <translation>Chýbajúci alebo nekompletný preklad? Pomôžte nám tu:
-https://www.transifex.com/projects/p/banq/</translation>
+https://www.transifex.com/projects/p/bitcoinmonster/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1423,8 +1423,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Banq network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky zosynchronizuje so sieťou Banq akonáhle nadviaže spojenie, avšak tento proces ešte nebol dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BitcoinMonster network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky zosynchronizuje so sieťou BitcoinMonster akonáhle nadviaže spojenie, avšak tento proces ešte nebol dokončený.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1523,8 +1523,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Čiastka a kolá:</translation>
     </message>
     <message>
-        <source>0 BANQ / 0 Rounds</source>
-        <translation>0 BANQ / 0 Kôl</translation>
+        <source>0 MON / 0 Rounds</source>
+        <translation>0 MON / 0 Kôl</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -1653,8 +1653,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Chyba pri vyžiadaní platby</translation>
     </message>
     <message>
-        <source>Cannot start banq: click-to-pay handler</source>
-        <translation>Banq sa nedá spustiť: click-to-pay handler</translation>
+        <source>Cannot start bitcoinmonster: click-to-pay handler</source>
+        <translation>BitcoinMonster sa nedá spustiť: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1673,8 +1673,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Neplatná adresa platby %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Banq address or malformed URI parameters.</source>
-        <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou Banq adresou, alebo nesprávnym tvarom URI parametrov.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid BitcoinMonster address or malformed URI parameters.</source>
+        <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou BitcoinMonster adresou, alebo nesprávnym tvarom URI parametrov.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1747,8 +1747,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Suma</translation>
     </message>
     <message>
-        <source>Enter a Banq address (e.g. %1)</source>
-        <translation>Zadajte Banq adresu (e.g. %1)</translation>
+        <source>Enter a BitcoinMonster address (e.g. %1)</source>
+        <translation>Zadajte BitcoinMonster adresu (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2096,8 +2096,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Znovu použiť jestvujúcu prijímaciu adresu (neodporúča sa)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Banq network.</source>
-        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. Poznámka: Správa nebude poslaná spolu s platbou cez sieť Banq.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the BitcoinMonster network.</source>
+        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. Poznámka: Správa nebude poslaná spolu s platbou cez sieť BitcoinMonster.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2108,8 +2108,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Voliteľný popis ktorý sa pridá k tejto novej prijímajúcej adrese.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Banq network.</source>
-        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. &lt;br&gt;Poznámka: Správa nebude poslaná spolu s platbou cez sieť Banq.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the BitcoinMonster network.</source>
+        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. &lt;br&gt;Poznámka: Správa nebude poslaná spolu s platbou cez sieť BitcoinMonster.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2365,8 +2365,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Ak je vlastný poplatok nastavený na 1000 duffov a transakcia je len 250 bytov, v tom prípade "za kilobajt" zaplatí iba 250 duffov na poplatkoch, &lt;br /&gt;zatiaľ čo "celkovo pri najmenšom" zaplatí 1000 duffov. Pre transakcie väčšie ako jeden kilobajt, obe zaplatia rovnako za kilobajt. </translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for banq transactions than the network can process.</source>
-        <translation>Platenie minimálneho poplatku je v poriadku pokiaľ je objem transakcií menší ako je miesto v bloku. &lt;br /&gt;Buďte opatrný pretože to môže skončiť s nikdy nepotvrdenými transakciami, akonáhle je dopyt po Banq transakciách väčší ako dokáže sieť Banq spracovať.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for bitcoinmonster transactions than the network can process.</source>
+        <translation>Platenie minimálneho poplatku je v poriadku pokiaľ je objem transakcií menší ako je miesto v bloku. &lt;br /&gt;Buďte opatrný pretože to môže skončiť s nikdy nepotvrdenými transakciami, akonáhle je dopyt po BitcoinMonster transakciách väčší ako dokáže sieť BitcoinMonster spracovať.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2541,8 +2541,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Transakcia bola zamietnutá! Toto sa môže stať ak niektoré coins vo vašej peňaženke už boli minuté, ako keď použijete kópiu wallet.dat a coins boli minuté z kópie ale neoznačené ako minuté tu.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Banq address</source>
-        <translation>Upozornenie: Neplatná Banq adresa</translation>
+        <source>Warning: Invalid BitcoinMonster address</source>
+        <translation>Upozornenie: Neplatná BitcoinMonster adresa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2564,8 +2564,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Zapla&amp;tiť:</translation>
     </message>
     <message>
-        <source>The Banq address to send the payment to</source>
-        <translation>Banq adresa pre poslanie platby</translation>
+        <source>The BitcoinMonster address to send the payment to</source>
+        <translation>BitcoinMonster adresa pre poslanie platby</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2604,8 +2604,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Správa:</translation>
     </message>
     <message>
-        <source>A message that was attached to the banq: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Banq network.</source>
-        <translation>Správa ktorá bola pripojená ku banq: URI ktorá sa uchová spolu s transakciou pre Vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť Banq.</translation>
+        <source>A message that was attached to the bitcoinmonster: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the BitcoinMonster network.</source>
+        <translation>Správa ktorá bola pripojená ku bitcoinmonster: URI ktorá sa uchová spolu s transakciou pre Vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť BitcoinMonster.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2623,8 +2623,8 @@ https://www.transifex.com/projects/p/banq/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Banq Core is shutting down...</source>
-        <translation>Banq core sa vypína...</translation>
+        <source>BitcoinMonster Core is shutting down...</source>
+        <translation>BitcoinMonster core sa vypína...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2642,8 +2642,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>&amp;Podpísať Správu</translation>
     </message>
     <message>
-        <source>The Banq address to sign the message with</source>
-        <translation>Banq adresa na podpísanie správy</translation>
+        <source>The BitcoinMonster address to sign the message with</source>
+        <translation>BitcoinMonster adresa na podpísanie správy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2674,8 +2674,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Kopírovať práve zvolenú adresu do systémového klipbordu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Banq address</source>
-        <translation>Podpísať spravu aby ste dokázali, že vlastníte túto Banq adresu</translation>
+        <source>Sign the message to prove you own this BitcoinMonster address</source>
+        <translation>Podpísať spravu aby ste dokázali, že vlastníte túto BitcoinMonster adresu</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2694,12 +2694,12 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Overiť správu...</translation>
     </message>
     <message>
-        <source>The Banq address the message was signed with</source>
-        <translation>Adresa Banq s ktorou bola podpísaná správa</translation>
+        <source>The BitcoinMonster address the message was signed with</source>
+        <translation>Adresa BitcoinMonster s ktorou bola podpísaná správa</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Banq address</source>
-        <translation>Overiť správu pre uistenie, že bola podpísaná zadanou Banq adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified BitcoinMonster address</source>
+        <translation>Overiť správu pre uistenie, že bola podpísaná zadanou BitcoinMonster adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2765,8 +2765,8 @@ https://www.transifex.com/projects/p/banq/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Banq Core</source>
-        <translation>Banq Core</translation>
+        <source>BitcoinMonster Core</source>
+        <translation>BitcoinMonster Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2777,8 +2777,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Vývojári Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Banq Core developers</source>
-        <translation>Vývojári Banq Core</translation>
+        <source>The BitcoinMonster Core developers</source>
+        <translation>Vývojári BitcoinMonster Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3281,8 +3281,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Poslať Mince</translation>
     </message>
     <message>
-        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 BANQ.</source>
-        <translation>InstantSend zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 BANQ.</translation>
+        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 MON.</source>
+        <translation>InstantSend zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 MON.</translation>
     </message>
     </context>
 <context>
@@ -3325,14 +3325,14 @@ https://www.transifex.com/projects/p/banq/</translation>
     </message>
 </context>
 <context>
-    <name>banq-core</name>
+    <name>bitcoinmonster-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Spojiť s danou adresou a vždy na nej počúvať. Použite zápis [host]:port pre IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Banq Core is probably already running.</source>
-        <translation>Nedá sa zamknúť dátový adresár %s. Banq Core už pravdepodobne beží.</translation>
+        <source>Cannot obtain a lock on data directory %s. BitcoinMonster Core is probably already running.</source>
+        <translation>Nedá sa zamknúť dátový adresár %s. BitcoinMonster Core už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3371,8 +3371,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Toto je predbežná testovacia zostava - používate na vlastné riziko - nepoužívajte na ťaženie alebo obchodné aplikácie</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Banq Core is probably already running.</source>
-        <translation>Nedá sa viazať ku %s na tomto počítači. Banq Core už pravdepodobne beží.</translation>
+        <source>Unable to bind to %s on this computer. BitcoinMonster Core is probably already running.</source>
+        <translation>Nedá sa viazať ku %s na tomto počítači. BitcoinMonster Core už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3587,8 +3587,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Tento produkt obsahuje softvér vyvinutý projektom OpenSSL pre použitie sady nástrojov OpenSSL &lt;https://www.openssl.org/&gt; a kryptografického softvéru napísaného Eric Young a UPnP softvér napísaný Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 BANQ.</source>
-        <translation>Nenašiel sa dostatok prostriedkov pre túto transakciu, ktorú nie sú rovné 1000 BANQ.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 MON.</source>
+        <translation>Nenašiel sa dostatok prostriedkov pre túto transakciu, ktorú nie sú rovné 1000 MON.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3631,8 +3631,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Autorské práva (C) 2009-%i Vývojári Bitcoin Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Banq Core Developers</source>
-        <translation>Autorské práva (C) 2014-%i Vývojári jadra Banq</translation>
+        <source>Copyright (C) 2014-%i The BitcoinMonster Core Developers</source>
+        <translation>Autorské práva (C) 2014-%i Vývojári jadra BitcoinMonster</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
@@ -3643,8 +3643,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Chyba pripojenia k Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Banq Core</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Banq Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of BitcoinMonster Core</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu BitcoinMonster Core</translation>
     </message>
     <message>
         <source>Found enough users, signing ( waiting %s )</source>
@@ -3687,8 +3687,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Informácie</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Banq Core is shutting down.</source>
-        <translation>Inicializácia kontroly zdravia zlyhala. Banq Core sa vypína.</translation>
+        <source>Initialization sanity check failed. BitcoinMonster Core is shutting down.</source>
+        <translation>Inicializácia kontroly zdravia zlyhala. BitcoinMonster Core sa vypína.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -3895,8 +3895,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Väčšia hodnota ako dovoľuje fronta PrivateSend.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Banq Core to complete</source>
-        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte Banq Core</translation>
+        <source>Wallet needed to be rewritten: restart BitcoinMonster Core to complete</source>
+        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte BitcoinMonster Core</translation>
     </message>
     <message>
         <source>Will retry...</source>
@@ -3939,16 +3939,16 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Kľúč KeePassHttp pre šifrovanú AES komunikáciu s KeePass</translation>
     </message>
     <message>
-        <source>Keep N BANQ anonymized (default: %u)</source>
-        <translation>Udržiavať N BANQ anonymizovaných (predvolené: %u)</translation>
+        <source>Keep N MON anonymized (default: %u)</source>
+        <translation>Udržiavať N MON anonymizovaných (predvolené: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
         <translation>V pamäti udržiavať najviac &lt;n&gt; nepotvrdených transakcií (predvolené: %u)</translation>
     </message>
     <message>
-        <source>Disable all Banq specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
-        <translation>Vypnúť všetky funkcie špecifické pre Banq (Masternodes, PrivateSend, InstantSend, Vláda) (0-1, predvolené: %u)</translation>
+        <source>Disable all BitcoinMonster specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
+        <translation>Vypnúť všetky funkcie špecifické pre BitcoinMonster (Masternodes, PrivateSend, InstantSend, Vláda) (0-1, predvolené: %u)</translation>
     </message>
     <message>
         <source>Enable InstantSend, show confirmations for locked transactions (0-1, default: %u)</source>
@@ -3971,8 +3971,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Poplatky (v %s/kB) menšie ako toto, sú považované za nulový transakčný poplatok (predvolené: %s)</translation>
     </message>
     <message>
-        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 BANQ.</source>
-        <translation>InstantSend zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 BANQ.</translation>
+        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 MON.</source>
+        <translation>InstantSend zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 MON.</translation>
     </message>
     <message>
         <source>InstantSend requires inputs with at least %d confirmations, you might need to wait a few minutes and try again.</source>
@@ -3983,8 +3983,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Celkové maximum poplatkov (v %s) pre použitie jednej transakcie peňaženky. Príliš malá hodnota môže prerušiť veľké transakcie (predvolené: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Banq Core will not work properly.</source>
-        <translation>Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, Banq Core nebude pracovať správne.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong BitcoinMonster Core will not work properly.</source>
+        <translation>Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, BitcoinMonster Core nebude pracovať správne.</translation>
     </message>
     <message>
         <source>PrivateSend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3999,8 +3999,8 @@ https://www.transifex.com/projects/p/banq/</translation>
         <translation>Nedá sa nájsť dostatok denominácií PrivateSend pre túto transakciu. </translation>
     </message>
     <message>
-        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 BANQ.</source>
-        <translation>Nedá sa nájsť dostatok ne-denominovaných PrivateSend zdrojov pre túto transakciu, ktoré nie sú rovné 1000 BANQ.</translation>
+        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 MON.</source>
+        <translation>Nedá sa nájsť dostatok ne-denominovaných PrivateSend zdrojov pre túto transakciu, ktoré nie sú rovné 1000 MON.</translation>
     </message>
     <message>
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>

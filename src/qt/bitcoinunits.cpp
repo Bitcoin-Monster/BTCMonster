@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2018 The Banq Core developers
+// Copyright (c) 2017-2018 The BitcoinMonster Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -20,7 +20,7 @@ BitcoinUnits::BitcoinUnits(QObject *parent):
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(BANQ);
+    unitlist.append(MON);
     unitlist.append(mBANQ);
     unitlist.append(uBANQ);
     unitlist.append(duffs);
@@ -31,7 +31,7 @@ bool BitcoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case BANQ:
+    case MON:
     case mBANQ:
     case uBANQ:
     case duffs:
@@ -47,9 +47,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case BANQ: return QString("BANQ");
+            case MON: return QString("MON");
             case mBANQ: return QString("mBANQ");
-            case uBANQ: return QString::fromUtf8("μBANQ");
+            case uBANQ: return QString::fromUtf8("μMON");
             case duffs: return QString("duffs");
             default: return QString("???");
         }
@@ -58,7 +58,7 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case BANQ: return QString("tBANQ");
+            case MON: return QString("tBANQ");
             case mBANQ: return QString("mtBANQ");
             case uBANQ: return QString::fromUtf8("μtBANQ");
             case duffs: return QString("tduffs");
@@ -73,10 +73,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case BANQ: return QString("Banq");
-            case mBANQ: return QString("Milli-Banq (1 / 1" THIN_SP_UTF8 "000)");
-            case uBANQ: return QString("Micro-Banq (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-Banq (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case MON: return QString("BitcoinMonster");
+            case mBANQ: return QString("Milli-BitcoinMonster (1 / 1" THIN_SP_UTF8 "000)");
+            case uBANQ: return QString("Micro-BitcoinMonster (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-BitcoinMonster (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -84,7 +84,7 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case BANQ: return QString("TestBanqs");
+            case MON: return QString("TestBanqs");
             case mBANQ: return QString("Milli-TestBanq (1 / 1" THIN_SP_UTF8 "000)");
             case uBANQ: return QString("Micro-TestBanq (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             case duffs: return QString("Ten Nano-TestBanq (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
@@ -97,7 +97,7 @@ qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case BANQ:  return 100000000;
+    case MON:  return 100000000;
     case mBANQ: return 100000;
     case uBANQ: return 100;
     case duffs: return 1;
@@ -109,7 +109,7 @@ int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case BANQ: return 8;
+    case MON: return 8;
     case mBANQ: return 5;
     case uBANQ: return 2;
     case duffs: return 0;

@@ -1,4 +1,4 @@
-# bash programmable completion for banqd(1) and banq-cli(1)
+# bash programmable completion for banqd(1) and bitcoinmonster-cli(1)
 # Copyright (c) 2012,2014 Christian von Roques <roques@mti.ag>
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -19,7 +19,7 @@ _banq_rpc() {
     $banqd "${rpcargs[@]}" "$@"
 }
 
-# Add banq accounts to COMPREPLY
+# Add bitcoinmonster accounts to COMPREPLY
 _banq_accounts() {
     local accounts
     accounts=$(_banq_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
@@ -133,7 +133,7 @@ _banqd() {
     esac
 }
 
-complete -F _banqd banqd banq-cli
+complete -F _banqd banqd bitcoinmonster-cli
 }
 
 # Local variables:

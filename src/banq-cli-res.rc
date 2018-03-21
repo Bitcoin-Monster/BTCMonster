@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Banq"
-            VALUE "FileDescription",    "banq-cli (JSON-RPC client for Banq Core)"
+            VALUE "CompanyName",        "BitcoinMonster"
+            VALUE "FileDescription",    "bitcoinmonster-cli (JSON-RPC client for BitcoinMonster Core)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "banq-cli"
+            VALUE "InternalName",       "bitcoinmonster-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "banq-cli.exe"
-            VALUE "ProductName",        "banq-cli"
+            VALUE "OriginalFilename",   "bitcoinmonster-cli.exe"
+            VALUE "ProductName",        "bitcoinmonster-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

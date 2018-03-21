@@ -1,5 +1,5 @@
 ---
-name: "banq-osx-0.12"
+name: "bitcoinmonster-osx-0.12"
 enable_cache: true
 suites:
 - "trusty"
@@ -23,8 +23,8 @@ packages:
 - "python"
 reference_datetime: "2017-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/banqcoin/banq.git"
-  "dir": "banq"
+- "url": "https://github.com/banqcoin/bitcoinmonster.git"
+  "dir": "bitcoinmonster"
 files:
 - "MacOSX10.9.sdk.tar.gz"
 script: |
@@ -71,7 +71,7 @@ script: |
   done
   export PATH=${WRAP_DIR}:${PATH}
 
-  cd banq
+  cd bitcoinmonster
   BASEPREFIX=`pwd`/depends
 
   mkdir -p ${BASEPREFIX}/SDKs
@@ -123,7 +123,7 @@ script: |
     popd
 
     make deploy
-    ${WRAP_DIR}/dmg dmg Banq-Core.dmg ${OUTDIR}/${DISTNAME}-osx-unsigned.dmg
+    ${WRAP_DIR}/dmg dmg BitcoinMonster-Core.dmg ${OUTDIR}/${DISTNAME}-osx-unsigned.dmg
 
     cd installed
     find . -name "lib*.la" -delete

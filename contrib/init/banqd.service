@@ -1,5 +1,5 @@
 [Unit]
-Description=Banq's distributed currency daemon
+Description=BitcoinMonster's distributed currency daemon
 After=network.target
 
 [Service]
@@ -9,7 +9,7 @@ Group=banqcore
 Type=forking
 PIDFile=/var/lib/banqd/banqd.pid
 ExecStart=/usr/bin/banqd -daemon -pid=/var/lib/banqd/banqd.pid \
--conf=/etc/banqcore/banq.conf -datadir=/var/lib/banqd -disablewallet
+-conf=/etc/banqcore/bitcoinmonster.conf -datadir=/var/lib/banqd -disablewallet
 
 Restart=always
 PrivateTmp=true

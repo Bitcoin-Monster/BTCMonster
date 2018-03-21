@@ -5,7 +5,7 @@ Upstart: banqd.conf
 OpenRC:  banqd.openrc
          banqd.openrcconf
 CentOS:  banqd.init
-OS X:    org.banq.banqd.plist
+OS X:    org.bitcoinmonster.banqd.plist
 
 have been made available to assist packagers in creating node packages here.
 

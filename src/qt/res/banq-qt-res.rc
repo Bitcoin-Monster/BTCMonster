@@ -18,14 +18,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Banq"
-            VALUE "FileDescription",    "Banq Core (GUI node for Banq)"
+            VALUE "CompanyName",        "BitcoinMonster"
+            VALUE "FileDescription",    "BitcoinMonster Core (GUI node for BitcoinMonster)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "banq-qt"
+            VALUE "InternalName",       "bitcoinmonster-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "banq-qt.exe"
-            VALUE "ProductName",        "Banq Core"
+            VALUE "OriginalFilename",   "bitcoinmonster-qt.exe"
+            VALUE "ProductName",        "BitcoinMonster Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

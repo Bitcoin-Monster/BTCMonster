@@ -57,10 +57,10 @@ void ThreadSendAlert()
     //  Higher numbers mean higher priority
     alert.nPriority     = 5000;
     alert.strComment    = "";
-    alert.strStatusBar  = "URGENT: Upgrade required: see https://www.banq.org";
+    alert.strStatusBar  = "URGENT: Upgrade required: see https://www.bitcoinmonster.org";
 
     // Set specific client version/versions here. If setSubVer is empty, no filtering on subver is done:
-    // alert.setSubVer.insert(std::string("/Banq Core:0.12.0.58/"));
+    // alert.setSubVer.insert(std::string("/BitcoinMonster Core:0.12.0.58/"));
 
     // Sign
     if(!alert.Sign())

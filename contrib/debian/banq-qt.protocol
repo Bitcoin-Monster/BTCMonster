@@ -1,6 +1,6 @@
 [Protocol]
-exec=banq-qt '%u'
-protocol=banq
+exec=bitcoinmonster-qt '%u'
+protocol=bitcoinmonster
 input=none
 output=none
 helper=true

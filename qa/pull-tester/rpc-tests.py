@@ -65,7 +65,7 @@ buildDir = BUILDDIR
 if "BANQD" not in os.environ:
     os.environ["BANQD"] = buildDir + '/src/banqd' + EXEEXT
 if "BANQCLI" not in os.environ:
-    os.environ["BANQCLI"] = buildDir + '/src/banq-cli' + EXEEXT
+    os.environ["BANQCLI"] = buildDir + '/src/bitcoinmonster-cli' + EXEEXT
 
 if EXEEXT == ".exe" and "-win" not in opts:
     # https://github.com/bitcoin/bitcoin/commit/d52802551752140cf41f0d9a225a43e84404d3e9
@@ -149,7 +149,7 @@ testScriptsExt = [
     'p2p-acceptblock.py', # NOTE: needs banq_hash to pass
     'mempool_packages.py',
     'maxuploadtarget.py',
-    # 'replace-by-fee.py', # RBF is disabled in Banq Core
+    # 'replace-by-fee.py', # RBF is disabled in BitcoinMonster Core
 ]
 
 def runtests():

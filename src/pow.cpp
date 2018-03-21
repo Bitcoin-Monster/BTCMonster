@@ -81,7 +81,7 @@ unsigned int static KimotoGravityWell(const CBlockIndex* pindexLast, const Conse
 }
 
 unsigned int static DarkGravityWave(const CBlockIndex* pindexLast, const Consensus::Params& params) {
-    /* current difficulty formula, banq - DarkGravity v3, written by Evan Duffield - evan@banq.org */
+    /* current difficulty formula, bitcoinmonster - DarkGravity v3, written by Evan Duffield - evan@bitcoinmonster.org */
     const CBlockIndex *BlockLastSolved = pindexLast;
     const CBlockIndex *BlockReading = pindexLast;
     int64_t nActualTimespan = 0;

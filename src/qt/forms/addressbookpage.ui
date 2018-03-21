@@ -137,7 +137,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="../banq.qrc"/>
+  <include location="../bitcoinmonster.qrc"/>
  </resources>
  <connections/>
 </ui>

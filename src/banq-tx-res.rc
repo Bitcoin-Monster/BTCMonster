@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Banq"
-            VALUE "FileDescription",    "banq-tx (CLI Banq transaction editor utility)"
+            VALUE "CompanyName",        "BitcoinMonster"
+            VALUE "FileDescription",    "bitcoinmonster-tx (CLI BitcoinMonster transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "banq-tx"
+            VALUE "InternalName",       "bitcoinmonster-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "banq-tx.exe"
-            VALUE "ProductName",        "banq-tx"
+            VALUE "OriginalFilename",   "bitcoinmonster-tx.exe"
+            VALUE "ProductName",        "bitcoinmonster-tx"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

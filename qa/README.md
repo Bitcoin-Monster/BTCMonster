@@ -1,7 +1,7 @@
 The [pull-tester](/qa/pull-tester/) folder contains a script to call
 multiple tests from the [rpc-tests](/qa/rpc-tests/) folder.
 
-Every pull request to the Banq Core repository is built and run through
+Every pull request to the BitcoinMonster Core repository is built and run through
 the regression test suite. You can also run all or only individual
 tests locally.
 
@@ -33,7 +33,7 @@ Possible options:
   -h, --help            show this help message and exit
   --nocleanup           Leave banqds and test.* datadir on exit or error
   --noshutdown          Don't stop banqds after the test execution
-  --srcdir=SRCDIR       Source directory containing banqd/banq-cli
+  --srcdir=SRCDIR       Source directory containing banqd/bitcoinmonster-cli
                         (default: ../../src)
   --tmpdir=TMPDIR       Root directory for datadirs
   --tracerpc            Print out all RPC calls as they are made
@@ -47,7 +47,7 @@ output (example: `PYTHON_DEBUG=1 qa/pull-tester/rpc-tests.py wallet`).
 A 200-block -regtest blockchain and wallets for four nodes
 is created the first time a regression test is run and
 is stored in the cache/ directory. Each node has 25 mature
-blocks (25*500=12500 BANQ) in its wallet.
+blocks (25*500=12500 MON) in its wallet.
 
 After the first run, the cache/ blockchain and wallets are
 copied into a temporary directory and used as the initial

@@ -123,7 +123,7 @@ public:
 };
 
 /**
- * Banq RPC command dispatcher.
+ * BitcoinMonster RPC command dispatcher.
  */
 class CRPCTable
 {

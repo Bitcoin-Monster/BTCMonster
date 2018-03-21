@@ -44,7 +44,7 @@ This allows for running banqd without having to do any manual configuration.
 relative to the data directory. `wallet` *only* supports relative paths.
 
 For an example configuration file that describes the configuration settings,
-see `contrib/debian/examples/banq.conf`.
+see `contrib/debian/examples/bitcoinmonster.conf`.
 
 3. Paths
 ---------------------------------
@@ -54,7 +54,7 @@ see `contrib/debian/examples/banq.conf`.
 All three configurations assume several paths that might need to be adjusted.
 
 Binary:              `/usr/bin/banqd`  
-Configuration file:  `/etc/banqcore/banq.conf`  
+Configuration file:  `/etc/banqcore/bitcoinmonster.conf`  
 Data directory:      `/var/lib/banqd`  
 PID file:            `/var/run/banqd/banqd.pid` (OpenRC and Upstart) or `/var/lib/banqd/banqd.pid` (systemd)  
 Lock file:           `/var/lock/subsys/banqd` (CentOS)  
@@ -62,13 +62,13 @@ Lock file:           `/var/lock/subsys/banqd` (CentOS)
 The configuration file, PID directory (if applicable) and data directory
 should all be owned by the banqcore user and group.  It is advised for security
 reasons to make the configuration file and data directory only readable by the
-banqcore user and group.  Access to banq-cli and other banqd rpc clients
+banqcore user and group.  Access to bitcoinmonster-cli and other banqd rpc clients
 can then be controlled by group membership.
 
 3b) Mac OS X
 
 Binary:              `/usr/local/bin/banqd`  
-Configuration file:  `~/Library/Application Support/BanqCore/banq.conf`  
+Configuration file:  `~/Library/Application Support/BanqCore/bitcoinmonster.conf`  
 Data directory:      `~/Library/Application Support/BanqCore`
 Lock file:           `~/Library/Application Support/BanqCore/.lock`
 
@@ -109,13 +109,13 @@ setting the BANQD and FLAGS environment variables in the file
 
 4e) Mac OS X
 
-Copy org.banq.banqd.plist into ~/Library/LaunchAgents. Load the launch agent by
-running `launchctl load ~/Library/LaunchAgents/org.banq.banqd.plist`.
+Copy org.bitcoinmonster.banqd.plist into ~/Library/LaunchAgents. Load the launch agent by
+running `launchctl load ~/Library/LaunchAgents/org.bitcoinmonster.banqd.plist`.
 
 This Launch Agent will cause banqd to start whenever the user logs in.
 
 NOTE: This approach is intended for those wanting to run banqd as the current user.
-You will need to modify org.banq.banqd.plist if you intend to use it as a
+You will need to modify org.bitcoinmonster.banqd.plist if you intend to use it as a
 Launch Daemon with a dedicated banqcore user.
 
 5. Auto-respawn

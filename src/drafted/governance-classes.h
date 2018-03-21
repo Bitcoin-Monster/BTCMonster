@@ -1,5 +1,5 @@
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2018 The Banq Core developers
+// Copyright (c) 2017-2018 The BitcoinMonster Core developers
 
 /*
  * FIELDS AND CLASSIFICATION
@@ -80,7 +80,7 @@
  *  TREE STRUCTURE
  *  ===========================================
  * 
- *  BANQ NETWORK (ROOT)
+ *  MON NETWORK (ROOT)
  *      -> NETWORK GLOBOLS
  *          -> SWITCHES, SETTINGS
  *      -> CATEGORIES
@@ -118,7 +118,7 @@ private:
     int nLevel;
     std::string strCategory;
 
-    // Current OBJECT STATUS (see http://govman.banq.org/index.php/Documentation_:_Status_Field)
+    // Current OBJECT STATUS (see http://govman.bitcoinmonster.org/index.php/Documentation_:_Status_Field)
     int nStatusID;
     std::string strStatusMessage;
 

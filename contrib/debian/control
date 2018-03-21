@@ -1,8 +1,8 @@
-Source: banq
+Source: bitcoinmonster
 Section: utils
 Priority: optional
-Maintainer: Holger Schinzel <holger@banq.org>
-Uploaders: Holger Schinzel <holger@banq.org>
+Maintainer: Holger Schinzel <holger@bitcoinmonster.org>
+Uploaders: Holger Schinzel <holger@bitcoinmonster.org>
 Build-Depends: debhelper,
  devscripts,
  automake,
@@ -24,45 +24,45 @@ Build-Depends: debhelper,
  libprotobuf-dev, protobuf-compiler,
  python
 Standards-Version: 3.9.2
-Homepage: https://www.banq.org/
-Vcs-Git: git://github.com/banqcoin/banq.git
-Vcs-Browser: https://github.com/banqcoin/banq
+Homepage: https://www.bitcoinmonster.org/
+Vcs-Git: git://github.com/banqcoin/bitcoinmonster.git
+Vcs-Browser: https://github.com/banqcoin/bitcoinmonster
 
 Package: banqd
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
- Banq is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. Banq uses peer-to-peer
+ BitcoinMonster is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. BitcoinMonster uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Banq Core
+ and issuing money are carried out collectively by the network. BitcoinMonster Core
  is the name of the open source software which enables the use of this currency.
  .
  This package provides the daemon, banqd, and the CLI tool
- banq-cli to interact with the daemon.
+ bitcoinmonster-cli to interact with the daemon.
 
-Package: banq-qt
+Package: bitcoinmonster-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
- Banq is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. Banq uses peer-to-peer
+ BitcoinMonster is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. BitcoinMonster uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Banq Core
+ and issuing money are carried out collectively by the network. BitcoinMonster Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides Banq-Qt, a GUI for Banq based on Qt.
+ This package provides BitcoinMonster-Qt, a GUI for BitcoinMonster based on Qt.
 
-Package: banq-tx
+Package: bitcoinmonster-tx
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer digital currency - standalone transaction tool
- Banq is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. Banq uses peer-to-peer
+ BitcoinMonster is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. BitcoinMonster uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Banq Core
+ and issuing money are carried out collectively by the network. BitcoinMonster Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides banq-tx, a command-line transaction creation
- tool which can be used without a banq daemon.  Some means of
+ This package provides bitcoinmonster-tx, a command-line transaction creation
+ tool which can be used without a bitcoinmonster daemon.  Some means of
  exchanging minimal transaction data with peers is still required.

@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2018 The Banq Core developers
+// Copyright (c) 2017-2018 The BitcoinMonster Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -48,9 +48,9 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 36
 
-#define QAPP_ORG_NAME "Banq"
-#define QAPP_ORG_DOMAIN "banq.org"
-#define QAPP_APP_NAME_DEFAULT "Banq-Qt"
-#define QAPP_APP_NAME_TESTNET "Banq-Qt-testnet"
+#define QAPP_ORG_NAME "BitcoinMonster"
+#define QAPP_ORG_DOMAIN "bitcoinmonster.org"
+#define QAPP_APP_NAME_DEFAULT "BitcoinMonster-Qt"
+#define QAPP_APP_NAME_TESTNET "BitcoinMonster-Qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

@@ -1,5 +1,5 @@
 ---
-name: "banq-win-0.12"
+name: "bitcoinmonster-win-0.12"
 enable_cache: true
 suites:
 - "trusty"
@@ -23,8 +23,8 @@ packages:
 - "python"
 reference_datetime: "2017-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/banqcoin/banq.git"
-  "dir": "banq"
+- "url": "https://github.com/banqcoin/bitcoinmonster.git"
+  "dir": "bitcoinmonster"
 files: []
 script: |
   WRAP_DIR=$HOME/wrapped
@@ -94,7 +94,7 @@ script: |
 
   export PATH=${WRAP_DIR}:${PATH}
 
-  cd banq
+  cd bitcoinmonster
   BASEPREFIX=`pwd`/depends
   # Build dependencies for each host
   for i in $HOSTS; do

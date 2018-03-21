@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin Core developers
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2018 The Banq Core developers
+// Copyright (c) 2017-2018 The BitcoinMonster Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -43,7 +43,7 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
 
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "start banq 13/03/2017 11/00";
+    const char* pszTimestamp = "start bitcoinmonster 13/03/2017 11/00";
     const CScript genesisOutputScript = CScript() << ParseHex("042fe924b01aceef2977bd37ed244662949416abc485de6523eb3a3e00ecac8ff63e0a61fa6a028f4dd36a5e07d5a802c6bb57d325e896173748b017d65bc3c410") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
@@ -84,8 +84,8 @@ public:
         consensus.BIP34Height = 227931; // FIX
         consensus.BIP34Hash = uint256S("0x000000000000024b89b42a942fe0d9fea3bb44ab7bd1b19115dd6a759c0808b8"); // FIX
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
-        consensus.nPowTargetTimespan = 60 * 60; // Banq: 1 hour, 20 blocks
-        consensus.nPowTargetSpacing = 3 * 60; // Banq: 180 seconds
+        consensus.nPowTargetTimespan = 60 * 60; // BitcoinMonster: 1 hour, 20 blocks
+        consensus.nPowTargetSpacing = 3 * 60; // BitcoinMonster: 180 seconds
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 1916; // 95% of 2016
@@ -118,23 +118,23 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("00000927435496954fcf6314b8d7ba4a0ec4a2cf37964bfa734fb6348359ed92"));
         assert(genesis.hashMerkleRoot == uint256S("b2ef79664ca828750673eddc91f7643ad42a986f8a20172a211d4c7a81c9520c"));
 
-        vSeeds.push_back(CDNSSeedData("banq.online", "seed1.banq.online"));
-        vSeeds.push_back(CDNSSeedData("banq.online", "seed2.banq.online"));
-        vSeeds.push_back(CDNSSeedData("banq.online", "seed3.banq.online"));
+        vSeeds.push_back(CDNSSeedData("bitcoinmonster.online", "seed1.bitcoinmonster.online"));
+        vSeeds.push_back(CDNSSeedData("bitcoinmonster.online", "seed2.bitcoinmonster.online"));
+        vSeeds.push_back(CDNSSeedData("bitcoinmonster.online", "seed3.bitcoinmonster.online"));
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        // Banq addresses start with 'B'
+        // BitcoinMonster addresses start with 'B'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,25);
-        // Banq script addresses start with '5'
+        // BitcoinMonster script addresses start with '5'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,10);
-        // Banq private keys start with '5' or 'G' (?)
+        // BitcoinMonster private keys start with '5' or 'G' (?)
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,198);
-        // Banq BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
+        // BitcoinMonster BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
-        // Banq BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
+        // BitcoinMonster BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
-        // Banq BIP44 coin type is '5'
+        // BitcoinMonster BIP44 coin type is '5'
         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x80)(0x00)(0x00)(0x05).convert_to_container<std::vector<unsigned char> >();
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
@@ -189,8 +189,8 @@ public:
         consensus.BIP34Height = 21111; // FIX
         consensus.BIP34Hash = uint256S("0x0000000023b3a96d3484e5abb3755c413e7d41500f8e2a5c3f0dd01299cd8ef8"); // FIX
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
-        consensus.nPowTargetTimespan = 60 * 60; // Banq: 1 hour, 24 blocks
-        consensus.nPowTargetSpacing = 2.5 * 60; // Banq: 150 seconds
+        consensus.nPowTargetTimespan = 60 * 60; // BitcoinMonster: 1 hour, 24 blocks
+        consensus.nPowTargetSpacing = 2.5 * 60; // BitcoinMonster: 150 seconds
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 1512; // 75% for testchains
@@ -221,17 +221,17 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        // Testnet Banq addresses start with 'n'
+        // Testnet BitcoinMonster addresses start with 'n'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,112);
-        // Testnet Banq script addresses start with '9'
+        // Testnet BitcoinMonster script addresses start with '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,20);
         // Testnet private keys start with '9' or 'c' (Bitcoin defaults) (?)
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,240);
-        // Testnet Banq BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
+        // Testnet BitcoinMonster BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        // Testnet Banq BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
+        // Testnet BitcoinMonster BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
-        // Testnet Banq BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet BitcoinMonster BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
@@ -288,8 +288,8 @@ public:
         consensus.BIP34Height = -1; // BIP34 has not necessarily activated on regtest
         consensus.BIP34Hash = uint256();
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
-        consensus.nPowTargetTimespan = 60 * 60; // Banq: 1 hour, 24 blocks
-        consensus.nPowTargetSpacing = 2.5 * 60; // Banq: 150 seconds
+        consensus.nPowTargetTimespan = 60 * 60; // BitcoinMonster: 1 hour, 24 blocks
+        consensus.nPowTargetSpacing = 2.5 * 60; // BitcoinMonster: 150 seconds
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = true;
         consensus.nRuleChangeActivationThreshold = 108; // 75% for testchains
@@ -332,17 +332,17 @@ public:
             0,
             0
         };
-        // Regtest Banq addresses start with 'n'
+        // Regtest BitcoinMonster addresses start with 'n'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,112);
-        // Regtest Banq script addresses start with '9'
+        // Regtest BitcoinMonster script addresses start with '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,20);
         // Regtest private keys start with '9' or 'c' (Bitcoin defaults) (?)
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,240);
-        // Regtest Banq BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
+        // Regtest BitcoinMonster BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        // Regtest Banq BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
+        // Regtest BitcoinMonster BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
-        // Regtest Banq BIP44 coin type is '1' (All coin's testnet default)
+        // Regtest BitcoinMonster BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
    }
 };

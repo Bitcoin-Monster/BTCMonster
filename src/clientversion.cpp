@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both banqd and banq-qt, to make it harder for attackers to
+ * for both banqd and bitcoinmonster-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Banq Core");
+const std::string CLIENT_NAME("BitcoinMonster Core");
 
 /**
  * Client version number
