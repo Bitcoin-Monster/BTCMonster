@@ -1,0 +1,2 @@
+qt/libbitcoinqt_a-qrc_bitcoinmonster_locale.o: \
+  qt/qrc_bitcoinmonster_locale.cpp

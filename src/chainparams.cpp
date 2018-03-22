@@ -118,11 +118,12 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("00000927435496954fcf6314b8d7ba4a0ec4a2cf37964bfa734fb6348359ed92"));
         assert(genesis.hashMerkleRoot == uint256S("b2ef79664ca828750673eddc91f7643ad42a986f8a20172a211d4c7a81c9520c"));
 
-        vSeeds.push_back(CDNSSeedData("bitcoinmonster.online", "78.47.177.106"));
-        vSeeds.push_back(CDNSSeedData("bitcoinmonster.online", "78.47.154.34"));
-        vSeeds.push_back(CDNSSeedData("bitcoinmonster.online", "78.47.154.38"));
+
         vFixedSeeds.clear();
         vSeeds.clear();
+        vSeeds.push_back(CDNSSeedData("bitcoinmonster.online1", "78.47.177.106:5677"));
+        vSeeds.push_back(CDNSSeedData("bitcoinmonster.online2", "78.47.154.34:5677"));
+        vSeeds.push_back(CDNSSeedData("bitcoinmonster.online2", "78.47.154.38:5677"));
 
         // BitcoinMonster addresses start with 'M'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,50);
