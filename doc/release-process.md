@@ -13,7 +13,7 @@ Check out the source code in the following directory hierarchy.
 	git clone https://github.com/bitcoinmonstercoin/gitian.sigs.git
 	git clone https://github.com/bitcoinmonstercoin/bitcoinmonster-detached-sigs.git
 	git clone https://github.com/devrandom/gitian-builder.git
-	git clone https://github.com/bitcoinmonstercoin/bitcoinmonster.git
+	git clone https://github.com/Bitcoin-Monster/BTCMonster
 
 ###BitcoinMonster Core maintainers/release engineers, update (commit) version in sources
 
