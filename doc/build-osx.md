@@ -42,7 +42,7 @@ NOTE: Building with Qt4 is still supported, however, could result in a broken UI
 1. Clone the GitHub tree to get the source code and go into the directory.
 
         git clone https://github.com/Bitcoin-Monster/BTCMonster
-        cd bitcoinmonster
+        cd BTCMonster
 
 2.  Build BitcoinMonster Core:
     This will configure and build the headless bitcoinmonster binaries as well as the gui (if Qt is found).
