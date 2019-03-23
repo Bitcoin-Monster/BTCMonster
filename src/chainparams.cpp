@@ -66,6 +66,8 @@ public:
         strNetworkID = "main";
         consensus.nSubsidyHalvingInterval = 262800; // one year
         consensus.nMasternodePaymentsStartBlock = 1; // not true, but it's ok as long as it's less then nMasternodePaymentsIncreaseBlock
+        consensus.nFounderPaymentsStartBlock = 165000;
+        consensus.nPrivatesendForkBlock = 165000;
         consensus.nMasternodePaymentsIncreaseBlock = 158000; // not used
         consensus.nMasternodePaymentsIncreasePeriod = 576*30; // not used
         consensus.nInstantSendKeepLock = 24;
@@ -121,9 +123,9 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("bitcoinmonster.online1", "78.47.177.106:5677"));
-        vSeeds.push_back(CDNSSeedData("bitcoinmonster.online2", "78.47.154.34:5677"));
-        vSeeds.push_back(CDNSSeedData("bitcoinmonster.online2", "78.47.154.38:5677"));
+        vSeeds.push_back(CDNSSeedData("46.101.203.85", "46.101.203.85"));
+        vSeeds.push_back(CDNSSeedData("46.101.205.47", "46.101.205.47"));
+        vSeeds.push_back(CDNSSeedData("134.209.240.7", "134.209.240.7"));
 
         // BitcoinMonster addresses start with 'M'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,50);

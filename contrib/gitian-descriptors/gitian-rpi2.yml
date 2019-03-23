@@ -17,8 +17,8 @@ packages:
 - "binutils-gold"
 reference_datetime: "2017-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/Bitcoin-Monster/BTCMonster"
-  "dir": "BTCMonster"
+- "url": "https://github.com/bitcoinmonstercoin/bitcoinmonster.git"
+  "dir": "bitcoinmonster"
 files:
 - "raspberrypi-tools.tar.gz"
 script: |
@@ -67,7 +67,7 @@ script: |
   done
   export PATH=${WRAP_DIR}:${PATH}
 
-  cd BTCMonster
+  cd bitcoinmonster
   BASEPREFIX=`pwd`/depends
   # Build dependencies for each host
   for i in $HOSTS; do

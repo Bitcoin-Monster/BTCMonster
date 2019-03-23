@@ -18,6 +18,6 @@ sudo ufw allow 12225/tcp
 
 wget https://www.bitcoinmonster.com/release/bitcoinmonstercore-latest-linux64.tar.gz
 tar -xvzf bitcoinmonstercore-latest-linux64.tar.gz
-cd BTCMonstercore*/bin
+cd bitcoinmonstercore*/bin
 cp bitcoinmonster-cli bitcoinmonsterd /bin/
 

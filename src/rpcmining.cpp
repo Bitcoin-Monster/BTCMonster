@@ -389,6 +389,8 @@ UniValue getblocktemplate(const UniValue& params, bool fHelp)
             "  },\n"
             "  \"masternode_payments_started\" :  true|false, (boolean) true, if masternode payments started\n"
             "  \"masternode_payments_enforced\" : true|false, (boolean) true, if masternode payments are enforced\n"
+            "  \"founder_payments_started\" :  true|false, (boolean) true, if masternode payments started\n"
+            "  \"founder_payments_enforced\" : true|false, (boolean) true, if masternode payments are enforced\n"
             "  \"superblock\" : [                  (array) required superblock payees that must be included in the next block\n"
             "      {\n"
             "         \"payee\" : \"xxxx\",          (string) payee address\n"
@@ -626,6 +628,21 @@ UniValue getblocktemplate(const UniValue& params, bool fHelp)
     result.push_back(Pair("masternode", masternodeObj));
     result.push_back(Pair("masternode_payments_started", pindexPrev->nHeight + 1 > Params().GetConsensus().nMasternodePaymentsStartBlock));
     result.push_back(Pair("masternode_payments_enforced", sporkManager.IsSporkActive(SPORK_8_MASTERNODE_PAYMENT_ENFORCEMENT)));
+
+    UniValue founderObj(UniValue::VOBJ);
+       if(pblock->txoutFounder!= CTxOut()) {
+         CTxDestination address1;
+         ExtractDestination(pblock->txoutFounder.scriptPubKey, address1);
+         CBitcoinAddress address2(address1);
+         founderObj.push_back(Pair("payee", address2.ToString().c_str()));
+       founderObj.push_back(Pair("script", HexStr(pblock->txoutFounder.scriptPubKey.begin(), pblock->txoutFounder.scriptPubKey.end())));
+       founderObj.push_back(Pair("amount", pblock->txoutFounder.nValue));
+       LogPrintf("getblocktemplate: push founder object with address %s\n", address2.ToString().c_str());
+   }
+   result.push_back(Pair("founder", founderObj));
+   result.push_back(Pair("founder_payments_started", pindexPrev->nHeight + 1 > Params().GetConsensus().nFounderPaymentsStartBlock));
+   result.push_back(Pair("founder_payments_enforced", sporkManager.IsSporkActive(SPORK_15_DONATION_PAYMENT_ENFORCEMENT)));
+
 
     UniValue superblockObjArray(UniValue::VARR);
     if(pblock->voutSuperblock.size()) {
