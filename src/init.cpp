@@ -573,7 +573,7 @@ std::string HelpMessage(HelpMessageMode mode)
     strUsage += HelpMessageOpt("-enableprivatesend=<n>", strprintf(_("Enable use of automated PrivateSend for funds stored in this wallet (0-1, default: %u)"), 0));
     strUsage += HelpMessageOpt("-privatesendmultisession=<n>", strprintf(_("Enable multiple PrivateSend mixing sessions per block, experimental (0-1, default: %u)"), DEFAULT_PRIVATESEND_MULTISESSION));
     strUsage += HelpMessageOpt("-privatesendrounds=<n>", strprintf(_("Use N separate masternodes for each denominated input to mix funds (2-16, default: %u)"), DEFAULT_PRIVATESEND_ROUNDS));
-    strUsage += HelpMessageOpt("-privatesendamount=<n>", strprintf(_("Keep N MON anonymized (default: %u)"), DEFAULT_PRIVATESEND_AMOUNT));
+    strUsage += HelpMessageOpt("-privatesendamount=<n>", strprintf(_("Keep N MON anonymized (default: %u)"), DEFAULT_PRIVATESEND_AMOUNT_NEW));
     strUsage += HelpMessageOpt("-liquidityprovider=<n>", strprintf(_("Provide liquidity to PrivateSend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)"), DEFAULT_PRIVATESEND_LIQUIDITY));
 
     strUsage += HelpMessageGroup(_("InstantSend options:"));
@@ -1849,7 +1849,7 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
     fPrivateSendMultiSession = GetBoolArg("-privatesendmultisession", DEFAULT_PRIVATESEND_MULTISESSION);
     nPrivateSendRounds = GetArg("-privatesendrounds", DEFAULT_PRIVATESEND_ROUNDS);
     nPrivateSendRounds = std::min(std::max(nPrivateSendRounds, 2), nLiquidityProvider ? 99999 : 16);
-    nPrivateSendAmount = GetArg("-privatesendamount", DEFAULT_PRIVATESEND_AMOUNT);
+    nPrivateSendAmount = GetArg("-privatesendamount", DEFAULT_PRIVATESEND_AMOUNT_NEW);
     nPrivateSendAmount = std::min(std::max(nPrivateSendAmount, 2), 999999);
 
     fEnableInstantSend = GetBoolArg("-enableinstantsend", 1);
@@ -1944,7 +1944,7 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
     // Monitor the chain, and alert if we get blocks much quicker or slower than expected
     // The "bad chain alert" scheduler has been disabled because the current system gives far
     // too many false positives, such that users are starting to ignore them.
-    // This code will be disabled for 0.12.1 while a fix is deliberated in #7568
+    // This code will be disabled for 2.0.2 while a fix is deliberated in #7568
     // this was discussed in the IRC meeting on 2016-03-31.
     //
     // --- disabled ---

@@ -641,7 +641,7 @@ UniValue getblocktemplate(const UniValue& params, bool fHelp)
    }
    result.push_back(Pair("founder", founderObj));
    result.push_back(Pair("founder_payments_started", pindexPrev->nHeight + 1 > Params().GetConsensus().nFounderPaymentsStartBlock));
-   result.push_back(Pair("founder_payments_enforced", sporkManager.IsSporkActive(SPORK_15_DONATION_PAYMENT_ENFORCEMENT)));
+   result.push_back(Pair("founder_payments_enforced", sporkManager.IsSporkActive(SPORK_15_FOUNDER_PAYMENT_ENFORCEMENT)));
 
 
     UniValue superblockObjArray(UniValue::VARR);

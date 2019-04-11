@@ -1,4 +1,4 @@
-BitcoinMonster Core 0.12.1
+BitcoinMonster Core 2.0.2
 =====================
 
 This is the official reference wallet for BitcoinMonster digital currency and comprises the backbone of the BitcoinMonster peer-to-peer network. You can [download BitcoinMonster Core](https://www.bitcoinmonster.org/downloads/) or [build it yourself](#building) using the guides below.

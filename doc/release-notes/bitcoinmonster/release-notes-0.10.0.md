@@ -415,7 +415,7 @@ http://test.explorer.darkcoin.fr/tx/ce0ea2bdf630233955d459489b6f764e0d0bbe9e8a62
   speed  up pairing.
 
 
-0.10.12.19 Release notes
+2.0.29 Release notes
 ------------------------
 
 - Added GUI configuration for Darksend Rounds, Enable Darksend and Anonymize
@@ -425,7 +425,7 @@ http://test.explorer.darkcoin.fr/tx/ce0ea2bdf630233955d459489b6f764e0d0bbe9e8a62
 - Send dialog now shows selected balance (Anon, non-anon and Total)
 
 
-0.10.12.18 Release notes
+2.0.28 Release notes
 ------------------------
 
 This version uses the new queuing system to seek out compatible transactions
@@ -437,7 +437,7 @@ All transactions after this should look like this one:
 http://test.explorer.darkcoin.fr/tx/6de2c5204abdea451da930f61bae0f954eef13188a3a37a572a24c9d92057d5d
 
 
-0.10.12.17 Release notes
+2.0.27 Release notes
 ------------------------
 
 - I've switched up the way the masternode network works.
@@ -458,13 +458,13 @@ http://test.explorer.darkcoin.fr/tx/6de2c5204abdea451da930f61bae0f954eef13188a3a
 - Fixed coin locking issues
 
 
-0.10.12.16 Release notes
+2.0.26 Release notes
 ------------------------
 
 - bugfixes
 
 
-0.10.12.15 Release notes
+2.0.25 Release notes
 ------------------------
 
 - Added session IDs for masternode communication. Clients were getting
@@ -486,7 +486,7 @@ http://test.explorer.darkcoin.fr/tx/6de2c5204abdea451da930f61bae0f954eef13188a3a
 - Inc protocol to kick old users odd again
 
 
-0.10.12.14 Release notes
+2.0.24 Release notes
 ------------------------
 
 - Fixed an issue where clients weren't connected to the correct masternode
@@ -495,7 +495,7 @@ http://test.explorer.darkcoin.fr/tx/6de2c5204abdea451da930f61bae0f954eef13188a3a
 - Inc protocol to kick old users odd again
 
 
-0.10.12.13 Release notes
+2.0.23 Release notes
 ------------------------
 
 - This version automatically resets the masternode state machine after a short
@@ -503,7 +503,7 @@ http://test.explorer.darkcoin.fr/tx/6de2c5204abdea451da930f61bae0f954eef13188a3a
 - Updated protocol version to kick old masternodes off
 
 
-0.10.12.12 Release notes
+2.0.22 Release notes
 ------------------------
 
 - Fixed change calc for Denominations in GUI
@@ -520,7 +520,7 @@ http://test.explorer.darkcoin.fr/tx/6de2c5204abdea451da930f61bae0f954eef13188a3a
 - incremented protocol version to force masternode updates
 
 
-0.10.12.11 Release notes
+2.0.21 Release notes
 ------------------------
 
 - Darksend Denominate Outputs are now in a random order:
@@ -546,7 +546,7 @@ http://test.explorer.darkcoin.fr/tx/32daa8ca46462e7e99f3532251d68a8c3835a080c937
 - "darksend addr amount" now returns the hash of the transaction it creates
 
 
-0.10.12.10 Release notes
+2.0.20 Release notes
 ------------------------
 
 Another huge update to the RC client, most of these are stability fixes and
@@ -696,7 +696,7 @@ This is a pretty large update to the RC client.
   of denominations happen now)
 
 
-0.10.12.1 Release notes
+2.0.2 Release notes
 -----------------------
 
 - Fixed a signing bug with the masternode voting system causing a bunch of issues

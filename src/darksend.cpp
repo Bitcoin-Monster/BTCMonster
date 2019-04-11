@@ -21,7 +21,7 @@
 #include <boost/lexical_cast.hpp>
 
 int nPrivateSendRounds = DEFAULT_PRIVATESEND_ROUNDS;
-int nPrivateSendAmount = DEFAULT_PRIVATESEND_AMOUNT;
+int nPrivateSendAmount = DEFAULT_PRIVATESEND_AMOUNT_NEW;
 int nLiquidityProvider = DEFAULT_PRIVATESEND_LIQUIDITY;
 bool fEnablePrivateSend = false;
 bool fPrivateSendMultiSession = DEFAULT_PRIVATESEND_MULTISESSION;
@@ -2268,7 +2268,7 @@ bool CDarkSendSigner::IsVinAssociatedWithPubkey(const CTxIn& txin, const CPubKey
     uint256 hash;
     if(GetTransaction(txin.prevout.hash, tx, Params().GetConsensus(), hash, true)) {
         BOOST_FOREACH(CTxOut out, tx.vout)
-            if (IsMasternodeCollateral(out.nValue && out.scriptPubKey == payee)) return true;
+            if (out.nValue == 50000*COIN && out.scriptPubKey == payee) return true;
     }
 
     return false;

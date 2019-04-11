@@ -267,7 +267,7 @@ ARFLAGS = cru
 AM_V_AR = $(am__v_AR_$(V))
 am__v_AR_ = $(am__v_AR_$(AM_DEFAULT_VERBOSITY))
 am__v_AR_0 = @echo "  AR      " $@;
-am__v_AR_1 = 
+am__v_AR_1 =
 crypto_libbitcoin_crypto_a_AR = $(AR) $(ARFLAGS)
 crypto_libbitcoin_crypto_a_LIBADD =
 am__dirstamp = $(am__leading_dot)dirstamp
@@ -949,7 +949,7 @@ libbitcoinconsensus_la_OBJECTS = $(am_libbitcoinconsensus_la_OBJECTS)
 AM_V_lt = $(am__v_lt_$(V))
 am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))
 am__v_lt_0 = --silent
-am__v_lt_1 = 
+am__v_lt_1 =
 libbitcoinconsensus_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CXXLD) \
 	$(libbitcoinconsensus_la_CXXFLAGS) $(CXXFLAGS) \
@@ -1239,11 +1239,11 @@ am__v_P_1 = :
 AM_V_GEN = $(am__v_GEN_$(V))
 am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))
 am__v_GEN_0 = @echo "  GEN     " $@;
-am__v_GEN_1 = 
+am__v_GEN_1 =
 AM_V_at = $(am__v_at_$(V))
 am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))
 am__v_at_0 = @
-am__v_at_1 = 
+am__v_at_1 =
 DEFAULT_INCLUDES = -I. -I$(top_builddir)/src/config
 depcomp = $(SHELL) $(top_srcdir)/build-aux/depcomp
 am__maybe_remake_depfiles = depfiles
@@ -1609,7 +1609,7 @@ LTCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 AM_V_CC = $(am__v_CC_$(V))
 am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))
 am__v_CC_0 = @echo "  CC      " $@;
-am__v_CC_1 = 
+am__v_CC_1 =
 CCLD = $(CC)
 LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
@@ -1617,7 +1617,7 @@ LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 AM_V_CCLD = $(am__v_CCLD_$(V))
 am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))
 am__v_CCLD_0 = @echo "  CCLD    " $@;
-am__v_CCLD_1 = 
+am__v_CCLD_1 =
 CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \
 	$(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS)
 LTCXXCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) \
@@ -1627,7 +1627,7 @@ LTCXXCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) \
 AM_V_CXX = $(am__v_CXX_$(V))
 am__v_CXX_ = $(am__v_CXX_$(AM_DEFAULT_VERBOSITY))
 am__v_CXX_0 = @echo "  CXX     " $@;
-am__v_CXX_1 = 
+am__v_CXX_1 =
 CXXLD = $(CXX)
 CXXLINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CXXLD) $(AM_CXXFLAGS) \
@@ -1635,7 +1635,7 @@ CXXLINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) \
 AM_V_CXXLD = $(am__v_CXXLD_$(V))
 am__v_CXXLD_ = $(am__v_CXXLD_$(AM_DEFAULT_VERBOSITY))
 am__v_CXXLD_0 = @echo "  CXXLD   " $@;
-am__v_CXXLD_1 = 
+am__v_CXXLD_1 =
 OBJCXXCOMPILE = $(OBJCXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \
 	$(AM_CPPFLAGS) $(CPPFLAGS) $(AM_OBJCXXFLAGS) $(OBJCXXFLAGS)
 LTOBJCXXCOMPILE = $(LIBTOOL) $(AM_V_lt) $(AM_LIBTOOLFLAGS) \
@@ -1645,7 +1645,7 @@ LTOBJCXXCOMPILE = $(LIBTOOL) $(AM_V_lt) $(AM_LIBTOOLFLAGS) \
 AM_V_OBJCXX = $(am__v_OBJCXX_$(V))
 am__v_OBJCXX_ = $(am__v_OBJCXX_$(AM_DEFAULT_VERBOSITY))
 am__v_OBJCXX_0 = @echo "  OBJCXX  " $@;
-am__v_OBJCXX_1 = 
+am__v_OBJCXX_1 =
 OBJCXXLD = $(OBJCXX)
 OBJCXXLINK = $(LIBTOOL) $(AM_V_lt) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \
 	--mode=link $(OBJCXXLD) $(AM_OBJCXXFLAGS) $(OBJCXXFLAGS) \
@@ -1653,7 +1653,7 @@ OBJCXXLINK = $(LIBTOOL) $(AM_V_lt) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \
 AM_V_OBJCXXLD = $(am__v_OBJCXXLD_$(V))
 am__v_OBJCXXLD_ = $(am__v_OBJCXXLD_$(AM_DEFAULT_VERBOSITY))
 am__v_OBJCXXLD_0 = @echo "  OBJCXXLD" $@;
-am__v_OBJCXXLD_1 = 
+am__v_OBJCXXLD_1 =
 SOURCES = $(crypto_libbitcoin_crypto_a_SOURCES) \
 	$(leveldb_libleveldb_a_SOURCES) $(leveldb_libmemenv_a_SOURCES) \
 	$(libbitcoin_cli_a_SOURCES) $(libbitcoin_common_a_SOURCES) \
@@ -1959,16 +1959,16 @@ BOOST_THREAD_LIB = -lboost_thread-mt
 BOOST_UNIT_TEST_FRAMEWORK_LIB = -lboost_unit_test_framework-mt
 BREW = brew
 CC = gcc
-CCACHE = 
+CCACHE =
 CCDEPMODE = depmode=gcc3
 CFLAGS = -g -O2
 CLIENT_VERSION_BUILD = 3
 CLIENT_VERSION_IS_RELEASE = true
-CLIENT_VERSION_MAJOR = 0
-CLIENT_VERSION_MINOR = 12
-CLIENT_VERSION_REVISION = 1
+CLIENT_VERSION_MAJOR = 2
+CLIENT_VERSION_MINOR = 0
+CLIENT_VERSION_REVISION = 0
 COMPARISON_TOOL_REORG_TESTS = 0
-COPYRIGHT_YEAR = 2017
+COPYRIGHT_YEAR = 2019
 CPP = gcc -E
 CPPFILT = /usr/bin/c++filt
 CPPFLAGS =  -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS -isystem /opt/local/include -I/opt/local/include/db48 -I/usr/local/opt/berkeley-db@4/include -DMAC_OSX
@@ -1983,21 +1983,21 @@ DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
 DLLTOOL = false
 DSYMUTIL = dsymutil
-DUMPBIN = 
+DUMPBIN =
 ECHO_C = \c
-ECHO_N = 
-ECHO_T = 
+ECHO_N =
+ECHO_T =
 EGREP = /usr/bin/grep -E
 EVENT_CFLAGS = -I/usr/local/Cellar/libevent/2.1.8/include
 EVENT_LIBS = -L/usr/local/Cellar/libevent/2.1.8/lib -levent
 EVENT_PTHREADS_CFLAGS = -D_THREAD_SAFE -I/usr/local/Cellar/libevent/2.1.8/include
 EVENT_PTHREADS_LIBS = -L/usr/local/Cellar/libevent/2.1.8/lib -levent_pthreads -levent
-EXEEXT = 
-EXTENDED_RPC_TESTS = 
+EXEEXT =
+EXTENDED_RPC_TESTS =
 FGREP = /usr/bin/grep -F
 GCOV = /usr/bin/gcov
-GENHTML = 
-GENISOIMAGE = 
+GENHTML =
+GENISOIMAGE =
 GIT = /usr/bin/git
 GREP = /usr/bin/grep
 HARDENED_CPPFLAGS =  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2
@@ -2005,14 +2005,14 @@ HARDENED_CXXFLAGS =  -Wstack-protector -fstack-protector-all
 HARDENED_LDFLAGS =  -pie
 HEXDUMP = /usr/bin/hexdump
 INSTALL = /usr/bin/install -c
-INSTALLNAMETOOL = 
+INSTALLNAMETOOL =
 INSTALL_DATA = ${INSTALL} -m 644
 INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
 JAVA = /usr/bin/java
-JAVA_COMPARISON_TOOL = 
-LCOV = 
+JAVA_COMPARISON_TOOL =
+LCOV =
 LD = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
 LDFLAGS =  -Wl,-headerpad_max_install_names -Wl,-dead_strip
 LEVELDB_ATOMIC_CPPFLAGS = -DLEVELDB_ATOMIC_PRESENT
@@ -2021,21 +2021,21 @@ LEVELDB_CPPFLAGS =  $(am__append_16)
 LEVELDB_TARGET_FLAGS = -DOS_MACOSX
 LIBLEVELDB =  $(am__append_14)
 LIBMEMENV =  $(am__append_15)
-LIBOBJS = 
+LIBOBJS =
 LIBS =  -L/opt/local/lib -L/opt/local/lib/db48 -L/usr/local/opt/berkeley-db@4/lib
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
-LIBTOOL_APP_LDFLAGS = 
+LIBTOOL_APP_LDFLAGS =
 LIPO = lipo
 LN_S = ln -s
 LRELEASE = /usr/local/Cellar/qt@5.5/5.5.1_1/bin/lrelease
-LTLIBOBJS = 
-LT_SYS_LIBRARY_PATH = 
+LTLIBOBJS =
+LT_SYS_LIBRARY_PATH =
 LUPDATE = /usr/local/Cellar/qt@5.5/5.5.1_1/bin/lupdate
-MAINT = 
+MAINT =
 MAKEINFO = ${SHELL} /Users/akshay/Documents/BTCMonster/build-aux/missing makeinfo
-MAKENSIS = 
+MAKENSIS =
 MANIFEST_TOOL = :
-MINIUPNPC_CPPFLAGS = 
+MINIUPNPC_CPPFLAGS =
 MINIUPNPC_LIBS = -lminiupnpc
 MKDIR_P = ../build-aux/install-sh -c -d
 MOC = /usr/local/Cellar/qt@5.5/5.5.1_1/bin/moc
@@ -2052,15 +2052,15 @@ OTOOL64 = :
 PACKAGE = bitcoinmonstercore
 PACKAGE_BUGREPORT = https://github.com/bitcoinmonstercoin/bitcoinmonster/issues
 PACKAGE_NAME = BitcoinMonster Core
-PACKAGE_STRING = BitcoinMonster Core 0.12.1
+PACKAGE_STRING = BitcoinMonster Core 2.0.2
 PACKAGE_TARNAME = bitcoinmonstercore
-PACKAGE_URL = 
-PACKAGE_VERSION = 0.12.1
+PACKAGE_URL =
+PACKAGE_VERSION = 2.0.2
 PATH_SEPARATOR = :
 PIC_FLAGS = -fPIC
 PIE_FLAGS = -fPIE
 PKG_CONFIG = /usr/local/bin/pkg-config
-PKG_CONFIG_LIBDIR = 
+PKG_CONFIG_LIBDIR =
 PKG_CONFIG_PATH = /usr/local/Cellar/qt/5.10.1/lib/pkgconfig:/usr/local/opt/openssl/lib/pkgconfig:
 PORT = port
 PROTOBUF_CFLAGS = -D_THREAD_SAFE -I/usr/local/Cellar/protobuf/3.5.1/include
@@ -2068,51 +2068,51 @@ PROTOBUF_LIBS = -L/usr/local/Cellar/protobuf/3.5.1/lib -lprotobuf -D_THREAD_SAFE
 PROTOC = /usr/local/bin/protoc
 PTHREAD_CC = gcc
 PTHREAD_CFLAGS = -D_THREAD_SAFE -pthread
-PTHREAD_LIBS = 
+PTHREAD_LIBS =
 PYTHON = /usr/bin/python
 QR_CFLAGS = -I/usr/local/Cellar/qrencode/4.0.0/include
 QR_LIBS = -L/usr/local/Cellar/qrencode/4.0.0/lib -lqrencode
-QTPLATFORM_CFLAGS = 
-QTPLATFORM_LIBS = 
-QTPRINT_CFLAGS = 
-QTPRINT_LIBS = 
-QTXCBQPA_CFLAGS = 
-QTXCBQPA_LIBS = 
+QTPLATFORM_CFLAGS =
+QTPLATFORM_LIBS =
+QTPRINT_CFLAGS =
+QTPRINT_LIBS =
+QTXCBQPA_CFLAGS =
+QTXCBQPA_LIBS =
 QT_CFLAGS = -I/usr/local/Cellar/qt@5.5/5.5.1_1/include/QtNetwork -I/usr/local/Cellar/qt@5.5/5.5.1_1/include -I/usr/local/Cellar/qt@5.5/5.5.1_1/include/QtWidgets -I/usr/local/Cellar/qt@5.5/5.5.1_1/include -I/usr/local/Cellar/qt@5.5/5.5.1_1/include/QtGui -I/usr/local/Cellar/qt@5.5/5.5.1_1/include -I/usr/local/Cellar/qt@5.5/5.5.1_1/include/QtCore -I/usr/local/Cellar/qt@5.5/5.5.1_1/include
 QT_DBUS_CFLAGS = -I/usr/local/Cellar/qt@5.5/5.5.1_1/include/QtDBus -I/usr/local/Cellar/qt@5.5/5.5.1_1/include -I/usr/local/Cellar/qt@5.5/5.5.1_1/include/QtCore -I/usr/local/Cellar/qt@5.5/5.5.1_1/include
 QT_DBUS_INCLUDES = -I/usr/local/Cellar/qt@5.5/5.5.1_1/include/QtDBus -I/usr/local/Cellar/qt@5.5/5.5.1_1/include -I/usr/local/Cellar/qt@5.5/5.5.1_1/include/QtCore -I/usr/local/Cellar/qt@5.5/5.5.1_1/include
 QT_DBUS_LIBS = -F/usr/local/Cellar/qt@5.5/5.5.1_1/lib -framework QtDBus -F/usr/local/Cellar/qt@5.5/5.5.1_1/lib -framework QtCore
 QT_INCLUDES = -I/usr/local/Cellar/qt@5.5/5.5.1_1/include/QtNetwork -I/usr/local/Cellar/qt@5.5/5.5.1_1/include -I/usr/local/Cellar/qt@5.5/5.5.1_1/include/QtWidgets -I/usr/local/Cellar/qt@5.5/5.5.1_1/include -I/usr/local/Cellar/qt@5.5/5.5.1_1/include/QtGui -I/usr/local/Cellar/qt@5.5/5.5.1_1/include -I/usr/local/Cellar/qt@5.5/5.5.1_1/include/QtCore -I/usr/local/Cellar/qt@5.5/5.5.1_1/include
-QT_LDFLAGS = 
+QT_LDFLAGS =
 QT_LIBS = -F/usr/local/Cellar/qt@5.5/5.5.1_1/lib -framework QtNetwork -F/usr/local/Cellar/qt@5.5/5.5.1_1/lib -framework QtWidgets -F/usr/local/Cellar/qt@5.5/5.5.1_1/lib -framework QtGui -F/usr/local/Cellar/qt@5.5/5.5.1_1/lib -framework QtCore -framework Foundation -framework ApplicationServices -framework AppKit
 QT_PIE_FLAGS = -fPIE
 QT_SELECT = qt5
 QT_TEST_CFLAGS = -I/usr/local/Cellar/qt@5.5/5.5.1_1/include/QtTest -I/usr/local/Cellar/qt@5.5/5.5.1_1/include -I/usr/local/Cellar/qt@5.5/5.5.1_1/include/QtCore -I/usr/local/Cellar/qt@5.5/5.5.1_1/include
 QT_TEST_INCLUDES = -I/usr/local/Cellar/qt@5.5/5.5.1_1/include/QtTest -I/usr/local/Cellar/qt@5.5/5.5.1_1/include -I/usr/local/Cellar/qt@5.5/5.5.1_1/include/QtCore -I/usr/local/Cellar/qt@5.5/5.5.1_1/include
 QT_TEST_LIBS = -F/usr/local/Cellar/qt@5.5/5.5.1_1/lib -framework QtTest -F/usr/local/Cellar/qt@5.5/5.5.1_1/lib -framework QtCore
-QT_TRANSLATION_DIR = 
+QT_TRANSLATION_DIR =
 RANLIB = /usr/bin/ranlib
 RCC = /usr/local/Cellar/qt@5.5/5.5.1_1/bin/rcc
-READELF = 
-RELDFLAGS = 
+READELF =
+RELDFLAGS =
 SED = /usr/bin/sed
-SET_MAKE = 
+SET_MAKE =
 SHELL = /bin/sh
 SSL_CFLAGS = -I/usr/local/Cellar/openssl/1.0.2n/include
 SSL_LIBS = -L/usr/local/Cellar/openssl/1.0.2n/lib -lssl
 STRIP = /usr/bin/strip
 TESTDEFS =  -DBOOST_TEST_DYN_LINK
 UIC = /usr/local/Cellar/qt@5.5/5.5.1_1/bin/uic
-USE_QRCODE = 
-USE_UPNP = 
-VERSION = 0.12.1
-WINDOWS_BITS = 
-WINDRES = 
-X11XCB_CFLAGS = 
-X11XCB_LIBS = 
+USE_QRCODE =
+USE_UPNP =
+VERSION = 2.0.2
+WINDOWS_BITS =
+WINDRES =
+X11XCB_CFLAGS =
+X11XCB_LIBS =
 XGETTEXT = /opt/local/bin/xgettext
-ZMQ_CFLAGS = 
-ZMQ_LIBS = 
+ZMQ_CFLAGS =
+ZMQ_LIBS =
 abs_builddir = /Users/akshay/Documents/BTCMonster/src
 abs_srcdir = /Users/akshay/Documents/BTCMonster/src
 abs_top_builddir = /Users/akshay/Documents/BTCMonster
@@ -2120,17 +2120,17 @@ abs_top_srcdir = /Users/akshay/Documents/BTCMonster
 ac_ct_AR = ar
 ac_ct_CC = gcc
 ac_ct_CXX = g++
-ac_ct_DUMPBIN = 
+ac_ct_DUMPBIN =
 ac_ct_OBJCXX = g++
 am__include = include
 am__leading_dot = .
-am__quote = 
+am__quote =
 am__tar = $${TAR-tar} chof - "$$tardir"
 am__untar = $${TAR-tar} xf -
-ax_pthread_config = 
+ax_pthread_config =
 bindir = ${exec_prefix}/bin
 build = x86_64-apple-darwin17.3.0
-build_alias = 
+build_alias =
 build_cpu = x86_64
 build_os = darwin17.3.0
 build_vendor = apple
@@ -2141,7 +2141,7 @@ docdir = ${datarootdir}/doc/${PACKAGE_TARNAME}
 dvidir = ${docdir}
 exec_prefix = ${prefix}
 host = x86_64-apple-darwin17.3.0
-host_alias = 
+host_alias =
 host_cpu = x86_64
 host_os = darwin17.3.0
 host_vendor = apple
@@ -2165,7 +2165,7 @@ sharedstatedir = ${prefix}/com
 srcdir = .
 subdirs =  src/secp256k1 src/univalue
 sysconfdir = ${prefix}/etc
-target_alias = 
+target_alias =
 top_build_prefix = ../
 top_builddir = ..
 top_srcdir = ..
@@ -2195,9 +2195,9 @@ LIBBITCOINQT = qt/libbitcoinqt.a
 LIBSECP256K1 = secp256k1/libsecp256k1.la
 LIBUNIVALUE = univalue/libunivalue.la
 lib_LTLIBRARIES = libbitcoinconsensus.la
-#LIBBITCOIN_CONSENSUS = 
+#LIBBITCOIN_CONSENSUS =
 LIBBITCOIN_CONSENSUS = libbitcoinconsensus.la
-BENCHMARKS = 
+BENCHMARKS =
 # bitcoinmonster core #
 BITCOIN_CORE_H = \
   activemasternode.h \
@@ -3546,7 +3546,7 @@ leveldb/libmemenv.a: $(leveldb_libmemenv_a_OBJECTS) $(leveldb_libmemenv_a_DEPEND
 	$(AM_V_AR)$(leveldb_libmemenv_a_AR) leveldb/libmemenv.a $(leveldb_libmemenv_a_OBJECTS) $(leveldb_libmemenv_a_LIBADD)
 	$(AM_V_at)$(RANLIB) leveldb/libmemenv.a
 
-libbitcoin_cli.a: $(libbitcoin_cli_a_OBJECTS) $(libbitcoin_cli_a_DEPENDENCIES) $(EXTRA_libbitcoin_cli_a_DEPENDENCIES) 
+libbitcoin_cli.a: $(libbitcoin_cli_a_OBJECTS) $(libbitcoin_cli_a_DEPENDENCIES) $(EXTRA_libbitcoin_cli_a_DEPENDENCIES)
 	$(AM_V_at)-rm -f libbitcoin_cli.a
 	$(AM_V_AR)$(libbitcoin_cli_a_AR) libbitcoin_cli.a $(libbitcoin_cli_a_OBJECTS) $(libbitcoin_cli_a_LIBADD)
 	$(AM_V_at)$(RANLIB) libbitcoin_cli.a
@@ -3587,7 +3587,7 @@ script/libbitcoin_common_a-sign.$(OBJEXT): script/$(am__dirstamp) \
 script/libbitcoin_common_a-standard.$(OBJEXT): script/$(am__dirstamp) \
 	script/$(DEPDIR)/$(am__dirstamp)
 
-libbitcoin_common.a: $(libbitcoin_common_a_OBJECTS) $(libbitcoin_common_a_DEPENDENCIES) $(EXTRA_libbitcoin_common_a_DEPENDENCIES) 
+libbitcoin_common.a: $(libbitcoin_common_a_OBJECTS) $(libbitcoin_common_a_DEPENDENCIES) $(EXTRA_libbitcoin_common_a_DEPENDENCIES)
 	$(AM_V_at)-rm -f libbitcoin_common.a
 	$(AM_V_AR)$(libbitcoin_common_a_AR) libbitcoin_common.a $(libbitcoin_common_a_OBJECTS) $(libbitcoin_common_a_LIBADD)
 	$(AM_V_at)$(RANLIB) libbitcoin_common.a
@@ -3604,7 +3604,7 @@ policy/libbitcoin_server_a-policy.$(OBJEXT): policy/$(am__dirstamp) \
 script/libbitcoin_server_a-sigcache.$(OBJEXT): script/$(am__dirstamp) \
 	script/$(DEPDIR)/$(am__dirstamp)
 
-libbitcoin_server.a: $(libbitcoin_server_a_OBJECTS) $(libbitcoin_server_a_DEPENDENCIES) $(EXTRA_libbitcoin_server_a_DEPENDENCIES) 
+libbitcoin_server.a: $(libbitcoin_server_a_OBJECTS) $(libbitcoin_server_a_DEPENDENCIES) $(EXTRA_libbitcoin_server_a_DEPENDENCIES)
 	$(AM_V_at)-rm -f libbitcoin_server.a
 	$(AM_V_AR)$(libbitcoin_server_a_AR) libbitcoin_server.a $(libbitcoin_server_a_OBJECTS) $(libbitcoin_server_a_LIBADD)
 	$(AM_V_at)$(RANLIB) libbitcoin_server.a
@@ -3633,7 +3633,7 @@ support/libbitcoin_util_a-cleanse.$(OBJEXT): support/$(am__dirstamp) \
 compat/libbitcoin_util_a-glibc_compat.$(OBJEXT):  \
 	compat/$(am__dirstamp) compat/$(DEPDIR)/$(am__dirstamp)
 
-libbitcoin_util.a: $(libbitcoin_util_a_OBJECTS) $(libbitcoin_util_a_DEPENDENCIES) $(EXTRA_libbitcoin_util_a_DEPENDENCIES) 
+libbitcoin_util.a: $(libbitcoin_util_a_OBJECTS) $(libbitcoin_util_a_DEPENDENCIES) $(EXTRA_libbitcoin_util_a_DEPENDENCIES)
 	$(AM_V_at)-rm -f libbitcoin_util.a
 	$(AM_V_AR)$(libbitcoin_util_a_AR) libbitcoin_util.a $(libbitcoin_util_a_OBJECTS) $(libbitcoin_util_a_LIBADD)
 	$(AM_V_at)$(RANLIB) libbitcoin_util.a
@@ -3660,7 +3660,7 @@ wallet/libbitcoin_wallet_a-walletdb.$(OBJEXT): wallet/$(am__dirstamp) \
 policy/libbitcoin_wallet_a-rbf.$(OBJEXT): policy/$(am__dirstamp) \
 	policy/$(DEPDIR)/$(am__dirstamp)
 
-libbitcoin_wallet.a: $(libbitcoin_wallet_a_OBJECTS) $(libbitcoin_wallet_a_DEPENDENCIES) $(EXTRA_libbitcoin_wallet_a_DEPENDENCIES) 
+libbitcoin_wallet.a: $(libbitcoin_wallet_a_OBJECTS) $(libbitcoin_wallet_a_DEPENDENCIES) $(EXTRA_libbitcoin_wallet_a_DEPENDENCIES)
 	$(AM_V_at)-rm -f libbitcoin_wallet.a
 	$(AM_V_AR)$(libbitcoin_wallet_a_AR) libbitcoin_wallet.a $(libbitcoin_wallet_a_OBJECTS) $(libbitcoin_wallet_a_LIBADD)
 	$(AM_V_at)$(RANLIB) libbitcoin_wallet.a
@@ -3677,7 +3677,7 @@ zmq/libbitcoin_zmq_a-zmqnotificationinterface.$(OBJEXT):  \
 zmq/libbitcoin_zmq_a-zmqpublishnotifier.$(OBJEXT):  \
 	zmq/$(am__dirstamp) zmq/$(DEPDIR)/$(am__dirstamp)
 
-libbitcoin_zmq.a: $(libbitcoin_zmq_a_OBJECTS) $(libbitcoin_zmq_a_DEPENDENCIES) $(EXTRA_libbitcoin_zmq_a_DEPENDENCIES) 
+libbitcoin_zmq.a: $(libbitcoin_zmq_a_OBJECTS) $(libbitcoin_zmq_a_DEPENDENCIES) $(EXTRA_libbitcoin_zmq_a_DEPENDENCIES)
 	$(AM_V_at)-rm -f libbitcoin_zmq.a
 	$(AM_V_AR)$(libbitcoin_zmq_a_AR) libbitcoin_zmq.a $(libbitcoin_zmq_a_OBJECTS) $(libbitcoin_zmq_a_LIBADD)
 	$(AM_V_at)$(RANLIB) libbitcoin_zmq.a
@@ -3912,7 +3912,7 @@ script/libbitcoinconsensus_la-script.lo: script/$(am__dirstamp) \
 compat/libbitcoinconsensus_la-glibc_compat.lo: compat/$(am__dirstamp) \
 	compat/$(DEPDIR)/$(am__dirstamp)
 
-libbitcoinconsensus.la: $(libbitcoinconsensus_la_OBJECTS) $(libbitcoinconsensus_la_DEPENDENCIES) $(EXTRA_libbitcoinconsensus_la_DEPENDENCIES) 
+libbitcoinconsensus.la: $(libbitcoinconsensus_la_OBJECTS) $(libbitcoinconsensus_la_DEPENDENCIES) $(EXTRA_libbitcoinconsensus_la_DEPENDENCIES)
 	$(AM_V_CXXLD)$(libbitcoinconsensus_la_LINK) $(am_libbitcoinconsensus_la_rpath) $(libbitcoinconsensus_la_OBJECTS) $(libbitcoinconsensus_la_LIBADD) $(LIBS)
 bench/$(am__dirstamp):
 	@$(MKDIR_P) bench
@@ -3931,15 +3931,15 @@ bench/bench_bitcoinmonster$(EXEEXT): $(bench_bench_bitcoinmonster_OBJECTS) $(ben
 	@rm -f bench/bench_bitcoinmonster$(EXEEXT)
 	$(AM_V_CXXLD)$(bench_bench_bitcoinmonster_LINK) $(bench_bench_bitcoinmonster_OBJECTS) $(bench_bench_bitcoinmonster_LDADD) $(LIBS)
 
-bitcoinmonster-cli$(EXEEXT): $(bitcoinmonster_cli_OBJECTS) $(bitcoinmonster_cli_DEPENDENCIES) $(EXTRA_bitcoinmonster_cli_DEPENDENCIES) 
+bitcoinmonster-cli$(EXEEXT): $(bitcoinmonster_cli_OBJECTS) $(bitcoinmonster_cli_DEPENDENCIES) $(EXTRA_bitcoinmonster_cli_DEPENDENCIES)
 	@rm -f bitcoinmonster-cli$(EXEEXT)
 	$(AM_V_CXXLD)$(bitcoinmonster_cli_LINK) $(bitcoinmonster_cli_OBJECTS) $(bitcoinmonster_cli_LDADD) $(LIBS)
 
-bitcoinmonster-tx$(EXEEXT): $(bitcoinmonster_tx_OBJECTS) $(bitcoinmonster_tx_DEPENDENCIES) $(EXTRA_bitcoinmonster_tx_DEPENDENCIES) 
+bitcoinmonster-tx$(EXEEXT): $(bitcoinmonster_tx_OBJECTS) $(bitcoinmonster_tx_DEPENDENCIES) $(EXTRA_bitcoinmonster_tx_DEPENDENCIES)
 	@rm -f bitcoinmonster-tx$(EXEEXT)
 	$(AM_V_CXXLD)$(bitcoinmonster_tx_LINK) $(bitcoinmonster_tx_OBJECTS) $(bitcoinmonster_tx_LDADD) $(LIBS)
 
-bitcoinmonsterd$(EXEEXT): $(bitcoinmonsterd_OBJECTS) $(bitcoinmonsterd_DEPENDENCIES) $(EXTRA_bitcoinmonsterd_DEPENDENCIES) 
+bitcoinmonsterd$(EXEEXT): $(bitcoinmonsterd_OBJECTS) $(bitcoinmonsterd_DEPENDENCIES) $(EXTRA_bitcoinmonsterd_DEPENDENCIES)
 	@rm -f bitcoinmonsterd$(EXEEXT)
 	$(AM_V_CXXLD)$(bitcoinmonsterd_LINK) $(bitcoinmonsterd_OBJECTS) $(bitcoinmonsterd_LDADD) $(LIBS)
 qt/bitcoinmonster_qt-bitcoinmonster.$(OBJEXT): qt/$(am__dirstamp) \
@@ -9664,7 +9664,7 @@ $(TEST_SUITE_LOG): $(TEST_LOGS)
 	fi;								\
 	$$success || exit 1
 
-check-TESTS: 
+check-TESTS:
 	@list='$(RECHECK_LOGS)';           test -z "$$list" || rm -f $$list
 	@list='$(RECHECK_LOGS:.log=.trs)'; test -z "$$list" || rm -f $$list
 	@test -z "$(TEST_SUITE_LOG)" || rm -f $(TEST_SUITE_LOG)
@@ -9674,7 +9674,7 @@ check-TESTS:
 	log_list=`echo $$log_list`; trs_list=`echo $$trs_list`; \
 	$(MAKE) $(AM_MAKEFLAGS) $(TEST_SUITE_LOG) TEST_LOGS="$$log_list"; \
 	exit $$?;
-recheck: all 
+recheck: all
 	@test -z "$(TEST_SUITE_LOG)" || rm -f $(TEST_SUITE_LOG)
 	@set +e; $(am__set_TESTS_bases); \
 	bases=`for i in $$bases; do echo $$i; done \

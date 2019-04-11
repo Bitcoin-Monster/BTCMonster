@@ -1,6 +1,6 @@
-Bitcoin Core version 0.12.1 is now available from:
+Bitcoin Core version 2.0.2 is now available from:
 
-  <https://bitcoin.org/bin/bitcoin-core-0.12.1/>
+  <https://bitcoin.org/bin/bitcoin-core-2.0.2/>
 
 This is a new minor version release, including the BIP9, BIP68 and BIP112
 softfork, various bugfixes and updated translations.
@@ -140,7 +140,7 @@ Miscellaneous
 The p2p alert system is off by default. To turn on, use `-alert` with
 startup configuration.
 
-0.12.1 Change log
+2.0.2 Change log
 =================
 
 Detailed release notes follow. This overview includes changes that affect

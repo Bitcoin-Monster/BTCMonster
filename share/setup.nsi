@@ -5,7 +5,7 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 0.12.1
+!define VERSION 2.0.2
 !define COMPANY "BitcoinMonster Core project"
 !define URL https://www.bitcoinmonster.org/
 

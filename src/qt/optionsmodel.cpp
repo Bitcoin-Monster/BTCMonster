@@ -132,7 +132,7 @@ void OptionsModel::Init(bool resetSettings)
     if (!settings.contains("nPrivateSendAmount")) {
         // for migration from old settings
         if (!settings.contains("nAnonymizeBitcoinMonsterAmount"))
-            settings.setValue("nPrivateSendAmount", DEFAULT_PRIVATESEND_AMOUNT);
+            settings.setValue("nPrivateSendAmount", DEFAULT_PRIVATESEND_AMOUNT_NEW);
         else
             settings.setValue("nPrivateSendAmount", settings.value("nAnonymizeBitcoinMonsterAmount").toInt());
     }
@@ -444,13 +444,13 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
                 settings.setValue("digits", value);
                 setRestartRequired(true);
             }
-            break;            
+            break;
         case Theme:
             if (settings.value("theme") != value) {
                 settings.setValue("theme", value);
                 setRestartRequired(true);
             }
-            break;            
+            break;
         case Language:
             if (settings.value("language") != value) {
                 settings.setValue("language", value);

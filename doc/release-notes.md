@@ -1,4 +1,4 @@
-BitcoinMonster Core version 0.12.1 is now available from:
+BitcoinMonster Core version 2.0.2 is now available from:
 
   <https://www.bitcoinmonster.org/downloads/>
 
@@ -31,7 +31,7 @@ Example item
 
 Example text.
 
-0.12.1 Change log
+2.0.2 Change log
 =================
 
 Detailed release notes follow. This overview includes changes that affect

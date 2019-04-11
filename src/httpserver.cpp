@@ -367,7 +367,7 @@ static void HTTPWorkQueueRun(WorkQueue<HTTPClosure>* queue)
 static void libevent_log_cb(int severity, const char *msg)
 {
 #ifndef EVENT_LOG_WARN
-// EVENT_LOG_WARN was added in 2.0.19; but before then _EVENT_LOG_WARN existed.
+// EVENT_LOG_WARN was added in 2.0.29; but before then _EVENT_LOG_WARN existed.
 # define EVENT_LOG_WARN _EVENT_LOG_WARN
 #endif
     if (severity >= EVENT_LOG_WARN) // Log warn messages and higher without debug category

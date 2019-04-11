@@ -66,7 +66,7 @@ public:
         strNetworkID = "main";
         consensus.nSubsidyHalvingInterval = 262800; // one year
         consensus.nMasternodePaymentsStartBlock = 1; // not true, but it's ok as long as it's less then nMasternodePaymentsIncreaseBlock
-        consensus.nFounderPaymentsStartBlock = 165000;
+        consensus.nFounderPaymentsStartBlock = 166500;
         consensus.nPrivatesendForkBlock = 165000;
         consensus.nMasternodePaymentsIncreaseBlock = 158000; // not used
         consensus.nMasternodePaymentsIncreasePeriod = 576*30; // not used
@@ -125,7 +125,9 @@ public:
         vSeeds.clear();
         vSeeds.push_back(CDNSSeedData("46.101.203.85", "46.101.203.85"));
         vSeeds.push_back(CDNSSeedData("46.101.205.47", "46.101.205.47"));
-        vSeeds.push_back(CDNSSeedData("134.209.240.7", "134.209.240.7"));
+        vSeeds.push_back(CDNSSeedData("207.154.225.242", "207.154.225.242"));
+        vSeeds.push_back(CDNSSeedData("207.154.229.185", "207.154.229.185"));
+        vSeeds.push_back(CDNSSeedData("139.59.208.102", "139.59.208.102"));
 
         // BitcoinMonster addresses start with 'M'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,50);
@@ -155,8 +157,10 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (   0, uint256S("00000927435496954fcf6314b8d7ba4a0ec4a2cf37964bfa734fb6348359ed92")),
-            1520939400, // * UNIX timestamp of last checkpoint block
+            (   0, uint256S("00000927435496954fcf6314b8d7ba4a0ec4a2cf37964bfa734fb6348359ed92"))
+            (   166500, uint256S("00000000465e0fd4cfaf5e02bf15a8159f6f10741d6acb89379dbb2034a4daa7"))
+            (   167000, uint256S("000000001feb8305f737126fd2208e34633ac8ddb313066b2114983d8c1a1507")),
+            1553787430, // * UNIX timestamp of last checkpoint block
             0,   // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
             500        // * estimated number of transactions per day after checkpoint
